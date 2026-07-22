@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "title": "PL-OS project overview",
+    "kicker": "Pure Linguistics / shared brief",
+    "lastUpdated": "2026-07-21",
+    "public": true,
+    "repoUrl": "https://github.com/wswitzer/Pure-Linguistics-LMS"
+  },
+  "phase": {
+    "label": "Foundation reset",
+    "summary": "Translate the confirmed operating model into the first acceptance-ready build slice.",
+    "checkpoint": "Learning Group + Level Offering foundation"
+  },
+  "focus": {
+    "eyebrow": "Right now",
+    "headline": "Make the model easy to build—and easy to approve.",
+    "detail": "The project is moving from workflow discovery into a small, testable foundation. The next useful proof is a protected Learning Group and Level Offering workflow, with teacher discovery continuing in parallel.",
+    "nextCheckpoint": "A bounded first slice with written acceptance criteria and a staging review."
+  },
+  "signals": [
+    { "label": "Model", "value": "Confirmed", "tone": "green" },
+    { "label": "Next slice", "value": "Being shaped", "tone": "purple" },
+    { "label": "UAT", "value": "Reset in progress", "tone": "amber" }
+  ],
+  "decisions": [
+    {
+      "title": "The operating model has a stable spine",
+      "detail": "Client → optional Department → Learning Group → sequential Level Offering → Sessions. Student history remains available through Membership, Participation, and Attendance."
+    },
+    {
+      "title": "Classroom remains the teaching room",
+      "detail": "Teachers continue using Google Classroom for coursework and grading. PL-OS reads academic data for reporting and health calculations; it does not write coursework back."
+    },
+    {
+      "title": "Acceptance resumes in small checkpoints",
+      "detail": "The next review should accept one coherent slice, record any refinements, and identify the next slice. Broad open-ended testing waits for a complete workflow."
+    }
+  ],
+  "openQuestions": [
+    {
+      "title": "What exactly feeds the health score?",
+      "detail": "Confirm how Classroom assignment completion, individual grades, missing work, late work, and justified work are represented in the scorecard."
+    },
+    {
+      "title": "How should the Client roster show unassigned people?",
+      "detail": "Clarify the simple distinction between a Client Student with no current group, a waitlisted student, and an inactive former student."
+    },
+    {
+      "title": "Where does Cost Center belong?",
+      "detail": "Keep it out of the first foundation slice until its reporting or billing ownership is clear."
+    }
+  ],
+  "actions": [
+    {
+      "role": "Build",
+      "action": "Shape the first Learning Group + Level Offering slice.",
+      "status": "Next",
+      "due": "This week"
+    },
+    {
+      "role": "Teacher workflow",
+      "action": "Walk through teacher attendance, grading, recording, and substitute processes.",
+      "status": "Scheduled",
+      "due": "Next discovery call"
+    },
+    {
+      "role": "Stakeholders",
+      "action": "Provide a deidentified example of the current grade and health-score calculation.",
+      "status": "Requested",
+      "due": "Open"
+    }
+  ],
+  "links": [
+    { "label": "Repository", "href": "https://github.com/wswitzer/Pure-Linguistics-LMS" },
+    { "label": "Issues", "href": "https://github.com/wswitzer/Pure-Linguistics-LMS/issues" }
+  ]
+}
