@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A public, privacy-safe overview of the Pure Linguistics LMS project.">
+  <title>PL-OS project overview</title>
+  <style>
+    :root{--paper:#f5f2ec;--paper-deep:#ebe6dc;--ink:#17202b;--muted:#67727d;--line:rgba(23,32,43,.14);--purple:#6b57d8;--purple-soft:#e9e4ff;--green:#147a5c;--green-soft:#dff3e9;--amber:#a85d08;--amber-soft:#fff0d5;--white:#fffdf9;--shadow:0 24px 60px rgba(43,35,25,.09)}
+    *{box-sizing:border-box}
+    html{background:var(--paper)}
+    body{margin:0;color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:radial-gradient(circle at 78% 5%,rgba(107,87,216,.15),transparent 30rem),var(--paper)}
+    a{color:inherit}
+    .shell{max-width:1180px;margin:0 auto;padding:24px clamp(20px,5vw,72px) 44px}
+    .topbar{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:6px 0 44px}
+    .brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+    .mark{display:grid;place-items:center;width:42px;height:42px;border-radius:12px;background:var(--ink);color:#fff;font-weight:850;letter-spacing:-.08em}
+    .brand strong,.brand small{display:block}.brand strong{font-size:13px;letter-spacing:.02em}.brand small{margin-top:3px;color:var(--muted);font-size:11px}
+    .toplink{font-size:12px;font-weight:800;text-decoration:none;color:var(--muted)}.toplink:hover{color:var(--purple)}
+    .hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,.56fr);gap:clamp(36px,8vw,112px);align-items:end;padding:28px 0 52px}
+    .eyebrow{margin:0 0 11px;color:var(--purple);font-size:11px;font-weight:850;letter-spacing:.12em;text-transform:uppercase}
+    h1,h2,h3,p{margin-top:0}.hero h1{max-width:720px;margin-bottom:22px;font-family:Georgia,"Times New Roman",serif;font-size:clamp(46px,7vw,86px);font-weight:500;letter-spacing:-.065em;line-height:.93}
+    .lead{max-width:680px;color:#3e4b57;font-size:clamp(16px,2vw,21px);line-height:1.5}
+    .meta{display:flex;align-items:center;gap:11px;margin:24px 0 0;color:var(--muted);font-size:12px}.dot{width:4px;height:4px;border-radius:50%;background:var(--purple)}
+    .phase{padding:26px;background:var(--ink);color:#fff;border-radius:4px;box-shadow:var(--shadow);position:relative;overflow:hidden}.phase:after{content:"";position:absolute;width:180px;height:180px;right:-80px;top:-80px;border:1px solid rgba(255,255,255,.16);border-radius:50%;box-shadow:0 0 0 24px rgba(255,255,255,.03),0 0 0 48px rgba(255,255,255,.025)}
+    .phase-top{display:flex;align-items:center;gap:8px;color:#bac4cf;font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase}.phase-light{width:8px;height:8px;border-radius:50%;background:#7de0b5;box-shadow:0 0 0 5px rgba(125,224,181,.12)}
+    .phase h2{margin:36px 0 12px;font-family:Georgia,"Times New Roman",serif;font-size:30px;font-weight:500;letter-spacing:-.04em}.phase p{max-width:300px;color:#c7d0d9;font-size:14px;line-height:1.55}.phase-next{display:grid;gap:6px;margin-top:34px;padding-top:16px;border-top:1px solid rgba(255,255,255,.17);color:#aeb9c4;font-size:11px}.phase-next strong{color:#fff;font-size:13px}
+    .signals{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.signal{display:flex;align-items:center;justify-content:space-between;gap:15px;padding:17px 0}.signal+.signal{border-left:1px solid var(--line);padding-left:22px;margin-left:22px}.signal>span{color:var(--muted);font-size:11px;font-weight:850;letter-spacing:.1em;text-transform:uppercase}
+    .pill{display:inline-flex;align-items:center;min-height:26px;padding:5px 9px;border-radius:999px;font-size:11px;font-weight:850}.pill.green{background:var(--green-soft);color:var(--green)}.pill.purple{background:var(--purple-soft);color:var(--purple)}.pill.amber{background:var(--amber-soft);color:var(--amber)}
+    .focus{display:grid;grid-template-columns:46px minmax(0,1fr) 260px;gap:22px;align-items:start;margin:70px 0 82px;padding:28px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.focus-num{color:var(--purple);font-size:13px;font-weight:850}.focus h2{max-width:640px;margin-bottom:12px;font-family:Georgia,"Times New Roman",serif;font-size:34px;font-weight:500;letter-spacing:-.045em}.focus p{max-width:660px;color:#4e5a65;line-height:1.6}.checkpoint{padding-left:20px;border-left:1px solid var(--line)}.checkpoint span{display:block;margin-bottom:8px;color:var(--muted);font-size:11px;font-weight:850;letter-spacing:.08em;text-transform:uppercase}.checkpoint strong{font-size:14px;line-height:1.45}
+    .grid{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(260px,.7fr);gap:clamp(40px,8vw,106px)}.section{margin-bottom:64px}.section-head{display:flex;align-items:end;justify-content:space-between;gap:18px;margin-bottom:19px}.section-head h2{margin:0;font-family:Georgia,"Times New Roman",serif;font-size:32px;font-weight:500;letter-spacing:-.045em}.count{color:var(--muted);font-size:11px;font-weight:850;letter-spacing:.08em;text-transform:uppercase}
+    .decision{display:grid;grid-template-columns:38px 1fr;gap:17px;padding:20px 0;border-top:1px solid var(--line)}.decision:last-child{border-bottom:1px solid var(--line)}.decision-num{color:var(--purple);font-size:12px;font-weight:850}.decision h3,.question h3{margin-bottom:7px;font-size:16px;line-height:1.25}.decision p,.question p{margin:0;color:#5b6670;font-size:14px;line-height:1.55}
+    .question{display:grid;grid-template-columns:28px 1fr;gap:13px;padding:17px 0;border-top:1px solid var(--line)}.question:last-child{border-bottom:1px solid var(--line)}.question-mark{display:grid;place-items:center;width:25px;height:25px;border:1px solid rgba(168,93,8,.28);border-radius:50%;color:var(--amber);font-size:13px;font-weight:800}
+    .rail{padding:24px;background:var(--white);border:1px solid var(--line);box-shadow:var(--shadow);align-self:start}.rail .section-head{display:block}.rail .section-head h2{font-size:28px}.action{padding:17px 0;border-top:1px solid var(--line)}.action-top{display:flex;justify-content:space-between;gap:12px;margin-bottom:8px}.role,.due{font-size:10px;font-weight:850;letter-spacing:.08em;text-transform:uppercase}.role{color:var(--purple)}.due{color:var(--muted)}.action p{margin:0 0 12px;font-size:14px;line-height:1.45}
+    .footer{display:flex;align-items:center;justify-content:space-between;gap:18px;padding-top:30px;border-top:1px solid var(--line);color:var(--muted);font-size:11px}.footer nav{display:flex;gap:15px}.footer a{text-decoration:none;font-weight:800}.footer a:hover{color:var(--purple)}
+    .error{padding:24px;background:var(--amber-soft);border:1px solid rgba(168,93,8,.25);color:var(--amber);line-height:1.5}
+    @media(max-width:800px){.hero,.grid{grid-template-columns:1fr}.hero{padding-top:10px}.signals{grid-template-columns:1fr}.signal{padding:14px 0}.signal+.signal{border-left:0;border-top:1px solid var(--line);padding-left:0;margin-left:0}.focus{grid-template-columns:30px 1fr;margin:54px 0 62px}.checkpoint{grid-column:2;padding-left:0;border-left:0;padding-top:10px}.footer{align-items:flex-start;flex-direction:column}.footer nav{flex-wrap:wrap}}
+    @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <header class="topbar">
+      <a class="brand" href="../../" aria-label="Shared project pages home">
+        <span class="mark">PL</span>
+        <span><strong>Pure Linguistics</strong><small>public project overview</small></span>
+      </a>
+      <a class="toplink" href="https://github.com/wswitzer/Pure-Linguistics-LMS" target="_blank" rel="noreferrer">View repository ↗</a>
+    </header>
+    <main id="app" aria-live="polite"><p>Loading project overview…</p></main>
+  </div>
+  <script type="module">
+    const app = document.querySelector("#app");
+    const escapeHtml = (value) => String(value).replace(/[&<>"']/g, (character) => ({
+      "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+    }[character]));
+    const pill = (tone, value) => `<span class="pill ${escapeHtml(tone)}">${escapeHtml(value)}</span>`;
+    const sectionHead = (eyebrow, title, count = "") => `<div class="section-head"><div><p class="eyebrow">${escapeHtml(eyebrow)}</p><h2>${escapeHtml(title)}</h2></div>${count ? `<span class="count">${escapeHtml(count)}</span>` : ""}</div>`;
+
+    async function render() {
+      const response = await fetch("./project-overview.json", { cache: "no-store" });
+      if (!response.ok) throw new Error("The project brief could not be loaded.");
+      const data = await response.json();
+      document.title = data.meta.title;
+      app.innerHTML = `
+        <section class="hero" aria-labelledby="page-title">
+          <div>
+            <p class="eyebrow">${escapeHtml(data.meta.kicker)}</p>
+            <h1 id="page-title">A calm, shared view of the build.</h1>
+            <p class="lead">${escapeHtml(data.focus.detail)}</p>
+            <div class="meta"><span>Updated ${escapeHtml(data.meta.lastUpdated)}</span><span class="dot" aria-hidden="true"></span><span>Privacy-safe public brief</span></div>
+          </div>
+          <aside class="phase" aria-label="Current project phase">
+            <div class="phase-top"><span class="phase-light" aria-hidden="true"></span>Current phase</div>
+            <h2>${escapeHtml(data.phase.label)}</h2>
+            <p>${escapeHtml(data.phase.summary)}</p>
+            <div class="phase-next"><span>Next checkpoint</span><strong>${escapeHtml(data.phase.checkpoint)}</strong></div>
+          </aside>
+        </section>
+        <section class="signals" aria-label="Project signals">
+          ${data.signals.map((signal) => `<div class="signal"><span>${escapeHtml(signal.label)}</span>${pill(signal.tone, signal.value)}</div>`).join("")}
+        </section>
+        <section class="focus" aria-labelledby="focus-title">
+          <span class="focus-num">01</span>
+          <div><p class="eyebrow">${escapeHtml(data.focus.eyebrow)}</p><h2 id="focus-title">${escapeHtml(data.focus.headline)}</h2><p>${escapeHtml(data.focus.detail)}</p></div>
+          <div class="checkpoint"><span>Next checkpoint</span><strong>${escapeHtml(data.focus.nextCheckpoint)}</strong></div>
+        </section>
+        <div class="grid">
+          <div>
+            <section class="section" aria-labelledby="decisions-title">
+              ${sectionHead("Locked direction", "What is already clear", `${data.decisions.length} decisions`)}
+              <div>${data.decisions.map((decision, index) => `<article class="decision"><span class="decision-num">${String(index + 1).padStart(2, "0")}</span><div><h3>${escapeHtml(decision.title)}</h3><p>${escapeHtml(decision.detail)}</p></div></article>`).join("")}</div>
+            </section>
+            <section class="section" aria-labelledby="questions-title">
+              ${sectionHead("Needs a decision", "Open questions", `${data.openQuestions.length} open`)}
+              <div>${data.openQuestions.map((question) => `<article class="question"><span class="question-mark" aria-hidden="true">?</span><div><h3>${escapeHtml(question.title)}</h3><p>${escapeHtml(question.detail)}</p></div></article>`).join("")}</div>
+            </section>
+          </div>
+          <aside class="rail" aria-labelledby="actions-title">
+            ${sectionHead("Keep it moving", "Next actions")}
+            <div>${data.actions.map((action) => `<article class="action"><div class="action-top"><span class="role">${escapeHtml(action.role)}</span><span class="due">${escapeHtml(action.due)}</span></div><p>${escapeHtml(action.action)}</p>${pill(action.status === "Next" ? "purple" : action.status === "Requested" ? "amber" : "green", action.status)}</article>`).join("")}</div>
+          </aside>
+        </div>
+        <footer class="footer">
+          <span>Source updated ${escapeHtml(data.meta.lastUpdated)}</span>
+          <nav aria-label="Project links">${data.links.map((link) => `<a href="${escapeHtml(link.href)}" target="_blank" rel="noreferrer">${escapeHtml(link.label)} ↗</a>`).join("")}</nav>
+        </footer>`;
+    }
+
+    render().catch((error) => {
+      app.innerHTML = `<div class="error"><strong>Project overview unavailable.</strong><br>${escapeHtml(error.message)}</div>`;
+    });
+  </script>
+</body>
+</html>
