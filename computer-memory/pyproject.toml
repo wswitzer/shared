@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=70"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "computer-memory"
+version = "0.1.0"
+description = "Local-first evidence-backed computer state memory for macOS"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+mcp = ["mcp>=1.0"]
+
+[project.scripts]
+computer-memory = "computer_memory.cli:main"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
