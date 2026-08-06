@@ -71,7 +71,7 @@ Current MCP tools are `latest_state`, `latest_handoff`, and `recent_snapshots`.
 After installing the package into the Python environment you intend to keep:
 
 ```bash
-./scripts/install-launchd.sh 2
+bash scripts/install-launchd.sh 2
 ```
 
 That schedules a snapshot at 02:00 local time. The script deliberately installs **capture only**; model summarization can be added once local permissions and the evidence quality are calibrated.
