@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#13261f">
+<title>Switzer Household Money</title>
+<style>
+:root{--bg:#f3f1ea;--paper:#fffdf8;--ink:#18211d;--muted:#69736d;--line:#dedbd1;--green:#1f6a4b;--green2:#dfeee5;--navy:#172d35;--amber:#a56413;--amber2:#f8ead2;--red:#a23c36;--red2:#f8dfdc;--shadow:0 10px 35px rgba(28,44,36,.08)}
+*{box-sizing:border-box}body{margin:0;background:linear-gradient(180deg,#e9eee8 0,#f3f1ea 220px);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.shell{max-width:1120px;margin:0 auto;padding:24px 18px 56px}.top{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:22px}.brand{display:flex;gap:12px;align-items:center}.mark{width:42px;height:42px;border-radius:14px;display:grid;place-items:center;background:var(--navy);color:white;font-size:21px;box-shadow:var(--shadow)}h1{font-size:21px;margin:0;letter-spacing:-.02em}.sub{color:var(--muted);font-size:13px;margin-top:3px}.actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.btn{border:1px solid var(--line);background:var(--paper);color:var(--ink);padding:9px 12px;border-radius:10px;font:inherit;font-size:13px;cursor:pointer}.btn:hover{border-color:#aaa99f}.btn.primary{background:var(--green);border-color:var(--green);color:white}.btn.ghost{background:transparent}.login-wrap{min-height:70vh;display:grid;place-items:center}.login{width:min(440px,100%);background:var(--paper);border:1px solid var(--line);border-radius:22px;padding:28px;box-shadow:var(--shadow)}.login h2{font-size:24px;margin:0 0 6px}.login p{color:var(--muted);margin:0 0 20px;line-height:1.5}.field{display:flex;gap:9px}.field input{flex:1;min-width:0;border:1px solid var(--line);background:white;padding:12px 13px;border-radius:11px;font:inherit;font-size:16px;outline:none}.field input:focus{border-color:var(--green);box-shadow:0 0 0 3px rgba(31,106,75,.12)}.error{color:var(--red);min-height:20px;font-size:13px;margin-top:10px}.privacy{font-size:12px;color:var(--muted);margin-top:18px}.hidden{display:none!important}.summary{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:14px 0 22px}.metric{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:17px;box-shadow:0 4px 15px rgba(28,44,36,.035)}.metric .label{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}.metric .value{font-size:25px;font-weight:760;margin-top:7px;letter-spacing:-.03em}.metric .hint{font-size:12px;color:var(--muted);margin-top:5px;line-height:1.35}.section{margin-top:24px}.section-head{display:flex;align-items:end;justify-content:space-between;gap:12px;margin-bottom:10px}.section h2{font-size:17px;margin:0;letter-spacing:-.01em}.count{font-size:12px;color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.card{background:var(--paper);border:1px solid var(--line);border-radius:15px;padding:15px;min-width:0}.card-top{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}.card-title{font-weight:720;line-height:1.25}.amount{font-weight:750;white-space:nowrap}.meta{display:flex;gap:6px;flex-wrap:wrap;margin-top:9px}.pill{font-size:11px;border-radius:999px;padding:4px 7px;background:#eceae3;color:#59635d}.pill.due,.pill.high,.pill.overdue{background:var(--red2);color:var(--red)}.pill.medium,.pill.waiting,.pill.possible{background:var(--amber2);color:var(--amber)}.pill.open,.pill.active,.pill.confirmed{background:var(--green2);color:var(--green)}.desc{font-size:13px;color:#4e5953;line-height:1.5;margin-top:9px}.callout{margin-top:10px;padding:10px 11px;border-left:3px solid var(--green);background:#edf5f0;border-radius:8px;font-size:13px;line-height:1.45}.empty{border:1px dashed var(--line);border-radius:13px;padding:16px;color:var(--muted);font-size:13px}.updated{font-size:12px;color:var(--muted);margin:6px 0 0}.cash-detail{background:rgba(255,255,255,.5);border:1px solid var(--line);border-radius:13px;padding:11px 13px;color:#56615a;font-size:12px;line-height:1.45;margin-top:-11px;margin-bottom:18px}.footer{color:var(--muted);font-size:11px;text-align:center;margin-top:34px}@media(max-width:800px){.summary{grid-template-columns:repeat(2,1fr)}.grid{grid-template-columns:1fr}.top{align-items:flex-start}.brand{align-items:flex-start}.actions{justify-content:flex-end}}@media(max-width:480px){.shell{padding:16px 12px 38px}.summary{grid-template-columns:1fr 1fr;gap:8px}.metric{padding:13px}.metric .value{font-size:20px}.top{display:block}.actions{margin-top:12px;justify-content:flex-start}.login{padding:22px}.field{display:block}.field .btn{width:100%;margin-top:9px}}
+</style>
+</head>
+<body>
+<div class="shell">
+  <div id="loginView" class="login-wrap">
+    <div class="login">
+      <div class="brand" style="margin-bottom:18px"><div class="mark">$</div><div><h1>Switzer Household Money</h1><div class="sub">Private household dashboard</div></div></div>
+      <h2 id="loginTitle">Finanzas del hogar</h2>
+      <p id="loginCopy">Ingresa tu contraseña del tablero. No necesitas una cuenta de Vercel.</p>
+      <form id="loginForm">
+        <div class="field"><input id="password" type="password" autocomplete="current-password" placeholder="Contraseña" required><button class="btn primary" id="loginBtn" type="submit">Entrar</button></div>
+        <div class="error" id="loginError"></div>
+      </form>
+      <div class="actions" style="margin-top:4px"><button class="btn ghost" id="loginLang" type="button">English</button></div>
+      <div class="privacy" id="privacyCopy">La información financiera se entrega únicamente después de validar la contraseña.</div>
+    </div>
+  </div>
+
+  <main id="appView" class="hidden">
+    <header class="top">
+      <div class="brand"><div class="mark">$</div><div><h1>Switzer Household Money</h1><div class="sub" id="appSub">Panel privado de finanzas del hogar</div><div class="updated" id="updated"></div></div></div>
+      <div class="actions"><button class="btn" id="langBtn">English</button><button class="btn" id="refreshBtn">Actualizar</button><button class="btn" id="logoutBtn">Salir</button></div>
+    </header>
+    <div id="summary" class="summary"></div>
+    <div id="cashDetail" class="cash-detail hidden"></div>
+    <div id="content"></div>
+    <div class="footer" id="footer">Datos privados · No compartas tu contraseña</div>
+  </main>
+</div>
+<script>
+(function(){
+  var API_URL='https://rhgivzrczyfwgybmwpmd.supabase.co/functions/v1/household-money';
+  var tokenKey='switzer_household_money_token_v1';
+  var langKey='switzer_household_money_lang';
+  var token=localStorage.getItem(tokenKey)||'';
+  var lang=localStorage.getItem(langKey)||'es';
+  var state=null;
+  var updatedAt='';
+  var loginView=document.getElementById('loginView');
+  var appView=document.getElementById('appView');
+  var loginForm=document.getElementById('loginForm');
+  var password=document.getElementById('password');
+  var loginError=document.getElementById('loginError');
+  var loginBtn=document.getElementById('loginBtn');
+  function tr(es,en){return lang==='es'?es:en}
+  function esc(v){return String(v==null?'':v).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
+  function loc(o,k){if(!o)return'';if(lang==='es'){if(o[k+'Es']!=null)return o[k+'Es'];if(o[k+'_es']!=null)return o[k+'_es']}return o[k]!=null?o[k]:''}
+  function money(v,c){if(v==null||v==='')return'—';try{return new Intl.NumberFormat(lang==='es'?'es-MX':'en-CA',{style:'currency',currency:c,maximumFractionDigits:2}).format(Number(v))}catch(e){return String(v)}}
+  function dateText(v){if(!v)return'';var d=new Date(String(v).length===10?v+'T12:00:00':v);if(isNaN(d.getTime()))return String(v);return new Intl.DateTimeFormat(lang==='es'?'es-MX':'en-CA',{year:'numeric',month:'short',day:'numeric'}).format(d)}
+  function pill(text){if(!text)return'';var cls=String(text).toLowerCase().replace(/[^a-z]+/g,'-');return '<span class="pill '+esc(cls)+'">'+esc(text)+'</span>'}
+  function metric(label,value,hint){return '<div class="metric"><div class="label">'+esc(label)+'</div><div class="value">'+esc(value)+'</div>'+(hint?'<div class="hint">'+esc(hint)+'</div>':'')+'</div>'}
+  function section(title,items,renderer){items=Array.isArray(items)?items:[];var html='<section class="section"><div class="section-head"><h2>'+esc(title)+'</h2><div class="count">'+items.length+'</div></div>';if(!items.length)html+='<div class="empty">'+esc(tr('Nada aquí por ahora.','Nothing here right now.'))+'</div>';else html+='<div class="grid">'+items.map(renderer).join('')+'</div>';return html+'</section>'}
+  function card(title,amount,meta,desc,callout){return '<article class="card"><div class="card-top"><div class="card-title">'+esc(title||'—')+'</div>'+(amount?'<div class="amount">'+esc(amount)+'</div>':'')+'</div>'+(meta&&meta.length?'<div class="meta">'+meta.filter(Boolean).join('')+'</div>':'')+(desc?'<div class="desc">'+esc(desc)+'</div>':'')+(callout?'<div class="callout">'+esc(callout)+'</div>':'')+'</article>'}
+  function renderBill(o){return card(loc(o,'name'),o.amount,[pill(loc(o,'priority')),pill(loc(o,'status')),pill(dateText(o.date))],loc(o,'note'),'')}
+  function renderIncome(o){return card(loc(o,'name'),o.amount,[pill(loc(o,'confidence')),pill(loc(o,'time')),pill(dateText(o.date))],loc(o,'note'),'')}
+  function renderRecurring(o){return card(loc(o,'name'),loc(o,'monthly'),[pill(loc(o,'category')),pill(loc(o,'cadence'))],loc(o,'note'),'')}
+  function renderBacklog(o){return card(loc(o,'name'),o.amount,[],loc(o,'note'),'')}
+  function renderAction(o){return card(loc(o,'title'),'',o.priority!=null?[pill(tr('Prioridad ','Priority ')+o.priority)]:[],loc(o,'note'),'')}
+  function renderInsight(o){return card(loc(o,'title'),'',[pill(loc(o,'priority')),pill(loc(o,'status')),pill(loc(o,'category'))],loc(o,'insight'),loc(o,'action'))}
+  function renderEnded(o){return card(loc(o,'name'),'',loc(o,'access_until')?[pill(loc(o,'access_until'))]:[],loc(o,'note'),'')}
+  function applyLanguage(){
+    document.documentElement.lang=lang;
+    document.getElementById('loginTitle').textContent=tr('Finanzas del hogar','Household finances');
+    document.getElementById('loginCopy').textContent=tr('Ingresa tu contraseña del tablero. No necesitas una cuenta de Vercel.','Enter your dashboard password. You do not need a Vercel account.');
+    password.placeholder=tr('Contraseña','Password');
+    loginBtn.textContent=tr('Entrar','Sign in');
+    document.getElementById('loginLang').textContent=lang==='es'?'English':'Español';
+    document.getElementById('privacyCopy').textContent=tr('La información financiera se entrega únicamente después de validar la contraseña.','Financial information is returned only after the dashboard password is validated.');
+    document.getElementById('appSub').textContent=tr('Panel privado de finanzas del hogar','Private household finance dashboard');
+    document.getElementById('langBtn').textContent=lang==='es'?'English':'Español';
+    document.getElementById('refreshBtn').textContent=tr('Actualizar','Refresh');
+    document.getElementById('logoutBtn').textContent=tr('Salir','Sign out');
+    document.getElementById('footer').textContent=tr('Datos privados · No compartas tu contraseña','Private data · Do not share your password');
+    if(state)render();
+  }
+  function render(){
+    var s=state||{};var sum=s.summary||{};
+    document.getElementById('summary').innerHTML=
+      metric(tr('Efectivo disponible','Liquid cash'),money(sum.liquid_mxn,'MXN'),tr('Dinero realmente disponible','Genuinely available money'))+
+      metric(tr('Gasto mensual recurrente','Monthly recurring'),money(sum.recurring_monthly_mxn,'MXN'),tr('Promedio de compromisos activos','Average active commitments'))+
+      metric(tr('Crédito de respaldo','Backup credit'),money(sum.credit_cad,'CAD'),tr('No contado como efectivo','Not counted as cash'))+
+      metric(tr('Pendiente de Cate','Remaining from Cate'),money(sum.remaining_cate_usd,'USD'),tr('Ingreso esperado restante','Remaining expected income'));
+    var detail=lang==='es'?(sum.cash_detail_es||sum.cash_detail):(sum.cash_detail||'');
+    var cd=document.getElementById('cashDetail');if(detail){cd.textContent=detail;cd.classList.remove('hidden')}else cd.classList.add('hidden');
+    var c='';
+    c+=section(tr('Próximas acciones','Next actions'),s.actions,renderAction);
+    c+=section(tr('Ideas y recordatorios','Insights & reminders'),s.insights,renderInsight);
+    c+=section(tr('Pagos próximos','Upcoming bills'),s.bills,renderBill);
+    c+=section(tr('Ingresos esperados','Expected income'),s.income,renderIncome);
+    c+=section(tr('Gastos recurrentes','Recurring costs'),s.recurring,renderRecurring);
+    c+=section(tr('Pendientes grandes','Backlog'),s.backlog,renderBacklog);
+    c+=section(tr('Terminados / sin renovación','Ended / no renewal'),s.ended,renderEnded);
+    document.getElementById('content').innerHTML=c;
+    var up=s.updatedEs&&lang==='es'?s.updatedEs:(s.updated||updatedAt);
+    document.getElementById('updated').textContent=tr('Actualizado: ','Updated: ')+(up||dateText(updatedAt));
+  }
+  async function api(body){
+    var r=await fetch(API_URL,{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify(body),cache:'no-store'});
+    var j={};try{j=await r.json()}catch(e){}
+    if(!r.ok){var err=new Error(j.error||'request failed');err.status=r.status;throw err}return j;
+  }
+  async function load(){
+    if(!token){showLogin();return}
+    try{var j=await api({action:'data',token:token});state=j.data;updatedAt=j.updated_at||'';showApp();render()}catch(e){if(e.status===401){localStorage.removeItem(tokenKey);token='';showLogin()}else{showApp();document.getElementById('content').innerHTML='<div class="empty">'+esc(tr('No se pudieron cargar los datos. Intenta actualizar.','Could not load data. Try refreshing.'))+'</div>'}}
+  }
+  function showLogin(){loginView.classList.remove('hidden');appView.classList.add('hidden');setTimeout(function(){password.focus()},50)}
+  function showApp(){loginView.classList.add('hidden');appView.classList.remove('hidden')}
+  loginForm.addEventListener('submit',async function(e){e.preventDefault();loginError.textContent='';loginBtn.disabled=true;loginBtn.textContent=tr('Entrando…','Signing in…');try{var j=await api({action:'login',password:password.value});token=j.token;localStorage.setItem(tokenKey,token);state=j.data;updatedAt=j.updated_at||'';password.value='';showApp();render()}catch(err){loginError.textContent=tr('Contraseña incorrecta.','Incorrect password.')}finally{loginBtn.disabled=false;loginBtn.textContent=tr('Entrar','Sign in')}});
+  document.getElementById('logoutBtn').addEventListener('click',function(){localStorage.removeItem(tokenKey);token='';state=null;showLogin()});
+  document.getElementById('refreshBtn').addEventListener('click',load);
+  document.getElementById('langBtn').addEventListener('click',function(){lang=lang==='es'?'en':'es';localStorage.setItem(langKey,lang);applyLanguage()});
+  document.getElementById('loginLang').addEventListener('click',function(){lang=lang==='es'?'en':'es';localStorage.setItem(langKey,lang);applyLanguage()});
+  applyLanguage();load();
+})();
+</script>
+</body>
+</html>
