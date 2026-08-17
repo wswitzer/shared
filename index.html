@@ -3,10 +3,22 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Shared Mockups</title>
-  <meta http-equiv="refresh" content="0; url=PL/mockups/">
+  <title>Pure Linguistics shared pages</title>
+  <style>
+    :root{--paper:#f5f2ec;--ink:#17202b;--muted:#67727d;--line:rgba(23,32,43,.14);--purple:#6b57d8;--white:#fffdf9}
+    *{box-sizing:border-box}body{margin:0;color:var(--ink);background:radial-gradient(circle at 80% 0,rgba(107,87,216,.16),transparent 28rem),var(--paper);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+    main{max-width:880px;margin:0 auto;padding:clamp(56px,10vw,120px) 24px}.eyebrow{margin:0 0 14px;color:var(--purple);font-size:11px;font-weight:850;letter-spacing:.12em;text-transform:uppercase}h1{max-width:680px;margin:0 0 20px;font-family:Georgia,"Times New Roman",serif;font-size:clamp(44px,8vw,78px);font-weight:500;letter-spacing:-.06em;line-height:.95}p{max-width:600px;color:var(--muted);font-size:17px;line-height:1.6}.links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:42px}.link{display:block;padding:24px;background:var(--white);border:1px solid var(--line);color:inherit;text-decoration:none;box-shadow:0 18px 42px rgba(43,35,25,.07)}.link:hover{border-color:var(--purple);transform:translateY(-2px)}.link strong,.link span{display:block}.link strong{font-size:18px}.link span{margin-top:8px;color:var(--muted);font-size:13px;line-height:1.45}@media(max-width:620px){.links{grid-template-columns:1fr}}
+  </style>
 </head>
 <body>
-  <p><a href="PL/mockups/">Open PL schedule calendar mockup</a></p>
+  <main>
+    <p class="eyebrow">Pure Linguistics / shared pages</p>
+    <h1>A small home for useful project views.</h1>
+    <p>This public repository holds lightweight, privacy-safe pages and mockups for the Pure Linguistics LMS project.</p>
+    <div class="links">
+      <a class="link" href="PL/project-overview/"><strong>Project overview ↗</strong><span>Current direction, decisions, open questions, and next actions.</span></a>
+      <a class="link" href="PL/mockups/"><strong>Schedule calendar mockup ↗</strong><span>Interactive calendar prototype for the PL-OS operations workflow.</span></a>
+    </div>
+  </main>
 </body>
 </html>
