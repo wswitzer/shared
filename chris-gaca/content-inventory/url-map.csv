@@ -1,0 +1,46 @@
+old_url,content_type,title,proposed_new_url,redirect_required,notes
+https://chrisgaca.wordpress.com/,page,About / Homepage,/,yes,Canonical root
+https://chrisgaca.wordpress.com/world-music-chorus-links/,page,History of this collection,/about/history/,yes,Archival essay
+https://chrisgaca.wordpress.com/other-sites-to-visit/,page,Other sites to visit,/resources/,yes,Community and external links
+https://chrisgaca.wordpress.com/2022/07/14/updated-site/,post,Redirect to Updated Site,/,yes,Deprecated announcement
+https://chrisgaca.wordpress.com/2012/08/31/jari-ya-hamouda/,song,Jari ya Hamouda,/songs/jari-ya-hamouda/,yes,Canonical song page (also aliases /countries/tunisia/jari-ya-hamouda/)
+https://chrisgaca.wordpress.com/2012/07/18/dilmano-dilbero/,song,"Dilmano, Dilbero",/songs/dilmano-dilbero/,yes,Canonical song page (also aliases /countries/bulgaria/dilmano-dilbero/)
+https://chrisgaca.wordpress.com/2012/10/01/molih-ta/,song,Molih Ta,/songs/molih-ta/,yes,Canonical song page (also aliases /countries/bulgaria/molih-ta/)
+https://chrisgaca.wordpress.com/2011/01/03/kan-ding/,song,Kangding Love Song,/songs/kan-ding/,yes,Canonical song page (also aliases /countries/china/kan-ding/)
+https://chrisgaca.wordpress.com/2011/01/03/pje-vaj-mi-pje-vaj/,song,"Pjevaj mi, pjevaj, sokole",/songs/pje-vaj-mi-pje-vaj/,yes,Canonical song page (also aliases /countries/croatia/pje-vaj-mi-pje-vaj/)
+https://chrisgaca.wordpress.com/2011/01/07/zaspo-janko/,song,Zaspo Janko,/songs/zaspo-janko/,yes,Canonical song page (also aliases /countries/croatia/zaspo-janko/)
+https://chrisgaca.wordpress.com/2011/06/13/leppiainen-from-varttina/,song,Leppiäinen,/songs/leppiainen-from-varttina/,yes,Canonical song page (also aliases /countries/finland/leppiainen-from-varttina/)
+https://chrisgaca.wordpress.com/2011/03/14/suliko/,song,Suliko,/songs/suliko/,yes,Canonical song page (also aliases /countries/georgia/suliko/)
+https://chrisgaca.wordpress.com/2011/01/03/nache-re-mora-indian-childrens-song/,song,Nach Re Mora,/songs/nache-re-mora-indian-childrens-song/,yes,Canonical song page (also aliases /countries/india/nache-re-mora-indian-childrens-song/)
+https://chrisgaca.wordpress.com/2011/01/07/raghupati/,song,Raghupati Raghav Raja Ram,/songs/raghupati/,yes,Canonical song page (also aliases /countries/india/raghupati/)
+https://chrisgaca.wordpress.com/2011/01/07/doktare-boyer-ahmadi/,song,Dokhtare Boyer Ahmadi,/songs/doktare-boyer-ahmadi/,yes,Canonical song page (also aliases /countries/iran/doktare-boyer-ahmadi/)
+https://chrisgaca.wordpress.com/2011/01/03/mastoom-mastoom-iranian-folk-song/,song,"Mastoom, Mastoom",/songs/mastoom-mastoom-iranian-folk-song/,yes,Canonical song page (also aliases /countries/iran/mastoom-mastoom-iranian-folk-song/)
+https://chrisgaca.wordpress.com/2022/05/25/jovano-jovanke/,song,"Jovano, Jovanke",/songs/jovano-jovanke/,yes,Canonical song page (also aliases /countries/macedonia/jovano-jovanke/)
+https://chrisgaca.wordpress.com/2011/01/07/sto-mi-e-milo/,song,Što mi e milo,/songs/sto-mi-e-milo/,yes,Canonical song page (also aliases /countries/macedonia/sto-mi-e-milo/)
+https://chrisgaca.wordpress.com/2011/01/03/odunday-nigeria/,song,Odunday,/songs/odunday-nigeria/,yes,Canonical song page (also aliases /countries/nigeria/odunday-nigeria/)
+https://chrisgaca.wordpress.com/2011/03/01/lab-pe-ati/,song,Lab Pe Aati Hai Dua,/songs/lab-pe-ati/,yes,Canonical song page (also aliases /countries/pakistan/lab-pe-ati/)
+https://chrisgaca.wordpress.com/2011/01/07/son-borinqueno/,song,Son Borinqueño,/songs/son-borinqueno/,yes,Canonical song page (also aliases /countries/puerto-rico/son-borinqueno/)
+https://chrisgaca.wordpress.com/2022/05/30/ajde-jano/,song,Ajde Jano,/songs/ajde-jano/,yes,Canonical song page (also aliases /countries/serbia/ajde-jano/)
+https://chrisgaca.wordpress.com/2022/05/25/setjna/,song,Šetnja,/songs/setjna/,yes,Canonical song page (also aliases /countries/serbia/setjna/)
+https://chrisgaca.wordpress.com/2013/08/30/ga-gona-ya-tswanang-le-jesu/,song,Ga Gona Ya Tswanang Le Jesu,/songs/ga-gona-ya-tswanang-le-jesu/,yes,Canonical song page (also aliases /countries/south-africa/ga-gona-ya-tswanang-le-jesu/)
+https://chrisgaca.wordpress.com/2011/02/18/abun-dbashmayo/,song,Abun d’Bashmayo,/songs/abun-dbashmayo/,yes,Canonical song page (also aliases /countries/syria/abun-dbashmayo/)
+https://chrisgaca.wordpress.com/2011/05/02/tehvid-etsin-dilimiz/,song,Tevhid Etsin Dilimiz,/songs/tehvid-etsin-dilimiz/,yes,Canonical song page (also aliases /countries/turkey/tehvid-etsin-dilimiz/)
+https://chrisgaca.wordpress.com/category/songs-by-country/bulgaria/,category,Country: Bulgaria,/countries/bulgaria/,yes,Country landing page listing songs
+https://chrisgaca.wordpress.com/category/songs-by-country/china/,category,Country: China,/countries/china/,yes,Country landing page listing songs
+https://chrisgaca.wordpress.com/category/songs-by-country/croatia/,category,Country: Croatia,/countries/croatia/,yes,Country landing page listing songs
+https://chrisgaca.wordpress.com/category/songs-by-country/finland/,category,Country: Finland,/countries/finland/,yes,Country landing page listing songs
+https://chrisgaca.wordpress.com/category/songs-by-country/georgia/,category,Country: Georgia,/countries/georgia/,yes,Country landing page listing songs
+https://chrisgaca.wordpress.com/category/songs-by-country/india/,category,Country: India,/countries/india/,yes,Country landing page listing songs
+https://chrisgaca.wordpress.com/category/songs-by-country/iran/,category,Country: Iran,/countries/iran/,yes,Country landing page listing songs
+https://chrisgaca.wordpress.com/category/songs-by-country/macedonia/,category,Country: Macedonia,/countries/macedonia/,yes,Country landing page listing songs
+https://chrisgaca.wordpress.com/category/songs-by-country/nigeria/,category,Country: Nigeria,/countries/nigeria/,yes,Country landing page listing songs
+https://chrisgaca.wordpress.com/category/songs-by-country/pakistan/,category,Country: Pakistan,/countries/pakistan/,yes,Country landing page listing songs
+https://chrisgaca.wordpress.com/category/songs-by-country/puerto-rico/,category,Country: Puerto Rico,/countries/puerto-rico/,yes,Country landing page listing songs
+https://chrisgaca.wordpress.com/category/songs-by-country/serbia/,category,Country: Serbia,/countries/serbia/,yes,Country landing page listing songs
+https://chrisgaca.wordpress.com/category/songs-by-country/south-africa/,category,Country: South Africa,/countries/south-africa/,yes,Country landing page listing songs
+https://chrisgaca.wordpress.com/category/songs-by-country/syria/,category,Country: Syria,/countries/syria/,yes,Country landing page listing songs
+https://chrisgaca.wordpress.com/category/songs-by-country/tunisia/,category,Country: Tunisia,/countries/tunisia/,yes,Country landing page listing songs
+https://chrisgaca.wordpress.com/category/songs-by-country/turkey/,category,Country: Turkey,/countries/turkey/,yes,Country landing page listing songs
+https://chrisgaca.wordpress.com/category/songs-by-country/,category,Songs by Country,/countries/,yes,All countries index
+https://chrisgaca.wordpress.com/category/world-music-chorus-repertoire/,category,World Music Chorus Repertoire,/repertoire/,yes,Full repertoire index
+https://chrisgaca.wordpress.com/category/world-music-resource-links/,category,World Music Resource Links,/resources/,yes,Resource links category

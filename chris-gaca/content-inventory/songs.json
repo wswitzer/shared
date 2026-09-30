@@ -1,0 +1,2096 @@
+[
+  {
+    "id": "jari-ya-hamouda",
+    "title": "Jari ya Hamouda",
+    "alternate_titles": [
+      "My Neighbor Hamouda",
+      "Jari ya Hamouda...Hamouda"
+    ],
+    "original_script_title": "جاري يا حمودة",
+    "country": "Tunisia",
+    "region": "Africa",
+    "languages": [
+      {
+        "name": "Tunisian Arabic",
+        "confidence": "explicit",
+        "source": "document/lyrics"
+      }
+    ],
+    "old_urls": [
+      "https://chrisgaca.wordpress.com/2012/08/31/jari-ya-hamouda/"
+    ],
+    "wordpress_post_id": 169,
+    "published_date": "2012-08-31T19:22:34",
+    "modified_date": "2022-06-18T14:25:38",
+    "chris_authored_context": "Heard this song for the first time in Morocco when I was attending the World Sacred Music Festival.  Joan Baez sang it.  Only problem with Joan is that while she sang the first verse in arabic, the other verses were sung in Franco-arabic of some sort.  So, when I got a copy of the \"Lyrics\", my lyrics were not what she sang, but what the original Tunisian singer Lora Khalil sang.\nMy Link is to Lora Khalil's version, but you really should look up Joan Baez some time too since hers is a very compelling performance.\nJari ya hamouda v2\n  This is a link to the lyrics in a Word file\nThe translation was also somewhat difficult to obtain, but we did manage to get a translation from Roset Khosropour's friend Denna.  Some of the words were still a little bit hard to distinguish so our wonderful Roset worked with me to look again at the original arabic words and make sure our version was somewhat accurate.  Some words in our tranliteration are spelled out in a way to make them more western friendly in terms of pronouciation.",
+    "personal_story": "Learned and curated by Chris Gaca as part of the World Music Chorus collection for North African repertoire.",
+    "cultural_context": "Traditional Tunisian love/folk song expressing longing for neighbor Hamouda, depicting village life and social courtship.",
+    "teaching_notes": "Text contains Arabic transliteration with interlinear spacing for pronunciation annotations; includes full English translation in Word doc.",
+    "resources": {
+      "video": [
+        {
+          "platform": "youtube",
+          "video_id": "wQFkHFd0olQ",
+          "url": "https://www.youtube.com/watch?v=wQFkHFd0olQ",
+          "embed_url": "https://www.youtube.com/embed/wQFkHFd0olQ",
+          "performer": "Traditional Tunisian folk ensemble"
+        }
+      ],
+      "audio": [],
+      "lyrics": {
+        "available": true,
+        "source": "document",
+        "sample": "Jari ya Hamouda\nJari ya Hamouda...Hamouda ya jari daber aâliya yamma...  ya jari daber aâliya yamma ness tebet ergouda....ergouda wani noumi makharoum aâliya yamma\nwani noumi makharoum aâliya yamma....  Hamouda ya jari.. ya jari Enta ti li mashaa-li nari yamma Tmanitek fi dari.. fi dari Mesthli  cha"
+      },
+      "transliteration": {
+        "available": true,
+        "type": "latin_phonetic",
+        "source": "document"
+      },
+      "ipa": {
+        "available": false,
+        "notes": "No formal IPA symbols present; phonetic spelling used"
+      },
+      "translation": {
+        "available": true,
+        "language": "English"
+      },
+      "sheet_music": {
+        "available": false,
+        "format": null
+      },
+      "chords": {
+        "available": false
+      },
+      "downloads": [
+        {
+          "filename": "jari-ya-hamouda-v2.doc",
+          "local_path": "downloads/Tunisia/jari-ya-hamouda/jari-ya-hamouda-v2.doc",
+          "converted_text_path": "downloads/Tunisia/jari-ya-hamouda/jari-ya-hamouda-v2.txt",
+          "size_bytes": 24576,
+          "file_type": "doc"
+        }
+      ]
+    },
+    "credits": [
+      {
+        "name": "Chris Gaca",
+        "role": "curator / compiler"
+      },
+      {
+        "name": "Traditional Tunisian folk ensemble",
+        "role": "performer"
+      }
+    ],
+    "source_links": [
+      "https://chrisgaca.wordpress.com/2012/08/31/jari-ya-hamouda/"
+    ],
+    "comments": [],
+    "notes": [
+      "World Music Chorus collection / Tunisian traditional"
+    ],
+    "confidence": {
+      "overall": "high",
+      "country": "high",
+      "language": "explicit"
+    }
+  },
+  {
+    "id": "dilmano-dilbero",
+    "title": "Dilmano, Dilbero",
+    "alternate_titles": [
+      "Dilmano Dilbero"
+    ],
+    "original_script_title": "Дилмано, Дилберо",
+    "country": "Bulgaria",
+    "region": "Europe",
+    "languages": [
+      {
+        "name": "Bulgarian",
+        "confidence": "explicit",
+        "source": "post/document"
+      }
+    ],
+    "old_urls": [
+      "https://chrisgaca.wordpress.com/2012/07/18/dilmano-dilbero/"
+    ],
+    "wordpress_post_id": 160,
+    "published_date": "2012-07-18T19:22:26",
+    "modified_date": "2022-06-08T22:22:23",
+    "chris_authored_context": "I'm not sure when and where I learned this Bulgarian song, but it has stuck with me.  I especially love songs that have tongue twisters like this one does when you try to up the tempo.\nLyrics:  \nDILMANO DILBERO",
+    "personal_story": "Learned by Chris Gaca through Balkan music workshops and shared with the chorus.",
+    "cultural_context": "Famous traditional Bulgarian folk song in fast, complex 8/16 meter (3+2+3 or 2+2+1+3) about planting and harvesting peppers (piperi) as a traditional courtship allegory.",
+    "teaching_notes": "Word document provides Bulgarian lyrics in Latin transliteration with phrase repetition markings (2x).",
+    "resources": {
+      "video": [
+        {
+          "platform": "youtube",
+          "video_id": "qvC4cxaITCI",
+          "url": "https://www.youtube.com/watch?v=qvC4cxaITCI",
+          "embed_url": "https://www.youtube.com/embed/qvC4cxaITCI",
+          "performer": "Bulgarian Folk Ensemble"
+        }
+      ],
+      "audio": [],
+      "lyrics": {
+        "available": true,
+        "source": "document",
+        "sample": "DILMANO DILBERO (Bulgaria)\n\nDilmano, Dilbero (2)\nkaji mi kak se﻿ sadi pipero (2).\nDa tsafti, da varje (2)\nDa beresh, beresh, beresh ka sakash (2)\nPomunigo, pobutsnigo (2)\nTeta kak se sadi, sadi pipero (2)\nDa tsafti, da varje (2)\nDa beresh, beresh, beresh ka sakash (2)\n\n\nthere are (very!) different t"
+      },
+      "transliteration": {
+        "available": true,
+        "type": "latin_phonetic",
+        "source": "document"
+      },
+      "ipa": {
+        "available": false,
+        "notes": "No formal IPA symbols present; phonetic spelling used"
+      },
+      "translation": {
+        "available": true,
+        "language": "English"
+      },
+      "sheet_music": {
+        "available": false,
+        "format": null
+      },
+      "chords": {
+        "available": false
+      },
+      "downloads": [
+        {
+          "filename": "dilmano-dilbero.doc",
+          "local_path": "downloads/Bulgaria/dilmano-dilbero/dilmano-dilbero.doc",
+          "converted_text_path": "downloads/Bulgaria/dilmano-dilbero/dilmano-dilbero.txt",
+          "size_bytes": 27648,
+          "file_type": "doc"
+        }
+      ]
+    },
+    "credits": [
+      {
+        "name": "Chris Gaca",
+        "role": "curator / compiler"
+      },
+      {
+        "name": "Bulgarian Folk Ensemble",
+        "role": "performer"
+      }
+    ],
+    "source_links": [
+      "https://chrisgaca.wordpress.com/2012/07/18/dilmano-dilbero/"
+    ],
+    "comments": [],
+    "notes": [
+      "Traditional Bulgarian"
+    ],
+    "confidence": {
+      "overall": "high",
+      "country": "high",
+      "language": "explicit"
+    }
+  },
+  {
+    "id": "molih-ta",
+    "title": "Molih Ta",
+    "alternate_titles": [
+      "Molih ta majko",
+      "Molih Ta (Bulgaria)"
+    ],
+    "original_script_title": "Молих та",
+    "country": "Bulgaria",
+    "region": "Europe",
+    "languages": [
+      {
+        "name": "Bulgarian",
+        "confidence": "explicit",
+        "source": "post title/lyrics"
+      }
+    ],
+    "old_urls": [
+      "https://chrisgaca.wordpress.com/2012/10/01/molih-ta/"
+    ],
+    "wordpress_post_id": 173,
+    "published_date": "2012-10-01T19:24:22",
+    "modified_date": "2022-06-08T22:21:36",
+    "chris_authored_context": "This song from Bulgaria was a shoe in for \"most appropriate\" song for a difficult theme.  Our World Music Chorus has been asked to perform at a Utica conference called \"Unspoken\".  The conference is always about Human Rights issues but this year they chose gender equality issues as the main theme.  Molih Ta is a very moving song about a young girl's request to her mother not to marry her off too early.  Unfortunately, the girl's request does not get granted and it serves as an example of some very old traditions relating to marriage that still are followed in the Balkans. \nThe link is to a YouTube version arranged by Philip Kotev.  It's a pretty uncomplicated song with a couple of lines of music repeating and repeating through the various verses, but I find when done like this group, it continuously holds your interest because of the changes in timbre between the different voices.",
+    "personal_story": "Chosen by Chris Gaca when the World Music Chorus was asked to perform at the Utica \"Unspoken\" Human Rights conference focusing on gender equality.",
+    "cultural_context": "Moving traditional Bulgarian song about a young girl's plea to her mother not to marry her off too early, highlighting Balkan arranged marriage customs.",
+    "teaching_notes": "Features repeating lines of music where interest is maintained through vocal timbre contrasts between voice parts; arranged by Philip Kotev.",
+    "resources": {
+      "video": [
+        {
+          "platform": "youtube",
+          "video_id": "IGZpU12vYbM",
+          "url": "https://www.youtube.com/watch?v=IGZpU12vYbM",
+          "embed_url": "https://www.youtube.com/embed/IGZpU12vYbM",
+          "performer": "Bulgarian Women's Choir"
+        }
+      ],
+      "audio": [],
+      "lyrics": {
+        "available": false,
+        "source": "document",
+        "sample": "This song from Bulgaria was a shoe in for \"most appropriate\" song for a difficult theme.  Our World Music Chorus has been asked to perform at a Utica conference called \"Unspoken\".  The conference is always about Human Rights issues but this year they chose gender equality issues as the main theme.  "
+      },
+      "transliteration": {
+        "available": true,
+        "type": "latin_phonetic",
+        "source": "post_body"
+      },
+      "ipa": {
+        "available": false,
+        "notes": "No formal IPA symbols present; phonetic spelling used"
+      },
+      "translation": {
+        "available": false,
+        "language": null
+      },
+      "sheet_music": {
+        "available": false,
+        "format": null
+      },
+      "chords": {
+        "available": false
+      },
+      "downloads": []
+    },
+    "credits": [
+      {
+        "name": "Chris Gaca",
+        "role": "curator / compiler"
+      },
+      {
+        "name": "Philip Kotev",
+        "role": "arranger"
+      },
+      {
+        "name": "Bulgarian Women's Choir",
+        "role": "performer"
+      }
+    ],
+    "source_links": [
+      "https://chrisgaca.wordpress.com/2012/10/01/molih-ta/"
+    ],
+    "comments": [],
+    "notes": [
+      "Arranged by Philip Kotev; performance at Utica Unspoken Human Rights conference"
+    ],
+    "confidence": {
+      "overall": "high",
+      "country": "high",
+      "language": "explicit"
+    }
+  },
+  {
+    "id": "kan-ding",
+    "title": "Kangding Love Song",
+    "alternate_titles": [
+      "Kan Ding",
+      "Kan Ding Qing Ge",
+      "Kang Ding Love Song"
+    ],
+    "original_script_title": "康定情歌",
+    "country": "China",
+    "region": "Asia",
+    "languages": [
+      {
+        "name": "Mandarin Chinese",
+        "confidence": "explicit",
+        "source": "document pinyin"
+      }
+    ],
+    "old_urls": [
+      "https://chrisgaca.wordpress.com/2011/01/03/kan-ding/"
+    ],
+    "wordpress_post_id": 40,
+    "published_date": "2011-01-03T21:09:23",
+    "modified_date": "2022-06-08T22:29:28",
+    "chris_authored_context": "We learned this Chinese love song from Katrina Schell.\nLyrics:  \nKAN DING LOVE SONG",
+    "personal_story": "Learned by Chris and the chorus from Katrina Schell.",
+    "cultural_context": "Celebrated folk song from Kangding, Garzê Tibetan Autonomous Prefecture, Sichuan Province, China. One of the most famous Chinese folk songs worldwide.",
+    "teaching_notes": "Word document includes Pinyin transliteration with capitalized tone-group syllables, verse numbers, and refrain markers.",
+    "resources": {
+      "video": [
+        {
+          "platform": "youtube",
+          "video_id": "-ERdh0KjWtQ",
+          "url": "https://www.youtube.com/watch?v=-ERdh0KjWtQ",
+          "embed_url": "https://www.youtube.com/embed/-ERdh0KjWtQ",
+          "performer": null
+        }
+      ],
+      "audio": [],
+      "lyrics": {
+        "available": true,
+        "source": "document",
+        "sample": "KAN DING QING GE         KANG DING LOVE SONG\n\n\n1)  PAO MA LIU-LIU DE SHAN SHANG,   YI DUO LIU LIU DE YUN YOU\nDUAN DUAN LIU LIU DE ZHAO ZAI,   KAN DING LIU LIU DE CHENG YOU \nCHORUS:  YUE LIANG WANG WANG,   KANG DI LIU LIU DE CHENG YOU\n2)  LI JIA LIU LIU DE DA JIE,    REN CAI LIU LIU DE HAO YO\nZHANG J"
+      },
+      "transliteration": {
+        "available": true,
+        "type": "latin_phonetic",
+        "source": "document"
+      },
+      "ipa": {
+        "available": false,
+        "notes": "No formal IPA symbols present; phonetic spelling used"
+      },
+      "translation": {
+        "available": false,
+        "language": null
+      },
+      "sheet_music": {
+        "available": false,
+        "format": null
+      },
+      "chords": {
+        "available": false
+      },
+      "downloads": [
+        {
+          "filename": "kang-ding-love-song.doc",
+          "local_path": "downloads/China/kan-ding/kang-ding-love-song.doc",
+          "converted_text_path": "downloads/China/kan-ding/kang-ding-love-song.txt",
+          "size_bytes": 24576,
+          "file_type": "doc"
+        }
+      ]
+    },
+    "credits": [
+      {
+        "name": "Chris Gaca",
+        "role": "curator / compiler"
+      },
+      {
+        "name": "Katrina Schell",
+        "role": "teacher / source"
+      }
+    ],
+    "source_links": [
+      "https://chrisgaca.wordpress.com/2011/01/03/kan-ding/"
+    ],
+    "comments": [],
+    "notes": [
+      "Taught by Katrina Schell; traditional Sichuan/Tibetan border folk song"
+    ],
+    "confidence": {
+      "overall": "high",
+      "country": "high",
+      "language": "explicit"
+    }
+  },
+  {
+    "id": "pje-vaj-mi-pje-vaj",
+    "title": "Pjevaj mi, pjevaj, sokole",
+    "alternate_titles": [
+      "Pje vaj mi pje vaj",
+      "Licko Kolo",
+      "Ličko kolo",
+      "Pjevaj mi pjevaj (Licko Kolo)"
+    ],
+    "original_script_title": "Пјевај ми, пјевај, соколе / Pjevaj mi, pjevaj, sokole",
+    "country": "Croatia",
+    "region": "Europe",
+    "languages": [
+      {
+        "name": "Croatian",
+        "confidence": "explicit",
+        "source": "post/document"
+      }
+    ],
+    "old_urls": [
+      "https://chrisgaca.wordpress.com/2011/01/03/pje-vaj-mi-pje-vaj/"
+    ],
+    "wordpress_post_id": 47,
+    "published_date": "2011-01-03T21:21:24",
+    "modified_date": "2022-06-08T22:28:10",
+    "chris_authored_context": "I originally learned this song from Ethel Raim of the Pennywhistlers who did a short workshop for some of us at East Hill Farm.  The YouTube version by \"Gracia\" is a pop-rock influenced interpretation, but the basic song is exactly the same as ever&#8230;\nLyrics:  \nPJE VAJ MI PJE VAJ",
+    "personal_story": "Learned by Chris originally from Ethel Raim of the renowned Pennywhistlers during a workshop at East Hill Farm.",
+    "cultural_context": "Traditional Croatian circle dance song (Ličko kolo) from the Lika region, traditionally sung a cappella or with tamburica.",
+    "teaching_notes": "Document specifies call-and-response form (\"Solo\" vs \"Everyone\"), refrains (\"SHALAJ SOKOLE\"), and phonetic pronunciation note: \"J = Y\".",
+    "resources": {
+      "video": [
+        {
+          "platform": "youtube",
+          "video_id": "km4tsKmycEI",
+          "url": "https://www.youtube.com/watch?v=km4tsKmycEI",
+          "embed_url": "https://www.youtube.com/embed/km4tsKmycEI",
+          "performer": "Gracia (modernized pop-rock influenced interpretation noted by Chris)"
+        }
+      ],
+      "audio": [],
+      "lyrics": {
+        "available": true,
+        "source": "document",
+        "sample": "PJE VAJ MI PJE VAJ  (LICKO KOLO)      Traditional Croatia  Note:  J = Y\n\n\n1)  PJE VAJ MI PJE VAJ (Solo)   SOKOLE (Everyone)\n\n    PJE VAJ MI PJE VAJ SOKOLE\n\n    SHALAJ SOKOLE\n\n\n2)  K’O STO SI SINOC       PJEVAO\n\n     K’O STO SI SINOC, PJEVAO\n    \n     SHALAJ PJEVAO\n\n\n3)  POD MOJE DRAGA      PENDZEROM"
+      },
+      "transliteration": {
+        "available": true,
+        "type": "latin_phonetic",
+        "source": "document"
+      },
+      "ipa": {
+        "available": false,
+        "notes": "No formal IPA symbols present; phonetic spelling used"
+      },
+      "translation": {
+        "available": false,
+        "language": null
+      },
+      "sheet_music": {
+        "available": false,
+        "format": null
+      },
+      "chords": {
+        "available": false
+      },
+      "downloads": [
+        {
+          "filename": "pje-vaj-mi-pje-vaj.doc",
+          "local_path": "downloads/Croatia/pje-vaj-mi-pje-vaj/pje-vaj-mi-pje-vaj.doc",
+          "converted_text_path": "downloads/Croatia/pje-vaj-mi-pje-vaj/pje-vaj-mi-pje-vaj.txt",
+          "size_bytes": 25088,
+          "file_type": "doc"
+        }
+      ]
+    },
+    "credits": [
+      {
+        "name": "Chris Gaca",
+        "role": "curator / compiler"
+      },
+      {
+        "name": "Ethel Raim (The Pennywhistlers)",
+        "role": "teacher / source"
+      },
+      {
+        "name": "Gracia (modernized pop-rock influenced interpretation noted by Chris)",
+        "role": "performer"
+      }
+    ],
+    "source_links": [
+      "https://chrisgaca.wordpress.com/2011/01/03/pje-vaj-mi-pje-vaj/"
+    ],
+    "comments": [],
+    "notes": [
+      "Taught by Ethel Raim at East Hill Farm"
+    ],
+    "confidence": {
+      "overall": "high",
+      "country": "high",
+      "language": "explicit"
+    }
+  },
+  {
+    "id": "zaspo-janko",
+    "title": "Zaspo Janko",
+    "alternate_titles": [
+      "Zaspo Janko pod jablanom"
+    ],
+    "original_script_title": "Заспо Јанко / Zaspo Janko",
+    "country": "Croatia",
+    "region": "Europe",
+    "languages": [
+      {
+        "name": "Croatian",
+        "confidence": "explicit",
+        "source": "post/category"
+      }
+    ],
+    "old_urls": [
+      "https://chrisgaca.wordpress.com/2011/01/07/zaspo-janko/"
+    ],
+    "wordpress_post_id": 67,
+    "published_date": "2011-01-07T16:59:23",
+    "modified_date": "2022-06-08T22:27:02",
+    "chris_authored_context": "Another Balkan favorite.  The version on YouTube is slightly different from the way we sing it, but the essential qualities of the song are all there with some beautiful added harmonies as well.",
+    "personal_story": "Balkan favorite in Chris's repertoire. Chris notes that their chorus version differs slightly from the YouTube reference, retaining essential folk qualities with added harmonies.",
+    "cultural_context": "Traditional Croatian/Slavic ballad about Janko falling asleep under a poplar tree while maidens pick apples.",
+    "teaching_notes": "Sung in close multipart harmony with characteristic Balkan vocal placement.",
+    "resources": {
+      "video": [
+        {
+          "platform": "youtube",
+          "video_id": "3fMAj5-_nDU",
+          "url": "https://www.youtube.com/watch?v=3fMAj5-_nDU",
+          "embed_url": "https://www.youtube.com/embed/3fMAj5-_nDU",
+          "performer": "Croatian traditional vocal group"
+        }
+      ],
+      "audio": [],
+      "lyrics": {
+        "available": false,
+        "source": "document",
+        "sample": "Another Balkan favorite.  The version on YouTube is slightly different from the way we sing it, but the essential qualities of the song are all there with some beautiful added harmonies as well."
+      },
+      "transliteration": {
+        "available": true,
+        "type": "latin_phonetic",
+        "source": "post_body"
+      },
+      "ipa": {
+        "available": false,
+        "notes": "No formal IPA symbols present; phonetic spelling used"
+      },
+      "translation": {
+        "available": false,
+        "language": null
+      },
+      "sheet_music": {
+        "available": false,
+        "format": null
+      },
+      "chords": {
+        "available": false
+      },
+      "downloads": []
+    },
+    "credits": [
+      {
+        "name": "Chris Gaca",
+        "role": "curator / compiler"
+      },
+      {
+        "name": "Croatian traditional vocal group",
+        "role": "performer"
+      }
+    ],
+    "source_links": [
+      "https://chrisgaca.wordpress.com/2011/01/07/zaspo-janko/"
+    ],
+    "comments": [],
+    "notes": [
+      "Traditional Croatian"
+    ],
+    "confidence": {
+      "overall": "high",
+      "country": "high",
+      "language": "explicit"
+    }
+  },
+  {
+    "id": "leppiainen-from-varttina",
+    "title": "Leppiäinen",
+    "alternate_titles": [
+      "Leppiainen",
+      "Leppic3a4inen",
+      "Leppiäinen from Värttinä"
+    ],
+    "original_script_title": "Leppiäinen",
+    "country": "Finland",
+    "region": "Europe",
+    "languages": [
+      {
+        "name": "Finnish",
+        "confidence": "explicit",
+        "source": "post/document"
+      }
+    ],
+    "old_urls": [
+      "https://chrisgaca.wordpress.com/2011/06/13/leppiainen-from-varttina/"
+    ],
+    "wordpress_post_id": 146,
+    "published_date": "2011-06-13T14:25:11",
+    "modified_date": "2022-06-08T22:23:23",
+    "chris_authored_context": "This song is from the Finnish group Varttina.  I have several of their CD's.  Luckily having a YouTube video and the lyrics from the Varttina website we are going to bravely tackle the pronunciation. \nLyrics (Word file):  \nLeppiäinen Vaartina",
+    "personal_story": "Introduced to the group from the repertoire of contemporary Finnish folk sensation Värttinä.",
+    "cultural_context": "Carelian-style contemporary Finnish folk composition based on traditional runo-song and festive poetic themes.",
+    "teaching_notes": "Word document provides complete Finnish lyrics, full English translation, and exact credits: Music by K. Reiman/trad., Words by S. Kaasinen/trad. Commenter Kim notes \"Värttinä means spindle in Finnish\".",
+    "resources": {
+      "video": [
+        {
+          "platform": "youtube",
+          "video_id": "UZlK3KXQGrI",
+          "url": "https://www.youtube.com/watch?v=UZlK3KXQGrI",
+          "embed_url": "https://www.youtube.com/embed/UZlK3KXQGrI",
+          "performer": null
+        }
+      ],
+      "audio": [],
+      "lyrics": {
+        "available": true,
+        "source": "document",
+        "sample": "Leppiäinen   Vaartina - Finland\n(Music: K. Reiman/trad.\n – Words: S. Kaasinen/trad.) \nDon't worry, don't carry stones  in your knapsack. Now it is  time to rejoice and have fun.  When you get old you won't be  able to do it anymore. \nLiekuttajat, kiekuttajat,  vaskivitsan vaaruttajat,  vaa-vaaruttaj"
+      },
+      "transliteration": {
+        "available": true,
+        "type": "latin_phonetic",
+        "source": "document"
+      },
+      "ipa": {
+        "available": false,
+        "notes": "No formal IPA symbols present; phonetic spelling used"
+      },
+      "translation": {
+        "available": false,
+        "language": null
+      },
+      "sheet_music": {
+        "available": false,
+        "format": null
+      },
+      "chords": {
+        "available": false
+      },
+      "downloads": [
+        {
+          "filename": "leppic3a4inen-vaartina.doc",
+          "local_path": "downloads/Finland/leppiainen-from-varttina/leppic3a4inen-vaartina.doc",
+          "converted_text_path": "downloads/Finland/leppiainen-from-varttina/leppic3a4inen-vaartina.txt",
+          "size_bytes": 23552,
+          "file_type": "doc"
+        }
+      ]
+    },
+    "credits": [
+      {
+        "name": "Chris Gaca",
+        "role": "curator / compiler"
+      },
+      {
+        "name": "K. Reiman / S. Kaasinen (Värttinä)",
+        "role": "arranger"
+      }
+    ],
+    "source_links": [
+      "https://chrisgaca.wordpress.com/2011/06/13/leppiainen-from-varttina/"
+    ],
+    "comments": [
+      {
+        "author": "Kim",
+        "date": "2011-06-16T00:40:53",
+        "text": "Wow! Very folksy and energetic! I love their music style! Varttina means &#8220;spindle&#8221; in Finnish&#8230;my brother&#8217;s guess is that they may have chosen that name to reflect the folk culture. I hope to be connecting with my brother tonight to get my first Finnish lesson!"
+      }
+    ],
+    "notes": [
+      "Värttinä repertoire; lyrics by S. Kaasinen, music by K. Reiman"
+    ],
+    "confidence": {
+      "overall": "high",
+      "country": "high",
+      "language": "explicit"
+    }
+  },
+  {
+    "id": "suliko",
+    "title": "Suliko",
+    "alternate_titles": [
+      "სულიკო",
+      "Sakvarlis saplavs vedzebdi"
+    ],
+    "original_script_title": "სულიკო",
+    "country": "Georgia",
+    "region": "Europe",
+    "languages": [
+      {
+        "name": "Georgian",
+        "confidence": "explicit",
+        "source": "post/document"
+      }
+    ],
+    "old_urls": [
+      "https://chrisgaca.wordpress.com/2011/03/14/suliko/"
+    ],
+    "wordpress_post_id": 131,
+    "published_date": "2011-03-14T19:33:39",
+    "modified_date": "2022-06-08T22:24:11",
+    "chris_authored_context": "Suliko is a song from the Republic of Georgia.  I got music and words from a friend of mine, Will Parker, who was connected to the Kartuli ensemble &#8211; a men's chorus that specializes in singing Georgian music.\nSuliko has been translated into many languages and if you surf YouTube you will find many versions in Russian as well as Georgian and performed as everything from a simple folk song to pop-rock-karaoke.\nI have only slightly modified the words from what came with the printed music and separated syllables with dashes to help break down the speech rhythm of the song.  Here are the lyrics:  \nSULIKO\nHere is a fairly traditional YouTube version:  \nhttp://www.youtube.com/watch?v=-jcDXDHoNGs",
+    "personal_story": "A core lyric piece in Chris's international songbook.",
+    "cultural_context": "Beloved Georgian lyric poem written in 1895 by Akaki Tsereteli, set to music by Varinka Tsereteli. The name Suliko means \"soul / sweetheart\".",
+    "teaching_notes": "Word document provides hyphenated syllable-by-syllable transliteration (\"SAK-VAR-LIS SA-PLAVS VED-SEBE-DI...\") designed for non-Georgian choral singers.",
+    "resources": {
+      "video": [
+        {
+          "platform": "youtube",
+          "video_id": "-jcDXDHoNGs",
+          "url": "https://www.youtube.com/watch?v=-jcDXDHoNGs",
+          "embed_url": "https://www.youtube.com/embed/-jcDXDHoNGs",
+          "performer": "Georgian male polyphonic vocal ensemble"
+        }
+      ],
+      "audio": [],
+      "lyrics": {
+        "available": true,
+        "source": "document",
+        "sample": "SULIKO\n\n\n1)  SAK-VAR-LIS  SA-PLAVS  VED-SEBE-DI\n\nVER  VNA-KHE  DA-KAR-GU-LI-KO\n\nGU-LA-MOSK-VIN-IL-I  CHI-RO-DI\n\nSA-DA  KHAR  CHE-MO SUL-I-KO\n\n\n2)  EK-AL-SHI  VAR-DI SHEV-NI-SHENE\n\nO-BLAT  ROM AM-O-SUL-I-KO\n\nGU-LIS-PANTSK-SKA-LIT---  VKI-TKHAV-DI\n\nSHEN  KHOM  A-RA KHAR  SUL-I-KO?\n\n\n3)  SUL-GANA-BULI "
+      },
+      "transliteration": {
+        "available": true,
+        "type": "latin_phonetic",
+        "source": "document"
+      },
+      "ipa": {
+        "available": false,
+        "notes": "No formal IPA symbols present; phonetic spelling used"
+      },
+      "translation": {
+        "available": false,
+        "language": null
+      },
+      "sheet_music": {
+        "available": false,
+        "format": null
+      },
+      "chords": {
+        "available": false
+      },
+      "downloads": [
+        {
+          "filename": "suliko.doc",
+          "local_path": "downloads/Georgia/suliko/suliko.doc",
+          "converted_text_path": "downloads/Georgia/suliko/suliko.txt",
+          "size_bytes": 26624,
+          "file_type": "doc"
+        }
+      ]
+    },
+    "credits": [
+      {
+        "name": "Chris Gaca",
+        "role": "curator / compiler"
+      },
+      {
+        "name": "Georgian male polyphonic vocal ensemble",
+        "role": "performer"
+      }
+    ],
+    "source_links": [
+      "https://chrisgaca.wordpress.com/2011/03/14/suliko/"
+    ],
+    "comments": [
+      {
+        "author": "Christal",
+        "date": "2014-07-03T19:36:59",
+        "text": "I see a lot of interesting content on your blog. You have to spend a lot of time writing,\ni know how to save you a lot of work, there is a tool that creates\nunique, SEO friendly posts in couple of minutes, just type in google &#8211;\nlaranita&#8217;s free content source"
+      }
+    ],
+    "notes": [
+      "Poem by Akaki Tsereteli (1895), music by Varinka Tsereteli"
+    ],
+    "confidence": {
+      "overall": "high",
+      "country": "high",
+      "language": "explicit"
+    }
+  },
+  {
+    "id": "nache-re-mora-indian-childrens-song",
+    "title": "Nach Re Mora",
+    "alternate_titles": [
+      "Nache re mora",
+      "Nach re mora, aambyachya vanaat",
+      "Indian children's song"
+    ],
+    "original_script_title": "नाच रे मोरा",
+    "country": "India",
+    "region": "Asia",
+    "languages": [
+      {
+        "name": "Marathi",
+        "confidence": "inferred",
+        "source": "lyrics text/Vasant Bapat poem"
+      }
+    ],
+    "old_urls": [
+      "https://chrisgaca.wordpress.com/2011/01/03/nache-re-mora-indian-childrens-song/"
+    ],
+    "wordpress_post_id": 44,
+    "published_date": "2011-01-03T21:14:57",
+    "modified_date": "2022-06-08T22:28:53",
+    "chris_authored_context": "Despite the fact that this is a \"children's\" song, it has delightful lyrics about peacocks dancing in the rain.  The title and a bit of the song was something one of our members, Sunithi Bajekal, wrote down for me.  As usual, YouTube came through and I found the song.  A Google search provided the lyrics and we were in business to learn it.\nNach re Mora\n Lyrics in Word file",
+    "personal_story": "Contributed by a chorus member who remembered it from childhood in India.",
+    "cultural_context": "Iconic Marathi song about peacocks dancing in the mango groves when monsoon clouds arrive. Lyrics by celebrated Marathi poet Vasant Bapat, music originally by Shrinivas Khale.",
+    "teaching_notes": "Word document gives full Marathi transliteration with repeat instructions across 4 verses.",
+    "resources": {
+      "video": [
+        {
+          "platform": "youtube",
+          "video_id": "KWxmQPFPSoo",
+          "url": "https://www.youtube.com/watch?v=KWxmQPFPSoo",
+          "embed_url": "https://www.youtube.com/embed/KWxmQPFPSoo",
+          "performer": null
+        }
+      ],
+      "audio": [],
+      "lyrics": {
+        "available": true,
+        "source": "document",
+        "sample": "Song:   Nach Re Mora\nNach re mora, aambyachya vanaat nach re mora nach !\ndhaganshi vara zhunzhala re  kala kala kapus pinjala re aata tuzi pali, vij dete tali  X 2 fulava pisara nach !\nzarzar dhar zarali re zadanchi bhijali irali re pawsaat nhau, kahitari gau  X 2 karun pukara nach !\nthembthemb taly"
+      },
+      "transliteration": {
+        "available": true,
+        "type": "latin_phonetic",
+        "source": "document"
+      },
+      "ipa": {
+        "available": false,
+        "notes": "No formal IPA symbols present; phonetic spelling used"
+      },
+      "translation": {
+        "available": false,
+        "language": null
+      },
+      "sheet_music": {
+        "available": false,
+        "format": null
+      },
+      "chords": {
+        "available": false
+      },
+      "downloads": [
+        {
+          "filename": "nach-re-mora.doc",
+          "local_path": "downloads/India/nache-re-mora-indian-childrens-song/nach-re-mora.doc",
+          "converted_text_path": "downloads/India/nache-re-mora-indian-childrens-song/nach-re-mora.txt",
+          "size_bytes": 20992,
+          "file_type": "doc"
+        }
+      ]
+    },
+    "credits": [
+      {
+        "name": "Chris Gaca",
+        "role": "curator / compiler"
+      }
+    ],
+    "source_links": [
+      "https://chrisgaca.wordpress.com/2011/01/03/nache-re-mora-indian-childrens-song/"
+    ],
+    "comments": [],
+    "notes": [
+      "Contributed by chorus member; lyrics by Vasant Bapat"
+    ],
+    "confidence": {
+      "overall": "high",
+      "country": "high",
+      "language": "inferred"
+    }
+  },
+  {
+    "id": "raghupati",
+    "title": "Raghupati Raghav Raja Ram",
+    "alternate_titles": [
+      "Raghupati",
+      "Ragupati",
+      "Raghupati Raghav"
+    ],
+    "original_script_title": "रघुपति राघव राजा राम",
+    "country": "India",
+    "region": "Asia",
+    "languages": [
+      {
+        "name": "Hindi / Sanskrit",
+        "confidence": "explicit",
+        "source": "post (\"Indian chant\" / Hindu)"
+      }
+    ],
+    "old_urls": [
+      "https://chrisgaca.wordpress.com/2011/01/07/raghupati/"
+    ],
+    "wordpress_post_id": 75,
+    "published_date": "2011-01-07T17:13:56",
+    "modified_date": "2022-06-08T22:25:51",
+    "chris_authored_context": "This Indian chant was one we learned early in our journey together.  Not only was it already in the Unitarian Universalist hymnal but we had Sunithi Bajekal to help us learn how to pronounce the words.\nLyrics:  \nRAGHUPATI",
+    "personal_story": "Learned early in the chorus's journey; chorus member Sunithi Bajekal helped teach proper pronunciation and cultural nuance. Also noted as appearing in the Unitarian Universalist hymnal.",
+    "cultural_context": "Universal Hindu devotional bhajan popularized by Mahatma Gandhi during the 1930 Salt March, emphasizing interfaith harmony (\"Ishwara Allah Tere Naam\").",
+    "teaching_notes": "Word document provides chant text with repetition markings (2x) and meaning breakdown.",
+    "resources": {
+      "video": [
+        {
+          "platform": "youtube",
+          "video_id": "yEyvAZOvADw",
+          "url": "https://www.youtube.com/watch?v=yEyvAZOvADw",
+          "embed_url": "https://www.youtube.com/embed/yEyvAZOvADw",
+          "performer": null
+        }
+      ],
+      "audio": [],
+      "lyrics": {
+        "available": true,
+        "source": "document",
+        "sample": "RAGHUPATI        Traditional Hindu Chant\n\n\nCHORUS:  RAGHU PATI RAGJAVA RAJA RAM \n\n\nPATI TA PABANE SEETA RAM                             REPEAT 2 X\n\nSEETA RAM JAI SEETA RAM\n\nPATITA PABANE SEETA RAM              REPEAT 2 X\n\nEESWARA ALLAH TE RE NAM\n\nSABKO SAN MOTI DE BHAGWAN       REPEAT 2 X\n\nTranslati"
+      },
+      "transliteration": {
+        "available": true,
+        "type": "latin_phonetic",
+        "source": "document"
+      },
+      "ipa": {
+        "available": false,
+        "notes": "No formal IPA symbols present; phonetic spelling used"
+      },
+      "translation": {
+        "available": true,
+        "language": "English"
+      },
+      "sheet_music": {
+        "available": false,
+        "format": null
+      },
+      "chords": {
+        "available": false
+      },
+      "downloads": [
+        {
+          "filename": "raghupati.doc",
+          "local_path": "downloads/India/raghupati/raghupati.doc",
+          "converted_text_path": "downloads/India/raghupati/raghupati.txt",
+          "size_bytes": 25088,
+          "file_type": "doc"
+        }
+      ]
+    },
+    "credits": [
+      {
+        "name": "Chris Gaca",
+        "role": "curator / compiler"
+      },
+      {
+        "name": "Sunithi Bajekal",
+        "role": "teacher / source"
+      }
+    ],
+    "source_links": [
+      "https://chrisgaca.wordpress.com/2011/01/07/raghupati/"
+    ],
+    "comments": [],
+    "notes": [
+      "Taught by Sunithi Bajekal; traditional Indian bhajan / UU Hymnal"
+    ],
+    "confidence": {
+      "overall": "high",
+      "country": "high",
+      "language": "explicit"
+    }
+  },
+  {
+    "id": "doktare-boyer-ahmadi",
+    "title": "Dokhtare Boyer Ahmadi",
+    "alternate_titles": [
+      "Doktare boyer ahmadi",
+      "Dokhtare Boyer-Ahmadi"
+    ],
+    "original_script_title": "دختر بویراحمدی",
+    "country": "Iran",
+    "region": "Middle East",
+    "languages": [
+      {
+        "name": "Luri / Persian",
+        "confidence": "inferred",
+        "source": "regional folk origin (Boyer-Ahmad)"
+      }
+    ],
+    "old_urls": [
+      "https://chrisgaca.wordpress.com/2011/01/07/doktare-boyer-ahmadi/"
+    ],
+    "wordpress_post_id": 78,
+    "published_date": "2011-01-07T17:20:49",
+    "modified_date": "2022-06-08T22:25:00",
+    "chris_authored_context": "This free-flowing and hauntingly beautiful song was taught to us in a workshop by Fereshteh Khosropour in December 2010.\nLyrics:  \nDOKHTARE BOYER AHMADI v2",
+    "personal_story": "Taught to Chris and the World Music Chorus in a workshop by Fereshteh Khosropour in December 2010.",
+    "cultural_context": "Folk song from the Boyer-Ahmad region of southwestern Iran; a tender, free-flowing pastoral love lyric celebrating rural beauty.",
+    "teaching_notes": "Word doc provides complete Romanized text with chorus markers (\"Golom ey yar golom...\").",
+    "resources": {
+      "video": [
+        {
+          "platform": "youtube",
+          "video_id": "eNAx3da4NJY",
+          "url": "https://www.youtube.com/watch?v=eNAx3da4NJY",
+          "embed_url": "https://www.youtube.com/embed/eNAx3da4NJY",
+          "performer": null
+        }
+      ],
+      "audio": [],
+      "lyrics": {
+        "available": true,
+        "source": "document",
+        "sample": "DOKTARE BOYER AHMADI\n\nDokhtare boyer ahmadi nomat nadonom yar golom\nBio berim kuchie khomun khuneie khotune yar golom\nGolom ey yar golom gol aziz delom ey yar golom\n\nGole leyla  umado gole man naumad yar golom\nkhodaye man umide man chera naumadi yar golom\nGolom ey yar golom gol aziz delom ey yar gol"
+      },
+      "transliteration": {
+        "available": true,
+        "type": "latin_phonetic",
+        "source": "document"
+      },
+      "ipa": {
+        "available": false,
+        "notes": "No formal IPA symbols present; phonetic spelling used"
+      },
+      "translation": {
+        "available": false,
+        "language": null
+      },
+      "sheet_music": {
+        "available": false,
+        "format": null
+      },
+      "chords": {
+        "available": false
+      },
+      "downloads": [
+        {
+          "filename": "dokhtare-boyer-ahmadi-v2.doc",
+          "local_path": "downloads/Iran/doktare-boyer-ahmadi/dokhtare-boyer-ahmadi-v2.doc",
+          "converted_text_path": "downloads/Iran/doktare-boyer-ahmadi/dokhtare-boyer-ahmadi-v2.txt",
+          "size_bytes": 20992,
+          "file_type": "doc"
+        }
+      ]
+    },
+    "credits": [
+      {
+        "name": "Chris Gaca",
+        "role": "curator / compiler"
+      },
+      {
+        "name": "Fereshteh Khosropour (Dec 2010 workshop)",
+        "role": "teacher / source"
+      }
+    ],
+    "source_links": [
+      "https://chrisgaca.wordpress.com/2011/01/07/doktare-boyer-ahmadi/"
+    ],
+    "comments": [],
+    "notes": [
+      "Taught by Fereshteh Khosropour in December 2010"
+    ],
+    "confidence": {
+      "overall": "high",
+      "country": "high",
+      "language": "inferred"
+    }
+  },
+  {
+    "id": "mastoom-mastoom-iranian-folk-song",
+    "title": "Mastoom, Mastoom",
+    "alternate_titles": [
+      "Mastoom mastoom",
+      "Mastoom, mastoom (Iranian folk song)"
+    ],
+    "original_script_title": "مستوم مستوم",
+    "country": "Iran",
+    "region": "Middle East",
+    "languages": [
+      {
+        "name": "Persian",
+        "confidence": "explicit",
+        "source": "post (\"Iranian Folk song\")"
+      }
+    ],
+    "old_urls": [
+      "https://chrisgaca.wordpress.com/2011/01/03/mastoom-mastoom-iranian-folk-song/"
+    ],
+    "wordpress_post_id": 34,
+    "published_date": "2011-01-03T20:50:32",
+    "modified_date": "2022-06-08T22:07:40",
+    "chris_authored_context": "Iranian Folk song taught to the World Music Chorus group by Fereshteh Khosropour in Dec. 2010.",
+    "personal_story": "Taught to the World Music Chorus group by Fereshteh Khosropour in December 2010 alongside Dokhtare Boyer Ahmadi.",
+    "cultural_context": "Traditional Persian folk dance song with rhythmic clapping, lively tempo, and celebratory folk spirit.",
+    "teaching_notes": "Paired with YouTube performance demonstrating authentic Persian folk instrumental accompaniment and vocal style.",
+    "resources": {
+      "video": [
+        {
+          "platform": "youtube",
+          "video_id": "UdB-fFxyoAo",
+          "url": "https://www.youtube.com/watch?v=UdB-fFxyoAo",
+          "embed_url": "https://www.youtube.com/embed/UdB-fFxyoAo",
+          "performer": null
+        }
+      ],
+      "audio": [],
+      "lyrics": {
+        "available": false,
+        "source": "document",
+        "sample": "Iranian Folk song taught to the World Music Chorus group by Fereshteh Khosropour in Dec. 2010."
+      },
+      "transliteration": {
+        "available": true,
+        "type": "latin_phonetic",
+        "source": "post_body"
+      },
+      "ipa": {
+        "available": false,
+        "notes": "No formal IPA symbols present; phonetic spelling used"
+      },
+      "translation": {
+        "available": false,
+        "language": null
+      },
+      "sheet_music": {
+        "available": false,
+        "format": null
+      },
+      "chords": {
+        "available": false
+      },
+      "downloads": []
+    },
+    "credits": [
+      {
+        "name": "Chris Gaca",
+        "role": "curator / compiler"
+      },
+      {
+        "name": "Fereshteh Khosropour (Dec 2010)",
+        "role": "teacher / source"
+      }
+    ],
+    "source_links": [
+      "https://chrisgaca.wordpress.com/2011/01/03/mastoom-mastoom-iranian-folk-song/"
+    ],
+    "comments": [],
+    "notes": [
+      "Taught by Fereshteh Khosropour in December 2010"
+    ],
+    "confidence": {
+      "overall": "high",
+      "country": "high",
+      "language": "explicit"
+    }
+  },
+  {
+    "id": "jovano-jovanke",
+    "title": "Jovano, Jovanke",
+    "alternate_titles": [
+      "Jovano Jovanke",
+      "Jovano, Jovanke (Macedonia)"
+    ],
+    "original_script_title": "Јовано, Јованке",
+    "country": "Macedonia",
+    "region": "Europe",
+    "languages": [
+      {
+        "name": "Macedonian",
+        "confidence": "explicit",
+        "source": "post/document"
+      }
+    ],
+    "old_urls": [
+      "https://chrisgaca.wordpress.com/2022/05/25/jovano-jovanke/"
+    ],
+    "wordpress_post_id": 242,
+    "published_date": "2022-05-25T18:52:39",
+    "modified_date": "2022-07-14T19:40:18",
+    "chris_authored_context": "This is a popular Macedonian song.\nVideo link below.  Music after.  Also showing word file with all the lyrics so you can print it out.\njovano-jovanke-Music file\nDownload\njovano Lyrics in Word\nDownload",
+    "personal_story": "Longtime favorite in Chris's repertoire, updated in May/June 2022 with clean sheet music PDF and Word documents.",
+    "cultural_context": "One of the most famous Macedonian traditional songs in 7/8 meter (3-2-2). Tells the tragic love story between two young lovers separated by social disapproval.",
+    "teaching_notes": "Accompanied by a 2-page engraved sheet music PDF in E minor (`jovano-jovanke-e.pdf`) and a Word doc (`jovano.docx`) with both Cyrillic-transliterated lyrics and full English verse-by-verse translation.",
+    "resources": {
+      "video": [
+        {
+          "platform": "youtube",
+          "video_id": "mtr13HXLdZA",
+          "url": "https://www.youtube.com/watch?v=mtr13HXLdZA",
+          "embed_url": "https://www.youtube.com/embed/mtr13HXLdZA",
+          "performer": null
+        }
+      ],
+      "audio": [],
+      "lyrics": {
+        "available": true,
+        "source": "document",
+        "sample": "Jovano, Jovanke Kraj Vardarot sedis mori, Belo platno belis, Belo platno belis duso, Se na gore gledas (2x)   Jovano, Jovanke jas te tebe cekam mori, Doma da mi dojdes, A ti ne doajas duso, Srce moe, Jovano. (2x)  Jovano, Jovanke Tvoja ta majka mori, Tebe ne te pusta, Kraj mene da dojdes duso, Srce "
+      },
+      "transliteration": {
+        "available": true,
+        "type": "latin_phonetic",
+        "source": "document"
+      },
+      "ipa": {
+        "available": false,
+        "notes": "No formal IPA symbols present; phonetic spelling used"
+      },
+      "translation": {
+        "available": false,
+        "language": null
+      },
+      "sheet_music": {
+        "available": true,
+        "format": "pdf"
+      },
+      "chords": {
+        "available": false
+      },
+      "downloads": [
+        {
+          "filename": "jovano-jovanke-e.pdf",
+          "local_path": "downloads/Macedonia/jovano-jovanke/jovano-jovanke-e.pdf",
+          "converted_text_path": null,
+          "size_bytes": 25359,
+          "file_type": "pdf"
+        },
+        {
+          "filename": "jovano.docx",
+          "local_path": "downloads/Macedonia/jovano-jovanke/jovano.docx",
+          "converted_text_path": "downloads/Macedonia/jovano-jovanke/jovano.txt",
+          "size_bytes": 14090,
+          "file_type": "docx"
+        }
+      ]
+    },
+    "credits": [
+      {
+        "name": "Chris Gaca",
+        "role": "curator / compiler"
+      }
+    ],
+    "source_links": [
+      "https://chrisgaca.wordpress.com/2022/05/25/jovano-jovanke/"
+    ],
+    "comments": [],
+    "notes": [
+      "Traditional Macedonian folk song; sheet music score engraved for chorus"
+    ],
+    "confidence": {
+      "overall": "high",
+      "country": "high",
+      "language": "explicit"
+    }
+  },
+  {
+    "id": "sto-mi-e-milo",
+    "title": "Što mi e milo",
+    "alternate_titles": [
+      "Sto mi e milo",
+      "Shto mi-e mi-lo",
+      "Sto mi e milo em drago"
+    ],
+    "original_script_title": "Што ми е мило",
+    "country": "Macedonia",
+    "region": "Europe",
+    "languages": [
+      {
+        "name": "Macedonian",
+        "confidence": "explicit",
+        "source": "post/document"
+      }
+    ],
+    "old_urls": [
+      "https://chrisgaca.wordpress.com/2011/01/07/sto-mi-e-milo/"
+    ],
+    "wordpress_post_id": 64,
+    "published_date": "2011-01-07T16:52:14",
+    "modified_date": "2022-06-08T22:11:24",
+    "chris_authored_context": "I learned this Macedonian song back in my Balkan Band days and have it written and re-written in all sorts of versions.  It was also great to have re-discovered it again seeing that it was in the \"Laduvane SongBook\" that our group is using.  The link below really pulls out the stops and includes some great harmonies.\nLyrics with Word:  \nSto mi e milo",
+    "personal_story": "Learned by Chris during his Balkan Band days and rewritten in multiple choral versions. Chris was thrilled to re-discover it as a 7/8 dance piece.",
+    "cultural_context": "Traditional Macedonian song in 7/8 rhythm (3-2-2) celebrating the town of Struga and wishing to own a shop by the lakeshore.",
+    "teaching_notes": "Word doc (`sto-mi-e-milo.doc`) gives full 30-line transliteration; post includes uploaded sheet music screenshot (`screen-shot-2022-05-30-at-10.04.56-am.png`).",
+    "resources": {
+      "video": [
+        {
+          "platform": "youtube",
+          "video_id": "zsmQXBx6vPQ",
+          "url": "https://www.youtube.com/watch?v=zsmQXBx6vPQ",
+          "embed_url": "https://www.youtube.com/embed/zsmQXBx6vPQ",
+          "performer": null
+        }
+      ],
+      "audio": [],
+      "lyrics": {
+        "available": true,
+        "source": "document",
+        "sample": "Sto mi e milo - Macedonian\n\nShto mi-e mi-lo\nmi-lo i drago\nvo struga grada mamo\ndu kjan da imam\n\nLele va-ray mome\nMome kalino\nVo stuga grada mamo\nDu kyan da imam\n\nNa k’espentsite\nMamo da sedam\nStruzkite momi, mamo\nMomi da gledam\n \nLele…\nStruzkite momi, mamo\nMomi da gledam\n\nKoga na voda, \nvoda mi odat"
+      },
+      "transliteration": {
+        "available": true,
+        "type": "latin_phonetic",
+        "source": "document"
+      },
+      "ipa": {
+        "available": false,
+        "notes": "No formal IPA symbols present; phonetic spelling used"
+      },
+      "translation": {
+        "available": false,
+        "language": null
+      },
+      "sheet_music": {
+        "available": true,
+        "format": "screenshot_image"
+      },
+      "chords": {
+        "available": false
+      },
+      "downloads": [
+        {
+          "filename": "sto-mi-e-milo-sheetmusic.png",
+          "local_path": "downloads/Macedonia/sto-mi-e-milo/sto-mi-e-milo-sheetmusic.png",
+          "converted_text_path": null,
+          "size_bytes": 314396,
+          "file_type": "png"
+        },
+        {
+          "filename": "sto-mi-e-milo.doc",
+          "local_path": "downloads/Macedonia/sto-mi-e-milo/sto-mi-e-milo.doc",
+          "converted_text_path": "downloads/Macedonia/sto-mi-e-milo/sto-mi-e-milo.txt",
+          "size_bytes": 24576,
+          "file_type": "doc"
+        }
+      ]
+    },
+    "credits": [
+      {
+        "name": "Chris Gaca",
+        "role": "curator / compiler"
+      }
+    ],
+    "source_links": [
+      "https://chrisgaca.wordpress.com/2011/01/07/sto-mi-e-milo/"
+    ],
+    "comments": [],
+    "notes": [
+      "Chris Gaca Balkan Band repertoire; traditional Macedonian"
+    ],
+    "confidence": {
+      "overall": "high",
+      "country": "high",
+      "language": "explicit"
+    }
+  },
+  {
+    "id": "odunday-nigeria",
+    "title": "Odunday",
+    "alternate_titles": [
+      "Odunday (Nigeria)",
+      "Odunday, Odunday"
+    ],
+    "original_script_title": "Ọdún dé",
+    "country": "Nigeria",
+    "region": "Africa",
+    "languages": [
+      {
+        "name": "Yoruba",
+        "confidence": "inferred",
+        "source": "lyrics (\"Ọdún dé\" festival song)"
+      }
+    ],
+    "old_urls": [
+      "https://chrisgaca.wordpress.com/2011/01/03/odunday-nigeria/"
+    ],
+    "wordpress_post_id": 38,
+    "published_date": "2011-01-03T21:00:50",
+    "modified_date": "2022-06-08T22:12:42",
+    "chris_authored_context": "I learned Odunday from The Vanaver Caravan &#8211; Bill and Livia Vanaver at the Omega Institute when I attended a World Music and Dance workshop in June of 2009.  The words they gave me are slightly different from the ones sung by Baba Olatunji in the YouTube version below:\nLyrics in a word file:  \nODUNDAY\nI would love to get a fuller translation.  I was told it was a song of thanks for the harvest.",
+    "personal_story": "Learned by Chris from Bill and Livia Vanaver of The Vanaver Caravan during a World Music and Dance workshop at the Omega Institute in June 2009.",
+    "cultural_context": "Yoruba festival celebration song (\"Ọdún dé\" translates to \"The festival/new year has arrived\"), sung with joyful community calls.",
+    "teaching_notes": "Word document provides call-and-response lyrics with repeat markings (x2). Chris notes the words given by the Vanavers are slightly simplified for Western choral learning.",
+    "resources": {
+      "video": [
+        {
+          "platform": "youtube",
+          "video_id": "Ql6Kt-HJnk0",
+          "url": "https://www.youtube.com/watch?v=Ql6Kt-HJnk0",
+          "embed_url": "https://www.youtube.com/embed/Ql6Kt-HJnk0",
+          "performer": null
+        }
+      ],
+      "audio": [],
+      "lyrics": {
+        "available": true,
+        "source": "document",
+        "sample": "ODUNDAY  Traditional –  Nigeria/West Africa\n\n\n\nODUNDAY, ODUNDAY\n\nODUNDAY AH DOO-AH     REPEAT X2\n\n\nZHAP AH WAH ZHEE AH SHO PAY OH\n\nEELAY EELAY, ODUNDAY,  ODUNDAY\n\nEELAY EELAY, ODUNDAY\n\n\nOH RAY ZHA ZHAY AMMA DOO-AH, DOO-AH\n\nOH RAY ZHA ZHAY AMMA DOO-AH, DOO-AH\n\nOH RAY, OH RAY, OH RAY ZHA ZHAY AMMA DOO"
+      },
+      "transliteration": {
+        "available": true,
+        "type": "latin_phonetic",
+        "source": "document"
+      },
+      "ipa": {
+        "available": false,
+        "notes": "No formal IPA symbols present; phonetic spelling used"
+      },
+      "translation": {
+        "available": true,
+        "language": "English"
+      },
+      "sheet_music": {
+        "available": false,
+        "format": null
+      },
+      "chords": {
+        "available": false
+      },
+      "downloads": [
+        {
+          "filename": "odunday.doc",
+          "local_path": "downloads/Nigeria/odunday-nigeria/odunday.doc",
+          "converted_text_path": "downloads/Nigeria/odunday-nigeria/odunday.txt",
+          "size_bytes": 19968,
+          "file_type": "doc"
+        }
+      ]
+    },
+    "credits": [
+      {
+        "name": "Chris Gaca",
+        "role": "curator / compiler"
+      },
+      {
+        "name": "Bill and Livia Vanaver (The Vanaver Caravan, Omega Institute June 2009)",
+        "role": "teacher / source"
+      }
+    ],
+    "source_links": [
+      "https://chrisgaca.wordpress.com/2011/01/03/odunday-nigeria/"
+    ],
+    "comments": [],
+    "notes": [
+      "Taught by Bill and Livia Vanaver at Omega Institute, June 2009"
+    ],
+    "confidence": {
+      "overall": "high",
+      "country": "high",
+      "language": "inferred"
+    }
+  },
+  {
+    "id": "lab-pe-ati",
+    "title": "Lab Pe Aati Hai Dua",
+    "alternate_titles": [
+      "Lab pe ati",
+      "Urdu Prayer",
+      "Bachche Ki Dua"
+    ],
+    "original_script_title": "لب پہ آتی ہے دعا بن کے تمنا میری",
+    "country": "Pakistan",
+    "region": "Asia",
+    "languages": [
+      {
+        "name": "Urdu",
+        "confidence": "explicit",
+        "source": "document title (\"URDU PRAYER\")"
+      }
+    ],
+    "old_urls": [
+      "https://chrisgaca.wordpress.com/2011/03/01/lab-pe-ati/"
+    ],
+    "wordpress_post_id": 125,
+    "published_date": "2011-03-01T18:01:20",
+    "modified_date": "2022-06-08T22:13:46",
+    "chris_authored_context": "Lab pe ati\"  is a children's prayer from India/Pakistan in the Urdu language.  It has a very beautiful translation. \nLyrics and translation:  \nURDU PRAYER2",
+    "personal_story": "Collected as a devotional and moral choral piece for interfaith and peace performances.",
+    "cultural_context": "Famous 1902 poem by Muhammad Iqbal (Allama Iqbal), widely sung in schools across Pakistan and India as a morning prayer for compassion, knowledge, and service to humanity.",
+    "teaching_notes": "Word document (`urdu-prayer21.doc`) contains 37 lines with romanized Urdu lyrics, phonetic pronunciation guidance, and full English translation.",
+    "resources": {
+      "video": [
+        {
+          "platform": "youtube",
+          "video_id": "EaKrUXYloaM",
+          "url": "https://www.youtube.com/watch?v=EaKrUXYloaM",
+          "embed_url": "https://www.youtube.com/embed/EaKrUXYloaM",
+          "performer": null
+        }
+      ],
+      "audio": [],
+      "lyrics": {
+        "available": true,
+        "source": "document",
+        "sample": "URDU PRAYER\n\nLab pe aati hai dua ban ke tamanna meri\nLab pe aati hai dua ban ke tamanna meri\n\nZingdigi shama ki surat ho Khudaya meri\nZingdigi shama ki surat ho Khudaya meri\n\nDoor duniya ka mere dam se andhera hojaye\nDoor duniya ka mere dam se andhera hojaye\n\nHar jagah mere chamakne se ujala hojaye\n"
+      },
+      "transliteration": {
+        "available": true,
+        "type": "latin_phonetic",
+        "source": "document"
+      },
+      "ipa": {
+        "available": false,
+        "notes": "No formal IPA symbols present; phonetic spelling used"
+      },
+      "translation": {
+        "available": true,
+        "language": "English"
+      },
+      "sheet_music": {
+        "available": false,
+        "format": null
+      },
+      "chords": {
+        "available": false
+      },
+      "downloads": [
+        {
+          "filename": "urdu-prayer21.doc",
+          "local_path": "downloads/Pakistan/lab-pe-ati/urdu-prayer21.doc",
+          "converted_text_path": "downloads/Pakistan/lab-pe-ati/urdu-prayer21.txt",
+          "size_bytes": 29184,
+          "file_type": "doc"
+        }
+      ]
+    },
+    "credits": [
+      {
+        "name": "Chris Gaca",
+        "role": "curator / compiler"
+      }
+    ],
+    "source_links": [
+      "https://chrisgaca.wordpress.com/2011/03/01/lab-pe-ati/"
+    ],
+    "comments": [],
+    "notes": [
+      "Poem by Muhammad Iqbal (1902); traditional Urdu school prayer"
+    ],
+    "confidence": {
+      "overall": "high",
+      "country": "high",
+      "language": "explicit"
+    }
+  },
+  {
+    "id": "son-borinqueno",
+    "title": "Son Borinqueño",
+    "alternate_titles": [
+      "Son borinqueno",
+      "Canta mi pueblo"
+    ],
+    "original_script_title": "Son borinqueño",
+    "country": "Puerto Rico",
+    "region": "Latin America & Caribbean",
+    "languages": [
+      {
+        "name": "Spanish",
+        "confidence": "explicit",
+        "source": "document/lyrics"
+      }
+    ],
+    "old_urls": [
+      "https://chrisgaca.wordpress.com/2011/01/07/son-borinqueno/"
+    ],
+    "wordpress_post_id": 61,
+    "published_date": "2011-01-07T16:43:37",
+    "modified_date": "2022-06-08T22:15:13",
+    "chris_authored_context": "Lucia Sweetland heard this song sung by the Community Choir in Syracuse.  We all thought that it would be great to have a Latin American song in our repertoire, so we tackled it!\nLyrics in Word:  \nSon borinqueno",
+    "personal_story": "Chorus member Lucia Sweetland heard this sung by the Community Choir in Syracuse, and the group tackled it to bring Latin American and Caribbean music into their repertoire.",
+    "cultural_context": "Puerto Rican son celebrating the musical traditions, percussion (tamboriles, bongos, maracas), and festive spirit of the island.",
+    "teaching_notes": "Word document provides chorus and verse layout with percussion instrumentation callouts.",
+    "resources": {
+      "video": [
+        {
+          "platform": "youtube",
+          "video_id": "ch4e9wwh1-w",
+          "url": "https://www.youtube.com/watch?v=ch4e9wwh1-w",
+          "embed_url": "https://www.youtube.com/embed/ch4e9wwh1-w",
+          "performer": null
+        }
+      ],
+      "audio": [],
+      "lyrics": {
+        "available": true,
+        "source": "document",
+        "sample": "Son borinqueno\n\nCORO:  Canta mi pueblo, canta mi gente,\ncanta en enero canta en diciembre.\nCanta mi pueblo, canta mi gente son borinquenos. (2x)\n\nSuenan, tamboriles y bongos,\nsuenan las maracas y el tambor.\nYa va a empezar la fiesta,\nsuena un loco la trompeta y Nelly la pandereta,\nnos ponemo' a bail"
+      },
+      "transliteration": {
+        "available": true,
+        "type": "latin_phonetic",
+        "source": "document"
+      },
+      "ipa": {
+        "available": false,
+        "notes": "No formal IPA symbols present; phonetic spelling used"
+      },
+      "translation": {
+        "available": false,
+        "language": null
+      },
+      "sheet_music": {
+        "available": false,
+        "format": null
+      },
+      "chords": {
+        "available": false
+      },
+      "downloads": [
+        {
+          "filename": "son-borinqueno.doc",
+          "local_path": "downloads/Puerto_Rico/son-borinqueno/son-borinqueno.doc",
+          "converted_text_path": "downloads/Puerto_Rico/son-borinqueno/son-borinqueno.txt",
+          "size_bytes": 21504,
+          "file_type": "doc"
+        }
+      ]
+    },
+    "credits": [
+      {
+        "name": "Chris Gaca",
+        "role": "curator / compiler"
+      },
+      {
+        "name": "Lucia Sweetland / Syracuse Community Choir",
+        "role": "teacher / source"
+      }
+    ],
+    "source_links": [
+      "https://chrisgaca.wordpress.com/2011/01/07/son-borinqueno/"
+    ],
+    "comments": [],
+    "notes": [
+      "Introduced by Lucia Sweetland from Syracuse Community Choir"
+    ],
+    "confidence": {
+      "overall": "high",
+      "country": "high",
+      "language": "explicit"
+    }
+  },
+  {
+    "id": "ajde-jano",
+    "title": "Ajde Jano",
+    "alternate_titles": [
+      "Ajde jano",
+      "Ajde Jano, kolo da igramo"
+    ],
+    "original_script_title": "Ајде Јано / Ajde Jano",
+    "country": "Serbia",
+    "region": "Europe",
+    "languages": [
+      {
+        "name": "Serbian",
+        "confidence": "explicit",
+        "source": "post/sheet music"
+      }
+    ],
+    "old_urls": [
+      "https://chrisgaca.wordpress.com/2022/05/30/ajde-jano/"
+    ],
+    "wordpress_post_id": 337,
+    "published_date": "2022-05-30T14:44:27",
+    "modified_date": "2022-06-08T22:16:02",
+    "chris_authored_context": "This song is much loved both in the Balkan countries and by international folk dancers.  Sell the house, sell the horse, sell everything just to dance the kolo.",
+    "personal_story": "Much loved by Chris, the chorus, and international folk dancers. Chris notes the passionate theme: \"Sell the house, sell the horse, sell everything just to dance the kolo.\"",
+    "cultural_context": "Iconic Serbian traditional folk song in 7/8 meter (3-2-2), typically danced as an open circle kolo.",
+    "teaching_notes": "Post contains full high-resolution sheet music score screenshot (`screen-shot-2022-05-30-at-10.42.23-am.png`) with melody and lyrics.",
+    "resources": {
+      "video": [
+        {
+          "platform": "youtube",
+          "video_id": "Z-IBnZ8eaDM",
+          "url": "https://www.youtube.com/watch?v=Z-IBnZ8eaDM",
+          "embed_url": "https://www.youtube.com/embed/Z-IBnZ8eaDM",
+          "performer": null
+        }
+      ],
+      "audio": [],
+      "lyrics": {
+        "available": false,
+        "source": "document",
+        "sample": "This song is much loved both in the Balkan countries and by international folk dancers.  Sell the house, sell the horse, sell everything just to dance the kolo."
+      },
+      "transliteration": {
+        "available": true,
+        "type": "latin_phonetic",
+        "source": "post_body"
+      },
+      "ipa": {
+        "available": false,
+        "notes": "No formal IPA symbols present; phonetic spelling used"
+      },
+      "translation": {
+        "available": false,
+        "language": null
+      },
+      "sheet_music": {
+        "available": true,
+        "format": "screenshot_image"
+      },
+      "chords": {
+        "available": false
+      },
+      "downloads": [
+        {
+          "filename": "ajde-jano-sheetmusic.png",
+          "local_path": "downloads/Serbia/ajde-jano/ajde-jano-sheetmusic.png",
+          "converted_text_path": null,
+          "size_bytes": 571616,
+          "file_type": "png"
+        }
+      ]
+    },
+    "credits": [
+      {
+        "name": "Chris Gaca",
+        "role": "curator / compiler"
+      }
+    ],
+    "source_links": [
+      "https://chrisgaca.wordpress.com/2022/05/30/ajde-jano/"
+    ],
+    "comments": [],
+    "notes": [
+      "Traditional Serbian folk song & dance"
+    ],
+    "confidence": {
+      "overall": "high",
+      "country": "high",
+      "language": "explicit"
+    }
+  },
+  {
+    "id": "setjna",
+    "title": "Šetnja",
+    "alternate_titles": [
+      "Setjna",
+      "Setnja"
+    ],
+    "original_script_title": "Шетња / Šetnja",
+    "country": "Serbia",
+    "region": "Europe",
+    "languages": [
+      {
+        "name": "Serbian",
+        "confidence": "explicit",
+        "source": "post/pdf"
+      }
+    ],
+    "old_urls": [
+      "https://chrisgaca.wordpress.com/2022/05/25/setjna/"
+    ],
+    "wordpress_post_id": 232,
+    "published_date": "2022-05-25T18:46:03",
+    "modified_date": "2022-06-08T22:16:56",
+    "chris_authored_context": "This is a song that I learned from Steve Ellner to be used when performing for international folk dancers.\nThe video shows the dance and starts on the 2nd verse, but the music is the same.  Also see written music below.\nsetnja\nDownload",
+    "personal_story": "Learned by Chris from Steve Ellner to be used when performing for international folk dancers.",
+    "cultural_context": "Classic Serbian walking dance (\"Šetnja\" means walking) that starts at a leisurely walking pace and accelerates into an energetic kolo.",
+    "teaching_notes": "Accompanied by a downloadable engraved sheet music PDF (`setnja.pdf`) and score excerpt image (`setjna-screenshot.png`). Chris notes the YouTube video starts on the 2nd verse.",
+    "resources": {
+      "video": [
+        {
+          "platform": "youtube",
+          "video_id": "qlf9EdxXBsc",
+          "url": "https://www.youtube.com/watch?v=qlf9EdxXBsc",
+          "embed_url": "https://www.youtube.com/embed/qlf9EdxXBsc",
+          "performer": null
+        }
+      ],
+      "audio": [],
+      "lyrics": {
+        "available": false,
+        "source": "document",
+        "sample": "This is a song that I learned from Steve Ellner to be used when performing for international folk dancers.\nThe video shows the dance and starts on the 2nd verse, but the music is the same.  Also see written music below.\nsetnja\nDownload"
+      },
+      "transliteration": {
+        "available": true,
+        "type": "latin_phonetic",
+        "source": "post_body"
+      },
+      "ipa": {
+        "available": false,
+        "notes": "No formal IPA symbols present; phonetic spelling used"
+      },
+      "translation": {
+        "available": false,
+        "language": null
+      },
+      "sheet_music": {
+        "available": true,
+        "format": "pdf"
+      },
+      "chords": {
+        "available": false
+      },
+      "downloads": [
+        {
+          "filename": "setnja.pdf",
+          "local_path": "downloads/Serbia/setjna/setnja.pdf",
+          "converted_text_path": null,
+          "size_bytes": 27270,
+          "file_type": "pdf"
+        }
+      ]
+    },
+    "credits": [
+      {
+        "name": "Chris Gaca",
+        "role": "curator / compiler"
+      },
+      {
+        "name": "Steve Ellner",
+        "role": "teacher / source"
+      }
+    ],
+    "source_links": [
+      "https://chrisgaca.wordpress.com/2022/05/25/setjna/"
+    ],
+    "comments": [],
+    "notes": [
+      "Taught by Steve Ellner; traditional Serbian folk dance"
+    ],
+    "confidence": {
+      "overall": "high",
+      "country": "high",
+      "language": "explicit"
+    }
+  },
+  {
+    "id": "ga-gona-ya-tswanang-le-jesu",
+    "title": "Ga Gona Ya Tswanang Le Jesu",
+    "alternate_titles": [
+      "Ga gona ya tswang le Jesu",
+      "Ga Gona Ya Tshwanang Le Jesu"
+    ],
+    "original_script_title": "Ga gona ya tswanang le Jesu",
+    "country": "South Africa",
+    "region": "Africa",
+    "languages": [
+      {
+        "name": "Sesotho / Setswana",
+        "confidence": "inferred",
+        "source": "lyrics language of South Africa"
+      }
+    ],
+    "old_urls": [
+      "https://chrisgaca.wordpress.com/2013/08/30/ga-gona-ya-tswanang-le-jesu/"
+    ],
+    "wordpress_post_id": 178,
+    "published_date": "2013-08-30T15:42:12",
+    "modified_date": "2022-06-08T22:17:58",
+    "chris_authored_context": "Mary Yoder from our group and I went to a Village Harmony workshop with Patty Cuyler, who taught us this song.  There is a bit of dance to it too (which is on the video link).\nThe words are here:\nGa gona ya tswanang le Jesu\nGa gona ya tswanang naye     \nKa nyaka nyaka gole gole\nKa dikuloga gole gole\nKa mo humana Jesu waka\nGa gona ya tswanang na ye\nThere are many versions of this on YouTube, including singers from South Africa, but I chose this link because it is the closest to what I learned, including the dance.",
+    "personal_story": "Mary Yoder and Chris Gaca attended a Village Harmony workshop with Patty Cuyler, who taught them this song and its accompanying movements.",
+    "cultural_context": "Traditional South African gospel / chorus celebration song in Sotho-Tswana tradition, performed with synchronized stepping and body percussion.",
+    "teaching_notes": "Post contains complete 6-line text. Chris explicitly chose this video link because it captures the authentic dance and stepping learned from Patty Cuyler.",
+    "resources": {
+      "video": [
+        {
+          "platform": "youtube",
+          "video_id": "24iRN1LRAR0",
+          "url": "https://www.youtube.com/watch?v=24iRN1LRAR0",
+          "embed_url": "https://www.youtube.com/embed/24iRN1LRAR0",
+          "performer": null
+        }
+      ],
+      "audio": [],
+      "lyrics": {
+        "available": true,
+        "source": "post_body",
+        "sample": "Mary Yoder from our group and I went to a Village Harmony workshop with Patty Cuyler, who taught us this song.  There is a bit of dance to it too (which is on the video link).\nThe words are here:\nGa gona ya tswanang le Jesu\nGa gona ya tswanang naye     \nKa nyaka nyaka gole gole\nKa dikuloga gole gole"
+      },
+      "transliteration": {
+        "available": true,
+        "type": "latin_phonetic",
+        "source": "post_body"
+      },
+      "ipa": {
+        "available": false,
+        "notes": "No formal IPA symbols present; phonetic spelling used"
+      },
+      "translation": {
+        "available": false,
+        "language": null
+      },
+      "sheet_music": {
+        "available": false,
+        "format": null
+      },
+      "chords": {
+        "available": false
+      },
+      "downloads": []
+    },
+    "credits": [
+      {
+        "name": "Chris Gaca",
+        "role": "curator / compiler"
+      },
+      {
+        "name": "Patty Cuyler (Village Harmony workshop, attended with Mary Yoder)",
+        "role": "teacher / source"
+      }
+    ],
+    "source_links": [
+      "https://chrisgaca.wordpress.com/2013/08/30/ga-gona-ya-tswanang-le-jesu/"
+    ],
+    "comments": [],
+    "notes": [
+      "Taught by Patty Cuyler at Village Harmony workshop"
+    ],
+    "confidence": {
+      "overall": "high",
+      "country": "high",
+      "language": "inferred"
+    }
+  },
+  {
+    "id": "abun-dbashmayo",
+    "title": "Abun d’Bashmayo",
+    "alternate_titles": [
+      "Abun dbashmayo",
+      "Abun d'bashmayo",
+      "The Lord's Prayer in Syriac-Aramaic"
+    ],
+    "original_script_title": "ܐܒܘܢ ܕܒܫܡܝܐ",
+    "country": "Syria",
+    "region": "Middle East",
+    "languages": [
+      {
+        "name": "Syriac Aramaic",
+        "confidence": "explicit",
+        "source": "post (\"Aramaic/Syriac\")"
+      }
+    ],
+    "old_urls": [
+      "https://chrisgaca.wordpress.com/2011/02/18/abun-dbashmayo/"
+    ],
+    "wordpress_post_id": 117,
+    "published_date": "2011-02-18T14:13:36",
+    "modified_date": "2022-06-08T22:19:03",
+    "chris_authored_context": "This is the traditional Lord's \"Our Father\" prayer, only in the original language that Jesus spoke&#8230;.Aramaic.  There are many versions of this on YouTube.  I picked one that was a fairly straight forward chant like melody.\nI have also \"transcribed\" the lyrics.  There are downloadable lyrics, but the way it is spelled makes things difficult to pronouce for anyone who is not familiar with this language.  My transcription is strictly what it sounds like to me.  I am hoping it is easier for English speakers to learn than the original, but we will see.\nLyrics:  \nABUN D'BASHMAYO",
+    "personal_story": "Included in the archive to preserve ancient liturgical and cultural vocal traditions from the Middle East.",
+    "cultural_context": "The Lord's Prayer in classical Syriac Aramaic, the dialect of Aramaic closely related to the language spoken by Jesus in the Levant.",
+    "teaching_notes": "Word document provides romanized phonetic transliteration in metered lines (\"NEE THÉKA DA SHI SHEMOKH...\").",
+    "resources": {
+      "video": [
+        {
+          "platform": "youtube",
+          "video_id": "QqLZr11JhMM",
+          "url": "https://www.youtube.com/watch?v=QqLZr11JhMM",
+          "embed_url": "https://www.youtube.com/embed/QqLZr11JhMM",
+          "performer": null
+        }
+      ],
+      "audio": [],
+      "lyrics": {
+        "available": true,
+        "source": "document",
+        "sample": "ABUN D’BASHMAYO\n\n\n\nNEE THÉKA DA SHI  SHEMOKH\n\nTI THÉ MELEKUTHOKH\n\nNEHWAY SEBE YO NOKH\n\nAYE KAYNO  DE  BASHEMAYO\n\n\nO PHE BARO HABELAN\n\nLAKHE MO DE SUNEKHONAN\n\nYOW MO NO WASHEBUKHALAN\n\nHOWBAYIN WAHATOHAYN\n\n\nAYE KAYNO DO FEHANAN\n\nSHBA KHAN L’HAYO BAYN\n\nLO TA LAN NESEYUNO\n\nE – LO – FASO LAN\n\n\n\nMENE BISH"
+      },
+      "transliteration": {
+        "available": true,
+        "type": "latin_phonetic",
+        "source": "document"
+      },
+      "ipa": {
+        "available": false,
+        "notes": "No formal IPA symbols present; phonetic spelling used"
+      },
+      "translation": {
+        "available": true,
+        "language": "English"
+      },
+      "sheet_music": {
+        "available": false,
+        "format": null
+      },
+      "chords": {
+        "available": false
+      },
+      "downloads": [
+        {
+          "filename": "abun-d.doc",
+          "local_path": "downloads/Syria/abun-dbashmayo/abun-d.doc",
+          "converted_text_path": "downloads/Syria/abun-dbashmayo/abun-d.txt",
+          "size_bytes": 24576,
+          "file_type": "doc"
+        }
+      ]
+    },
+    "credits": [
+      {
+        "name": "Chris Gaca",
+        "role": "curator / compiler"
+      }
+    ],
+    "source_links": [
+      "https://chrisgaca.wordpress.com/2011/02/18/abun-dbashmayo/"
+    ],
+    "comments": [],
+    "notes": [
+      "Ancient Syriac Christian liturgical tradition"
+    ],
+    "confidence": {
+      "overall": "high",
+      "country": "high",
+      "language": "explicit"
+    }
+  },
+  {
+    "id": "tehvid-etsin-dilimiz",
+    "title": "Tevhid Etsin Dilimiz",
+    "alternate_titles": [
+      "Tehvid etsin dilimiz",
+      "Tehvid Etsin Dilimiz",
+      "Tev-hid Et-sin Dil-i-miz"
+    ],
+    "original_script_title": "Tevhid Etsin Dilimiz",
+    "country": "Turkey",
+    "region": "Middle East",
+    "languages": [
+      {
+        "name": "Turkish",
+        "confidence": "explicit",
+        "source": "document/lyrics"
+      }
+    ],
+    "old_urls": [
+      "https://chrisgaca.wordpress.com/2011/05/02/tehvid-etsin-dilimiz/"
+    ],
+    "wordpress_post_id": 134,
+    "published_date": "2011-05-02T13:48:10",
+    "modified_date": "2022-06-08T22:20:40",
+    "chris_authored_context": "The title of this Turkish Sufi chant translates to mean \"May there be unity\".  It comes from a collection of music given to me by a group of Sufi's belonging to the Halveti-Jerrahi tradition when they were first relocating in the US from Turkey in the early 1980's. \nInside the lyrics I provided my words and translation are lacking the special characters that are part of the Turkish alphabet.  Undotted I's, letters with umlauts and other markings were not able to be included.  I have also modified the Turkish lyrics to replace letters that English speakers would normally pronouce differently&#8230;such as letter c, which in Turkish is a j sound. \nThanks to Nesecan Balkan an economics professor at Hamilton College who provided the translation.\nLyrics:  \nTEHVID ETSIN DILIMIZ",
+    "personal_story": "Curated by Chris for the chorus's exploration of mystical Sufi vocal music.",
+    "cultural_context": "Traditional Turkish Sufi devotional hymn (ilahi) associated with the Mevlevi or Halveti orders, focusing on the unity of God (Tawhid).",
+    "teaching_notes": "Word document provides 36 lines with hyphenated syllabic breakdown and chorus refrains (\"ILLALLAH HU\").",
+    "resources": {
+      "video": [
+        {
+          "platform": "youtube",
+          "video_id": "vDaCbepPVkw",
+          "url": "https://www.youtube.com/watch?v=vDaCbepPVkw",
+          "embed_url": "https://www.youtube.com/embed/vDaCbepPVkw",
+          "performer": null
+        }
+      ],
+      "audio": [],
+      "lyrics": {
+        "available": true,
+        "source": "document",
+        "sample": "TEV-HID  ET-SIN  DIL-I-MIZ  ILLALLAH HU\n\nPAK OLE-SUN  HEM  KAL-BI-MIZ  ILLALLAH HU\n\nSIR-LAR  GOR-SUN  GO-ZUM-UZ  ILLALLAH HU\n\nLA ILL-AH HE IL-LA-LA HU\n\nLA ILL-AH HE IL-LA-LA\n\n\n\nDER-VISHE-LER  TEV-HID  ED-ER ILL-ALL-AH HU\n\nKAL-BIN-IN PA-SE SI-LER ILL-ALLAH HU\n\nEREN-LER YOL-UN GU-DER ILL-ALLAH HU\n\nLA "
+      },
+      "transliteration": {
+        "available": true,
+        "type": "latin_phonetic",
+        "source": "document"
+      },
+      "ipa": {
+        "available": false,
+        "notes": "No formal IPA symbols present; phonetic spelling used"
+      },
+      "translation": {
+        "available": true,
+        "language": "English"
+      },
+      "sheet_music": {
+        "available": false,
+        "format": null
+      },
+      "chords": {
+        "available": false
+      },
+      "downloads": [
+        {
+          "filename": "tehvid-etsin-dilimiz.doc",
+          "local_path": "downloads/Turkey/tehvid-etsin-dilimiz/tehvid-etsin-dilimiz.doc",
+          "converted_text_path": "downloads/Turkey/tehvid-etsin-dilimiz/tehvid-etsin-dilimiz.txt",
+          "size_bytes": 30208,
+          "file_type": "doc"
+        }
+      ]
+    },
+    "credits": [
+      {
+        "name": "Chris Gaca",
+        "role": "curator / compiler"
+      }
+    ],
+    "source_links": [
+      "https://chrisgaca.wordpress.com/2011/05/02/tehvid-etsin-dilimiz/"
+    ],
+    "comments": [],
+    "notes": [
+      "Traditional Turkish Sufi ilahi"
+    ],
+    "confidence": {
+      "overall": "high",
+      "country": "high",
+      "language": "explicit"
+    }
+  }
+]

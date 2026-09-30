@@ -1,0 +1,85 @@
+[
+  {
+    "id": "about",
+    "title": "About",
+    "original_title": "About",
+    "url": "https://chrisgaca.wordpress.com/",
+    "wordpress_id": 2,
+    "purpose": "Homepage / Site Welcome and mission statement by Chris Gaca explaining the website's purpose to share international folk songs, YouTube links, and lyrics.",
+    "key_text": "This is a website I am using to share music and lyrics for international folk songs. Each song has a link to native singers performing the songs involved on YouTube. There are also lyrics and on most the translation of the words.",
+    "links": [
+      {
+        "text": "WordPress.com",
+        "url": "http://wordpress.com/"
+      },
+      {
+        "text": "Chorus photo",
+        "url": "https://chrisgaca.wordpress.com/wp-content/uploads/2022/05/screen-shot-2022-05-29-at-3.25.45-pm.png"
+      }
+    ],
+    "downloadable_resources": [
+      {
+        "filename": "about-chorus-photo.png",
+        "local_path": "downloads/General/about/about-chorus-photo.png"
+      }
+    ],
+    "likely_role_in_new_site": "Mission statement / Founder note on the homepage or dedicated About Chris Gaca page."
+  },
+  {
+    "id": "history-of-this-collection",
+    "title": "History of this collection",
+    "original_title": "History of this collection",
+    "url": "https://chrisgaca.wordpress.com/world-music-chorus-links/",
+    "wordpress_id": 26,
+    "purpose": "Provenance essay detailing where the songs originate (workshops, native singers, decades of collecting) and explaining the layout with spaced lyrics for pronunciation notes.",
+    "key_text": "Where do the songs come from? The songs come from many years of collecting international folk music. More recently some have come through workshops with performers who specialize in this genre and/or native singers who are willing to share their culture. I try to put a lot of space in between the lines to the lyrics to give a place for personal notes about how to pronounce the words.",
+    "links": [],
+    "downloadable_resources": [],
+    "likely_role_in_new_site": "Collection History / Archival Methodology page explaining Chris Gaca's pedagogical approach and workshop provenance."
+  },
+  {
+    "id": "other-sites-to-visit",
+    "title": "Other sites to visit",
+    "original_title": "Other sites to visit",
+    "url": "https://chrisgaca.wordpress.com/other-sites-to-visit/",
+    "wordpress_id": 389,
+    "purpose": "Curated directory of external world music organizations, camps, choirs, and books recommended by Chris Gaca.",
+    "key_text": "Here are some links to sites I recommend for more opportunities to learn music from around the world: Village Harmony, Libana, and The Laduvane Songbook by Jane Peppler.",
+    "links": [
+      {
+        "text": "Village Harmony",
+        "url": "https://www.villageharmony.org/",
+        "description": "Publications and travel camps for youth and adults"
+      },
+      {
+        "text": "Libana",
+        "url": "https://libana.com/home",
+        "description": "Women's global vocal group"
+      },
+      {
+        "text": "The Laduvane Songbook (Jane Peppler)",
+        "url": "https://read.amazon.com/kp/card?asin=0981811523",
+        "description": "Treasured Balkan songbook with simple harmonies"
+      }
+    ],
+    "downloadable_resources": [],
+    "likely_role_in_new_site": "Resources & Community Links / Partners page."
+  },
+  {
+    "id": "updated-site",
+    "title": "Redirect to Updated Site",
+    "original_title": "Redirect to Updated Site",
+    "url": "https://chrisgaca.wordpress.com/2022/07/14/updated-site/",
+    "wordpress_id": 381,
+    "purpose": "Temporary navigation notice posted July 14, 2022 directing readers back to the home page.",
+    "key_text": "Please click on this HOME link to be directed to the new page.",
+    "links": [
+      {
+        "text": "HOME link",
+        "url": "https://chrisgaca.wordpress.com/"
+      }
+    ],
+    "downloadable_resources": [],
+    "likely_role_in_new_site": "Deprecated / 301 redirect to homepage."
+  }
+]
