@@ -1,0 +1,895 @@
+
+/* INDIVIDUAL SONG DETAIL PAGE STYLES */
+.song-detail-content {
+  padding-bottom: 70px;
+}
+
+/* BREADCRUMB */
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: Inter, sans-serif;
+  font-size: 8px;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #7b7f75;
+  margin-top: 18px;
+  margin-bottom: 14px;
+}
+
+.breadcrumb a {
+  color: #555850;
+  transition: color 0.15s ease;
+}
+
+.breadcrumb a:hover {
+  color: #1b4434;
+}
+
+.breadcrumb .sep {
+  color: #bbb4a4;
+}
+
+.breadcrumb .curr {
+  color: #1b4434;
+  font-weight: 700;
+}
+
+/* SONG HERO */
+.song-hero {
+  background: var(--paper);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 24px 30px 20px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.song-hero-eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: Inter, sans-serif;
+  font-size: 7.5px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  color: #1b4434;
+  margin-bottom: 12px;
+}
+
+.country-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.song-hero-eyebrow .sep {
+  color: #c4baa4;
+}
+
+.cat-badge {
+  color: #6a6e64;
+}
+
+.song-hero-title-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 14px;
+}
+
+.title-primary {
+  display: flex;
+  align-items: baseline;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.title-primary h1 {
+  margin: 0;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 1;
+  color: #171b17;
+  letter-spacing: -0.01em;
+}
+
+.arabic-script-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 34px;
+  font-weight: 600;
+  color: #1b4434;
+  line-height: 1;
+}
+
+.title-secondary {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 19px;
+  font-style: italic;
+  color: #555850;
+}
+
+.title-alternate {
+  font-size: 13.5px;
+  font-style: normal;
+  color: #7b7f75;
+}
+
+.song-hero-desc {
+  margin: 0 0 18px;
+  max-width: 820px;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 16px;
+  line-height: 1.45;
+  color: #3f433b;
+  font-weight: 500;
+}
+
+.verified-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding-top: 14px;
+  border-top: 1px solid #ebe4d5;
+  font-family: Inter, sans-serif;
+  font-size: 8px;
+  color: #555850;
+}
+
+.strip-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.strip-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #1b4434;
+}
+
+.strip-item strong {
+  color: #171b17;
+}
+
+/* TWO COLUMN LAYOUT */
+.song-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 28px;
+}
+
+.song-main-column {
+  flex: 1;
+  min-width: 0;
+}
+
+.song-sidebar {
+  width: 320px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* SONG SECTIONS */
+.song-section {
+  margin-bottom: 38px;
+}
+
+.section-title-wrap {
+  margin-bottom: 14px;
+}
+
+.section-tag {
+  font-family: Inter, sans-serif;
+  font-size: 7px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  color: #1b4434;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 3px;
+}
+
+.section-title-wrap h2 {
+  margin: 0 0 6px;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.1;
+  color: #171b17;
+}
+
+.section-title-wrap .rule {
+  width: 36px;
+  height: 1px;
+  background: var(--line);
+}
+
+.section-intro {
+  margin: 0 0 16px;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 14.5px;
+  line-height: 1.45;
+  color: #4b4f46;
+}
+
+.story-body p {
+  margin: 0 0 14px;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 15px;
+  line-height: 1.55;
+  color: #3b3f36;
+}
+
+.curator-quote {
+  margin: 22px 0;
+  padding: 16px 22px 14px;
+  background: #fdfaf3;
+  border-left: 3px solid #1b4434;
+  border-radius: 0 4px 4px 0;
+  position: relative;
+}
+
+.quote-mark {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 38px;
+  line-height: 1;
+  color: #1b4434;
+  opacity: 0.3;
+  position: absolute;
+  top: 6px;
+  left: 8px;
+}
+
+.curator-quote p {
+  margin: 0 0 8px;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 15.5px;
+  font-style: italic;
+  line-height: 1.45;
+  color: #1b4434;
+  position: relative;
+  z-index: 1;
+}
+
+.quote-caption {
+  font-family: Inter, sans-serif;
+  font-size: 7.8px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: #6a6e64;
+  text-transform: uppercase;
+}
+
+/* VIDEO CONTAINER */
+.video-container {
+  background: var(--paper);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.video-responsive {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  background: #000000;
+}
+
+.video-responsive iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-caption {
+  padding: 14px 18px;
+}
+
+.video-caption-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  font-family: Inter, sans-serif;
+  font-size: 8.5px;
+}
+
+.video-caption-main strong {
+  color: #171b17;
+  font-weight: 700;
+}
+
+.video-caption-main span {
+  color: #7b7f75;
+}
+
+.video-caption-main code {
+  background: #eee7d5;
+  padding: 1px 4px;
+  border-radius: 2px;
+  color: #1b4434;
+}
+
+.video-caption-sub {
+  margin: 0;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 13.5px;
+  line-height: 1.4;
+  color: #555850;
+}
+
+/* LYRIC PEDAGOGY CARD */
+.lyric-pedagogy-card {
+  background: var(--paper);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 18px;
+}
+
+.pedagogy-header {
+  background: #eee8d8;
+  display: grid;
+  grid-template-columns: 1fr 1.2fr 1.3fr;
+  gap: 14px;
+  padding: 10px 16px;
+  border-bottom: 1px solid #dcd4c2;
+  align-items: center;
+}
+
+.col-head {
+  font-family: Inter, sans-serif;
+  font-size: 7.5px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #555850;
+}
+
+.pedagogy-rows {
+  display: flex;
+  flex-direction: column;
+}
+
+.pedagogy-row {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr 1.3fr;
+  gap: 14px;
+  padding: 14px 16px;
+  border-bottom: 1px solid #f0e9dc;
+  align-items: center;
+}
+
+.pedagogy-row:last-child {
+  border-bottom: none;
+}
+
+.font-arabic {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1b4434;
+}
+
+.col-trans {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 14px;
+  font-style: italic;
+  color: #171b17;
+}
+
+.col-eng {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 13.5px;
+  color: #4b4f46;
+}
+
+.pedagogy-footer {
+  background: #f7f2e5;
+  padding: 8px 16px;
+  border-top: 1px solid #ebe4d5;
+}
+
+.pedagogy-note {
+  font-family: Inter, sans-serif;
+  font-size: 7px;
+  font-weight: 600;
+  color: #7b7f75;
+  letter-spacing: 0.04em;
+}
+
+/* VOCAL NOTES */
+.vocal-notes-card {
+  background: #f9f5ec;
+  border: 1px solid #e2dac9;
+  border-radius: 6px;
+  padding: 16px 20px;
+}
+
+.vocal-notes-card h3 {
+  margin: 0 0 10px;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #171b17;
+}
+
+.vocal-notes-list {
+  margin: 0;
+  padding-left: 18px;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 14px;
+  line-height: 1.45;
+  color: #3f433b;
+}
+
+.vocal-notes-list li {
+  margin-bottom: 8px;
+}
+
+.vocal-notes-list li:last-child {
+  margin-bottom: 0;
+}
+
+.vocal-notes-list strong {
+  color: #1b4434;
+}
+
+.vocal-notes-list code {
+  background: #ebdcb9;
+  padding: 1px 4px;
+  border-radius: 2px;
+  color: #171b17;
+  font-size: 12px;
+}
+
+/* RESOURCE DOWNLOADS GRID */
+.resource-downloads-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.resource-card {
+  background: var(--paper);
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  padding: 14px 18px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.resource-card:hover {
+  border-color: #1b4434;
+  box-shadow: 0 3px 10px rgba(27, 68, 52, 0.06);
+}
+
+.resource-card-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Inter, sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  flex-shrink: 0;
+}
+
+.doc-icon {
+  background: #1b4434;
+  color: #ffffff;
+}
+
+.txt-icon {
+  background: #e8ded0;
+  color: #4b4f46;
+  border: 1px solid #d4cbb9;
+}
+
+.wp-icon {
+  background: #385949;
+  color: #ffffff;
+}
+
+.resource-card-info {
+  flex: 1;
+}
+
+.resource-card-info h4 {
+  margin: 0 0 3px;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 16.5px;
+  font-weight: 700;
+  color: #171b17;
+}
+
+.resource-meta {
+  font-family: Inter, sans-serif;
+  font-size: 7.5px;
+  color: #7b7f75;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 4px;
+}
+
+.resource-meta .dot {
+  color: #bbb4a4;
+}
+
+.resource-desc {
+  margin: 0;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 12.5px;
+  color: #555850;
+  line-height: 1.3;
+}
+
+.btn-download {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #1b4434;
+  color: #ffffff;
+  padding: 8px 14px;
+  border-radius: 3px;
+  font-family: Inter, sans-serif;
+  font-size: 8px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  flex-shrink: 0;
+  transition: background-color 0.15s ease;
+}
+
+.btn-download:hover {
+  background: #133327;
+}
+
+.btn-download-alt {
+  background: transparent;
+  color: #1b4434;
+  border: 1px solid #1b4434;
+}
+
+.btn-download-alt:hover {
+  background: #1b4434;
+  color: #ffffff;
+}
+
+/* CREDITS GRID */
+.credits-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+  background: var(--paper);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 18px 22px;
+}
+
+.credit-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.credit-role {
+  font-family: Inter, sans-serif;
+  font-size: 6.8px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  color: #7b7f75;
+}
+
+.credit-name {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 17px;
+  font-weight: 700;
+  color: #171b17;
+}
+
+.credit-detail {
+  font-family: Inter, sans-serif;
+  font-size: 8px;
+  color: #555850;
+}
+
+/* SIDEBAR CARDS */
+.sidebar-card {
+  background: var(--paper);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 16px 18px;
+}
+
+.sidebar-card h4 {
+  margin: 0 0 12px;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 17px;
+  font-weight: 700;
+  color: #171b17;
+  border-bottom: 1px solid #ebe4d5;
+  padding-bottom: 8px;
+}
+
+.passport-card {
+  border: 1px solid #d4cbb9;
+  position: relative;
+}
+
+.passport-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+  border-bottom: 1px solid #ebe4d5;
+  padding-bottom: 10px;
+}
+
+.passport-header h3 {
+  margin: 0;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 19px;
+  font-weight: 700;
+  color: #171b17;
+}
+
+.passport-stamp {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  opacity: 0.8;
+}
+
+.passport-id {
+  font-family: Inter, sans-serif;
+  font-size: 8px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  color: #1b4434;
+  background: #ebdcb9;
+  padding: 3px 6px;
+  border-radius: 2px;
+}
+
+.passport-data {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.data-row {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.data-row .label {
+  font-family: Inter, sans-serif;
+  font-size: 6.8px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  color: #7b7f75;
+  text-transform: uppercase;
+}
+
+.data-row .val {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #171b17;
+}
+
+.val.status-complete {
+  color: #1b4434;
+  font-weight: 700;
+}
+
+/* CHECKLIST */
+.checklist {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.checklist li {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.check-icon {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 9px;
+  font-weight: 700;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.check-yes .check-icon {
+  background: #1b4434;
+  color: #ffffff;
+}
+
+.check-no .check-icon {
+  background: #ded6c6;
+  color: #7b7f75;
+}
+
+.check-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.check-info strong {
+  font-family: Inter, sans-serif;
+  font-size: 8px;
+  font-weight: 700;
+  color: #171b17;
+}
+
+.check-info span {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 11.5px;
+  color: #555850;
+  line-height: 1.25;
+}
+
+/* RELATED ITEMS */
+.related-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.related-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 10px;
+  background: #f7f2e5;
+  border-radius: 4px;
+  border: 1px solid #e8dec9;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.related-item:hover {
+  border-color: #1b4434;
+  background: #f4ecdc;
+}
+
+.related-flag {
+  width: 22px;
+  height: 22px;
+  border-radius: 3px;
+  background: #1b4434;
+  color: #ffffff;
+  font-family: Inter, sans-serif;
+  font-size: 8px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.related-info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.related-title {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 13.5px;
+  font-weight: 700;
+  color: #171b17;
+  line-height: 1.1;
+}
+
+.related-sub {
+  font-family: Inter, sans-serif;
+  font-size: 7px;
+  color: #7b7f75;
+}
+
+.related-arrow {
+  color: #7b7f75;
+  font-size: 10px;
+  transition: transform 0.15s ease;
+}
+
+.related-item:hover .related-arrow {
+  transform: translateX(2px);
+  color: #1b4434;
+}
+
+.sidebar-cta-wrap {
+  margin-top: 6px;
+}
+
+.btn-sidebar-more {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Inter, sans-serif;
+  font-size: 7.5px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: #1b4434;
+  text-transform: uppercase;
+  padding: 6px 2px;
+  border-top: 1px solid #ebe4d5;
+}
+
+.btn-sidebar-more:hover {
+  color: #0f271e;
+}
+
+.btn-back-archive {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background: #faf6ee;
+  border: 1px solid #c4baa4;
+  border-radius: 4px;
+  padding: 10px 14px;
+  font-family: Inter, sans-serif;
+  font-size: 8px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #1b4434;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.btn-back-archive:hover {
+  background: #1b4434;
+  color: #ffffff;
+  border-color: #1b4434;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1000px) {
+  .song-layout {
+    flex-direction: column;
+  }
+  .song-sidebar {
+    width: 100%;
+  }
+  .pedagogy-header,
+  .pedagogy-row {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+}

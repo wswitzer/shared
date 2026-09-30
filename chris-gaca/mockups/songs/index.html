@@ -1,0 +1,1338 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Songs Archive — Chris Gaca World Song Library</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="songs.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="topbar">
+      <div class="brand-wrap">
+        <a href="../index.html" class="brand-link">
+          <img class="logo-img" src="../assets/logo.png" alt="Chris Gaca Logo" />
+        </a>
+        <a href="../index.html" class="brand">
+          <div class="brand-main">CHRIS GACA</div>
+          <div class="brand-sub">WORLD SONG LIBRARY</div>
+        </a>
+      </div>
+      <nav class="nav">
+        <a href="index.html" class="active">Songs <svg class="chevron" width="7" height="4" viewBox="0 0 7 4" fill="currentColor"><path d="M0 0l3.5 4L7 0z"/></svg></a>
+        <a href="../index.html#regions">Regions <svg class="chevron" width="7" height="4" viewBox="0 0 7 4" fill="currentColor"><path d="M0 0l3.5 4L7 0z"/></svg></a>
+        <a href="../index.html#languages">Languages <svg class="chevron" width="7" height="4" viewBox="0 0 7 4" fill="currentColor"><path d="M0 0l3.5 4L7 0z"/></svg></a>
+        <a href="../index.html#collections">Collections <svg class="chevron" width="7" height="4" viewBox="0 0 7 4" fill="currentColor"><path d="M0 0l3.5 4L7 0z"/></svg></a>
+        <a href="../index.html#about">About <svg class="chevron" width="7" height="4" viewBox="0 0 7 4" fill="currentColor"><path d="M0 0l3.5 4L7 0z"/></svg></a>
+      </nav>
+      <div class="search">
+        <svg class="search-icon" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <span>Search songs, countries, languages...</span>
+      </div>
+      <img class="topbar-stamp" src="../assets/topbar_stamp.png" alt="" aria-hidden="true" />
+    </header>
+
+    <main class="content songs-page-content">
+      <!-- BREADCRUMB -->
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="../index.html">Home</a>
+        <span class="sep">/</span>
+        <span class="curr">Explore the Songs</span>
+      </nav>
+
+      <!-- HERO / BANNER -->
+      <section class="songs-hero">
+        <div class="songs-hero-left">
+          <h1>Explore the songs</h1>
+          <p class="hero-lede">
+            A lifetime collection of world folk music gathered, researched, and arranged by choral director Chris Gaca.
+            Every entry in this living archive preserves verified cultural context, field and reference performances,
+            lyrics, and singer-tailored translations.
+          </p>
+        </div>
+        <div class="songs-hero-stats">
+          <div class="stat-pill">
+            <span class="stat-num">22</span>
+            <span class="stat-label">SONGS CATALOGED</span>
+          </div>
+          <div class="stat-pill">
+            <span class="stat-num">16</span>
+            <span class="stat-label">COUNTRIES</span>
+          </div>
+          <div class="stat-pill">
+            <span class="stat-num">15</span>
+            <span class="stat-label">LANGUAGES</span>
+          </div>
+          <div class="stat-pill">
+            <span class="stat-num">5</span>
+            <span class="stat-label">REGIONS</span>
+          </div>
+          <div class="stat-pill">
+            <span class="stat-num">100%</span>
+            <span class="stat-label">VIDEO RECORDED</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- SEARCH & FILTER TOOLBAR -->
+      <section class="filter-section">
+        <div class="filter-bar">
+          <div class="filter-search-wrap">
+            <svg class="input-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input type="text" id="songSearch" class="search-input" placeholder="Search by song title, country, or language..." />
+            <button id="clearSearchBtn" class="clear-search-btn" title="Clear search" style="display: none;">✕</button>
+          </div>
+
+          <div class="filter-selects">
+            <div class="select-group">
+              <label for="filterRegion">REGION</label>
+              <select id="filterRegion" class="filter-select">
+                <option value="all">All Regions (5)</option>
+                <option value="Africa">Africa</option><option value="Asia">Asia</option><option value="Europe">Europe</option><option value="Latin America & Caribbean">Latin America & Caribbean</option><option value="Middle East">Middle East</option>
+              </select>
+            </div>
+
+            <div class="select-group">
+              <label for="filterCountry">COUNTRY</label>
+              <select id="filterCountry" class="filter-select">
+                <option value="all">All Countries (16)</option>
+                <option value="Bulgaria">Bulgaria</option><option value="China">China</option><option value="Croatia">Croatia</option><option value="Finland">Finland</option><option value="Georgia">Georgia</option><option value="India">India</option><option value="Iran">Iran</option><option value="Macedonia">Macedonia</option><option value="Nigeria">Nigeria</option><option value="Pakistan">Pakistan</option><option value="Puerto Rico">Puerto Rico</option><option value="Serbia">Serbia</option><option value="South Africa">South Africa</option><option value="Syria">Syria</option><option value="Tunisia">Tunisia</option><option value="Turkey">Turkey</option>
+              </select>
+            </div>
+
+            <div class="select-group">
+              <label for="filterLanguage">LANGUAGE</label>
+              <select id="filterLanguage" class="filter-select">
+                <option value="all">All Languages (18)</option>
+                <option value="Bulgarian">Bulgarian</option><option value="Croatian">Croatian</option><option value="Finnish">Finnish</option><option value="Georgian">Georgian</option><option value="Hindi / Sanskrit">Hindi / Sanskrit</option><option value="Luri / Persian">Luri / Persian</option><option value="Macedonian">Macedonian</option><option value="Mandarin Chinese">Mandarin Chinese</option><option value="Marathi">Marathi</option><option value="Persian">Persian</option><option value="Serbian">Serbian</option><option value="Sesotho / Setswana">Sesotho / Setswana</option><option value="Spanish">Spanish</option><option value="Syriac Aramaic">Syriac Aramaic</option><option value="Tunisian Arabic">Tunisian Arabic</option><option value="Turkish">Turkish</option><option value="Urdu">Urdu</option><option value="Yoruba">Yoruba</option>
+              </select>
+            </div>
+
+            <div class="select-group">
+              <label for="filterResource">RESOURCES</label>
+              <select id="filterResource" class="filter-select">
+                <option value="all">All Available</option>
+                <option value="video">Has Video (22)</option>
+                <option value="lyrics">Has Lyrics (16)</option>
+                <option value="translation">Has Translation (7)</option>
+                <option value="score">Has Sheet Music (4)</option>
+                <option value="document">Has Document (16)</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="filter-meta-row">
+          <div id="resultsCount" class="results-count">
+            Showing <strong>22</strong> of 22 songs
+          </div>
+          <button id="resetFiltersBtn" class="btn-reset-filters" style="display: none;">
+            <span>✕ Reset filters</span>
+          </button>
+        </div>
+      </section>
+
+      <!-- SONG CARDS GRID -->
+      <section class="songs-grid-section">
+        <div id="songsGrid" class="songs-grid">
+          
+    <article class="song-browse-card is-featured-prototype"
+      data-id="jari-ya-hamouda"
+      data-title="jari ya hamouda"
+      data-country="tunisia"
+      data-region="Africa"
+      data-language="tunisian arabic"
+      data-resources="video lyrics translation document"
+    >
+      <div class="browse-card-header">
+        <img class="browse-card-bg" src="../assets/region_target_africa.png" alt="Africa" />
+        <div class="browse-card-header-overlay"></div>
+        <div class="browse-card-eyebrow">
+          <span class="eyebrow-country">
+            <svg width="6" height="8" viewBox="0 0 6 8" fill="none"><path d="M3 0C1.34 0 0 1.34 0 3c0 2.25 3 5 3 5s3-2.75 3-5c0-1.66-1.34-3-3-3zm0 4.1a1.1 1.1 0 110-2.2 1.1 1.1 0 010 2.2z" fill="currentColor"/></svg>
+            TUNISIA
+          </span>
+          <span class="eyebrow-region">AFRICA</span>
+        </div>
+        <div class="prototype-badge">★ Interactive Prototype Record</div>
+      </div>
+
+      <div class="browse-card-body">
+        <div class="browse-card-titles">
+          <h3>Jari ya Hamouda</h3>
+          <div class="browse-card-script" dir="rtl">جاري يا حمودة</div>
+        </div>
+        <div class="browse-card-lang">
+          <svg width="9" height="7" viewBox="0 0 12 10" fill="currentColor"><path d="M1 1h10v8H1z"/></svg>
+          <span>Tunisian Arabic</span>
+        </div>
+        <p class="browse-card-desc">Learned and curated by Chris Gaca as part of the World Music Chorus collection for North African repertoire.</p>
+        <div class="browse-card-badges">
+          <span class="res-badge res-video" title="Embedded native performance video available">
+      <svg width="8" height="9" viewBox="0 0 10 12" fill="currentColor"><path d="M2 1l7 5-7 5z"/></svg> Video
+    </span><span class="res-badge res-lyrics" title="Full lyrics recorded in archive">
+      <svg width="8" height="9" viewBox="0 0 12 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 2h8v10H2z M4 5h4 M4 8h4"/></svg> Lyrics
+    </span><span class="res-badge res-translation" title="English translation verified">
+      <svg width="9" height="9" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="7" cy="7" r="6"/><path d="M1 7h12 M7 1c2 3 2 9 0 12 M7 1c-2 3-2 9 0 12"/></svg> Translation
+    </span><span class="res-badge res-doc" title="Downloadable source document available">
+      <svg width="8" height="9" viewBox="0 0 12 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 1h5l3 3v9H2z"/><path d="M7 1v3h3"/></svg> DOC
+    </span>
+        </div>
+        
+      <div class="card-action">
+        <a href="jari-ya-hamouda/" class="btn-detail-highlight">
+          <span>EXPLORE ARCHIVE RECORD</span>
+          <span class="btn-arrow">→</span>
+        </a>
+      </div>
+    
+      </div>
+    </article>
+  
+
+    <article class="song-browse-card "
+      data-id="dilmano-dilbero"
+      data-title="dilmano, dilbero"
+      data-country="bulgaria"
+      data-region="Europe"
+      data-language="bulgarian"
+      data-resources="video lyrics translation document"
+    >
+      <div class="browse-card-header">
+        <img class="browse-card-bg" src="../assets/region_target_europe.png" alt="Europe" />
+        <div class="browse-card-header-overlay"></div>
+        <div class="browse-card-eyebrow">
+          <span class="eyebrow-country">
+            <svg width="6" height="8" viewBox="0 0 6 8" fill="none"><path d="M3 0C1.34 0 0 1.34 0 3c0 2.25 3 5 3 5s3-2.75 3-5c0-1.66-1.34-3-3-3zm0 4.1a1.1 1.1 0 110-2.2 1.1 1.1 0 010 2.2z" fill="currentColor"/></svg>
+            BULGARIA
+          </span>
+          <span class="eyebrow-region">EUROPE</span>
+        </div>
+        
+      </div>
+
+      <div class="browse-card-body">
+        <div class="browse-card-titles">
+          <h3>Dilmano, Dilbero</h3>
+          <div class="browse-card-script" dir="ltr">Дилмано, Дилберо</div>
+        </div>
+        <div class="browse-card-lang">
+          <svg width="9" height="7" viewBox="0 0 12 10" fill="currentColor"><path d="M1 1h10v8H1z"/></svg>
+          <span>Bulgarian</span>
+        </div>
+        <p class="browse-card-desc">Learned by Chris Gaca through Balkan music workshops and shared with the chorus.</p>
+        <div class="browse-card-badges">
+          <span class="res-badge res-video" title="Embedded native performance video available">
+      <svg width="8" height="9" viewBox="0 0 10 12" fill="currentColor"><path d="M2 1l7 5-7 5z"/></svg> Video
+    </span><span class="res-badge res-lyrics" title="Full lyrics recorded in archive">
+      <svg width="8" height="9" viewBox="0 0 12 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 2h8v10H2z M4 5h4 M4 8h4"/></svg> Lyrics
+    </span><span class="res-badge res-translation" title="English translation verified">
+      <svg width="9" height="9" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="7" cy="7" r="6"/><path d="M1 7h12 M7 1c2 3 2 9 0 12 M7 1c-2 3-2 9 0 12"/></svg> Translation
+    </span><span class="res-badge res-doc" title="Downloadable source document available">
+      <svg width="8" height="9" viewBox="0 0 12 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 1h5l3 3v9H2z"/><path d="M7 1v3h3"/></svg> DOC
+    </span>
+        </div>
+        
+      <div class="card-action card-action-secondary">
+        <span class="status-pill">Record in curation</span>
+        <a href="https://chrisgaca.wordpress.com/2012/07/18/dilmano-dilbero/" target="_blank" rel="noopener noreferrer" class="link-wp" title="View original WordPress entry">
+          <span>WordPress Source</span>
+          <svg width="8" height="8" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 1h8v8M11 1L2 10"/></svg>
+        </a>
+      </div>
+    
+      </div>
+    </article>
+  
+
+    <article class="song-browse-card "
+      data-id="molih-ta"
+      data-title="molih ta"
+      data-country="bulgaria"
+      data-region="Europe"
+      data-language="bulgarian"
+      data-resources="video"
+    >
+      <div class="browse-card-header">
+        <img class="browse-card-bg" src="../assets/region_target_europe.png" alt="Europe" />
+        <div class="browse-card-header-overlay"></div>
+        <div class="browse-card-eyebrow">
+          <span class="eyebrow-country">
+            <svg width="6" height="8" viewBox="0 0 6 8" fill="none"><path d="M3 0C1.34 0 0 1.34 0 3c0 2.25 3 5 3 5s3-2.75 3-5c0-1.66-1.34-3-3-3zm0 4.1a1.1 1.1 0 110-2.2 1.1 1.1 0 010 2.2z" fill="currentColor"/></svg>
+            BULGARIA
+          </span>
+          <span class="eyebrow-region">EUROPE</span>
+        </div>
+        
+      </div>
+
+      <div class="browse-card-body">
+        <div class="browse-card-titles">
+          <h3>Molih Ta</h3>
+          <div class="browse-card-script" dir="ltr">Молих та</div>
+        </div>
+        <div class="browse-card-lang">
+          <svg width="9" height="7" viewBox="0 0 12 10" fill="currentColor"><path d="M1 1h10v8H1z"/></svg>
+          <span>Bulgarian</span>
+        </div>
+        <p class="browse-card-desc">Chosen by Chris Gaca when the World Music Chorus was asked to perform at the Utica "Unspoken" Human Rights conference focusing on gender ...</p>
+        <div class="browse-card-badges">
+          <span class="res-badge res-video" title="Embedded native performance video available">
+      <svg width="8" height="9" viewBox="0 0 10 12" fill="currentColor"><path d="M2 1l7 5-7 5z"/></svg> Video
+    </span>
+        </div>
+        
+      <div class="card-action card-action-secondary">
+        <span class="status-pill">Record in curation</span>
+        <a href="https://chrisgaca.wordpress.com/2012/10/01/molih-ta/" target="_blank" rel="noopener noreferrer" class="link-wp" title="View original WordPress entry">
+          <span>WordPress Source</span>
+          <svg width="8" height="8" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 1h8v8M11 1L2 10"/></svg>
+        </a>
+      </div>
+    
+      </div>
+    </article>
+  
+
+    <article class="song-browse-card "
+      data-id="kan-ding"
+      data-title="kangding love song"
+      data-country="china"
+      data-region="Asia"
+      data-language="mandarin chinese"
+      data-resources="video lyrics document"
+    >
+      <div class="browse-card-header">
+        <img class="browse-card-bg" src="../assets/region_target_asia.png" alt="Asia" />
+        <div class="browse-card-header-overlay"></div>
+        <div class="browse-card-eyebrow">
+          <span class="eyebrow-country">
+            <svg width="6" height="8" viewBox="0 0 6 8" fill="none"><path d="M3 0C1.34 0 0 1.34 0 3c0 2.25 3 5 3 5s3-2.75 3-5c0-1.66-1.34-3-3-3zm0 4.1a1.1 1.1 0 110-2.2 1.1 1.1 0 010 2.2z" fill="currentColor"/></svg>
+            CHINA
+          </span>
+          <span class="eyebrow-region">ASIA</span>
+        </div>
+        
+      </div>
+
+      <div class="browse-card-body">
+        <div class="browse-card-titles">
+          <h3>Kangding Love Song</h3>
+          <div class="browse-card-script" dir="ltr">康定情歌</div>
+        </div>
+        <div class="browse-card-lang">
+          <svg width="9" height="7" viewBox="0 0 12 10" fill="currentColor"><path d="M1 1h10v8H1z"/></svg>
+          <span>Mandarin Chinese</span>
+        </div>
+        <p class="browse-card-desc">Learned by Chris and the chorus from Katrina Schell.</p>
+        <div class="browse-card-badges">
+          <span class="res-badge res-video" title="Embedded native performance video available">
+      <svg width="8" height="9" viewBox="0 0 10 12" fill="currentColor"><path d="M2 1l7 5-7 5z"/></svg> Video
+    </span><span class="res-badge res-lyrics" title="Full lyrics recorded in archive">
+      <svg width="8" height="9" viewBox="0 0 12 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 2h8v10H2z M4 5h4 M4 8h4"/></svg> Lyrics
+    </span><span class="res-badge res-doc" title="Downloadable source document available">
+      <svg width="8" height="9" viewBox="0 0 12 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 1h5l3 3v9H2z"/><path d="M7 1v3h3"/></svg> DOC
+    </span>
+        </div>
+        
+      <div class="card-action card-action-secondary">
+        <span class="status-pill">Record in curation</span>
+        <a href="https://chrisgaca.wordpress.com/2011/01/03/kan-ding/" target="_blank" rel="noopener noreferrer" class="link-wp" title="View original WordPress entry">
+          <span>WordPress Source</span>
+          <svg width="8" height="8" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 1h8v8M11 1L2 10"/></svg>
+        </a>
+      </div>
+    
+      </div>
+    </article>
+  
+
+    <article class="song-browse-card "
+      data-id="pje-vaj-mi-pje-vaj"
+      data-title="pjevaj mi, pjevaj, sokole"
+      data-country="croatia"
+      data-region="Europe"
+      data-language="croatian"
+      data-resources="video lyrics document"
+    >
+      <div class="browse-card-header">
+        <img class="browse-card-bg" src="../assets/region_target_europe.png" alt="Europe" />
+        <div class="browse-card-header-overlay"></div>
+        <div class="browse-card-eyebrow">
+          <span class="eyebrow-country">
+            <svg width="6" height="8" viewBox="0 0 6 8" fill="none"><path d="M3 0C1.34 0 0 1.34 0 3c0 2.25 3 5 3 5s3-2.75 3-5c0-1.66-1.34-3-3-3zm0 4.1a1.1 1.1 0 110-2.2 1.1 1.1 0 010 2.2z" fill="currentColor"/></svg>
+            CROATIA
+          </span>
+          <span class="eyebrow-region">EUROPE</span>
+        </div>
+        
+      </div>
+
+      <div class="browse-card-body">
+        <div class="browse-card-titles">
+          <h3>Pjevaj mi, pjevaj, sokole</h3>
+          <div class="browse-card-script" dir="ltr">Пјевај ми, пјевај, соколе / Pjevaj mi, pjevaj, sokole</div>
+        </div>
+        <div class="browse-card-lang">
+          <svg width="9" height="7" viewBox="0 0 12 10" fill="currentColor"><path d="M1 1h10v8H1z"/></svg>
+          <span>Croatian</span>
+        </div>
+        <p class="browse-card-desc">Learned by Chris originally from Ethel Raim of the renowned Pennywhistlers during a workshop at East Hill Farm.</p>
+        <div class="browse-card-badges">
+          <span class="res-badge res-video" title="Embedded native performance video available">
+      <svg width="8" height="9" viewBox="0 0 10 12" fill="currentColor"><path d="M2 1l7 5-7 5z"/></svg> Video
+    </span><span class="res-badge res-lyrics" title="Full lyrics recorded in archive">
+      <svg width="8" height="9" viewBox="0 0 12 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 2h8v10H2z M4 5h4 M4 8h4"/></svg> Lyrics
+    </span><span class="res-badge res-doc" title="Downloadable source document available">
+      <svg width="8" height="9" viewBox="0 0 12 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 1h5l3 3v9H2z"/><path d="M7 1v3h3"/></svg> DOC
+    </span>
+        </div>
+        
+      <div class="card-action card-action-secondary">
+        <span class="status-pill">Record in curation</span>
+        <a href="https://chrisgaca.wordpress.com/2011/01/03/pje-vaj-mi-pje-vaj/" target="_blank" rel="noopener noreferrer" class="link-wp" title="View original WordPress entry">
+          <span>WordPress Source</span>
+          <svg width="8" height="8" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 1h8v8M11 1L2 10"/></svg>
+        </a>
+      </div>
+    
+      </div>
+    </article>
+  
+
+    <article class="song-browse-card "
+      data-id="zaspo-janko"
+      data-title="zaspo janko"
+      data-country="croatia"
+      data-region="Europe"
+      data-language="croatian"
+      data-resources="video"
+    >
+      <div class="browse-card-header">
+        <img class="browse-card-bg" src="../assets/region_target_europe.png" alt="Europe" />
+        <div class="browse-card-header-overlay"></div>
+        <div class="browse-card-eyebrow">
+          <span class="eyebrow-country">
+            <svg width="6" height="8" viewBox="0 0 6 8" fill="none"><path d="M3 0C1.34 0 0 1.34 0 3c0 2.25 3 5 3 5s3-2.75 3-5c0-1.66-1.34-3-3-3zm0 4.1a1.1 1.1 0 110-2.2 1.1 1.1 0 010 2.2z" fill="currentColor"/></svg>
+            CROATIA
+          </span>
+          <span class="eyebrow-region">EUROPE</span>
+        </div>
+        
+      </div>
+
+      <div class="browse-card-body">
+        <div class="browse-card-titles">
+          <h3>Zaspo Janko</h3>
+          <div class="browse-card-script" dir="ltr">Заспо Јанко / Zaspo Janko</div>
+        </div>
+        <div class="browse-card-lang">
+          <svg width="9" height="7" viewBox="0 0 12 10" fill="currentColor"><path d="M1 1h10v8H1z"/></svg>
+          <span>Croatian</span>
+        </div>
+        <p class="browse-card-desc">Balkan favorite in Chris's repertoire. Chris notes that their chorus version differs slightly from the YouTube reference, retaining essen...</p>
+        <div class="browse-card-badges">
+          <span class="res-badge res-video" title="Embedded native performance video available">
+      <svg width="8" height="9" viewBox="0 0 10 12" fill="currentColor"><path d="M2 1l7 5-7 5z"/></svg> Video
+    </span>
+        </div>
+        
+      <div class="card-action card-action-secondary">
+        <span class="status-pill">Record in curation</span>
+        <a href="https://chrisgaca.wordpress.com/2011/01/07/zaspo-janko/" target="_blank" rel="noopener noreferrer" class="link-wp" title="View original WordPress entry">
+          <span>WordPress Source</span>
+          <svg width="8" height="8" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 1h8v8M11 1L2 10"/></svg>
+        </a>
+      </div>
+    
+      </div>
+    </article>
+  
+
+    <article class="song-browse-card "
+      data-id="leppiainen-from-varttina"
+      data-title="leppiäinen"
+      data-country="finland"
+      data-region="Europe"
+      data-language="finnish"
+      data-resources="video lyrics document"
+    >
+      <div class="browse-card-header">
+        <img class="browse-card-bg" src="../assets/region_target_europe.png" alt="Europe" />
+        <div class="browse-card-header-overlay"></div>
+        <div class="browse-card-eyebrow">
+          <span class="eyebrow-country">
+            <svg width="6" height="8" viewBox="0 0 6 8" fill="none"><path d="M3 0C1.34 0 0 1.34 0 3c0 2.25 3 5 3 5s3-2.75 3-5c0-1.66-1.34-3-3-3zm0 4.1a1.1 1.1 0 110-2.2 1.1 1.1 0 010 2.2z" fill="currentColor"/></svg>
+            FINLAND
+          </span>
+          <span class="eyebrow-region">EUROPE</span>
+        </div>
+        
+      </div>
+
+      <div class="browse-card-body">
+        <div class="browse-card-titles">
+          <h3>Leppiäinen</h3>
+          <div class="browse-card-script" dir="ltr">Leppiäinen</div>
+        </div>
+        <div class="browse-card-lang">
+          <svg width="9" height="7" viewBox="0 0 12 10" fill="currentColor"><path d="M1 1h10v8H1z"/></svg>
+          <span>Finnish</span>
+        </div>
+        <p class="browse-card-desc">Introduced to the group from the repertoire of contemporary Finnish folk sensation Värttinä.</p>
+        <div class="browse-card-badges">
+          <span class="res-badge res-video" title="Embedded native performance video available">
+      <svg width="8" height="9" viewBox="0 0 10 12" fill="currentColor"><path d="M2 1l7 5-7 5z"/></svg> Video
+    </span><span class="res-badge res-lyrics" title="Full lyrics recorded in archive">
+      <svg width="8" height="9" viewBox="0 0 12 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 2h8v10H2z M4 5h4 M4 8h4"/></svg> Lyrics
+    </span><span class="res-badge res-doc" title="Downloadable source document available">
+      <svg width="8" height="9" viewBox="0 0 12 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 1h5l3 3v9H2z"/><path d="M7 1v3h3"/></svg> DOC
+    </span>
+        </div>
+        
+      <div class="card-action card-action-secondary">
+        <span class="status-pill">Record in curation</span>
+        <a href="https://chrisgaca.wordpress.com/2011/06/13/leppiainen-from-varttina/" target="_blank" rel="noopener noreferrer" class="link-wp" title="View original WordPress entry">
+          <span>WordPress Source</span>
+          <svg width="8" height="8" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 1h8v8M11 1L2 10"/></svg>
+        </a>
+      </div>
+    
+      </div>
+    </article>
+  
+
+    <article class="song-browse-card "
+      data-id="suliko"
+      data-title="suliko"
+      data-country="georgia"
+      data-region="Europe"
+      data-language="georgian"
+      data-resources="video lyrics document"
+    >
+      <div class="browse-card-header">
+        <img class="browse-card-bg" src="../assets/region_target_europe.png" alt="Europe" />
+        <div class="browse-card-header-overlay"></div>
+        <div class="browse-card-eyebrow">
+          <span class="eyebrow-country">
+            <svg width="6" height="8" viewBox="0 0 6 8" fill="none"><path d="M3 0C1.34 0 0 1.34 0 3c0 2.25 3 5 3 5s3-2.75 3-5c0-1.66-1.34-3-3-3zm0 4.1a1.1 1.1 0 110-2.2 1.1 1.1 0 010 2.2z" fill="currentColor"/></svg>
+            GEORGIA
+          </span>
+          <span class="eyebrow-region">EUROPE</span>
+        </div>
+        
+      </div>
+
+      <div class="browse-card-body">
+        <div class="browse-card-titles">
+          <h3>Suliko</h3>
+          <div class="browse-card-script" dir="ltr">სულიკო</div>
+        </div>
+        <div class="browse-card-lang">
+          <svg width="9" height="7" viewBox="0 0 12 10" fill="currentColor"><path d="M1 1h10v8H1z"/></svg>
+          <span>Georgian</span>
+        </div>
+        <p class="browse-card-desc">A core lyric piece in Chris's international songbook.</p>
+        <div class="browse-card-badges">
+          <span class="res-badge res-video" title="Embedded native performance video available">
+      <svg width="8" height="9" viewBox="0 0 10 12" fill="currentColor"><path d="M2 1l7 5-7 5z"/></svg> Video
+    </span><span class="res-badge res-lyrics" title="Full lyrics recorded in archive">
+      <svg width="8" height="9" viewBox="0 0 12 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 2h8v10H2z M4 5h4 M4 8h4"/></svg> Lyrics
+    </span><span class="res-badge res-doc" title="Downloadable source document available">
+      <svg width="8" height="9" viewBox="0 0 12 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 1h5l3 3v9H2z"/><path d="M7 1v3h3"/></svg> DOC
+    </span>
+        </div>
+        
+      <div class="card-action card-action-secondary">
+        <span class="status-pill">Record in curation</span>
+        <a href="https://chrisgaca.wordpress.com/2011/03/14/suliko/" target="_blank" rel="noopener noreferrer" class="link-wp" title="View original WordPress entry">
+          <span>WordPress Source</span>
+          <svg width="8" height="8" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 1h8v8M11 1L2 10"/></svg>
+        </a>
+      </div>
+    
+      </div>
+    </article>
+  
+
+    <article class="song-browse-card "
+      data-id="nache-re-mora-indian-childrens-song"
+      data-title="nach re mora"
+      data-country="india"
+      data-region="Asia"
+      data-language="marathi"
+      data-resources="video lyrics document"
+    >
+      <div class="browse-card-header">
+        <img class="browse-card-bg" src="../assets/region_target_asia.png" alt="Asia" />
+        <div class="browse-card-header-overlay"></div>
+        <div class="browse-card-eyebrow">
+          <span class="eyebrow-country">
+            <svg width="6" height="8" viewBox="0 0 6 8" fill="none"><path d="M3 0C1.34 0 0 1.34 0 3c0 2.25 3 5 3 5s3-2.75 3-5c0-1.66-1.34-3-3-3zm0 4.1a1.1 1.1 0 110-2.2 1.1 1.1 0 010 2.2z" fill="currentColor"/></svg>
+            INDIA
+          </span>
+          <span class="eyebrow-region">ASIA</span>
+        </div>
+        
+      </div>
+
+      <div class="browse-card-body">
+        <div class="browse-card-titles">
+          <h3>Nach Re Mora</h3>
+          <div class="browse-card-script" dir="ltr">नाच रे मोरा</div>
+        </div>
+        <div class="browse-card-lang">
+          <svg width="9" height="7" viewBox="0 0 12 10" fill="currentColor"><path d="M1 1h10v8H1z"/></svg>
+          <span>Marathi</span>
+        </div>
+        <p class="browse-card-desc">Contributed by a chorus member who remembered it from childhood in India.</p>
+        <div class="browse-card-badges">
+          <span class="res-badge res-video" title="Embedded native performance video available">
+      <svg width="8" height="9" viewBox="0 0 10 12" fill="currentColor"><path d="M2 1l7 5-7 5z"/></svg> Video
+    </span><span class="res-badge res-lyrics" title="Full lyrics recorded in archive">
+      <svg width="8" height="9" viewBox="0 0 12 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 2h8v10H2z M4 5h4 M4 8h4"/></svg> Lyrics
+    </span><span class="res-badge res-doc" title="Downloadable source document available">
+      <svg width="8" height="9" viewBox="0 0 12 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 1h5l3 3v9H2z"/><path d="M7 1v3h3"/></svg> DOC
+    </span>
+        </div>
+        
+      <div class="card-action card-action-secondary">
+        <span class="status-pill">Record in curation</span>
+        <a href="https://chrisgaca.wordpress.com/2011/01/03/nache-re-mora-indian-childrens-song/" target="_blank" rel="noopener noreferrer" class="link-wp" title="View original WordPress entry">
+          <span>WordPress Source</span>
+          <svg width="8" height="8" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 1h8v8M11 1L2 10"/></svg>
+        </a>
+      </div>
+    
+      </div>
+    </article>
+  
+
+    <article class="song-browse-card "
+      data-id="raghupati"
+      data-title="raghupati raghav raja ram"
+      data-country="india"
+      data-region="Asia"
+      data-language="hindi / sanskrit"
+      data-resources="video lyrics translation document"
+    >
+      <div class="browse-card-header">
+        <img class="browse-card-bg" src="../assets/region_target_asia.png" alt="Asia" />
+        <div class="browse-card-header-overlay"></div>
+        <div class="browse-card-eyebrow">
+          <span class="eyebrow-country">
+            <svg width="6" height="8" viewBox="0 0 6 8" fill="none"><path d="M3 0C1.34 0 0 1.34 0 3c0 2.25 3 5 3 5s3-2.75 3-5c0-1.66-1.34-3-3-3zm0 4.1a1.1 1.1 0 110-2.2 1.1 1.1 0 010 2.2z" fill="currentColor"/></svg>
+            INDIA
+          </span>
+          <span class="eyebrow-region">ASIA</span>
+        </div>
+        
+      </div>
+
+      <div class="browse-card-body">
+        <div class="browse-card-titles">
+          <h3>Raghupati Raghav Raja Ram</h3>
+          <div class="browse-card-script" dir="ltr">रघुपति राघव राजा राम</div>
+        </div>
+        <div class="browse-card-lang">
+          <svg width="9" height="7" viewBox="0 0 12 10" fill="currentColor"><path d="M1 1h10v8H1z"/></svg>
+          <span>Hindi / Sanskrit</span>
+        </div>
+        <p class="browse-card-desc">Learned early in the chorus's journey; chorus member Sunithi Bajekal helped teach proper pronunciation and cultural nuance. Also noted as...</p>
+        <div class="browse-card-badges">
+          <span class="res-badge res-video" title="Embedded native performance video available">
+      <svg width="8" height="9" viewBox="0 0 10 12" fill="currentColor"><path d="M2 1l7 5-7 5z"/></svg> Video
+    </span><span class="res-badge res-lyrics" title="Full lyrics recorded in archive">
+      <svg width="8" height="9" viewBox="0 0 12 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 2h8v10H2z M4 5h4 M4 8h4"/></svg> Lyrics
+    </span><span class="res-badge res-translation" title="English translation verified">
+      <svg width="9" height="9" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="7" cy="7" r="6"/><path d="M1 7h12 M7 1c2 3 2 9 0 12 M7 1c-2 3-2 9 0 12"/></svg> Translation
+    </span><span class="res-badge res-doc" title="Downloadable source document available">
+      <svg width="8" height="9" viewBox="0 0 12 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 1h5l3 3v9H2z"/><path d="M7 1v3h3"/></svg> DOC
+    </span>
+        </div>
+        
+      <div class="card-action card-action-secondary">
+        <span class="status-pill">Record in curation</span>
+        <a href="https://chrisgaca.wordpress.com/2011/01/07/raghupati/" target="_blank" rel="noopener noreferrer" class="link-wp" title="View original WordPress entry">
+          <span>WordPress Source</span>
+          <svg width="8" height="8" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 1h8v8M11 1L2 10"/></svg>
+        </a>
+      </div>
+    
+      </div>
+    </article>
+  
+
+    <article class="song-browse-card "
+      data-id="doktare-boyer-ahmadi"
+      data-title="dokhtare boyer ahmadi"
+      data-country="iran"
+      data-region="Middle East"
+      data-language="luri / persian"
+      data-resources="video lyrics document"
+    >
+      <div class="browse-card-header">
+        <img class="browse-card-bg" src="../assets/region_target_middle_east.png" alt="Middle East" />
+        <div class="browse-card-header-overlay"></div>
+        <div class="browse-card-eyebrow">
+          <span class="eyebrow-country">
+            <svg width="6" height="8" viewBox="0 0 6 8" fill="none"><path d="M3 0C1.34 0 0 1.34 0 3c0 2.25 3 5 3 5s3-2.75 3-5c0-1.66-1.34-3-3-3zm0 4.1a1.1 1.1 0 110-2.2 1.1 1.1 0 010 2.2z" fill="currentColor"/></svg>
+            IRAN
+          </span>
+          <span class="eyebrow-region">MIDDLE EAST</span>
+        </div>
+        
+      </div>
+
+      <div class="browse-card-body">
+        <div class="browse-card-titles">
+          <h3>Dokhtare Boyer Ahmadi</h3>
+          <div class="browse-card-script" dir="rtl">دختر بویراحمدی</div>
+        </div>
+        <div class="browse-card-lang">
+          <svg width="9" height="7" viewBox="0 0 12 10" fill="currentColor"><path d="M1 1h10v8H1z"/></svg>
+          <span>Luri / Persian</span>
+        </div>
+        <p class="browse-card-desc">Taught to Chris and the World Music Chorus in a workshop by Fereshteh Khosropour in December 2010.</p>
+        <div class="browse-card-badges">
+          <span class="res-badge res-video" title="Embedded native performance video available">
+      <svg width="8" height="9" viewBox="0 0 10 12" fill="currentColor"><path d="M2 1l7 5-7 5z"/></svg> Video
+    </span><span class="res-badge res-lyrics" title="Full lyrics recorded in archive">
+      <svg width="8" height="9" viewBox="0 0 12 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 2h8v10H2z M4 5h4 M4 8h4"/></svg> Lyrics
+    </span><span class="res-badge res-doc" title="Downloadable source document available">
+      <svg width="8" height="9" viewBox="0 0 12 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 1h5l3 3v9H2z"/><path d="M7 1v3h3"/></svg> DOC
+    </span>
+        </div>
+        
+      <div class="card-action card-action-secondary">
+        <span class="status-pill">Record in curation</span>
+        <a href="https://chrisgaca.wordpress.com/2011/01/07/doktare-boyer-ahmadi/" target="_blank" rel="noopener noreferrer" class="link-wp" title="View original WordPress entry">
+          <span>WordPress Source</span>
+          <svg width="8" height="8" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 1h8v8M11 1L2 10"/></svg>
+        </a>
+      </div>
+    
+      </div>
+    </article>
+  
+
+    <article class="song-browse-card "
+      data-id="mastoom-mastoom-iranian-folk-song"
+      data-title="mastoom, mastoom"
+      data-country="iran"
+      data-region="Middle East"
+      data-language="persian"
+      data-resources="video"
+    >
+      <div class="browse-card-header">
+        <img class="browse-card-bg" src="../assets/region_target_middle_east.png" alt="Middle East" />
+        <div class="browse-card-header-overlay"></div>
+        <div class="browse-card-eyebrow">
+          <span class="eyebrow-country">
+            <svg width="6" height="8" viewBox="0 0 6 8" fill="none"><path d="M3 0C1.34 0 0 1.34 0 3c0 2.25 3 5 3 5s3-2.75 3-5c0-1.66-1.34-3-3-3zm0 4.1a1.1 1.1 0 110-2.2 1.1 1.1 0 010 2.2z" fill="currentColor"/></svg>
+            IRAN
+          </span>
+          <span class="eyebrow-region">MIDDLE EAST</span>
+        </div>
+        
+      </div>
+
+      <div class="browse-card-body">
+        <div class="browse-card-titles">
+          <h3>Mastoom, Mastoom</h3>
+          <div class="browse-card-script" dir="rtl">مستوم مستوم</div>
+        </div>
+        <div class="browse-card-lang">
+          <svg width="9" height="7" viewBox="0 0 12 10" fill="currentColor"><path d="M1 1h10v8H1z"/></svg>
+          <span>Persian</span>
+        </div>
+        <p class="browse-card-desc">Taught to the World Music Chorus group by Fereshteh Khosropour in December 2010 alongside Dokhtare Boyer Ahmadi.</p>
+        <div class="browse-card-badges">
+          <span class="res-badge res-video" title="Embedded native performance video available">
+      <svg width="8" height="9" viewBox="0 0 10 12" fill="currentColor"><path d="M2 1l7 5-7 5z"/></svg> Video
+    </span>
+        </div>
+        
+      <div class="card-action card-action-secondary">
+        <span class="status-pill">Record in curation</span>
+        <a href="https://chrisgaca.wordpress.com/2011/01/03/mastoom-mastoom-iranian-folk-song/" target="_blank" rel="noopener noreferrer" class="link-wp" title="View original WordPress entry">
+          <span>WordPress Source</span>
+          <svg width="8" height="8" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 1h8v8M11 1L2 10"/></svg>
+        </a>
+      </div>
+    
+      </div>
+    </article>
+  
+
+    <article class="song-browse-card "
+      data-id="jovano-jovanke"
+      data-title="jovano, jovanke"
+      data-country="macedonia"
+      data-region="Europe"
+      data-language="macedonian"
+      data-resources="video lyrics score document"
+    >
+      <div class="browse-card-header">
+        <img class="browse-card-bg" src="../assets/region_target_europe.png" alt="Europe" />
+        <div class="browse-card-header-overlay"></div>
+        <div class="browse-card-eyebrow">
+          <span class="eyebrow-country">
+            <svg width="6" height="8" viewBox="0 0 6 8" fill="none"><path d="M3 0C1.34 0 0 1.34 0 3c0 2.25 3 5 3 5s3-2.75 3-5c0-1.66-1.34-3-3-3zm0 4.1a1.1 1.1 0 110-2.2 1.1 1.1 0 010 2.2z" fill="currentColor"/></svg>
+            MACEDONIA
+          </span>
+          <span class="eyebrow-region">EUROPE</span>
+        </div>
+        
+      </div>
+
+      <div class="browse-card-body">
+        <div class="browse-card-titles">
+          <h3>Jovano, Jovanke</h3>
+          <div class="browse-card-script" dir="ltr">Јовано, Јованке</div>
+        </div>
+        <div class="browse-card-lang">
+          <svg width="9" height="7" viewBox="0 0 12 10" fill="currentColor"><path d="M1 1h10v8H1z"/></svg>
+          <span>Macedonian</span>
+        </div>
+        <p class="browse-card-desc">Longtime favorite in Chris's repertoire, updated in May/June 2022 with clean sheet music PDF and Word documents.</p>
+        <div class="browse-card-badges">
+          <span class="res-badge res-video" title="Embedded native performance video available">
+      <svg width="8" height="9" viewBox="0 0 10 12" fill="currentColor"><path d="M2 1l7 5-7 5z"/></svg> Video
+    </span><span class="res-badge res-lyrics" title="Full lyrics recorded in archive">
+      <svg width="8" height="9" viewBox="0 0 12 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 2h8v10H2z M4 5h4 M4 8h4"/></svg> Lyrics
+    </span><span class="res-badge res-score" title="Engraved sheet music / musical notation in archive">
+      <svg width="8" height="9" viewBox="0 0 12 14" fill="currentColor"><circle cx="4" cy="10" r="2.5"/><circle cx="9.5" cy="8" r="2.5"/><path d="M6 10V2l5.5-2v8" stroke="currentColor" stroke-width="1.4" fill="none"/></svg> Score
+    </span><span class="res-badge res-doc" title="Downloadable source document available">
+      <svg width="8" height="9" viewBox="0 0 12 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 1h5l3 3v9H2z"/><path d="M7 1v3h3"/></svg> PDF/DOCX
+    </span>
+        </div>
+        
+      <div class="card-action card-action-secondary">
+        <span class="status-pill">Record in curation</span>
+        <a href="https://chrisgaca.wordpress.com/2022/05/25/jovano-jovanke/" target="_blank" rel="noopener noreferrer" class="link-wp" title="View original WordPress entry">
+          <span>WordPress Source</span>
+          <svg width="8" height="8" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 1h8v8M11 1L2 10"/></svg>
+        </a>
+      </div>
+    
+      </div>
+    </article>
+  
+
+    <article class="song-browse-card "
+      data-id="sto-mi-e-milo"
+      data-title="što mi e milo"
+      data-country="macedonia"
+      data-region="Europe"
+      data-language="macedonian"
+      data-resources="video lyrics score document"
+    >
+      <div class="browse-card-header">
+        <img class="browse-card-bg" src="../assets/region_target_europe.png" alt="Europe" />
+        <div class="browse-card-header-overlay"></div>
+        <div class="browse-card-eyebrow">
+          <span class="eyebrow-country">
+            <svg width="6" height="8" viewBox="0 0 6 8" fill="none"><path d="M3 0C1.34 0 0 1.34 0 3c0 2.25 3 5 3 5s3-2.75 3-5c0-1.66-1.34-3-3-3zm0 4.1a1.1 1.1 0 110-2.2 1.1 1.1 0 010 2.2z" fill="currentColor"/></svg>
+            MACEDONIA
+          </span>
+          <span class="eyebrow-region">EUROPE</span>
+        </div>
+        
+      </div>
+
+      <div class="browse-card-body">
+        <div class="browse-card-titles">
+          <h3>Što mi e milo</h3>
+          <div class="browse-card-script" dir="ltr">Што ми е мило</div>
+        </div>
+        <div class="browse-card-lang">
+          <svg width="9" height="7" viewBox="0 0 12 10" fill="currentColor"><path d="M1 1h10v8H1z"/></svg>
+          <span>Macedonian</span>
+        </div>
+        <p class="browse-card-desc">Learned by Chris during his Balkan Band days and rewritten in multiple choral versions. Chris was thrilled to re-discover it as a 7/8 dan...</p>
+        <div class="browse-card-badges">
+          <span class="res-badge res-video" title="Embedded native performance video available">
+      <svg width="8" height="9" viewBox="0 0 10 12" fill="currentColor"><path d="M2 1l7 5-7 5z"/></svg> Video
+    </span><span class="res-badge res-lyrics" title="Full lyrics recorded in archive">
+      <svg width="8" height="9" viewBox="0 0 12 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 2h8v10H2z M4 5h4 M4 8h4"/></svg> Lyrics
+    </span><span class="res-badge res-score" title="Engraved sheet music / musical notation in archive">
+      <svg width="8" height="9" viewBox="0 0 12 14" fill="currentColor"><circle cx="4" cy="10" r="2.5"/><circle cx="9.5" cy="8" r="2.5"/><path d="M6 10V2l5.5-2v8" stroke="currentColor" stroke-width="1.4" fill="none"/></svg> Score
+    </span><span class="res-badge res-doc" title="Downloadable source document available">
+      <svg width="8" height="9" viewBox="0 0 12 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 1h5l3 3v9H2z"/><path d="M7 1v3h3"/></svg> PNG/DOC
+    </span>
+        </div>
+        
+      <div class="card-action card-action-secondary">
+        <span class="status-pill">Record in curation</span>
+        <a href="https://chrisgaca.wordpress.com/2011/01/07/sto-mi-e-milo/" target="_blank" rel="noopener noreferrer" class="link-wp" title="View original WordPress entry">
+          <span>WordPress Source</span>
+          <svg width="8" height="8" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 1h8v8M11 1L2 10"/></svg>
+        </a>
+      </div>
+    
+      </div>
+    </article>
+  
+
+    <article class="song-browse-card "
+      data-id="odunday-nigeria"
+      data-title="odunday"
+      data-country="nigeria"
+      data-region="Africa"
+      data-language="yoruba"
+      data-resources="video lyrics translation document"
+    >
+      <div class="browse-card-header">
+        <img class="browse-card-bg" src="../assets/region_target_africa.png" alt="Africa" />
+        <div class="browse-card-header-overlay"></div>
+        <div class="browse-card-eyebrow">
+          <span class="eyebrow-country">
+            <svg width="6" height="8" viewBox="0 0 6 8" fill="none"><path d="M3 0C1.34 0 0 1.34 0 3c0 2.25 3 5 3 5s3-2.75 3-5c0-1.66-1.34-3-3-3zm0 4.1a1.1 1.1 0 110-2.2 1.1 1.1 0 010 2.2z" fill="currentColor"/></svg>
+            NIGERIA
+          </span>
+          <span class="eyebrow-region">AFRICA</span>
+        </div>
+        
+      </div>
+
+      <div class="browse-card-body">
+        <div class="browse-card-titles">
+          <h3>Odunday</h3>
+          <div class="browse-card-script" dir="ltr">Ọdún dé</div>
+        </div>
+        <div class="browse-card-lang">
+          <svg width="9" height="7" viewBox="0 0 12 10" fill="currentColor"><path d="M1 1h10v8H1z"/></svg>
+          <span>Yoruba</span>
+        </div>
+        <p class="browse-card-desc">Learned by Chris from Bill and Livia Vanaver of The Vanaver Caravan during a World Music and Dance workshop at the Omega Institute in Jun...</p>
+        <div class="browse-card-badges">
+          <span class="res-badge res-video" title="Embedded native performance video available">
+      <svg width="8" height="9" viewBox="0 0 10 12" fill="currentColor"><path d="M2 1l7 5-7 5z"/></svg> Video
+    </span><span class="res-badge res-lyrics" title="Full lyrics recorded in archive">
+      <svg width="8" height="9" viewBox="0 0 12 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 2h8v10H2z M4 5h4 M4 8h4"/></svg> Lyrics
+    </span><span class="res-badge res-translation" title="English translation verified">
+      <svg width="9" height="9" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="7" cy="7" r="6"/><path d="M1 7h12 M7 1c2 3 2 9 0 12 M7 1c-2 3-2 9 0 12"/></svg> Translation
+    </span><span class="res-badge res-doc" title="Downloadable source document available">
+      <svg width="8" height="9" viewBox="0 0 12 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 1h5l3 3v9H2z"/><path d="M7 1v3h3"/></svg> DOC
+    </span>
+        </div>
+        
+      <div class="card-action card-action-secondary">
+        <span class="status-pill">Record in curation</span>
+        <a href="https://chrisgaca.wordpress.com/2011/01/03/odunday-nigeria/" target="_blank" rel="noopener noreferrer" class="link-wp" title="View original WordPress entry">
+          <span>WordPress Source</span>
+          <svg width="8" height="8" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 1h8v8M11 1L2 10"/></svg>
+        </a>
+      </div>
+    
+      </div>
+    </article>
+  
+
+    <article class="song-browse-card "
+      data-id="lab-pe-ati"
+      data-title="lab pe aati hai dua"
+      data-country="pakistan"
+      data-region="Asia"
+      data-language="urdu"
+      data-resources="video lyrics translation document"
+    >
+      <div class="browse-card-header">
+        <img class="browse-card-bg" src="../assets/region_target_asia.png" alt="Asia" />
+        <div class="browse-card-header-overlay"></div>
+        <div class="browse-card-eyebrow">
+          <span class="eyebrow-country">
+            <svg width="6" height="8" viewBox="0 0 6 8" fill="none"><path d="M3 0C1.34 0 0 1.34 0 3c0 2.25 3 5 3 5s3-2.75 3-5c0-1.66-1.34-3-3-3zm0 4.1a1.1 1.1 0 110-2.2 1.1 1.1 0 010 2.2z" fill="currentColor"/></svg>
+            PAKISTAN
+          </span>
+          <span class="eyebrow-region">ASIA</span>
+        </div>
+        
+      </div>
+
+      <div class="browse-card-body">
+        <div class="browse-card-titles">
+          <h3>Lab Pe Aati Hai Dua</h3>
+          <div class="browse-card-script" dir="ltr">لب پہ آتی ہے دعا بن کے تمنا میری</div>
+        </div>
+        <div class="browse-card-lang">
+          <svg width="9" height="7" viewBox="0 0 12 10" fill="currentColor"><path d="M1 1h10v8H1z"/></svg>
+          <span>Urdu</span>
+        </div>
+        <p class="browse-card-desc">Collected as a devotional and moral choral piece for interfaith and peace performances.</p>
+        <div class="browse-card-badges">
+          <span class="res-badge res-video" title="Embedded native performance video available">
+      <svg width="8" height="9" viewBox="0 0 10 12" fill="currentColor"><path d="M2 1l7 5-7 5z"/></svg> Video
+    </span><span class="res-badge res-lyrics" title="Full lyrics recorded in archive">
+      <svg width="8" height="9" viewBox="0 0 12 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 2h8v10H2z M4 5h4 M4 8h4"/></svg> Lyrics
+    </span><span class="res-badge res-translation" title="English translation verified">
+      <svg width="9" height="9" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="7" cy="7" r="6"/><path d="M1 7h12 M7 1c2 3 2 9 0 12 M7 1c-2 3-2 9 0 12"/></svg> Translation
+    </span><span class="res-badge res-doc" title="Downloadable source document available">
+      <svg width="8" height="9" viewBox="0 0 12 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 1h5l3 3v9H2z"/><path d="M7 1v3h3"/></svg> DOC
+    </span>
+        </div>
+        
+      <div class="card-action card-action-secondary">
+        <span class="status-pill">Record in curation</span>
+        <a href="https://chrisgaca.wordpress.com/2011/03/01/lab-pe-ati/" target="_blank" rel="noopener noreferrer" class="link-wp" title="View original WordPress entry">
+          <span>WordPress Source</span>
+          <svg width="8" height="8" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 1h8v8M11 1L2 10"/></svg>
+        </a>
+      </div>
+    
+      </div>
+    </article>
+  
+
+    <article class="song-browse-card "
+      data-id="son-borinqueno"
+      data-title="son borinqueño"
+      data-country="puerto rico"
+      data-region="Latin America & Caribbean"
+      data-language="spanish"
+      data-resources="video lyrics document"
+    >
+      <div class="browse-card-header">
+        <img class="browse-card-bg" src="../assets/region_target_latin_america.png" alt="Latin America & Caribbean" />
+        <div class="browse-card-header-overlay"></div>
+        <div class="browse-card-eyebrow">
+          <span class="eyebrow-country">
+            <svg width="6" height="8" viewBox="0 0 6 8" fill="none"><path d="M3 0C1.34 0 0 1.34 0 3c0 2.25 3 5 3 5s3-2.75 3-5c0-1.66-1.34-3-3-3zm0 4.1a1.1 1.1 0 110-2.2 1.1 1.1 0 010 2.2z" fill="currentColor"/></svg>
+            PUERTO RICO
+          </span>
+          <span class="eyebrow-region">LATIN AMERICA & CARIBBEAN</span>
+        </div>
+        
+      </div>
+
+      <div class="browse-card-body">
+        <div class="browse-card-titles">
+          <h3>Son Borinqueño</h3>
+          <div class="browse-card-script" dir="ltr">Son borinqueño</div>
+        </div>
+        <div class="browse-card-lang">
+          <svg width="9" height="7" viewBox="0 0 12 10" fill="currentColor"><path d="M1 1h10v8H1z"/></svg>
+          <span>Spanish</span>
+        </div>
+        <p class="browse-card-desc">Chorus member Lucia Sweetland heard this sung by the Community Choir in Syracuse, and the group tackled it to bring Latin American and Ca...</p>
+        <div class="browse-card-badges">
+          <span class="res-badge res-video" title="Embedded native performance video available">
+      <svg width="8" height="9" viewBox="0 0 10 12" fill="currentColor"><path d="M2 1l7 5-7 5z"/></svg> Video
+    </span><span class="res-badge res-lyrics" title="Full lyrics recorded in archive">
+      <svg width="8" height="9" viewBox="0 0 12 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 2h8v10H2z M4 5h4 M4 8h4"/></svg> Lyrics
+    </span><span class="res-badge res-doc" title="Downloadable source document available">
+      <svg width="8" height="9" viewBox="0 0 12 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 1h5l3 3v9H2z"/><path d="M7 1v3h3"/></svg> DOC
+    </span>
+        </div>
+        
+      <div class="card-action card-action-secondary">
+        <span class="status-pill">Record in curation</span>
+        <a href="https://chrisgaca.wordpress.com/2011/01/07/son-borinqueno/" target="_blank" rel="noopener noreferrer" class="link-wp" title="View original WordPress entry">
+          <span>WordPress Source</span>
+          <svg width="8" height="8" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 1h8v8M11 1L2 10"/></svg>
+        </a>
+      </div>
+    
+      </div>
+    </article>
+  
+
+    <article class="song-browse-card "
+      data-id="ajde-jano"
+      data-title="ajde jano"
+      data-country="serbia"
+      data-region="Europe"
+      data-language="serbian"
+      data-resources="video score document"
+    >
+      <div class="browse-card-header">
+        <img class="browse-card-bg" src="../assets/region_target_europe.png" alt="Europe" />
+        <div class="browse-card-header-overlay"></div>
+        <div class="browse-card-eyebrow">
+          <span class="eyebrow-country">
+            <svg width="6" height="8" viewBox="0 0 6 8" fill="none"><path d="M3 0C1.34 0 0 1.34 0 3c0 2.25 3 5 3 5s3-2.75 3-5c0-1.66-1.34-3-3-3zm0 4.1a1.1 1.1 0 110-2.2 1.1 1.1 0 010 2.2z" fill="currentColor"/></svg>
+            SERBIA
+          </span>
+          <span class="eyebrow-region">EUROPE</span>
+        </div>
+        
+      </div>
+
+      <div class="browse-card-body">
+        <div class="browse-card-titles">
+          <h3>Ajde Jano</h3>
+          <div class="browse-card-script" dir="ltr">Ајде Јано / Ajde Jano</div>
+        </div>
+        <div class="browse-card-lang">
+          <svg width="9" height="7" viewBox="0 0 12 10" fill="currentColor"><path d="M1 1h10v8H1z"/></svg>
+          <span>Serbian</span>
+        </div>
+        <p class="browse-card-desc">Much loved by Chris, the chorus, and international folk dancers. Chris notes the passionate theme: "Sell the house, sell the horse, sell ...</p>
+        <div class="browse-card-badges">
+          <span class="res-badge res-video" title="Embedded native performance video available">
+      <svg width="8" height="9" viewBox="0 0 10 12" fill="currentColor"><path d="M2 1l7 5-7 5z"/></svg> Video
+    </span><span class="res-badge res-score" title="Engraved sheet music / musical notation in archive">
+      <svg width="8" height="9" viewBox="0 0 12 14" fill="currentColor"><circle cx="4" cy="10" r="2.5"/><circle cx="9.5" cy="8" r="2.5"/><path d="M6 10V2l5.5-2v8" stroke="currentColor" stroke-width="1.4" fill="none"/></svg> Score
+    </span><span class="res-badge res-doc" title="Downloadable source document available">
+      <svg width="8" height="9" viewBox="0 0 12 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 1h5l3 3v9H2z"/><path d="M7 1v3h3"/></svg> PNG
+    </span>
+        </div>
+        
+      <div class="card-action card-action-secondary">
+        <span class="status-pill">Record in curation</span>
+        <a href="https://chrisgaca.wordpress.com/2022/05/30/ajde-jano/" target="_blank" rel="noopener noreferrer" class="link-wp" title="View original WordPress entry">
+          <span>WordPress Source</span>
+          <svg width="8" height="8" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 1h8v8M11 1L2 10"/></svg>
+        </a>
+      </div>
+    
+      </div>
+    </article>
+  
+
+    <article class="song-browse-card "
+      data-id="setjna"
+      data-title="šetnja"
+      data-country="serbia"
+      data-region="Europe"
+      data-language="serbian"
+      data-resources="video score document"
+    >
+      <div class="browse-card-header">
+        <img class="browse-card-bg" src="../assets/region_target_europe.png" alt="Europe" />
+        <div class="browse-card-header-overlay"></div>
+        <div class="browse-card-eyebrow">
+          <span class="eyebrow-country">
+            <svg width="6" height="8" viewBox="0 0 6 8" fill="none"><path d="M3 0C1.34 0 0 1.34 0 3c0 2.25 3 5 3 5s3-2.75 3-5c0-1.66-1.34-3-3-3zm0 4.1a1.1 1.1 0 110-2.2 1.1 1.1 0 010 2.2z" fill="currentColor"/></svg>
+            SERBIA
+          </span>
+          <span class="eyebrow-region">EUROPE</span>
+        </div>
+        
+      </div>
+
+      <div class="browse-card-body">
+        <div class="browse-card-titles">
+          <h3>Šetnja</h3>
+          <div class="browse-card-script" dir="ltr">Шетња / Šetnja</div>
+        </div>
+        <div class="browse-card-lang">
+          <svg width="9" height="7" viewBox="0 0 12 10" fill="currentColor"><path d="M1 1h10v8H1z"/></svg>
+          <span>Serbian</span>
+        </div>
+        <p class="browse-card-desc">Learned by Chris from Steve Ellner to be used when performing for international folk dancers.</p>
+        <div class="browse-card-badges">
+          <span class="res-badge res-video" title="Embedded native performance video available">
+      <svg width="8" height="9" viewBox="0 0 10 12" fill="currentColor"><path d="M2 1l7 5-7 5z"/></svg> Video
+    </span><span class="res-badge res-score" title="Engraved sheet music / musical notation in archive">
+      <svg width="8" height="9" viewBox="0 0 12 14" fill="currentColor"><circle cx="4" cy="10" r="2.5"/><circle cx="9.5" cy="8" r="2.5"/><path d="M6 10V2l5.5-2v8" stroke="currentColor" stroke-width="1.4" fill="none"/></svg> Score
+    </span><span class="res-badge res-doc" title="Downloadable source document available">
+      <svg width="8" height="9" viewBox="0 0 12 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 1h5l3 3v9H2z"/><path d="M7 1v3h3"/></svg> PDF
+    </span>
+        </div>
+        
+      <div class="card-action card-action-secondary">
+        <span class="status-pill">Record in curation</span>
+        <a href="https://chrisgaca.wordpress.com/2022/05/25/setjna/" target="_blank" rel="noopener noreferrer" class="link-wp" title="View original WordPress entry">
+          <span>WordPress Source</span>
+          <svg width="8" height="8" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 1h8v8M11 1L2 10"/></svg>
+        </a>
+      </div>
+    
+      </div>
+    </article>
+  
+
+    <article class="song-browse-card "
+      data-id="ga-gona-ya-tswanang-le-jesu"
+      data-title="ga gona ya tswanang le jesu"
+      data-country="south africa"
+      data-region="Africa"
+      data-language="sesotho / setswana"
+      data-resources="video lyrics"
+    >
+      <div class="browse-card-header">
+        <img class="browse-card-bg" src="../assets/region_target_africa.png" alt="Africa" />
+        <div class="browse-card-header-overlay"></div>
+        <div class="browse-card-eyebrow">
+          <span class="eyebrow-country">
+            <svg width="6" height="8" viewBox="0 0 6 8" fill="none"><path d="M3 0C1.34 0 0 1.34 0 3c0 2.25 3 5 3 5s3-2.75 3-5c0-1.66-1.34-3-3-3zm0 4.1a1.1 1.1 0 110-2.2 1.1 1.1 0 010 2.2z" fill="currentColor"/></svg>
+            SOUTH AFRICA
+          </span>
+          <span class="eyebrow-region">AFRICA</span>
+        </div>
+        
+      </div>
+
+      <div class="browse-card-body">
+        <div class="browse-card-titles">
+          <h3>Ga Gona Ya Tswanang Le Jesu</h3>
+          <div class="browse-card-script" dir="ltr">Ga gona ya tswanang le Jesu</div>
+        </div>
+        <div class="browse-card-lang">
+          <svg width="9" height="7" viewBox="0 0 12 10" fill="currentColor"><path d="M1 1h10v8H1z"/></svg>
+          <span>Sesotho / Setswana</span>
+        </div>
+        <p class="browse-card-desc">Mary Yoder and Chris Gaca attended a Village Harmony workshop with Patty Cuyler, who taught them this song and its accompanying movements.</p>
+        <div class="browse-card-badges">
+          <span class="res-badge res-video" title="Embedded native performance video available">
+      <svg width="8" height="9" viewBox="0 0 10 12" fill="currentColor"><path d="M2 1l7 5-7 5z"/></svg> Video
+    </span><span class="res-badge res-lyrics" title="Full lyrics recorded in archive">
+      <svg width="8" height="9" viewBox="0 0 12 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 2h8v10H2z M4 5h4 M4 8h4"/></svg> Lyrics
+    </span>
+        </div>
+        
+      <div class="card-action card-action-secondary">
+        <span class="status-pill">Record in curation</span>
+        <a href="https://chrisgaca.wordpress.com/2013/08/30/ga-gona-ya-tswanang-le-jesu/" target="_blank" rel="noopener noreferrer" class="link-wp" title="View original WordPress entry">
+          <span>WordPress Source</span>
+          <svg width="8" height="8" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 1h8v8M11 1L2 10"/></svg>
+        </a>
+      </div>
+    
+      </div>
+    </article>
+  
+
+    <article class="song-browse-card "
+      data-id="abun-dbashmayo"
+      data-title="abun d’bashmayo"
+      data-country="syria"
+      data-region="Middle East"
+      data-language="syriac aramaic"
+      data-resources="video lyrics translation document"
+    >
+      <div class="browse-card-header">
+        <img class="browse-card-bg" src="../assets/region_target_middle_east.png" alt="Middle East" />
+        <div class="browse-card-header-overlay"></div>
+        <div class="browse-card-eyebrow">
+          <span class="eyebrow-country">
+            <svg width="6" height="8" viewBox="0 0 6 8" fill="none"><path d="M3 0C1.34 0 0 1.34 0 3c0 2.25 3 5 3 5s3-2.75 3-5c0-1.66-1.34-3-3-3zm0 4.1a1.1 1.1 0 110-2.2 1.1 1.1 0 010 2.2z" fill="currentColor"/></svg>
+            SYRIA
+          </span>
+          <span class="eyebrow-region">MIDDLE EAST</span>
+        </div>
+        
+      </div>
+
+      <div class="browse-card-body">
+        <div class="browse-card-titles">
+          <h3>Abun d’Bashmayo</h3>
+          <div class="browse-card-script" dir="rtl">ܐܒܘܢ ܕܒܫܡܝܐ</div>
+        </div>
+        <div class="browse-card-lang">
+          <svg width="9" height="7" viewBox="0 0 12 10" fill="currentColor"><path d="M1 1h10v8H1z"/></svg>
+          <span>Syriac Aramaic</span>
+        </div>
+        <p class="browse-card-desc">Included in the archive to preserve ancient liturgical and cultural vocal traditions from the Middle East.</p>
+        <div class="browse-card-badges">
+          <span class="res-badge res-video" title="Embedded native performance video available">
+      <svg width="8" height="9" viewBox="0 0 10 12" fill="currentColor"><path d="M2 1l7 5-7 5z"/></svg> Video
+    </span><span class="res-badge res-lyrics" title="Full lyrics recorded in archive">
+      <svg width="8" height="9" viewBox="0 0 12 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 2h8v10H2z M4 5h4 M4 8h4"/></svg> Lyrics
+    </span><span class="res-badge res-translation" title="English translation verified">
+      <svg width="9" height="9" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="7" cy="7" r="6"/><path d="M1 7h12 M7 1c2 3 2 9 0 12 M7 1c-2 3-2 9 0 12"/></svg> Translation
+    </span><span class="res-badge res-doc" title="Downloadable source document available">
+      <svg width="8" height="9" viewBox="0 0 12 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 1h5l3 3v9H2z"/><path d="M7 1v3h3"/></svg> DOC
+    </span>
+        </div>
+        
+      <div class="card-action card-action-secondary">
+        <span class="status-pill">Record in curation</span>
+        <a href="https://chrisgaca.wordpress.com/2011/02/18/abun-dbashmayo/" target="_blank" rel="noopener noreferrer" class="link-wp" title="View original WordPress entry">
+          <span>WordPress Source</span>
+          <svg width="8" height="8" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 1h8v8M11 1L2 10"/></svg>
+        </a>
+      </div>
+    
+      </div>
+    </article>
+  
+
+    <article class="song-browse-card "
+      data-id="tehvid-etsin-dilimiz"
+      data-title="tevhid etsin dilimiz"
+      data-country="turkey"
+      data-region="Middle East"
+      data-language="turkish"
+      data-resources="video lyrics translation document"
+    >
+      <div class="browse-card-header">
+        <img class="browse-card-bg" src="../assets/region_target_middle_east.png" alt="Middle East" />
+        <div class="browse-card-header-overlay"></div>
+        <div class="browse-card-eyebrow">
+          <span class="eyebrow-country">
+            <svg width="6" height="8" viewBox="0 0 6 8" fill="none"><path d="M3 0C1.34 0 0 1.34 0 3c0 2.25 3 5 3 5s3-2.75 3-5c0-1.66-1.34-3-3-3zm0 4.1a1.1 1.1 0 110-2.2 1.1 1.1 0 010 2.2z" fill="currentColor"/></svg>
+            TURKEY
+          </span>
+          <span class="eyebrow-region">MIDDLE EAST</span>
+        </div>
+        
+      </div>
+
+      <div class="browse-card-body">
+        <div class="browse-card-titles">
+          <h3>Tevhid Etsin Dilimiz</h3>
+          <div class="browse-card-script" dir="rtl">Tevhid Etsin Dilimiz</div>
+        </div>
+        <div class="browse-card-lang">
+          <svg width="9" height="7" viewBox="0 0 12 10" fill="currentColor"><path d="M1 1h10v8H1z"/></svg>
+          <span>Turkish</span>
+        </div>
+        <p class="browse-card-desc">Curated by Chris for the chorus's exploration of mystical Sufi vocal music.</p>
+        <div class="browse-card-badges">
+          <span class="res-badge res-video" title="Embedded native performance video available">
+      <svg width="8" height="9" viewBox="0 0 10 12" fill="currentColor"><path d="M2 1l7 5-7 5z"/></svg> Video
+    </span><span class="res-badge res-lyrics" title="Full lyrics recorded in archive">
+      <svg width="8" height="9" viewBox="0 0 12 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 2h8v10H2z M4 5h4 M4 8h4"/></svg> Lyrics
+    </span><span class="res-badge res-translation" title="English translation verified">
+      <svg width="9" height="9" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="7" cy="7" r="6"/><path d="M1 7h12 M7 1c2 3 2 9 0 12 M7 1c-2 3-2 9 0 12"/></svg> Translation
+    </span><span class="res-badge res-doc" title="Downloadable source document available">
+      <svg width="8" height="9" viewBox="0 0 12 14" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 1h5l3 3v9H2z"/><path d="M7 1v3h3"/></svg> DOC
+    </span>
+        </div>
+        
+      <div class="card-action card-action-secondary">
+        <span class="status-pill">Record in curation</span>
+        <a href="https://chrisgaca.wordpress.com/2011/05/02/tehvid-etsin-dilimiz/" target="_blank" rel="noopener noreferrer" class="link-wp" title="View original WordPress entry">
+          <span>WordPress Source</span>
+          <svg width="8" height="8" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 1h8v8M11 1L2 10"/></svg>
+        </a>
+      </div>
+    
+      </div>
+    </article>
+  
+        </div>
+
+        <div id="emptyState" class="empty-state" style="display: none;">
+          <div class="empty-icon">📜</div>
+          <h3>No matching songs found</h3>
+          <p>Try clearing your search terms or adjusting the region and resource filters.</p>
+          <button id="emptyResetBtn" class="btn-empty-reset">Reset All Filters</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-center">
+        <div class="quote">“In every culture, a song.”</div>
+        <div class="attribution">— CHRIS GACA</div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="songs.js"></script>
+</body>
+</html>
