@@ -1206,5 +1206,207 @@
     "evidence": [],
     "as_of": "2026-10-14",
     "analyst_note": "A controlled elicitation finding is not proof that favorable stories alone guarantee AI alignment."
+  },
+  {
+    "claim_id": "ms-299-005",
+    "episode_id": "ep-299",
+    "speaker": "Peter Diamandis",
+    "timecode": "00:03:34–00:04:16",
+    "kind": "financial_disclosure",
+    "claim": "Host explicitly discloses seed investment in guest Richard Socher's company Recursive; this financial interest is relevant when weighing the interview's positive evaluation of recursive self-improvement.",
+    "verification_status": "podcast_only",
+    "evidence": [],
+    "analyst_note": "Conflict-of-interest disclosure is apparent in transcript; audio and legal ownership not independently audited.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/recursives-670m-bet-on-self-improving-ai-sonnet-55-hits-70-elon-co-leads-pentagon-push-ep-299",
+    "source_scope": "Broad text-only review of public transcript page; audio not independently checked",
+    "as_of": "2026-10-14"
+  },
+  {
+    "claim_id": "ms-299-006",
+    "episode_id": "ep-299",
+    "speaker": "Podcast host/panel",
+    "timecode": "01:52:04–01:55:35",
+    "kind": "product_claim",
+    "claim": "TypeSafe's Jev is presented as a fast structured-choice/probability model for bounded decisions. Launch and benchmark evidence exists; its usefulness should be assessed against other typed classifiers on a specific task, not presumed universally superior.",
+    "verification_status": "independently_verified",
+    "evidence": [
+      {
+        "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+        "publisher": "TypeSafe AI launch note, 2026-09-15",
+        "independent": false,
+        "assessment": "Vendor confirms a typed decision model release, not independent superiority."
+      },
+      {
+        "url": "https://arxiv.org/abs/2609.37647",
+        "publisher": "Deußer, Sparrenberg and Sifa, 2026-09-29 preprint",
+        "independent": true,
+        "assessment": "Independent 37-dataset evaluation offers reproducible comparisons and substantial domain-specific limitations; preprint, not claimed peer-reviewed."
+      },
+      {
+        "url": "https://arxiv.org/abs/2609.32160",
+        "publisher": "Tang and Zheng, 2026-09-26 survey preprint",
+        "independent": true,
+        "assessment": "Separates efficiency advantage from unestablished inherent accuracy improvement of typed readouts."
+      }
+    ],
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/recursives-670m-bet-on-self-improving-ai-sonnet-55-hits-70-elon-co-leads-pentagon-push-ep-299",
+    "source_scope": "Broad text-only review of public transcript page; audio not independently checked",
+    "as_of": "2026-10-14"
+  },
+  {
+    "claim_id": "ms-299-007",
+    "episode_id": "ep-299",
+    "speaker": "Fountain Life paid promotional segment",
+    "timecode": "01:50:30–01:51:57",
+    "kind": "paid_promotion",
+    "claim": "The sponsor segment reports 3.3% of its screened members had otherwise undiscovered cancers and promotes advanced screening. This rate is sponsor-selected, not independent evidence that routine whole-body MRI screening improves outcomes among average-risk adults.",
+    "verification_status": "contested",
+    "evidence": [
+      {
+        "url": "https://www.cancer.org/cancer/latest-news/full-body-mri-what-are-the-risks.html",
+        "publisher": "American Cancer Society, 2026-05-14",
+        "independent": true,
+        "assessment": "No major medical group recommends routine full-body MRI screening for asymptomatic average-risk people; warns against extrapolating from detection to improved outcomes."
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40884613/",
+        "publisher": "Systematic review, 2026",
+        "independent": true,
+        "assessment": "Confirmed cancer detection rate pooled about 1.57% across reviewed MRI cohorts, which are not directly comparable to the sponsor's self-selected membership."
+      },
+      {
+        "url": "https://www.rsna.org/news/2026/july/whole-body-mri",
+        "publisher": "RSNA journalistic synthesis, 2026-07",
+        "independent": true,
+        "assessment": "Evidence for screening healthy people remains limited, with incidental findings and downstream interventions."
+      }
+    ],
+    "analyst_note": "The 3.3% cohort statistic itself has not been audited; do not infer it is false from a noncomparable pooled rate. This is NOT medical advice.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/recursives-670m-bet-on-self-improving-ai-sonnet-55-hits-70-elon-co-leads-pentagon-push-ep-299",
+    "source_scope": "Broad text-only review of public transcript page; audio not independently checked",
+    "as_of": "2026-10-14"
+  },
+  {
+    "claim_id": "ms-299-008",
+    "episode_id": "ep-299",
+    "speaker": "Peter Diamandis",
+    "timecode": "01:17:00–01:18:30",
+    "kind": "policy_reporting",
+    "claim": "Podcast describes Ro Khanna's proposed Human Control Over AI Act as though a sweeping ban/penalties were in the legislative pipeline; public advocacy confirms a proposal but must not be conflated with enacted law or the distinct Casar-sponsored H.R.10538.",
+    "verification_status": "corroborated_primary",
+    "evidence": [
+      {
+        "url": "https://www.politicalemails.org/messages/2434777",
+        "publisher": "Archive of Ro Khanna campaign email dated 2026-09-29",
+        "independent": false,
+        "assessment": "His campaign explicitly describes introducing the Human Control Over AI Act; not a government enactment record."
+      },
+      {
+        "url": "https://www.govinfo.gov/app/details/BILLS-119hr10538ih",
+        "publisher": "US Government Publishing Office, 2026-09-24",
+        "independent": true,
+        "assessment": "Documents separately named Ban Artificial Superintelligence Act introduced by Greg Casar with Khanna as a cosponsor; introduced does not equal enacted."
+      }
+    ],
+    "analyst_note": "Do not infer an official filed bill number or enacted criminal penalties for Khanna's separately named proposal without a matching bill record.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/recursives-670m-bet-on-self-improving-ai-sonnet-55-hits-70-elon-co-leads-pentagon-push-ep-299",
+    "source_scope": "Broad text-only review of public transcript page; audio not independently checked",
+    "as_of": "2026-10-14"
+  },
+  {
+    "claim_id": "ms-299-009",
+    "episode_id": "ep-299",
+    "speaker": "Peter Diamandis",
+    "timecode": "00:39:04–00:40:49",
+    "kind": "government_policy",
+    "claim": "A September 29 US executive order targets 90% invasive mosquito reduction and 50% tick reduction in Washington DC by 2028 through a public-health campaign; that is an intended policy target, not evidence of achieved reduction.",
+    "verification_status": "corroborated_primary",
+    "evidence": [
+      {
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/09/eliminating-disease-carrying-pests-and-restoring-enjoyment-of-the-great-outdoors/",
+        "publisher": "White House Executive Order 14433, 2026-09-29",
+        "independent": false,
+        "assessment": "Original directive confirms targets, government agencies, and planned regulatory review; no measurement of achieved population decline."
+      }
+    ],
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/recursives-670m-bet-on-self-improving-ai-sonnet-55-hits-70-elon-co-leads-pentagon-push-ep-299",
+    "source_scope": "Broad text-only review of public transcript page; audio not independently checked",
+    "as_of": "2026-10-14"
+  },
+  {
+    "claim_id": "ms-299-010",
+    "episode_id": "ep-299",
+    "speaker": "Blitzy paid promotional segment",
+    "timecode": "01:34:26–01:35:14",
+    "kind": "paid_promotion",
+    "claim": "Sponsor advertises 80% autonomous software-development completion and 5x engineering velocity from its platform; episode offers no reproducible external benchmark or audited controlled comparison.",
+    "verification_status": "podcast_only",
+    "evidence": [],
+    "analyst_note": "Do not derive software-service projections or model purchasing decisions from promotional numbers alone.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/recursives-670m-bet-on-self-improving-ai-sonnet-55-hits-70-elon-co-leads-pentagon-push-ep-299",
+    "source_scope": "Broad text-only review of public transcript page; audio not independently checked",
+    "as_of": "2026-10-14"
+  },
+  {
+    "claim_id": "ms-300-006",
+    "episode_id": "ep-300",
+    "speaker": "Astro Teller",
+    "timecode": "00:05:15–00:06:13;00:30:17–00:30:52",
+    "kind": "internal_organizational_metric",
+    "claim": "Teller says X gives codenames to about 100–200 ideas per year and has graduated about 35–50 projects over 16 years, a roughly 2% conversion among codenamed projects; figures are internal and lack externally reviewed denominator definitions.",
+    "verification_status": "podcast_only",
+    "evidence": [],
+    "analyst_note": "Different cohort horizons and what counts as a graduate affect reported rates. Not a typical software startup success probability.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/google-xs-astro-teller-the-1b-bet-no-ceo-will-back-moonshots-3x-cheaper-in-16-yrs-and-clean-water-at-1cl-ep-300",
+    "source_scope": "Broad text-only review of public transcript page; audio not independently checked",
+    "as_of": "2026-10-14"
+  },
+  {
+    "claim_id": "ms-300-007",
+    "episode_id": "ep-300",
+    "speaker": "Astro Teller",
+    "timecode": "00:26:06–00:28:47",
+    "kind": "operational_framework",
+    "claim": "Teller regards AI as an implementation detail subordinate to customer problems and warns that spawning agents should not be mistaken for achieving useful outcomes; he expects humans to remain part of socially acceptable deployment.",
+    "verification_status": "podcast_only",
+    "evidence": [],
+    "analyst_note": "A useful decision criterion, not a measured causal improvement in returns.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/google-xs-astro-teller-the-1b-bet-no-ceo-will-back-moonshots-3x-cheaper-in-16-yrs-and-clean-water-at-1cl-ep-300",
+    "source_scope": "Broad text-only review of public transcript page; audio not independently checked",
+    "as_of": "2026-10-14"
+  },
+  {
+    "claim_id": "ms-300-008",
+    "episode_id": "ep-300",
+    "speaker": "Astro Teller",
+    "timecode": "00:34:44–00:35:40",
+    "kind": "risk_framework",
+    "claim": "Teller claims false-positive project investments are very expensive while rejecting a potentially good project can be nearly free if many alternative projects remain; this assumption may fail for a small developer with few leads.",
+    "verification_status": "podcast_only",
+    "evidence": [],
+    "analyst_note": "Opportunity cost of a false negative is not literally zero when there are limited customer relationships or scarce options.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/google-xs-astro-teller-the-1b-bet-no-ceo-will-back-moonshots-3x-cheaper-in-16-yrs-and-clean-water-at-1cl-ep-300",
+    "source_scope": "Broad text-only review of public transcript page; audio not independently checked",
+    "as_of": "2026-10-14"
+  },
+  {
+    "claim_id": "ms-300-009",
+    "episode_id": "ep-300",
+    "speaker": "Astro Teller",
+    "timecode": "00:35:40–00:36:43",
+    "kind": "deployment_readiness",
+    "claim": "Showing a small experimental sample of a new material is only an early stage; production engineering, scale, cost, reliability and customer demand are separate barriers to a viable business.",
+    "verification_status": "corroborated_primary",
+    "evidence": [
+      {
+        "url": "https://x.company/blog/posts/a-peek-inside-the-moonshot-factory-operating-manual/",
+        "publisher": "X, corporate operating manual",
+        "independent": false,
+        "assessment": "Describes systematic technical and economic de-risking, but does not quantify a general 95% scaling burden."
+      }
+    ],
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/google-xs-astro-teller-the-1b-bet-no-ceo-will-back-moonshots-3x-cheaper-in-16-yrs-and-clean-water-at-1cl-ep-300",
+    "source_scope": "Broad text-only review of public transcript page; audio not independently checked",
+    "as_of": "2026-10-14"
   }
 ]
