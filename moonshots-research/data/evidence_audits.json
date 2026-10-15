@@ -131,5 +131,72 @@
     ],
     "remaining_uncertainty": "Financial interest is a disclosed relationship; ownership documents and compensation were not independently audited.",
     "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-281-001",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "source_class": "independent_benchmark",
+    "outcome": "bounded_supported",
+    "conclusion": "Stanford AI Index finds top-model US–China performance gap narrow (2.7% in March 2026), while US data-center footprint and Chinese industrial deployment metrics differ. This supports differentiated constraints, not a one-dimensional winner.",
+    "checked_urls": [
+      "https://hai.stanford.edu/ai-index/2026-ai-index-report"
+    ],
+    "remaining_uncertainty": "Does not independently settle specific grid power projects or executive intentions; cross-national metrics have methodological definitions.",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-286-001",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "source_class": "independent_benchmark",
+    "outcome": "stage_distinction",
+    "conclusion": "ARC Prize's published ARC-AGI-3 GPT-6 Astra Max scores are 62.7% on Standard harness and 98.6% with Provider Adapter; the High variant reaches 99.9% with Adapter. These are different configurations, not one directly comparable score.",
+    "checked_urls": [
+      "https://arcprize.org/results/openai-gpt-6",
+      "https://openai.com/index/gpt-6-astra/"
+    ],
+    "remaining_uncertainty": "Raw actions, compute budget, selection of reasoning variants and exact original OpenAI harness cannot be inferred from a headline alone.",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-291-001",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "source_class": "political_proposal_and_bill",
+    "outcome": "stage_distinction",
+    "conclusion": "Amodei's public proposal includes internal capability-pacing, external embedded evaluators, democratic coordination and worldwide verification levels. A proposal and promised company access do not equal law or a published evaluator report.",
+    "checked_urls": [
+      "https://wemustpacethefrontier.com/",
+      "https://www.anthropic.com/news/accenture-embedded-evaluation"
+    ],
+    "remaining_uncertainty": "Independent efficacy of the mechanism remains to be measured; current audit checks documented proposal rather than consensus impact.",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-296-001",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "source_class": "vendor_development_claim",
+    "outcome": "primary_document_confirmed",
+    "conclusion": "Circle's own announcement documents the Arc mainnet, Agent Wallet policy controls, portal spending limits and agent-oriented tools. Several components remain planned/in development, and company's claimed usage is not independently audited here.",
+    "checked_urls": [
+      "https://www.circle.com/pressroom/circle-launches-arc-mainnet-an-economic-operating-system-for-the-internet"
+    ],
+    "remaining_uncertainty": "A product launch is not evidence of broad enterprise adoption, return on capital or a need for blockchain in an ordinary website-care automation.",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-280-002",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "source_class": "independent_benchmark",
+    "outcome": "do_not_generalize",
+    "conclusion": "IEA Global EV Outlook 2026 describes sodium-ion supply at just over 1% of lithium-ion manufacturing capacity, lower energy density and an immature supply chain; it does not support a demonstrated near-term tenfold cheaper mass-market battery.",
+    "checked_urls": [
+      "https://www.iea.org/reports/global-ev-outlook-2026/electric-vehicle-batteries"
+    ],
+    "remaining_uncertainty": "IEA data do not refute every future cost-curve possibility; no exact comparable $/kWh tenfold advantage was established in the reviewed source.",
+    "transcript_audio_verified": false
   }
 ]
