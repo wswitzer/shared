@@ -119,10 +119,11 @@
     "kind": "disclosure",
     "claim": "Host Peter Diamandis discloses being a seed investor in Recursive while interviewing Recursive CEO Richard Socher.",
     "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/recursives-670m-bet-on-self-improving-ai-sonnet-55-hits-70-elon-co-leads-pentagon-push-ep-299",
-    "source_scope": "public timestamped transcript; selectively reviewed",
+    "source_scope": "Timestamped podcast transcript, read in broader episode audit; audio not checked",
     "verification_status": "podcast_only",
     "evidence": [],
-    "as_of": "2026-10-14"
+    "as_of": "2026-10-14",
+    "analyst_note": "This investor conflict was rechecked in the in-depth Oct 15 research pass; do not double count disclosure."
   },
   {
     "claim_id": "ms-280-001",
@@ -1206,20 +1207,6 @@
     "evidence": [],
     "as_of": "2026-10-14",
     "analyst_note": "A controlled elicitation finding is not proof that favorable stories alone guarantee AI alignment."
-  },
-  {
-    "claim_id": "ms-299-005",
-    "episode_id": "ep-299",
-    "speaker": "Peter Diamandis",
-    "timecode": "00:03:34–00:04:16",
-    "kind": "financial_disclosure",
-    "claim": "Host explicitly discloses seed investment in guest Richard Socher's company Recursive; this financial interest is relevant when weighing the interview's positive evaluation of recursive self-improvement.",
-    "verification_status": "podcast_only",
-    "evidence": [],
-    "analyst_note": "Conflict-of-interest disclosure is apparent in transcript; audio and legal ownership not independently audited.",
-    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/recursives-670m-bet-on-self-improving-ai-sonnet-55-hits-70-elon-co-leads-pentagon-push-ep-299",
-    "source_scope": "Broad text-only review of public transcript page; audio not independently checked",
-    "as_of": "2026-10-14"
   },
   {
     "claim_id": "ms-299-006",
