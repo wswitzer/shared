@@ -58,7 +58,7 @@ class InventoryTests(unittest.TestCase):
     def test_forecast_sources_and_dates(self):
         forecasts = collector.load(collector.FORECASTS)
         claims = collector.load(collector.CLAIMS)
-        self.assertEqual(5, len(forecasts))
+        self.assertEqual(7, len(forecasts))
         self.assertEqual([], collector.validate_forecasts(forecasts, claims))
 
     def test_forecast_missing_support_is_rejected(self):
@@ -69,11 +69,38 @@ class InventoryTests(unittest.TestCase):
 
     def test_partial_review_is_not_full_transcript(self):
         episodes = collector.load(collector.EPISODES)
-        self.assertEqual(7, sum(e.get("analysis_status") == "partial_review" for e in episodes))
+        self.assertEqual(13, sum(e.get("analysis_status") == "partial_review" for e in episodes))
         self.assertEqual(0, sum(e.get("transcript_status") == "ready" for e in episodes))
         summary = collector.report(episodes, collector.load(collector.CLAIMS), collector.load(collector.FORECASTS))
-        self.assertIn("Episodes partially reviewed via public transcript: **7**", summary)
+        self.assertIn("Episodes partially reviewed via public transcript: **13**", summary)
         self.assertIn("Full transcripts acquired locally: **0**", summary)
+
+    def test_partial_review_requires_source_and_range(self):
+        episodes = collector.load(collector.EPISODES)
+        claims = collector.load(collector.CLAIMS)
+        item = next(e for e in episodes if e["analysis_status"] == "partial_review")
+        item.pop("reviewed_timestamp_ranges", None)
+        self.assertTrue(any("timestamp coverage" in error for error in collector.validate(episodes, claims)))
+
+    def test_complete_review_requires_full_transcript(self):
+        episodes = collector.load(collector.EPISODES)
+        claims = collector.load(collector.CLAIMS)
+        item = next(e for e in episodes if e["analysis_status"] == "partial_review")
+        item["analysis_status"] = "completed"
+        self.assertTrue(any("Complete analysis" in error for error in collector.validate(episodes, claims)))
+
+    def test_evidence_needs_assessment_and_publisher(self):
+        episodes = collector.load(collector.EPISODES)
+        claims = collector.load(collector.CLAIMS)
+        first = next(c for c in claims if c.get("evidence"))
+        first["evidence"][0].pop("assessment", None)
+        self.assertTrue(any("Evidence missing" in error for error in collector.validate(episodes, claims)))
+
+    def test_claim_ledger_batch_counts(self):
+        claims = collector.load(collector.CLAIMS)
+        self.assertEqual(35, len(claims))
+        batch = {"ep-290", "ep-291", "ep-294", "ep-295", "ep-296", "ep-301"}
+        self.assertEqual(15, sum(c["episode_id"] in batch for c in claims))
 
 if __name__ == "__main__":
     unittest.main()
