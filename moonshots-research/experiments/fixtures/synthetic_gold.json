@@ -1,0 +1,42 @@
+[
+  {
+    "id": "demo-01",
+    "text": "Could you send me another copy of my invoice?",
+    "label": "billing"
+  },
+  {
+    "id": "demo-02",
+    "text": "My payment was declined twice.",
+    "label": "billing"
+  },
+  {
+    "id": "demo-03",
+    "text": "The homepage is blank after an update.",
+    "label": "technical"
+  },
+  {
+    "id": "demo-04",
+    "text": "I get a 500 error when signing in.",
+    "label": "technical"
+  },
+  {
+    "id": "demo-05",
+    "text": "What are your opening hours?",
+    "label": "general"
+  },
+  {
+    "id": "demo-06",
+    "text": "Where is your office located?",
+    "label": "general"
+  },
+  {
+    "id": "demo-07",
+    "text": "Checkout crashes whenever I try to purchase.",
+    "label": "technical"
+  },
+  {
+    "id": "demo-08",
+    "text": "When should I expect a reply?",
+    "label": "general"
+  }
+]
