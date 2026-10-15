@@ -98,7 +98,7 @@ class InventoryTests(unittest.TestCase):
 
     def test_claim_ledger_batch_counts(self):
         claims = collector.load(collector.CLAIMS)
-        self.assertEqual(65, len(claims))
+        self.assertEqual(75, len(claims))
         batch = {"ep-290", "ep-291", "ep-294", "ep-295", "ep-296", "ep-301"}
         self.assertEqual(15, sum(c["episode_id"] in batch for c in claims))
 
@@ -129,6 +129,33 @@ class InventoryTests(unittest.TestCase):
         claims = collector.load(collector.CLAIMS)
         themes[0]["claims"].append("nonexistent-id")
         self.assertTrue(any("unknown claim" in e for e in collector.validate_themes(themes, episodes, claims)))
+
+import quality
+
+
+class EvidenceAuditTests(unittest.TestCase):
+    def test_deep_audits_are_linked_and_conservative(self):
+        audits = quality.read(quality.AUDITS)
+        claims = quality.read(quality.CLAIMS)
+        episodes = quality.read(quality.SPEAKERS)
+        self.assertEqual(10, len(audits))
+        self.assertEqual([], quality.validate_evidence_audits(audits, claims, episodes))
+
+    def test_sponsor_cannot_be_called_independently_verified(self):
+        audits = quality.read(quality.AUDITS)
+        claims = quality.read(quality.CLAIMS)
+        episodes = quality.read(quality.SPEAKERS)
+        promo = next(c for c in claims if c.get("claim_id") == "ms-299-007")
+        promo["verification_status"] = "independently_verified"
+        self.assertTrue(any("Sponsor claim incorrectly" in x for x in quality.validate_evidence_audits(audits, claims, episodes)))
+
+    def test_missing_audit_reference_is_error(self):
+        audits = quality.read(quality.AUDITS)
+        claims = quality.read(quality.CLAIMS)
+        episodes = quality.read(quality.SPEAKERS)
+        audits[0]["claim_id"] = "ms-does-not-exist"
+        self.assertTrue(any("missing claim" in x for x in quality.validate_evidence_audits(audits, claims, episodes)))
+
 
 if __name__ == "__main__":
     unittest.main()
