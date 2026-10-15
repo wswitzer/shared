@@ -313,5 +313,70 @@
       }
     ],
     "as_of": "2026-10-14"
+  },
+  {
+    "claim_id": "ms-286-001",
+    "episode_id": "ep-286",
+    "speaker": "Peter Diamandis",
+    "timecode": "00:07:00–00:08:30",
+    "kind": "product_claim",
+    "claim": "OpenAI reported GPT-6 Astra achieving 99.9% on ARC-AGI-3, but the independently verified ARC Prize standard-harness and provider-adapter figures differ; benchmarks must not be collapsed across harnesses.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/gpt-6-astra-saturates-arc-agi-3-teslas-30k-cybercab-floods-austin-anthropic-proves-fermats-last-theorem-ep-286",
+    "source_scope": "public timestamped transcript; sampled",
+    "verification_status": "contested",
+    "evidence": [
+      {
+        "url": "https://openai.com/index/gpt-6-astra/",
+        "publisher": "OpenAI self-reported model results",
+        "independent": false,
+        "assessment": "Self-reported ARC-AGI-3 99.9% with specific Responses API harness."
+      },
+      {
+        "url": "https://arcprize.org/results/openai-gpt-6",
+        "publisher": "ARC Prize independently verified result table",
+        "independent": true,
+        "assessment": "Astra Max 62.71% Standard harness and 98.55% Provider Adapter harness. These are not directly the same harness configuration as self-reported 99.9%."
+      }
+    ],
+    "as_of": "2026-10-14"
+  },
+  {
+    "claim_id": "ms-286-002",
+    "episode_id": "ep-286",
+    "speaker": "Peter Diamandis / episode panelist (transcript diarization uncertain)",
+    "timecode": "00:06:52–00:07:14",
+    "kind": "forecast",
+    "claim": "A participant suggests the market might reach roughly one major frontier-model release per day by the end of 2026.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/gpt-6-astra-saturates-arc-agi-3-teslas-30k-cybercab-floods-austin-anthropic-proves-fermats-last-theorem-ep-286",
+    "source_scope": "public timestamped transcript; speaker not independently checked",
+    "verification_status": "podcast_only",
+    "evidence": [],
+    "as_of": "2026-10-14"
+  },
+  {
+    "claim_id": "ms-298-001",
+    "episode_id": "ep-298",
+    "speaker": "Peter Diamandis (introducing the accord)",
+    "timecode": "00:00:00–00:09:17",
+    "kind": "policy_claim",
+    "claim": "The White House and technology companies announced an industry AI safety accord with internal controls and auditing principles, but the pact is voluntary rather than enforceable regulation.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/can-we-still-build-ai-safely-the-white-house-thinks-so-moonshots-298",
+    "source_scope": "public timestamped transcript; sampled",
+    "verification_status": "independently_verified",
+    "evidence": [
+      {
+        "url": "https://www.presidency.ucsb.edu/documents/white-house-accord-super-intelligence",
+        "publisher": "American Presidency Project archive of Sep 29 2026 accord",
+        "independent": true,
+        "assessment": "Records signed voluntary industry principles and audit commitments."
+      },
+      {
+        "url": "https://www.reuters.com/legal/litigation/public-fears-ai-grow-trump-digs-voluntary-safeguards-2026-10-03/",
+        "publisher": "Reuters Oct 3 2026",
+        "independent": true,
+        "assessment": "Reports no enforcement mechanisms or noncompliance penalties, distinguishing voluntary pledge from legal requirements."
+      }
+    ],
+    "as_of": "2026-10-14"
   }
 ]
