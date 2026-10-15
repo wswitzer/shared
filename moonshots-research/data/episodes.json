@@ -46,7 +46,12 @@
     "date_source": "spoken.md catalog, retrieved 2026-10-14",
     "source_url": "https://spoken.md/podcast/moonshots-with-peter-diamandis-1648228034",
     "transcript_status": "not_acquired",
-    "analysis_status": "pending"
+    "analysis_status": "partial_review",
+    "public_transcript_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/can-we-still-build-ai-safely-the-white-house-thinks-so-moonshots-298",
+    "reviewed_timestamp_ranges": [
+      "00:00:00–00:09:17"
+    ],
+    "review_method": "source-linked manual research; full transcripts not stored"
   },
   {
     "id": "ep-297",
@@ -183,7 +188,12 @@
     "date_source": "spoken.md catalog, retrieved 2026-10-14",
     "source_url": "https://spoken.md/podcast/moonshots-with-peter-diamandis-1648228034",
     "transcript_status": "not_acquired",
-    "analysis_status": "pending"
+    "analysis_status": "partial_review",
+    "public_transcript_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/gpt-6-astra-saturates-arc-agi-3-teslas-30k-cybercab-floods-austin-anthropic-proves-fermats-last-theorem-ep-286",
+    "reviewed_timestamp_ranges": [
+      "00:06:31–00:08:30"
+    ],
+    "review_method": "source-linked manual research; full transcripts not stored"
   },
   {
     "id": "ep-285",
