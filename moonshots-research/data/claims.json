@@ -728,17 +728,17 @@
     "claim": "Graylin argues China's practical industrial use of good-enough/open-weight AI may matter more economically than winning a singular frontier AGI race.",
     "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/chinas-endgame-asi-timelines-us-china-relations-and-the-17t-ai-bubble-with-alvin-graylin-281",
     "source_scope": "selected timestamped publicly readable transcript; not full-episode audio verification",
-    "verification_status": "corroborated_primary",
+    "verification_status": "podcast_only",
     "evidence": [
       {
         "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report",
         "publisher": "Stanford AI Index 2026",
-        "independent": false,
-        "assessment": "Report documents Chinese strength in robot installations and narrowing AI capability gap, but does NOT independently validate speaker's entire strategic interpretation."
+        "independent": true,
+        "assessment": "Independent metrics on China industry and AI capabilities inform the strategic context but do not establish the speaker's claim about Chinese decision-makers' intent."
       }
     ],
     "as_of": "2026-10-14",
-    "analyst_note": "Interpretation of geopolitical strategy, not a proven national plan."
+    "analyst_note": "Geopolitical strategy is a speaker interpretation; Stanford AI Index gives independent context for industry capabilities but cannot validate government intent."
   },
   {
     "claim_id": "ms-282-001",
