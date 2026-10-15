@@ -97,5 +97,53 @@
       "https://www.investor.gov/introduction-investing/investing-basics/investment-products/tokenized-securities"
     ],
     "status": "open"
+  },
+  {
+    "forecast_id": "fc-006",
+    "theme": "Independent frontier-AI evaluation",
+    "statement": "By 2027-10-14, at least one frontier model developer will publicly release an embedded external evaluator's substantive report on model safety or incident handling, identifying the evaluator, scope, limitations, and findings.",
+    "horizon": "2027-10-14",
+    "judgment": "plausible, uncertain",
+    "origin": "analyst forecast motivated by Moonshots #291/#294; not a speaker quote",
+    "base_rate_or_baseline": "September 2026 Amodei proposal publicly commits to embedded evaluators, and Anthropic/Accenture announced a partnership; standards, access and funding arrangements are not yet settled.",
+    "drivers": [
+      "Pressure to document model risks",
+      "External reviewers with staff-level access",
+      "Potential contractual barriers, limited publication rights and incentives to keep findings private"
+    ],
+    "resolution": "Identify a public dated report authored or explicitly signed off by a third-party evaluator with a named developer, evaluation scope, findings, and disclosures of methodological constraints; marketing announcement alone does not count.",
+    "sources": [
+      "https://wemustpacethefrontier.com/",
+      "https://www.anthropic.com/news/accenture-embedded-evaluation"
+    ],
+    "supporting_claim_ids": [
+      "ms-291-001",
+      "ms-291-002"
+    ],
+    "status": "open"
+  },
+  {
+    "forecast_id": "fc-007",
+    "theme": "Agent spending and audit controls",
+    "statement": "By 2027-10-14, at least two independent developer-platform providers will publicly document production agent-payment or delegated-agent purchasing workflows that enforce configurable spending limits and emit transaction-level records readable by the human principal.",
+    "horizon": "2027-10-14",
+    "judgment": "plausible, uncertain",
+    "origin": "analyst forecast motivated by Moonshots #296/#301; not a speaker quote",
+    "base_rate_or_baseline": "Circle launched Arc and described controlled agent wallets, auditability and micropayment primitives in 2026; production adoption at independent platforms is not confirmed by this baseline.",
+    "drivers": [
+      "Increase in autonomous AI workflows",
+      "Demand for billing controls and traceability",
+      "Friction from regulation, security, refunds and spending-limit policy"
+    ],
+    "resolution": "Identify dated primary product documentation from >=2 providers not under common ownership demonstrating live production integration with an externally usable paid workflow, controllable per-agent budget and an accessible human audit record; demos and press-release roadmaps alone do not count.",
+    "sources": [
+      "https://www.circle.com/pressroom/circle-launches-arc-mainnet-an-economic-operating-system-for-the-internet",
+      "https://www.circle.com/blog/build-agentic-systems-for-high-frequency-sub-cent-transactions"
+    ],
+    "supporting_claim_ids": [
+      "ms-296-001",
+      "ms-301-003"
+    ],
+    "status": "open"
   }
 ]
