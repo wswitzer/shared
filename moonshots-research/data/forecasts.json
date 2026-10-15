@@ -145,5 +145,51 @@
       "ms-301-003"
     ],
     "status": "open"
+  },
+  {
+    "forecast_id": "fc-008",
+    "theme": "Independent AI-designed silicon evaluation",
+    "statement": "By 2027-10-14, a real manufactured Redwood-family ASIC, not an FPGA or projected ASIC, will have a publicly reported like-for-like inference efficiency comparison with NVIDIA Jetson Orin Nano on a named Qwen workload, independently assessed or reproducibly documented.",
+    "horizon": "2027-10-14",
+    "judgment": "possible but uncertain",
+    "origin": "analyst inference from Moonshots #285 and Architect Labs Aug 2026 announcement",
+    "base_rate_or_baseline": "As of Aug 2026, Redwood Nano ran Qwen on FPGA; Architect Labs' 3.4x Jetson claim was a projection to Samsung 8nm, with tapeout still future work.",
+    "drivers": [
+      "AI-native hardware design iteration speed",
+      "Physical tapeout and manufacturing cost",
+      "Verification on representative deployed hardware"
+    ],
+    "resolution": "Pass only if there is a public dated report showing actual manufactured ASIC physical measurements including tokens/second, power, workload, model settings and Jetson comparator (prefer independent lab). An FPGA or synthesized simulation does not count; if comparators aren't matched, unresolved.",
+    "sources": [
+      "https://architectlabs.com/blog/redwood",
+      "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/humanitys-first-star-probe-architect-labs-beats-nvidia-34x-musk-wants-satellites-to-cool-earth-ep-285"
+    ],
+    "supporting_claim_ids": [
+      "ms-285-002"
+    ],
+    "status": "open"
+  },
+  {
+    "forecast_id": "fc-009",
+    "theme": "Narrow US–China top-model capability gap",
+    "statement": "The 2027 Stanford AI Index will report that the best Chinese and US general-purpose language models remain within five percent of each other on at least one explicitly comparable third-party conversational/reasoning benchmark measured before the report's release.",
+    "horizon": "2027-10-14",
+    "judgment": "plausible, uncertain",
+    "origin": "analyst inference from Moonshots #281 and Stanford AI Index 2026",
+    "base_rate_or_baseline": "Stanford 2026 AI Index reported an approximately 2.7% gap in March 2026 on its comparison of top US and Chinese model capability, alongside US strength in leading-model counts.",
+    "drivers": [
+      "Open-weight Chinese ecosystem diffusion",
+      "Compute export restrictions and domestic accelerators",
+      "Leaderboard methodology changes and model specialization"
+    ],
+    "resolution": "Use 2027 Stanford AI Index benchmark table with same task, normalized score, comparable evaluation budget, named China and US models and cutoff date. Difference must be <=5% of higher score; if no comparable 2027 score is published by horizon, mark unresolved.",
+    "sources": [
+      "https://hai.stanford.edu/ai-index/2026-ai-index-report",
+      "https://www.reuters.com/business/retail-consumer/nvidias-china-ai-chip-share-falls-huawei-closes-gap-report-finds-2026-10-13/"
+    ],
+    "supporting_claim_ids": [
+      "ms-281-001"
+    ],
+    "status": "open"
   }
 ]
