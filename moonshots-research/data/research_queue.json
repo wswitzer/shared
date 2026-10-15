@@ -129,5 +129,46 @@
     "question": "How many frontier AI third-party embedded evaluator reports actually publish reproducible methods and disclosures, and what legal force do coordinated policies have?",
     "potential_output": "Risk-engineering policy tracker and model vendor due diligence",
     "remaining_work": "Verify announced partner access and released reports rather than inferring progress from press announcements."
+  },
+  {
+    "id": "research-011",
+    "episode_ids": [
+      "ep-285",
+      "ep-286",
+      "ep-287"
+    ],
+    "priority": 1,
+    "status": "partial_public_transcript_reviewed",
+    "topic": "Claims maturity: designed vs synthesized vs manufactured vs independently validated",
+    "question": "At what technological and evidential stage are Architect Redwood 3.4x ASIC claims, Fermi Explorer launch proposal, Navier-Stokes result and frontier benchmark scores?",
+    "potential_output": "Reusable technology-maturity and benchmark-comparability rubric",
+    "remaining_work": "Capture staged proofs for each claim; verify real chip tapeout, physical telemetry and formal math prize adjudication."
+  },
+  {
+    "id": "research-012",
+    "episode_ids": [
+      "special-20260928-builders",
+      "special-20260928-star-trek"
+    ],
+    "priority": 1,
+    "status": "partial_public_transcript_reviewed",
+    "topic": "Competition earnings versus ordinary customer revenue and production financing",
+    "question": "Which 2026 XPRIZE products retain paying users after 90 days and what are cash grants, equity investments, revenue and owner profit?",
+    "potential_output": "Selection-bias-adjusted solo-founder opportunity and economic evidence report",
+    "remaining_work": "Follow publicly disclosed revenue, retention, profit and follow-on financing using exact categories; do not extrapolate finalist success rate."
+  },
+  {
+    "id": "research-013",
+    "episode_ids": [
+      "ep-281",
+      "ep-284",
+      "ep-283"
+    ],
+    "priority": 2,
+    "status": "partial_public_transcript_reviewed",
+    "topic": "Cost and capability of Chinese open-weight AI models",
+    "question": "For low-sensitivity English and Spanish business workflows, how do leading open-weight model providers compare on total job cost, privacy, correctness and recovery needs?",
+    "potential_output": "Task-based model selection benchmark with regional/legal constraints",
+    "remaining_work": "Construct a permissioned representative benchmark corpus and evaluate 3+ model providers with consistent scoring."
   }
 ]
