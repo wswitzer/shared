@@ -138,7 +138,7 @@ class EvidenceAuditTests(unittest.TestCase):
         audits = quality.read(quality.AUDITS)
         claims = quality.read(quality.CLAIMS)
         episodes = quality.read(quality.SPEAKERS)
-        self.assertEqual(10, len(audits))
+        self.assertEqual(15, len(audits))
         self.assertEqual([], quality.validate_evidence_audits(audits, claims, episodes))
 
     def test_sponsor_cannot_be_called_independently_verified(self):
@@ -164,7 +164,7 @@ class EvidenceAuditTests(unittest.TestCase):
         themes = quality.read(quality.THEMES)
         remaining = quality.prioritize_unaudited(claims, audits, forecasts, themes)
         self.assertEqual(len(claims) - len(audits), len(remaining))
-        self.assertEqual(64, len(remaining))
+        self.assertEqual(59, len(remaining))
         self.assertEqual(len(remaining), len({x["claim_id"] for x in remaining}))
         self.assertEqual(remaining, quality.prioritize_unaudited(claims, audits, forecasts, themes))
         self.assertTrue(all(
