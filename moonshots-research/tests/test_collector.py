@@ -69,10 +69,10 @@ class InventoryTests(unittest.TestCase):
 
     def test_partial_review_is_not_full_transcript(self):
         episodes = collector.load(collector.EPISODES)
-        self.assertEqual(5, sum(e.get("analysis_status") == "partial_review" for e in episodes))
+        self.assertEqual(7, sum(e.get("analysis_status") == "partial_review" for e in episodes))
         self.assertEqual(0, sum(e.get("transcript_status") == "ready" for e in episodes))
         summary = collector.report(episodes, collector.load(collector.CLAIMS), collector.load(collector.FORECASTS))
-        self.assertIn("Episodes partially reviewed via public transcript: **5**", summary)
+        self.assertIn("Episodes partially reviewed via public transcript: **7**", summary)
         self.assertIn("Full transcripts acquired locally: **0**", summary)
 
 if __name__ == "__main__":
