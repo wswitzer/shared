@@ -1,13 +1,15 @@
 # Moonshots Research Radar
 
-Research window: **2026-08-14 through 2026-10-14, inclusive**. Show: **Moonshots with Peter Diamandis** (Apple podcast ID `1648228034`). This is an **initial, public, reproducible research foundation**, not a claim that 24 full transcripts have been analyzed.
+Research window: **2026-08-14 through 2026-10-14, inclusive**. Show: **Moonshots with Peter Diamandis** (Apple podcast ID `1648228034`). This is a **public, reproducible research foundation plus a first evidence-backed pass**: seven episodes selectively reviewed, NOT 24 complete episode analyses.
 
 ## Status and scope
 
 - `data/episodes.json`: 24 entries inventoried from the public spoken.md catalog as of 2026-10-14 (22 numbered episodes #280–#301 and 2 unnumbered specials). Dates are the provider's dates until RSS reconciliation.
-- `data/claims.json`: first source-grounded claims from the publicly visible portion of episode #300, with corroboration distinguished from independent verification.
-- `data/research_queue.json`: prioritized unanswered research questions; these are NOT verified facts.
-- `reports/initial-brief.md`: first evidence-based recommendation and limitations.
+- `data/claims.json`: 20 source-attributed claim and analytical-caveat records across seven partially reviewed episodes; distinguish independent checks, primary-source corroboration, podcast-only forecasts, and contested headlines.
+- `data/research_queue.json`: seven prioritized deeper research questions; these are NOT verified facts.
+- `reports/initial-brief.md`: first pilot, maintained as a historical snapshot.
+- `reports/opportunity-radar-2026-10-14.md`: substantive cross-episode synthesis, evidence check, and prioritized action hypotheses.
+- `data/forecasts.json`: five preregistered dated analyst forecasts with resolution criteria and source links.
 - `collector.py`: update episode metadata from the publisher's RSS; import locally supplied transcripts; report coverage; validate provenance; create a status report. Python standard library only.
 
 ## Quick start
@@ -46,4 +48,11 @@ The main RSS feed provides **metadata**, not full transcript text. Spoken.md adv
 
 ## Next milestone
 
-Acquire the 24 full transcripts privately, then extract and verify an initial 30–50 falsifiable claims with cross-episode deduplication and build the first forecast/opportunity report. Track coverage by episode and claim, not merely by count of summaries.
+Complete the 17 remaining episode reviews, expand and deduplicate the 20-record initial claim ledger, secure full transcripts privately where needed, improve independent evaluations, and track the five forecasts against their dated resolution criteria. The first opportunity report is already available. Track coverage by episode and claim, not merely by count of summaries.
+### Current coverage (October 14 cutoff)
+
+- 24 episodes/specials inventoried from the provider catalog, subject to RSS-date reconciliation.
+- 7 time-coded partial reviews (#280, #286, #292, #297, #298, #299, #300); 17 episodes not yet source-reviewed.
+- 20 attributed claim/interpretation records; 5 preregistered analyst forecasts; 7 research queue items.
+- 0 complete transcripts acquired in local private storage; 0 episodes declared fully analyzed. Public timestamped transcripts exist at Podscripts but are **not republished** here.
+- Offline validation and GitHub Actions tests; no scheduled crawl or AI inference budget.
