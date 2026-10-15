@@ -1,0 +1,59 @@
+import copy
+import sys
+import unittest
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+import collector
+
+
+class InventoryTests(unittest.TestCase):
+    def test_seeded_inventory_is_frozen_and_unique(self):
+        episodes = collector.load(collector.EPISODES)
+        claims = collector.load(collector.CLAIMS)
+        self.assertEqual(24, len(episodes))
+        self.assertEqual([], collector.validate(episodes, claims))
+        self.assertEqual(0, sum(ep["transcript_status"] == "ready" for ep in episodes))
+
+    def test_extract_number_or_special_id(self):
+        self.assertEqual("ep-299", collector.episode_id("Thing | EP #299"))
+        self.assertEqual("ep-290", collector.episode_id("Moonshots 290"))
+        self.assertEqual(collector.episode_id("A Special!"), collector.episode_id("a special"))
+
+    def test_rss_window_and_timezone(self):
+        xml = b"""<rss><channel>
+        <item><title>Within window EP #300</title><pubDate>Mon, 05 Oct 2026 20:32:00 GMT</pubDate><guid>g300</guid><link>https://example.org/300</link></item>
+        <item><title>Before window EP #279</title><pubDate>Thu, 13 Aug 2026 12:00:00 GMT</pubDate><guid>g279</guid></item>
+        <item><title>After window EP #302</title><pubDate>Thu, 15 Oct 2026 12:00:00 GMT</pubDate><guid>g302</guid></item>
+        </channel></rss>"""
+        items = collector.rss_items(xml)
+        self.assertEqual(1, len(items))
+        self.assertEqual("ep-300", items[0]["id"])
+        self.assertEqual("2026-10-05", items[0]["published_date"])
+
+    def test_merge_preserves_workflow_and_updates_publisher_date(self):
+        episodes = collector.load(collector.EPISODES)
+        before = copy.deepcopy(next(e for e in episodes if e["id"] == "ep-300"))
+        before["transcript_status"] = "ready"
+        before["analysis_status"] = "completed"
+        before["transcript_sha256"] = "example-hash"
+        episodes = [before] + [e for e in episodes if e["id"] != "ep-300"]
+        incoming = [{"id":"ep-300","title":before["title"],"published_date":"2026-10-06","date_source":"publisher_rss","guid":"g300","source_url":"https://example.org/300","transcript_status":"not_acquired","analysis_status":"pending"}]
+        merged, added, updated = collector.synchronize(episodes, incoming)
+        actual = next(e for e in merged if e["id"] == "ep-300")
+        self.assertEqual(0, added)
+        self.assertGreater(updated, 0)
+        self.assertEqual("ready", actual["transcript_status"])
+        self.assertEqual("completed", actual["analysis_status"])
+        self.assertEqual("example-hash", actual["transcript_sha256"])
+        self.assertEqual("2026-10-06", actual["published_date"])
+
+    def test_no_fake_independent_verification(self):
+        episodes = collector.load(collector.EPISODES)
+        claims = collector.load(collector.CLAIMS)
+        claims[0]["verification_status"] = "independently_verified"
+        self.assertTrue(any("Independent verification" in e for e in collector.validate(episodes, claims)))
+
+
+if __name__ == "__main__":
+    unittest.main()
