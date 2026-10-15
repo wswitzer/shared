@@ -1,17 +1,20 @@
 # Moonshots Research Radar
 
-Research window: **2026-08-14 through 2026-10-14, inclusive**. Show: **Moonshots with Peter Diamandis** (Apple podcast ID `1648228034`). This is a **public, reproducible research foundation plus a first evidence-backed pass**: 13 episodes selectively reviewed, NOT 24 complete episode analyses.
+Research window: **2026-08-14 through 2026-10-14, inclusive**. Show: **Moonshots with Peter Diamandis** (Apple podcast ID `1648228034`). This is a **public, reproducible research foundation plus a first evidence-backed pass**: all 24 episodes selectively reviewed at specific timestamps, NOT 24 complete episode analyses.
 
 ## Status and scope
 
 - `data/episodes.json`: 24 entries initially inventoried from the public spoken.md catalog, then updated using official RSS (22 numbered episodes #280–#301 and 2 unnumbered specials). Dates have been reconciled with the publisher's RSS feed.
-- `data/claims.json`: 35 source-attributed claim and analytical-caveat records across 13 partially reviewed episodes; distinguish independent checks, primary-source corroboration, podcast-only forecasts, and contested headlines.
+- `data/claims.json`: 65 source-attributed claim and analytical-caveat records across 24 partially reviewed episodes; distinguish independent checks, primary-source corroboration, podcast-only forecasts, and contested headlines.
 - `data/research_queue.json`: ten prioritized deeper research questions; these are NOT verified facts.
 - `reports/initial-brief.md`: first pilot, maintained as a historical snapshot.
 - `reports/opportunity-radar-2026-10-14.md`: first seven-episode research snapshot; maintained as a historical report.
 - `reports/batch-02-agents-safety-robotics-biotech.md`: second six-episode pass, claims checked, and an agent-reliability pilot proposal.
-- `data/forecasts.json`: seven preregistered dated analyst forecasts with resolution criteria and source links.
-- `collector.py`: update episode metadata from the publisher's RSS; import locally supplied transcripts; report coverage; validate provenance; create a status report. Python standard library only.
+- `data/forecasts.json`: nine preregistered dated analyst forecasts with resolution criteria and source links.
+- `data/themes.json`: seven cross-episode evidence themes linking claim IDs and specific practical tests.
+- `reports/batch-03-final-11-episodes.md`: third pass, covering previously unreviewed entries.
+- `reports/integrated-decision-brief-2026-10-14.md`: **start here** for cross-episode recommendations, evidence hierarchy and forecast summary.
+- `collector.py`: update episode metadata from the publisher's RSS; import locally supplied transcripts; report coverage; validate claim, forecast and theme provenance; create a status report. Python standard library only.
 
 ## Quick start
 
@@ -49,11 +52,12 @@ The main RSS feed provides **metadata**, not full transcript text. Spoken.md adv
 
 ## Next milestone
 
-Complete the 11 remaining episode reviews, expand and deduplicate the 35-record claim ledger, secure full transcripts privately where needed, improve independent evaluations, and track seven forecasts against their dated resolution criteria. The first two research passes are available. Track coverage by episode and claim, not merely by count of summaries.
+Carry out end-to-end transcript/audio reviews on all 24 episodes, deduplicate the 65-record claim ledger, secure full transcripts privately only with appropriate permission, improve independent verification, and resolve the nine forecasts under their preregistered criteria. Three exploratory passes and an integrated decision brief are available. Track coverage by episode and claim, not merely by count of summaries.
 ### Current coverage (October 14 cutoff)
 
 - 24 episodes/specials inventoried from the provider catalog and reconciled with publisher RSS (4 date corrections documented in `reports/rss-reconciliation.md`).
-- 13 time-coded partial reviews (#280, #286, #290, #291, #292, #294, #295, #296, #297, #298, #299, #300, #301); 11 episodes not yet source-reviewed.
-- 35 attributed claim/interpretation records; 7 preregistered analyst forecasts; 10 research queue items.
+- 24 time-coded selective/partial episode reviews, including #280–#301 and two specials; 0 episodes fully analyzed end-to-end.
+- 65 attributed claim/interpretation records; 9 preregistered analyst forecasts; 10 research queue items; 7 cross-episode themes.
 - 0 complete transcripts acquired in local private storage; 0 episodes declared fully analyzed. Public timestamped transcripts exist at Podscripts but are **not republished** here.
+- Claim evidence types: 22 primary-source corroborations, 8 claims flagged independently supported, 31 podcast-only/interpretive and 4 contested; these are classification counts **not truth scores**.
 - Offline validation and GitHub Actions tests; no scheduled crawl or AI inference budget.
