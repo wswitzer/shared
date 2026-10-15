@@ -104,8 +104,14 @@
     "date_source": "publisher_rss",
     "source_url": "https://spoken.md/podcast/moonshots-with-peter-diamandis-1648228034",
     "transcript_status": "not_acquired",
-    "analysis_status": "pending",
-    "guid": "74705468-bb69-11f1-937d-8fc1c34c803e"
+    "analysis_status": "partial_review",
+    "guid": "74705468-bb69-11f1-937d-8fc1c34c803e",
+    "public_transcript_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/why-we-gave-away-350000000-for-someone-to-build-the-next-star-trek-moonshots-live",
+    "reviewed_timestamp_ranges": [
+      "00:01:29–00:04:40",
+      "00:18:37–00:24:50"
+    ],
+    "review_method": "selective source-linked review of public timestamped transcript and external evidence; not full audio/corpus check"
   },
   {
     "id": "special-20260928-builders",
@@ -114,8 +120,14 @@
     "date_source": "publisher_rss",
     "source_url": "https://spoken.md/podcast/moonshots-with-peter-diamandis-1648228034",
     "transcript_status": "not_acquired",
-    "analysis_status": "pending",
-    "guid": "6cc0d8fa-bb69-11f1-9d9a-83fecdcd288d"
+    "analysis_status": "partial_review",
+    "guid": "6cc0d8fa-bb69-11f1-9d9a-83fecdcd288d",
+    "public_transcript_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/we-gave-away-2000000-to-5-ai-builders-moonshots-live",
+    "reviewed_timestamp_ranges": [
+      "00:01:07–00:01:38",
+      "00:14:15–00:20:04"
+    ],
+    "review_method": "selective source-linked review of public timestamped transcript and external evidence; not full audio/corpus check"
   },
   {
     "id": "ep-295",
@@ -156,8 +168,14 @@
     "date_source": "publisher_rss",
     "source_url": "https://spoken.md/podcast/moonshots-with-peter-diamandis-1648228034",
     "transcript_status": "not_acquired",
-    "analysis_status": "pending",
-    "guid": "79bf833e-adff-11f1-97f7-27b8419686ad"
+    "analysis_status": "partial_review",
+    "guid": "79bf833e-adff-11f1-97f7-27b8419686ad",
+    "public_transcript_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/should-we-slow-down-ai-progress-moonshots-288",
+    "reviewed_timestamp_ranges": [
+      "00:41:08–00:43:45",
+      "00:53:07–00:53:54"
+    ],
+    "review_method": "selective source-linked review of public timestamped transcript and external evidence; not full audio/corpus check"
   },
   {
     "id": "ep-293",
@@ -166,8 +184,15 @@
     "date_source": "publisher_rss",
     "source_url": "https://spoken.md/podcast/moonshots-with-peter-diamandis-1648228034",
     "transcript_status": "not_acquired",
-    "analysis_status": "pending",
-    "guid": "4595d30c-b6af-11f1-b52f-b7a3cf6fb34d"
+    "analysis_status": "partial_review",
+    "guid": "4595d30c-b6af-11f1-b52f-b7a3cf6fb34d",
+    "public_transcript_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/ask-the-mates-anything-round-2-moonshots-ama-293",
+    "reviewed_timestamp_ranges": [
+      "00:43:35–00:45:00",
+      "00:47:30–00:49:44",
+      "00:50:04–00:50:42"
+    ],
+    "review_method": "selective source-linked review of public timestamped transcript and external evidence; not full audio/corpus check"
   },
   {
     "id": "ep-292",
@@ -224,8 +249,14 @@
     "date_source": "publisher_rss",
     "source_url": "https://spoken.md/podcast/moonshots-with-peter-diamandis-1648228034",
     "transcript_status": "not_acquired",
-    "analysis_status": "pending",
-    "guid": "127a7240-ad48-11f1-b62b-bfe6dd52d2bd"
+    "analysis_status": "partial_review",
+    "guid": "127a7240-ad48-11f1-b62b-bfe6dd52d2bd",
+    "public_transcript_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/ask-the-mates-anything-moonshots-ama-289",
+    "reviewed_timestamp_ranges": [
+      "00:09:10–00:10:16",
+      "00:43:53–00:44:20"
+    ],
+    "review_method": "selective source-linked review of public timestamped transcript and external evidence; not full audio/corpus check"
   },
   {
     "id": "ep-287",
@@ -234,8 +265,15 @@
     "date_source": "publisher_rss",
     "source_url": "https://spoken.md/podcast/moonshots-with-peter-diamandis-1648228034",
     "transcript_status": "not_acquired",
-    "analysis_status": "pending",
-    "guid": "a3d21db6-ac70-11f1-b56c-733b4d57ca80"
+    "analysis_status": "partial_review",
+    "guid": "a3d21db6-ac70-11f1-b56c-733b4d57ca80",
+    "public_transcript_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/why-jensen-huang-believes-weve-reached-agi-and-inside-openais-german-website-hijack-287",
+    "reviewed_timestamp_ranges": [
+      "00:15:39–00:18:38",
+      "00:26:39–00:29:05",
+      "00:48:27–00:50:49"
+    ],
+    "review_method": "selective source-linked review of public timestamped transcript and external evidence; not full audio/corpus check"
   },
   {
     "id": "ep-286",
@@ -259,8 +297,16 @@
     "date_source": "publisher_rss",
     "source_url": "https://spoken.md/podcast/moonshots-with-peter-diamandis-1648228034",
     "transcript_status": "not_acquired",
-    "analysis_status": "pending",
-    "guid": "c788c560-a6fe-11f1-8883-4773df526e10"
+    "analysis_status": "partial_review",
+    "guid": "c788c560-a6fe-11f1-8883-4773df526e10",
+    "public_transcript_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/humanitys-first-star-probe-architect-labs-beats-nvidia-34x-musk-wants-satellites-to-cool-earth-ep-285",
+    "reviewed_timestamp_ranges": [
+      "00:00:27–00:00:50",
+      "00:09:05–00:09:45",
+      "00:17:48–00:19:42",
+      "00:52:37–00:53:05"
+    ],
+    "review_method": "selective source-linked review of public timestamped transcript and external evidence; not full audio/corpus check"
   },
   {
     "id": "ep-284",
@@ -269,8 +315,15 @@
     "date_source": "publisher_rss",
     "source_url": "https://spoken.md/podcast/moonshots-with-peter-diamandis-1648228034",
     "transcript_status": "not_acquired",
-    "analysis_status": "pending",
-    "guid": "15e49284-a3ad-11f1-ad3f-b33f879d3d7e"
+    "analysis_status": "partial_review",
+    "guid": "15e49284-a3ad-11f1-ad3f-b33f879d3d7e",
+    "public_transcript_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/nvidias-962b-quarter-chinas-200000-fake-accounts-openais-new-chip-ep-284",
+    "reviewed_timestamp_ranges": [
+      "00:04:58–00:05:27",
+      "00:12:34–00:13:47",
+      "01:20:40–01:22:25"
+    ],
+    "review_method": "selective source-linked review of public timestamped transcript and external evidence; not full audio/corpus check"
   },
   {
     "id": "ep-282",
@@ -279,8 +332,15 @@
     "date_source": "publisher_rss",
     "source_url": "https://spoken.md/podcast/moonshots-with-peter-diamandis-1648228034",
     "transcript_status": "not_acquired",
-    "analysis_status": "pending",
-    "guid": "0e0b5862-9d7d-11f1-93d2-f7a1ad40d7e8"
+    "analysis_status": "partial_review",
+    "guid": "0e0b5862-9d7d-11f1-93d2-f7a1ad40d7e8",
+    "public_transcript_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/openai-pauses-frontier-training-elons-100x-prediction-lands-robot-beats-usain-bolt-with-emad-mostaque-ep282",
+    "reviewed_timestamp_ranges": [
+      "00:00:00–00:00:56",
+      "00:08:45–00:12:20",
+      "00:21:09–00:22:39"
+    ],
+    "review_method": "selective source-linked review of public timestamped transcript and external evidence; not full audio/corpus check"
   },
   {
     "id": "ep-283",
@@ -289,8 +349,14 @@
     "date_source": "publisher_rss",
     "source_url": "https://spoken.md/podcast/moonshots-with-peter-diamandis-1648228034",
     "transcript_status": "not_acquired",
-    "analysis_status": "pending",
-    "guid": "ca702e5a-a251-11f1-81e3-4ff6c683f74d"
+    "analysis_status": "partial_review",
+    "guid": "ca702e5a-a251-11f1-81e3-4ff6c683f74d",
+    "public_transcript_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/sam-altman-singularity-slow-down-emad-runs-18-grokbots-waymo-slashes-hardware-83-ep-283",
+    "reviewed_timestamp_ranges": [
+      "00:05:49–00:06:42",
+      "00:08:28–00:09:17"
+    ],
+    "review_method": "selective source-linked review of public timestamped transcript and external evidence; not full audio/corpus check"
   },
   {
     "id": "ep-281",
@@ -299,8 +365,15 @@
     "date_source": "publisher_rss",
     "source_url": "https://spoken.md/podcast/moonshots-with-peter-diamandis-1648228034",
     "transcript_status": "not_acquired",
-    "analysis_status": "pending",
-    "guid": "2c65d748-9b29-11f1-a661-2b7ef242b9a6"
+    "analysis_status": "partial_review",
+    "guid": "2c65d748-9b29-11f1-a661-2b7ef242b9a6",
+    "public_transcript_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/chinas-endgame-asi-timelines-us-china-relations-and-the-17t-ai-bubble-with-alvin-graylin-281",
+    "reviewed_timestamp_ranges": [
+      "00:31:54–00:32:50",
+      "00:54:24–00:57:47",
+      "01:47:40–01:49:48"
+    ],
+    "review_method": "selective source-linked review of public timestamped transcript and external evidence; not full audio/corpus check"
   },
   {
     "id": "ep-280",
