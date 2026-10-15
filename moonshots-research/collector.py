@@ -103,6 +103,13 @@ def validate(episodes, claims):
             errors.append("Episode outside frozen window: " + str(ep.get("id")))
         if ep.get("transcript_status") not in {"not_acquired", "ready", "unavailable"}:
             errors.append("Unknown transcript state: " + str(ep.get("id")))
+        if ep.get("analysis_status") in {"partial_review", "completed"}:
+            if not ep.get("public_transcript_url") and ep.get("transcript_status") != "ready":
+                errors.append("Reviewed episode lacks transcript source: " + str(ep.get("id")))
+            if not ep.get("reviewed_timestamp_ranges"):
+                errors.append("Reviewed episode lacks timestamp coverage: " + str(ep.get("id")))
+        if ep.get("analysis_status") == "completed" and ep.get("transcript_status") != "ready":
+            errors.append("Complete analysis requires acquired full transcript: " + str(ep.get("id")))
     claim_ids = set()
     for c in claims:
         cid = c.get("claim_id", "<missing>")
@@ -118,6 +125,9 @@ def validate(episodes, claims):
             errors.append("Corroborated/verified claim lacks evidence: " + cid)
         if state == "independently_verified" and not any(e.get("independent") for e in c.get("evidence", [])):
             errors.append("Independent verification not backed by independent source: " + cid)
+        for evidence in c.get("evidence", []):
+            if not str(evidence.get("url", "")).startswith("https://") or not evidence.get("assessment") or not evidence.get("publisher"):
+                errors.append("Evidence missing HTTPS URL, publisher or assessment: " + cid)
     return errors
 
 
