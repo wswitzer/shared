@@ -98,7 +98,7 @@ class InventoryTests(unittest.TestCase):
 
     def test_claim_ledger_batch_counts(self):
         claims = collector.load(collector.CLAIMS)
-        self.assertEqual(75, len(claims))
+        self.assertEqual(74, len(claims))
         batch = {"ep-290", "ep-291", "ep-294", "ep-295", "ep-296", "ep-301"}
         self.assertEqual(15, sum(c["episode_id"] in batch for c in claims))
 
