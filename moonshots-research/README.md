@@ -6,7 +6,7 @@ Research window: **2026-08-14 through 2026-10-14, inclusive**. Show: **Moonshots
 
 - `data/episodes.json`: 24 entries initially inventoried from the public spoken.md catalog, then updated using official RSS (22 numbered episodes #280–#301 and 2 unnumbered specials). Dates have been reconciled with the publisher's RSS feed.
 - `data/claims.json`: 65 source-attributed claim and analytical-caveat records across 24 partially reviewed episodes; distinguish independent checks, primary-source corroboration, podcast-only forecasts, and contested headlines.
-- `data/research_queue.json`: ten prioritized deeper research questions; these are NOT verified facts.
+- `data/research_queue.json`: thirteen prioritized deeper research questions; these are NOT verified facts.
 - `reports/initial-brief.md`: first pilot, maintained as a historical snapshot.
 - `reports/opportunity-radar-2026-10-14.md`: first seven-episode research snapshot; maintained as a historical report.
 - `reports/batch-02-agents-safety-robotics-biotech.md`: second six-episode pass, claims checked, and an agent-reliability pilot proposal.
@@ -57,7 +57,7 @@ Carry out end-to-end transcript/audio reviews on all 24 episodes, deduplicate th
 
 - 24 episodes/specials inventoried from the provider catalog and reconciled with publisher RSS (4 date corrections documented in `reports/rss-reconciliation.md`).
 - 24 time-coded selective/partial episode reviews, including #280–#301 and two specials; 0 episodes fully analyzed end-to-end.
-- 65 attributed claim/interpretation records; 9 preregistered analyst forecasts; 10 research queue items; 7 cross-episode themes.
+- 65 attributed claim/interpretation records; 9 preregistered analyst forecasts; 13 research queue items; 7 cross-episode themes.
 - 0 complete transcripts acquired in local private storage; 0 episodes declared fully analyzed. Public timestamped transcripts exist at Podscripts but are **not republished** here.
 - Claim evidence types: 22 primary-source corroborations, 8 claims flagged independently supported, 31 podcast-only/interpretive and 4 contested; these are classification counts **not truth scores**.
 - Offline validation and GitHub Actions tests; no scheduled crawl or AI inference budget.
