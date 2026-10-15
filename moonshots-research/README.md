@@ -4,7 +4,7 @@ Research window: **2026-08-14 through 2026-10-14, inclusive**. Show: **Moonshots
 
 ## Status and scope
 
-- `data/episodes.json`: 24 entries inventoried from the public spoken.md catalog as of 2026-10-14 (22 numbered episodes #280–#301 and 2 unnumbered specials). Dates are the provider's dates until RSS reconciliation.
+- `data/episodes.json`: 24 entries initially inventoried from the public spoken.md catalog, then updated using official RSS (22 numbered episodes #280–#301 and 2 unnumbered specials). Dates have been reconciled with the publisher's RSS feed.
 - `data/claims.json`: 20 source-attributed claim and analytical-caveat records across seven partially reviewed episodes; distinguish independent checks, primary-source corroboration, podcast-only forecasts, and contested headlines.
 - `data/research_queue.json`: seven prioritized deeper research questions; these are NOT verified facts.
 - `reports/initial-brief.md`: first pilot, maintained as a historical snapshot.
@@ -51,7 +51,7 @@ The main RSS feed provides **metadata**, not full transcript text. Spoken.md adv
 Complete the 17 remaining episode reviews, expand and deduplicate the 20-record initial claim ledger, secure full transcripts privately where needed, improve independent evaluations, and track the five forecasts against their dated resolution criteria. The first opportunity report is already available. Track coverage by episode and claim, not merely by count of summaries.
 ### Current coverage (October 14 cutoff)
 
-- 24 episodes/specials inventoried from the provider catalog, subject to RSS-date reconciliation.
+- 24 episodes/specials inventoried from the provider catalog and reconciled with publisher RSS (4 date corrections documented in `reports/rss-reconciliation.md`).
 - 7 time-coded partial reviews (#280, #286, #292, #297, #298, #299, #300); 17 episodes not yet source-reviewed.
 - 20 attributed claim/interpretation records; 5 preregistered analyst forecasts; 7 research queue items.
 - 0 complete transcripts acquired in local private storage; 0 episodes declared fully analyzed. Public timestamped transcripts exist at Podscripts but are **not republished** here.
