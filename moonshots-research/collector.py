@@ -15,6 +15,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 EPISODES = ROOT / "data" / "episodes.json"
 CLAIMS = ROOT / "data" / "claims.json"
+FORECASTS = ROOT / "data" / "forecasts.json"
 RSS = "https://feeds.megaphone.fm/DVVTS2890392624"
 START, END = "2026-08-14", "2026-10-14"
 PRIVATE = ROOT / ".private" / "transcripts"
@@ -95,6 +96,8 @@ def validate(episodes, claims):
     if len(ids) != len(set(ids)):
         errors.append("Duplicate episode IDs")
     for ep in episodes:
+        if ep.get("analysis_status", "pending") not in {"pending", "partial_review", "completed"}:
+            errors.append("Unknown analysis state: " + str(ep.get("id")))
         if not START <= ep.get("published_date", "") <= END:
             errors.append("Episode outside frozen window: " + str(ep.get("id")))
         if ep.get("transcript_status") not in {"not_acquired", "ready", "unavailable"}:
@@ -117,18 +120,47 @@ def validate(episodes, claims):
     return errors
 
 
-def report(episodes, claims):
+def validate_forecasts(forecasts, claims):
+    errors = []
+    known_claims = {c.get("claim_id") for c in claims}
+    seen = set()
+    for forecast in forecasts:
+        fid = forecast.get("forecast_id", "<missing>")
+        if fid in seen:
+            errors.append("Duplicate forecast ID " + fid)
+        seen.add(fid)
+        for field in ("statement", "horizon", "judgment", "origin", "base_rate_or_baseline", "resolution"):
+            if not forecast.get(field):
+                errors.append("Forecast lacks " + field + ": " + fid)
+        try:
+            datetime.strptime(forecast.get("horizon", ""), "%Y-%m-%d")
+        except ValueError:
+            errors.append("Invalid forecast horizon: " + fid)
+        if forecast.get("status") not in {"open", "resolved_true", "resolved_false", "unresolved"}:
+            errors.append("Invalid forecast status: " + fid)
+        if not forecast.get("sources"):
+            errors.append("Forecast without sources: " + fid)
+        for cid in forecast.get("supporting_claim_ids", []):
+            if cid not in known_claims:
+                errors.append("Forecast references missing claim: " + fid + " / " + str(cid))
+    return errors
+
+
+def report(episodes, claims, forecasts=None):
     counts = Counter(e["transcript_status"] for e in episodes)
     analyzed = sum(1 for e in episodes if e.get("analysis_status") == "completed")
     verified = Counter(c["verification_status"] for c in claims)
+    partial = sum(1 for e in episodes if e.get("analysis_status") == "partial_review")
     lines = [
         "# Moonshots research coverage", "",
         "Frozen window: " + START + " to " + END, "",
         f"- Episodes inventoried: **{len(episodes)}**",
         f"- Full transcripts acquired locally: **{counts['ready']}**",
+        f"- Episodes partially reviewed via public transcript: **{partial}**",
         f"- Episodes fully analyzed: **{analyzed}**",
         f"- Claims in ledger: **{len(claims)}**",
-        f"- Independently verified claims: **{verified['independently_verified']}**", "",
+        f"- Claims with independent supporting evidence: **{verified['independently_verified']}**",
+        f"- Open analyst forecasts: **{sum(f.get('status') == 'open' for f in (forecasts or []))}**", "",
         "## Episode inventory", "",
         "| Date | Episode | Transcript | Analysis |",
         "| --- | --- | --- | --- |",
@@ -156,6 +188,7 @@ def main(argv=None):
     args = parser.parse_args(argv)
     episodes = load(EPISODES)
     claims = load(CLAIMS)
+    forecasts = load(FORECASTS)
     if args.command == "sync":
         raw = args.rss_file.read_bytes() if args.rss_file else fetch_rss(args.feed_url)
         incoming = rss_items(raw)
@@ -163,7 +196,7 @@ def main(argv=None):
             print("No episodes in window: preserving inventory; investigate RSS coverage.", file=sys.stderr)
             return 2
         merged, added, updated = synchronize(episodes, incoming)
-        errors = validate(merged, claims)
+        errors = validate(merged, claims) + validate_forecasts(forecasts, claims)
         if errors:
             print("\n".join(errors), file=sys.stderr)
             return 2
@@ -184,15 +217,15 @@ def main(argv=None):
         save(EPISODES, episodes)
         print("Saved privately:", target)
     elif args.command == "validate":
-        errors = validate(episodes, claims)
+        errors = validate(episodes, claims) + validate_forecasts(forecasts, claims)
         if errors:
             print("\n".join(errors), file=sys.stderr)
             return 2
         print(f"OK: {len(episodes)} episodes and {len(claims)} attributed claims")
     elif args.command == "status":
-        print(report(episodes, claims).split("## Episode inventory")[0])
+        print(report(episodes, claims, forecasts).split("## Episode inventory")[0])
     elif args.command == "report":
-        output = report(episodes, claims)
+        output = report(episodes, claims, forecasts)
         if args.output:
             args.output.parent.mkdir(parents=True, exist_ok=True)
             args.output.write_text(output, encoding="utf-8")
