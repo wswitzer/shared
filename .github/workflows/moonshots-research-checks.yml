@@ -31,3 +31,13 @@ jobs:
           python3 moonshots-research/collector.py sync
           python3 moonshots-research/collector.py validate
           python3 moonshots-research/collector.py status
+      - name: Show publisher-reconciled public metadata snapshot
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          data = json.loads(Path("moonshots-research/data/episodes.json").read_text())
+          print("MOONSHOTS_SYNC_JSON_BEGIN")
+          print(json.dumps(data, ensure_ascii=True, separators=(",", ":")))
+          print("MOONSHOTS_SYNC_JSON_END")
+          PY
