@@ -3,16 +3,17 @@
     "id": "ep-301",
     "published_date": "2026-10-07",
     "title": "Why Altman Says \"Accept Some Bad Things Happening\" and What It Means for AI Safety | MOONSHOTS #301",
-    "date_source": "spoken.md catalog, retrieved 2026-10-14",
+    "date_source": "publisher_rss",
     "source_url": "https://spoken.md/episode/why-altman-says-accept-some-bad-things-happening-and-1000793719485",
     "transcript_status": "not_acquired",
-    "analysis_status": "pending"
+    "analysis_status": "pending",
+    "guid": "eb332b08-c266-11f1-8450-67f68606e725"
   },
   {
     "id": "ep-300",
     "published_date": "2026-10-05",
-    "title": "Google X's Astro Teller: The $1B Bet No CEO Will Back, Moonshots 3x Cheaper in 16 Yrs, and Clean Water at 1¢/L | EP #300",
-    "date_source": "spoken.md catalog, retrieved 2026-10-14",
+    "title": "Google X's Astro Teller: The $1B Bet No CEO Will Back, Moonshots 3x Cheaper in 16 Yrs, and Clean Water at 1¢/L| EP #300",
+    "date_source": "publisher_rss",
     "source_url": "https://spoken.md/episode/google-xs-astro-teller-the-$1b-bet-no-ceo-will-back-1000793315034",
     "transcript_status": "not_acquired",
     "analysis_status": "partial_review",
@@ -22,13 +23,14 @@
       "00:20:36–00:21:03",
       "00:31:18–00:32:26"
     ],
-    "review_method": "source-linked manual research; full transcripts not stored"
+    "review_method": "source-linked manual research; full transcripts not stored",
+    "guid": "54a49840-b9f4-11f1-af58-2f4cde24177e"
   },
   {
     "id": "ep-299",
     "published_date": "2026-10-03",
     "title": "Recursive's $670M Bet on Self-Improving AI, Sonnet 5.5 Hits 70%, Elon Co-Leads Pentagon Push | EP #299",
-    "date_source": "spoken.md catalog, retrieved 2026-10-14",
+    "date_source": "publisher_rss",
     "source_url": "https://spoken.md/episode/recursives-$670m-bet-on-self-improving-ai-sonnet-5-1000793011855",
     "transcript_status": "not_acquired",
     "analysis_status": "partial_review",
@@ -37,13 +39,14 @@
       "00:03:34–00:07:36",
       "01:00:12–01:07:27"
     ],
-    "review_method": "source-linked manual research; full transcripts not stored"
+    "review_method": "source-linked manual research; full transcripts not stored",
+    "guid": "1bbe0fbe-bf41-11f1-884b-0f2a11bcd0ce"
   },
   {
     "id": "ep-298",
     "published_date": "2026-10-02",
     "title": "Can We Still Build AI Safely? The White House Thinks So | MOONSHOTS #298",
-    "date_source": "spoken.md catalog, retrieved 2026-10-14",
+    "date_source": "publisher_rss",
     "source_url": "https://spoken.md/podcast/moonshots-with-peter-diamandis-1648228034",
     "transcript_status": "not_acquired",
     "analysis_status": "partial_review",
@@ -51,13 +54,14 @@
     "reviewed_timestamp_ranges": [
       "00:00:00–00:09:17"
     ],
-    "review_method": "source-linked manual research; full transcripts not stored"
+    "review_method": "source-linked manual research; full transcripts not stored",
+    "guid": "0b129ec4-be7d-11f1-8639-0743acf3ce3e"
   },
   {
     "id": "ep-297",
     "published_date": "2026-09-30",
     "title": "Why We're Living in a Biological Singularity With Ben Lamm | MOONSHOTS Live #297",
-    "date_source": "spoken.md catalog, retrieved 2026-10-14",
+    "date_source": "publisher_rss",
     "source_url": "https://spoken.md/podcast/moonshots-with-peter-diamandis-1648228034",
     "transcript_status": "not_acquired",
     "analysis_status": "partial_review",
@@ -66,67 +70,84 @@
       "00:06:55–00:07:37",
       "00:19:07–00:20:05"
     ],
-    "review_method": "source-linked manual research; full transcripts not stored"
+    "review_method": "source-linked manual research; full transcripts not stored",
+    "guid": "8c8ae0de-b9f4-11f1-bfbf-53c964c2293b"
   },
   {
     "id": "ep-296",
     "published_date": "2026-09-29",
     "title": "Cathie Wood on Tesla-SpaceX Merger, $1M Bitcoin, More AIs Than Humans | EP #296 | Moonshots Live",
-    "date_source": "spoken.md catalog, retrieved 2026-10-14",
+    "date_source": "publisher_rss",
     "source_url": "https://spoken.md/podcast/moonshots-with-peter-diamandis-1648228034",
     "transcript_status": "not_acquired",
-    "analysis_status": "pending"
-  },
-  {
-    "id": "special-20260928-builders",
-    "published_date": "2026-09-28",
-    "title": "We Gave Away $2,000,000 To 5 AI Builders | MOONSHOTS Live",
-    "date_source": "spoken.md catalog, retrieved 2026-10-14",
-    "source_url": "https://spoken.md/podcast/moonshots-with-peter-diamandis-1648228034",
-    "transcript_status": "not_acquired",
-    "analysis_status": "pending"
+    "analysis_status": "pending",
+    "guid": "91b9988e-b9f4-11f1-b811-9708293222c9"
   },
   {
     "id": "special-20260928-star-trek",
     "published_date": "2026-09-28",
     "title": "Why We Gave Away $3,500,000.00 for Someone to Build the Next Star Trek | Moonshots Live",
-    "date_source": "spoken.md catalog, retrieved 2026-10-14",
+    "date_source": "publisher_rss",
     "source_url": "https://spoken.md/podcast/moonshots-with-peter-diamandis-1648228034",
     "transcript_status": "not_acquired",
-    "analysis_status": "pending"
+    "analysis_status": "pending",
+    "guid": "74705468-bb69-11f1-937d-8fc1c34c803e"
+  },
+  {
+    "id": "special-20260928-builders",
+    "published_date": "2026-09-28",
+    "title": "We Gave Away $2,000,000 To 5 AI Builders | MOONSHOTS Live",
+    "date_source": "publisher_rss",
+    "source_url": "https://spoken.md/podcast/moonshots-with-peter-diamandis-1648228034",
+    "transcript_status": "not_acquired",
+    "analysis_status": "pending",
+    "guid": "6cc0d8fa-bb69-11f1-9d9a-83fecdcd288d"
   },
   {
     "id": "ep-295",
     "published_date": "2026-09-28",
-    "title": "Palmer Luckey: Autonomous Weapons Are Ancient and Why Anduril Won't Build Humanoids | Moonshots Live | EP #295",
-    "date_source": "spoken.md catalog, retrieved 2026-10-14",
+    "title": "Palmer Luckey: Autonomous Weapons Are Ancient and Why Anduril Won't Build Humanoids  | Moonshots Live | EP #295",
+    "date_source": "publisher_rss",
     "source_url": "https://spoken.md/podcast/moonshots-with-peter-diamandis-1648228034",
     "transcript_status": "not_acquired",
-    "analysis_status": "pending"
+    "analysis_status": "pending",
+    "guid": "42ad03ca-b9f4-11f1-8b86-ff5be5ba67c3"
   },
   {
     "id": "ep-294",
-    "published_date": "2026-09-27",
-    "title": "Why Jensen and Zuck think the doomers are wrong (plus AI get’s a rebrand) | #294 MOONSHOTS Live",
-    "date_source": "spoken.md catalog, retrieved 2026-10-14",
+    "published_date": "2026-09-28",
+    "title": "Why Jensen and Zuck think the doomers are wrong (plus AI get’s a rebrand)  | #294 MOONSHOTS Live",
+    "date_source": "publisher_rss",
     "source_url": "https://spoken.md/podcast/moonshots-with-peter-diamandis-1648228034",
     "transcript_status": "not_acquired",
-    "analysis_status": "pending"
+    "analysis_status": "pending",
+    "guid": "3465cd2a-b9f3-11f1-af0b-f3e876079719"
+  },
+  {
+    "id": "ep-288",
+    "published_date": "2026-09-28",
+    "title": "Should we slow down AI progress? | MOONSHOTS #288",
+    "date_source": "publisher_rss",
+    "source_url": "https://spoken.md/podcast/moonshots-with-peter-diamandis-1648228034",
+    "transcript_status": "not_acquired",
+    "analysis_status": "pending",
+    "guid": "79bf833e-adff-11f1-97f7-27b8419686ad"
   },
   {
     "id": "ep-293",
     "published_date": "2026-09-22",
-    "title": "Ask the Mates Anything Round #2 | MOONSHOTS AMA #293",
-    "date_source": "spoken.md catalog, retrieved 2026-10-14",
+    "title": "Ask the Mates Anything Round #2 | MOONSHOTS AMA  #293",
+    "date_source": "publisher_rss",
     "source_url": "https://spoken.md/podcast/moonshots-with-peter-diamandis-1648228034",
     "transcript_status": "not_acquired",
-    "analysis_status": "pending"
+    "analysis_status": "pending",
+    "guid": "4595d30c-b6af-11f1-b52f-b7a3cf6fb34d"
   },
   {
     "id": "ep-292",
     "published_date": "2026-09-19",
     "title": "Robinhood's Vlad Tenev on Tokenizing Everything, OpenAI's 6 Misalignment Reports, Figure's Robot Makes Beds | EP #292",
-    "date_source": "spoken.md catalog, retrieved 2026-10-14",
+    "date_source": "publisher_rss",
     "source_url": "https://spoken.md/podcast/moonshots-with-peter-diamandis-1648228034",
     "transcript_status": "not_acquired",
     "analysis_status": "partial_review",
@@ -134,58 +155,54 @@
     "reviewed_timestamp_ranges": [
       "01:14:53–01:17:46"
     ],
-    "review_method": "source-linked manual research; full transcripts not stored"
+    "review_method": "source-linked manual research; full transcripts not stored",
+    "guid": "d6b87826-b448-11f1-a875-87e392634f16"
   },
   {
     "id": "ep-291",
-    "published_date": "2026-09-17",
+    "published_date": "2026-09-19",
     "title": "Frontier Labs Want to Slow Down, OpenAI Delays Its 2026 IPO, Anthropic Flags 5 Bioweapon Cases | EP #291",
-    "date_source": "spoken.md catalog, retrieved 2026-10-14",
+    "date_source": "publisher_rss",
     "source_url": "https://spoken.md/podcast/moonshots-with-peter-diamandis-1648228034",
     "transcript_status": "not_acquired",
-    "analysis_status": "pending"
+    "analysis_status": "pending",
+    "guid": "73b015e2-b2b6-11f1-846c-afa7a74bbd4c"
   },
   {
     "id": "ep-290",
     "published_date": "2026-09-15",
     "title": "Martine Rothblatt: Growing Unlimited Organs, AI Consciousness, & Digital Personhood by 2030",
-    "date_source": "spoken.md catalog, retrieved 2026-10-14",
+    "date_source": "publisher_rss",
     "source_url": "https://spoken.md/podcast/moonshots-with-peter-diamandis-1648228034",
     "transcript_status": "not_acquired",
-    "analysis_status": "pending"
+    "analysis_status": "pending",
+    "guid": "f81c3278-b065-11f1-9f79-d371b57a1086"
   },
   {
     "id": "ep-289",
     "published_date": "2026-09-13",
-    "title": "Ask the Mates anything | MOONSHOTS AMA #289",
-    "date_source": "spoken.md catalog, retrieved 2026-10-14",
+    "title": "Ask the Mates anything | MOONSHOTS AMA  #289",
+    "date_source": "publisher_rss",
     "source_url": "https://spoken.md/podcast/moonshots-with-peter-diamandis-1648228034",
     "transcript_status": "not_acquired",
-    "analysis_status": "pending"
-  },
-  {
-    "id": "ep-288",
-    "published_date": "2026-09-11",
-    "title": "Should we slow down AI progress? | MOONSHOTS #288",
-    "date_source": "spoken.md catalog, retrieved 2026-10-14",
-    "source_url": "https://spoken.md/podcast/moonshots-with-peter-diamandis-1648228034",
-    "transcript_status": "not_acquired",
-    "analysis_status": "pending"
+    "analysis_status": "pending",
+    "guid": "127a7240-ad48-11f1-b62b-bfe6dd52d2bd"
   },
   {
     "id": "ep-287",
     "published_date": "2026-09-09",
     "title": "Why Jensen Huang Believes We’ve Reached AGI and Inside OpenAI’s German Website Hijack | #287",
-    "date_source": "spoken.md catalog, retrieved 2026-10-14",
+    "date_source": "publisher_rss",
     "source_url": "https://spoken.md/podcast/moonshots-with-peter-diamandis-1648228034",
     "transcript_status": "not_acquired",
-    "analysis_status": "pending"
+    "analysis_status": "pending",
+    "guid": "a3d21db6-ac70-11f1-b56c-733b4d57ca80"
   },
   {
     "id": "ep-286",
     "published_date": "2026-09-05",
     "title": "GPT-6 Astra Saturates ARC-AGI-3, Tesla's $30K Cybercab Floods Austin, Anthropic Proves Fermat's Last Theorem | EP #286",
-    "date_source": "spoken.md catalog, retrieved 2026-10-14",
+    "date_source": "publisher_rss",
     "source_url": "https://spoken.md/podcast/moonshots-with-peter-diamandis-1648228034",
     "transcript_status": "not_acquired",
     "analysis_status": "partial_review",
@@ -193,58 +210,64 @@
     "reviewed_timestamp_ranges": [
       "00:06:31–00:08:30"
     ],
-    "review_method": "source-linked manual research; full transcripts not stored"
+    "review_method": "source-linked manual research; full transcripts not stored",
+    "guid": "7ad7fcd8-a931-11f1-bffa-c7609ced84aa"
   },
   {
     "id": "ep-285",
     "published_date": "2026-09-02",
     "title": "Humanity's First Star Probe, Architect Labs Beats NVIDIA 3.4x, Musk Wants Satellites to Cool Earth | EP #285",
-    "date_source": "spoken.md catalog, retrieved 2026-10-14",
+    "date_source": "publisher_rss",
     "source_url": "https://spoken.md/podcast/moonshots-with-peter-diamandis-1648228034",
     "transcript_status": "not_acquired",
-    "analysis_status": "pending"
+    "analysis_status": "pending",
+    "guid": "c788c560-a6fe-11f1-8883-4773df526e10"
   },
   {
     "id": "ep-284",
     "published_date": "2026-08-29",
     "title": "NVIDIA's $96.2B Quarter, China's 200,000 Fake Accounts, & OpenAI's New Chip | EP #284",
-    "date_source": "spoken.md catalog, retrieved 2026-10-14",
+    "date_source": "publisher_rss",
     "source_url": "https://spoken.md/podcast/moonshots-with-peter-diamandis-1648228034",
     "transcript_status": "not_acquired",
-    "analysis_status": "pending"
+    "analysis_status": "pending",
+    "guid": "15e49284-a3ad-11f1-ad3f-b33f879d3d7e"
+  },
+  {
+    "id": "ep-282",
+    "published_date": "2026-08-29",
+    "title": "OpenAI Pauses Frontier Training, Elon's 100X Prediction Lands, Robot Beats Usain Bolt with Emad Mostaque | EP#282",
+    "date_source": "publisher_rss",
+    "source_url": "https://spoken.md/podcast/moonshots-with-peter-diamandis-1648228034",
+    "transcript_status": "not_acquired",
+    "analysis_status": "pending",
+    "guid": "0e0b5862-9d7d-11f1-93d2-f7a1ad40d7e8"
   },
   {
     "id": "ep-283",
     "published_date": "2026-08-27",
     "title": "Sam Altman: Singularity Slow-Down, Emad Runs 18 Grokbots, Waymo Slashes Hardware 83% | EP #283",
-    "date_source": "spoken.md catalog, retrieved 2026-10-14",
+    "date_source": "publisher_rss",
     "source_url": "https://spoken.md/podcast/moonshots-with-peter-diamandis-1648228034",
     "transcript_status": "not_acquired",
-    "analysis_status": "pending"
-  },
-  {
-    "id": "ep-282",
-    "published_date": "2026-08-21",
-    "title": "OpenAI Pauses Frontier Training, Elon's 100X Prediction Lands, Robot Beats Usain Bolt with Emad Mostaque | EP #282",
-    "date_source": "spoken.md catalog, retrieved 2026-10-14",
-    "source_url": "https://spoken.md/podcast/moonshots-with-peter-diamandis-1648228034",
-    "transcript_status": "not_acquired",
-    "analysis_status": "pending"
+    "analysis_status": "pending",
+    "guid": "ca702e5a-a251-11f1-81e3-4ff6c683f74d"
   },
   {
     "id": "ep-281",
     "published_date": "2026-08-18",
     "title": "China’s Endgame: ASI Timelines, US-China Relations, and the $1.7T AI Bubble With Alvin Graylin | #281",
-    "date_source": "spoken.md catalog, retrieved 2026-10-14",
+    "date_source": "publisher_rss",
     "source_url": "https://spoken.md/podcast/moonshots-with-peter-diamandis-1648228034",
     "transcript_status": "not_acquired",
-    "analysis_status": "pending"
+    "analysis_status": "pending",
+    "guid": "2c65d748-9b29-11f1-a661-2b7ef242b9a6"
   },
   {
     "id": "ep-280",
     "published_date": "2026-08-15",
     "title": "200GW Hiding in Grid, Sodium Batteries 10x Cheaper, Wave-Powered Datacenters w/ Ramez Naam | EP #280",
-    "date_source": "spoken.md catalog, retrieved 2026-10-14",
+    "date_source": "publisher_rss",
     "source_url": "https://spoken.md/podcast/moonshots-with-peter-diamandis-1648228034",
     "transcript_status": "not_acquired",
     "analysis_status": "partial_review",
@@ -254,6 +277,7 @@
       "00:39:35–00:40:40",
       "01:15:17–01:16:22"
     ],
-    "review_method": "source-linked manual research; full transcripts not stored"
+    "review_method": "source-linked manual research; full transcripts not stored",
+    "guid": "79d5b1ce-9836-11f1-91ea-3f4eeb824a0e"
   }
 ]
