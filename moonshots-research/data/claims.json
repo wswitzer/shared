@@ -1,0 +1,62 @@
+[
+  {
+    "claim_id": "ms-300-001",
+    "episode_id": "ep-300",
+    "speaker": "Astro Teller",
+    "timecode": "01:18",
+    "kind": "framework",
+    "claim": "X evaluates moonshots through a major problem, a radical possible solution, and enabling breakthrough technology.",
+    "source_url": "https://spoken.md/episode/google-xs-astro-teller-the-$1b-bet-no-ceo-will-back-1000793315034",
+    "source_scope": "public transcript excerpt",
+    "verification_status": "corroborated_primary",
+    "evidence": [
+      {
+        "url": "https://x.company/blog/posts/moonshot-blueprint/",
+        "publisher": "X, The Moonshot Factory",
+        "independent": false,
+        "assessment": "X independently published the same framework; this is the speaker's own organization, so not independent validation."
+      }
+    ],
+    "as_of": "2026-10-14"
+  },
+  {
+    "claim_id": "ms-300-002",
+    "episode_id": "ep-300",
+    "speaker": "Astro Teller",
+    "timecode": "01:18–03:15",
+    "kind": "methodology",
+    "claim": "Audacity should be paired with humility and cheap, early experiments that identify failure before expensive commitment.",
+    "source_url": "https://spoken.md/episode/google-xs-astro-teller-the-$1b-bet-no-ceo-will-back-1000793315034",
+    "source_scope": "public transcript excerpt",
+    "verification_status": "corroborated_primary",
+    "evidence": [
+      {
+        "url": "https://x.company/blog/posts/a-peek-inside-the-moonshot-factory-operating-manual/",
+        "publisher": "X, The Moonshot Factory",
+        "independent": false,
+        "assessment": "X describes de-risking milestones and kill signals; organizational corroboration only."
+      }
+    ],
+    "as_of": "2026-10-14"
+  },
+  {
+    "claim_id": "ms-300-003",
+    "episode_id": "ep-300",
+    "speaker": "Astro Teller",
+    "timecode": "03:36–04:31",
+    "kind": "methodology",
+    "claim": "Techno-economic feasibility can disqualify apparently impressive projects early, based on material costs and customer willingness to pay.",
+    "source_url": "https://spoken.md/episode/google-xs-astro-teller-the-$1b-bet-no-ceo-will-back-1000793315034",
+    "source_scope": "public transcript excerpt",
+    "verification_status": "corroborated_primary",
+    "evidence": [
+      {
+        "url": "https://x.company/blog/posts/a-peek-inside-the-moonshot-factory-operating-manual/",
+        "publisher": "X, The Moonshot Factory",
+        "independent": false,
+        "assessment": "X's Foghorn example documents techno-economic review and a decision to stop; primary-source corroboration."
+      }
+    ],
+    "as_of": "2026-10-14"
+  }
+]
