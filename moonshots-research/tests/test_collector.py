@@ -157,5 +157,20 @@ class EvidenceAuditTests(unittest.TestCase):
         self.assertTrue(any("missing claim" in x for x in quality.validate_evidence_audits(audits, claims, episodes)))
 
 
+    def test_unverified_backlog_is_complete_and_deterministic(self):
+        claims = quality.read(quality.CLAIMS)
+        audits = quality.read(quality.AUDITS)
+        forecasts = quality.read(quality.FORECASTS)
+        themes = quality.read(quality.THEMES)
+        remaining = quality.prioritize_unaudited(claims, audits, forecasts, themes)
+        self.assertEqual(len(claims) - len(audits), len(remaining))
+        self.assertEqual(64, len(remaining))
+        self.assertEqual(len(remaining), len({x["claim_id"] for x in remaining}))
+        self.assertEqual(remaining, quality.prioritize_unaudited(claims, audits, forecasts, themes))
+        self.assertTrue(all(
+            remaining[i]["priority_score"] >= remaining[i + 1]["priority_score"]
+            for i in range(len(remaining) - 1)
+        ))
+
 if __name__ == "__main__":
     unittest.main()
