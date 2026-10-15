@@ -378,5 +378,319 @@
       }
     ],
     "as_of": "2026-10-14"
+  },
+  {
+    "claim_id": "ms-301-001",
+    "episode_id": "ep-301",
+    "speaker": "Peter Diamandis (introducing reported Altman statement)",
+    "timecode": "00:39:58–00:40:40",
+    "kind": "reported_public_statement",
+    "claim": "Episode describes Altman's position that widespread public AI access will produce some harms alongside benefits; this is a policy trade-off argument, not evidence that any particular harms are acceptable.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/why-altman-says-accept-some-bad-things-happening-and-what-it-means-for-ai-safety-moonshots-301",
+    "source_scope": "selectively read public timestamped third-party transcript; audio not independently checked",
+    "verification_status": "independently_verified",
+    "evidence": [
+      {
+        "url": "https://www.theguardian.com/commentisfree/2026/oct/08/ai-death-war-sam-altman",
+        "publisher": "Guardian opinion interpreting Altman's Politico interview",
+        "independent": true,
+        "assessment": "Independent reporting of the disputed quote, though opinion piece reflects its own critical framing; original Politico source was not directly accessible."
+      },
+      {
+        "url": "https://www.tomsguide.com/ai/chatgpt/openai-ceo-sam-altman-on-ais-future-the-world-should-accept-some-bad-things-happening",
+        "publisher": "Tom's Guide coverage",
+        "independent": true,
+        "assessment": "Separately reports the quote and surrounding argument."
+      }
+    ],
+    "as_of": "2026-10-14",
+    "analyst_note": "The transcript is not a verbatim original Politico transcript; avoid attributing the panel's interpretation to Altman."
+  },
+  {
+    "claim_id": "ms-301-002",
+    "episode_id": "ep-301",
+    "speaker": "Emad Mostaque (voice attribution from episode introduction; check original audio)",
+    "timecode": "00:09:04–00:09:35",
+    "kind": "anecdotal_capability",
+    "claim": "A panelist reports prototyping a large multiplayer game with roughly 400 AI agents; this is a self-report, without published independent measurements of productive work, cost or quality.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/why-altman-says-accept-some-bad-things-happening-and-what-it-means-for-ai-safety-moonshots-301",
+    "source_scope": "selectively read public timestamped third-party transcript; audio not independently checked",
+    "verification_status": "podcast_only",
+    "evidence": [],
+    "as_of": "2026-10-14",
+    "analyst_note": "Do not infer 400 autonomous contributors or proven efficiency from concurrent agent count."
+  },
+  {
+    "claim_id": "ms-301-003",
+    "episode_id": "ep-301",
+    "speaker": "Podcast panelist (speaker unverified)",
+    "timecode": "00:24:30–00:25:33",
+    "kind": "framework",
+    "claim": "For increasingly autonomous AI, panel suggests incident reporting, identity, liability, instrumentation and bounded experiments as more practical safeguards than purely centralized coordination.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/why-altman-says-accept-some-bad-things-happening-and-what-it-means-for-ai-safety-moonshots-301",
+    "source_scope": "selectively read public timestamped third-party transcript; audio not independently checked",
+    "verification_status": "podcast_only",
+    "evidence": [],
+    "as_of": "2026-10-14",
+    "analyst_note": "Prescriptive framework; requires validation of specific safeguards and applicable law."
+  },
+  {
+    "claim_id": "ms-291-001",
+    "episode_id": "ep-291",
+    "speaker": "Peter Diamandis summarizing Dario Amodei",
+    "timecode": "00:06:19–00:08:16",
+    "kind": "policy_proposal",
+    "claim": "Dario Amodei advocates pacing frontier AI to allow safety and alignment work to catch up, including embedded independent evaluators, coordination among democracies and graduated international verification.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/frontier-labs-want-to-slow-down-openai-delays-its-2026-ipo-anthropic-flags-5-bioweapon-cases-ep-291",
+    "source_scope": "selectively read public timestamped third-party transcript; audio not independently checked",
+    "verification_status": "corroborated_primary",
+    "evidence": [
+      {
+        "url": "https://wemustpacethefrontier.com/",
+        "publisher": "Dario Amodei, original public essay",
+        "independent": false,
+        "assessment": "Primary document outlines all three recommendations; pacing explicitly does not mean stopping all AI training."
+      },
+      {
+        "url": "https://www.reuters.com/business/what-amodei-altman-musk-have-said-about-ai-risks-stoking-doom-fears-2026-09-14/",
+        "publisher": "Reuters Sep 14 coverage",
+        "independent": true,
+        "assessment": "Independent coverage verifies the public policy debate, not the empirical efficacy of the proposal."
+      }
+    ],
+    "as_of": "2026-10-14"
+  },
+  {
+    "claim_id": "ms-291-002",
+    "episode_id": "ep-291",
+    "speaker": "Peter Diamandis summarizing Anthropic and third-party evaluation",
+    "timecode": "00:18:43–00:19:12",
+    "kind": "implementation_claim",
+    "claim": "An embedded evaluation program was proposed, but as of Sep 18 Anthropic described the standards, financing and operational access details as still evolving; an announced partnership is not proof of fully established oversight.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/frontier-labs-want-to-slow-down-openai-delays-its-2026-ipo-anthropic-flags-5-bioweapon-cases-ep-291",
+    "source_scope": "selectively read public timestamped third-party transcript; audio not independently checked",
+    "verification_status": "corroborated_primary",
+    "evidence": [
+      {
+        "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
+        "publisher": "Anthropic, Sep 18 Accenture announcement",
+        "independent": false,
+        "assessment": "Company states collaboration will enable deeper red-teaming, while saying embedded access standards and funding remain unsettled."
+      }
+    ],
+    "as_of": "2026-10-14"
+  },
+  {
+    "claim_id": "ms-294-001",
+    "episode_id": "ep-294",
+    "speaker": "Alex Wissner-Gross (attributed by the interviewer)",
+    "timecode": "00:12:06–00:13:25",
+    "kind": "opinion",
+    "claim": "Panelist characterizes frontier labs' safety coordination as an attempted cartel; this is an interpretation of motives, not a demonstrated antitrust violation.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/why-jensen-and-zuck-think-the-doomers-are-wrong-plus-ai-gets-a-rebrand-294-moonshots-live",
+    "source_scope": "selectively read public timestamped third-party transcript; audio not independently checked",
+    "verification_status": "contested",
+    "evidence": [
+      {
+        "url": "https://wemustpacethefrontier.com/",
+        "publisher": "Dario Amodei original proposal",
+        "independent": false,
+        "assessment": "The public document frames coordination as verifiable safety oversight and discusses independent evaluators; it does not establish a cartel."
+      },
+      {
+        "url": "https://www.reuters.com/business/what-amodei-altman-musk-have-said-about-ai-risks-stoking-doom-fears-2026-09-14/",
+        "publisher": "Reuters overview of differing industry reactions",
+        "independent": true,
+        "assessment": "Confirms genuine disagreement over pace and public safeguards, not illegal coordination."
+      }
+    ],
+    "as_of": "2026-10-14",
+    "analyst_note": "Avoid treating the allegation as an established motive, fact or legal conclusion."
+  },
+  {
+    "claim_id": "ms-294-002",
+    "episode_id": "ep-294",
+    "speaker": "Salim Ismail",
+    "timecode": "00:23:05–00:24:20",
+    "kind": "conceptual_framework",
+    "claim": "Speaker argues current AI is better understood as complementary to human abilities rather than replicating human intelligence, criticizing imprecise AGI terminology.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/why-jensen-and-zuck-think-the-doomers-are-wrong-plus-ai-gets-a-rebrand-294-moonshots-live",
+    "source_scope": "selectively read public timestamped third-party transcript; audio not independently checked",
+    "verification_status": "podcast_only",
+    "evidence": [],
+    "as_of": "2026-10-14",
+    "analyst_note": "Conceptual perspective; not directly testable and not an independent measurement of progress."
+  },
+  {
+    "claim_id": "ms-295-001",
+    "episode_id": "ep-295",
+    "speaker": "Peter Diamandis and Palmer Luckey",
+    "timecode": "00:00:23–00:01:08",
+    "kind": "award_claim",
+    "claim": "Anduril received $2.2 million in XPRIZE Wildfire awards: $1.2M first-place autonomous response award and $1M Lockheed Martin detection bonus.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/palmer-luckey-autonomous-weapons-are-ancient-and-why-anduril-wont-build-humanoids-moonshots-live-ep-295",
+    "source_scope": "selectively read public timestamped third-party transcript; audio not independently checked",
+    "verification_status": "corroborated_primary",
+    "evidence": [
+      {
+        "url": "https://www.xprize.org/news/xprize-wildfire-awardees",
+        "publisher": "XPRIZE organizer official awards announcement Sep 23 2026",
+        "independent": false,
+        "assessment": "Independent from recipient Anduril, but primary organizer report verifies award amounts and categories."
+      }
+    ],
+    "as_of": "2026-10-14",
+    "analyst_note": "Prize assessment happened in controlled competition conditions and does not prove production-wide field deployment."
+  },
+  {
+    "claim_id": "ms-295-002",
+    "episode_id": "ep-295",
+    "speaker": "Palmer Luckey",
+    "timecode": "00:13:47–00:15:40",
+    "kind": "product_strategy_opinion",
+    "claim": "Luckey argues humanoid form factors can benefit shared consumer manufacturing economies, but defense systems often need specialized shapes and Anduril is not pursuing a general-purpose humanoid.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/palmer-luckey-autonomous-weapons-are-ancient-and-why-anduril-wont-build-humanoids-moonshots-live-ep-295",
+    "source_scope": "selectively read public timestamped third-party transcript; audio not independently checked",
+    "verification_status": "podcast_only",
+    "evidence": [],
+    "as_of": "2026-10-14",
+    "analyst_note": "Executive's current strategic statement can change; no verified future roadmap."
+  },
+  {
+    "claim_id": "ms-296-001",
+    "episode_id": "ep-296",
+    "speaker": "Nikhil Chandhok (Circle CTO)",
+    "timecode": "00:08:56–00:10:33",
+    "kind": "technology_vision",
+    "claim": "AI agents acting as economic counterparts will need provenance, accountability, controls and audit trails, and Circle envisions agent wallets and payment primitives supporting these roles.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/cathie-wood-on-tesla-spacex-merger-1m-bitcoin-more-ais-than-humans-ep-296-moonshots-live",
+    "source_scope": "selectively read public timestamped third-party transcript; audio not independently checked",
+    "verification_status": "corroborated_primary",
+    "evidence": [
+      {
+        "url": "https://www.circle.com/pressroom/circle-launches-arc-mainnet-an-economic-operating-system-for-the-internet",
+        "publisher": "Circle Sep 16 2026 Arc announcement",
+        "independent": false,
+        "assessment": "Company says Arc launched and advertises agent wallets, programmable payments, agent identity and audit capabilities; prospective use cases remain marketing assertions."
+      },
+      {
+        "url": "https://www.circle.com/blog/build-agentic-systems-for-high-frequency-sub-cent-transactions",
+        "publisher": "Circle May 2026 reference implementation",
+        "independent": false,
+        "assessment": "Demonstrates SDK patterns and warns production users about spending controls, fraud, timeouts and cost monitoring."
+      }
+    ],
+    "as_of": "2026-10-14",
+    "analyst_note": "A blockchain is not automatically necessary for every agent identity or audit trail."
+  },
+  {
+    "claim_id": "ms-296-002",
+    "episode_id": "ep-296",
+    "speaker": "Cathie Wood",
+    "timecode": "00:40:01–00:41:24",
+    "kind": "forecast",
+    "claim": "Cathie Wood projects broad autonomous humanoid adoption later than Elon Musk's suggested 2028–29 ramp, citing substantially greater task complexity than robotaxis.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/cathie-wood-on-tesla-spacex-merger-1m-bitcoin-more-ais-than-humans-ep-296-moonshots-live",
+    "source_scope": "selectively read public timestamped third-party transcript; audio not independently checked",
+    "verification_status": "corroborated_primary",
+    "evidence": [
+      {
+        "url": "https://www.ark-invest.com/articles/analyst-research/robotaxis-to-humanoids-embodied-ai-represents-an-order-of-magnitude-leap",
+        "publisher": "ARK Invest July 2026 analyst report",
+        "independent": false,
+        "assessment": "Wood's own asset manager describes a long training/deployment curve and ~2028 conditional human-level proficiency; forecasts remain unverified."
+      }
+    ],
+    "as_of": "2026-10-14",
+    "analyst_note": "ARK manages investments exposed to robotics; evaluate independence and incentives."
+  },
+  {
+    "claim_id": "ms-296-003",
+    "episode_id": "ep-296",
+    "speaker": "Cathie Wood and podcast panel",
+    "timecode": "00:42:45–00:43:29",
+    "kind": "comparative_safety_claim",
+    "claim": "Panel discusses Waymo's safety advantage relative to human crash baselines, while acknowledging Tesla claims are not verified by equivalent published figures.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/cathie-wood-on-tesla-spacex-merger-1m-bitcoin-more-ais-than-humans-ep-296-moonshots-live",
+    "source_scope": "selectively read public timestamped third-party transcript; audio not independently checked",
+    "verification_status": "corroborated_primary",
+    "evidence": [
+      {
+        "url": "https://waymo.com/safety/impact/",
+        "publisher": "Waymo Safety Impact data through Jun 2026",
+        "independent": false,
+        "assessment": "Operator's reproducible methodology shows lower observed injury crash rates relative to matched location/time human benchmarks, not a universal guarantee."
+      },
+      {
+        "url": "https://waymo.com/blog/shorts/safetydata-september26/",
+        "publisher": "Waymo Sep 24 2026 safety report",
+        "independent": false,
+        "assessment": "Operator reports 82% fewer injury-causing crashes and 95% fewer serious injury or worse versus human matched benchmark in five service areas."
+      }
+    ],
+    "as_of": "2026-10-14",
+    "analyst_note": "The claim that 40,000 US deaths would be avoided is an extrapolation, not a measured impact."
+  },
+  {
+    "claim_id": "ms-290-001",
+    "episode_id": "ep-290",
+    "speaker": "Martine Rothblatt",
+    "timecode": "00:19:51–00:24:38",
+    "kind": "clinical_development_claim",
+    "claim": "United Therapeutics describes FDA-cleared investigational trials for gene-edited pig kidneys and thymus-associated kidney transplants; IND trial clearance is not FDA marketing approval or proof of an unlimited organ supply.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/martine-rothblatt-growing-unlimited-organs-ai-consciousness-digital-personhood-by-2030",
+    "source_scope": "selectively read public timestamped third-party transcript; audio not independently checked",
+    "verification_status": "corroborated_primary",
+    "evidence": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1082554/000108255426000006/uthr-20251231.htm",
+        "publisher": "United Therapeutics 2025 10-K filed with SEC",
+        "independent": false,
+        "assessment": "Issuer filing confirms EXPAND investigational UKidney and EXTEND UThymoKidney IND clearances, phased enrollment and absence of commercial BLA approval."
+      },
+      {
+        "url": "https://ir.unither.com/press-releases/2025/02-03-2025-120011819",
+        "publisher": "United Therapeutics UKidney IND disclosure",
+        "independent": false,
+        "assessment": "Defines 6-person starter cohort up to 50 and need for safety/efficacy data before BLA."
+      }
+    ],
+    "as_of": "2026-10-14",
+    "analyst_note": "This is investigational clinical science; not a treatment recommendation."
+  },
+  {
+    "claim_id": "ms-290-002",
+    "episode_id": "ep-290",
+    "speaker": "Martine Rothblatt",
+    "timecode": "00:31:35–00:33:30",
+    "kind": "speculative_forecast",
+    "claim": "Rothblatt predicts AI systems could receive legal personhood in the 2030s and that digital conscious entities could greatly outnumber humans; no accepted test for machine sentience or legal outcome is established here.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/martine-rothblatt-growing-unlimited-organs-ai-consciousness-digital-personhood-by-2030",
+    "source_scope": "selectively read public timestamped third-party transcript; audio not independently checked",
+    "verification_status": "podcast_only",
+    "evidence": [],
+    "as_of": "2026-10-14",
+    "analyst_note": "Philosophical and legal speculation, not evidence of consciousness; avoid assigning certainty."
+  },
+  {
+    "claim_id": "ms-290-003",
+    "episode_id": "ep-290",
+    "speaker": "Martine Rothblatt",
+    "timecode": "00:22:49–00:24:38",
+    "kind": "manufacturing_projection",
+    "claim": "Rothblatt argues expanded facilities and xenotransplant pipelines could eventually alleviate transplant shortages; current clinical capacities and trials do not constitute unlimited approved output.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/martine-rothblatt-growing-unlimited-organs-ai-consciousness-digital-personhood-by-2030",
+    "source_scope": "selectively read public timestamped third-party transcript; audio not independently checked",
+    "verification_status": "corroborated_primary",
+    "evidence": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1082554/000108255426000006/uthr-20251231.htm",
+        "publisher": "United Therapeutics 2025 10-K",
+        "independent": false,
+        "assessment": "Company reports a Virginia facility with target capacity of up to 125 organs/year for trials and two additional facilities under construction; future commercial use is conditional on approvals."
+      }
+    ],
+    "as_of": "2026-10-14",
+    "analyst_note": "No scale-up assumption should be equated with approved transplantation capacity."
   }
 ]
