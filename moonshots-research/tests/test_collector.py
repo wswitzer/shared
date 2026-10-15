@@ -55,5 +55,25 @@ class InventoryTests(unittest.TestCase):
         self.assertTrue(any("Independent verification" in e for e in collector.validate(episodes, claims)))
 
 
+    def test_forecast_sources_and_dates(self):
+        forecasts = collector.load(collector.FORECASTS)
+        claims = collector.load(collector.CLAIMS)
+        self.assertEqual(5, len(forecasts))
+        self.assertEqual([], collector.validate_forecasts(forecasts, claims))
+
+    def test_forecast_missing_support_is_rejected(self):
+        forecasts = collector.load(collector.FORECASTS)
+        claims = collector.load(collector.CLAIMS)
+        forecasts[0]["supporting_claim_ids"] = ["missing-record"]
+        self.assertTrue(any("missing claim" in x for x in collector.validate_forecasts(forecasts, claims)))
+
+    def test_partial_review_is_not_full_transcript(self):
+        episodes = collector.load(collector.EPISODES)
+        self.assertEqual(5, sum(e.get("analysis_status") == "partial_review" for e in episodes))
+        self.assertEqual(0, sum(e.get("transcript_status") == "ready" for e in episodes))
+        summary = collector.report(episodes, collector.load(collector.CLAIMS), collector.load(collector.FORECASTS))
+        self.assertIn("Episodes partially reviewed via public transcript: **5**", summary)
+        self.assertIn("Full transcripts acquired locally: **0**", summary)
+
 if __name__ == "__main__":
     unittest.main()
