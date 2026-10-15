@@ -58,7 +58,7 @@ class InventoryTests(unittest.TestCase):
     def test_forecast_sources_and_dates(self):
         forecasts = collector.load(collector.FORECASTS)
         claims = collector.load(collector.CLAIMS)
-        self.assertEqual(7, len(forecasts))
+        self.assertEqual(9, len(forecasts))
         self.assertEqual([], collector.validate_forecasts(forecasts, claims))
 
     def test_forecast_missing_support_is_rejected(self):
@@ -115,6 +115,20 @@ class InventoryTests(unittest.TestCase):
         from_final = [x for x in claim_records if x["episode_id"] in last_batch]
         self.assertEqual(30, len(from_final))
         self.assertEqual(last_batch, {x["episode_id"] for x in from_final})
+
+    def test_themes_have_valid_episode_and_claim_links(self):
+        themes = collector.load(collector.THEMES)
+        episodes = collector.load(collector.EPISODES)
+        claims = collector.load(collector.CLAIMS)
+        self.assertEqual(7, len(themes))
+        self.assertEqual([], collector.validate_themes(themes, episodes, claims))
+
+    def test_unknown_theme_claim_is_rejected(self):
+        themes = collector.load(collector.THEMES)
+        episodes = collector.load(collector.EPISODES)
+        claims = collector.load(collector.CLAIMS)
+        themes[0]["claims"].append("nonexistent-id")
+        self.assertTrue(any("unknown claim" in e for e in collector.validate_themes(themes, episodes, claims)))
 
 if __name__ == "__main__":
     unittest.main()
