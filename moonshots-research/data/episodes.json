@@ -6,8 +6,15 @@
     "date_source": "publisher_rss",
     "source_url": "https://spoken.md/episode/why-altman-says-accept-some-bad-things-happening-and-1000793719485",
     "transcript_status": "not_acquired",
-    "analysis_status": "pending",
-    "guid": "eb332b08-c266-11f1-8450-67f68606e725"
+    "analysis_status": "partial_review",
+    "guid": "eb332b08-c266-11f1-8450-67f68606e725",
+    "public_transcript_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/why-altman-says-accept-some-bad-things-happening-and-what-it-means-for-ai-safety-moonshots-301",
+    "reviewed_timestamp_ranges": [
+      "00:09:04–00:12:33",
+      "00:24:30–00:25:33",
+      "00:39:58–00:40:40"
+    ],
+    "review_method": "Source-linked selective reading of timestamped public transcript; audio and full transcript not audited"
   },
   {
     "id": "ep-300",
@@ -80,8 +87,15 @@
     "date_source": "publisher_rss",
     "source_url": "https://spoken.md/podcast/moonshots-with-peter-diamandis-1648228034",
     "transcript_status": "not_acquired",
-    "analysis_status": "pending",
-    "guid": "91b9988e-b9f4-11f1-b811-9708293222c9"
+    "analysis_status": "partial_review",
+    "guid": "91b9988e-b9f4-11f1-b811-9708293222c9",
+    "public_transcript_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/cathie-wood-on-tesla-spacex-merger-1m-bitcoin-more-ais-than-humans-ep-296-moonshots-live",
+    "reviewed_timestamp_ranges": [
+      "00:08:56–00:17:13",
+      "00:36:28–00:38:10",
+      "00:40:01–00:43:29"
+    ],
+    "review_method": "Source-linked selective reading of timestamped public transcript; audio and full transcript not audited"
   },
   {
     "id": "special-20260928-star-trek",
@@ -110,8 +124,14 @@
     "date_source": "publisher_rss",
     "source_url": "https://spoken.md/podcast/moonshots-with-peter-diamandis-1648228034",
     "transcript_status": "not_acquired",
-    "analysis_status": "pending",
-    "guid": "42ad03ca-b9f4-11f1-8b86-ff5be5ba67c3"
+    "analysis_status": "partial_review",
+    "guid": "42ad03ca-b9f4-11f1-8b86-ff5be5ba67c3",
+    "public_transcript_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/palmer-luckey-autonomous-weapons-are-ancient-and-why-anduril-wont-build-humanoids-moonshots-live-ep-295",
+    "reviewed_timestamp_ranges": [
+      "00:00:23–00:02:30",
+      "00:12:19–00:15:40"
+    ],
+    "review_method": "Source-linked selective reading of timestamped public transcript; audio and full transcript not audited"
   },
   {
     "id": "ep-294",
@@ -120,8 +140,14 @@
     "date_source": "publisher_rss",
     "source_url": "https://spoken.md/podcast/moonshots-with-peter-diamandis-1648228034",
     "transcript_status": "not_acquired",
-    "analysis_status": "pending",
-    "guid": "3465cd2a-b9f3-11f1-af0b-f3e876079719"
+    "analysis_status": "partial_review",
+    "guid": "3465cd2a-b9f3-11f1-af0b-f3e876079719",
+    "public_transcript_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/why-jensen-and-zuck-think-the-doomers-are-wrong-plus-ai-gets-a-rebrand-294-moonshots-live",
+    "reviewed_timestamp_ranges": [
+      "00:10:45–00:13:25",
+      "00:22:14–00:24:45"
+    ],
+    "review_method": "Source-linked selective reading of timestamped public transcript; audio and full transcript not audited"
   },
   {
     "id": "ep-288",
@@ -165,8 +191,15 @@
     "date_source": "publisher_rss",
     "source_url": "https://spoken.md/podcast/moonshots-with-peter-diamandis-1648228034",
     "transcript_status": "not_acquired",
-    "analysis_status": "pending",
-    "guid": "73b015e2-b2b6-11f1-846c-afa7a74bbd4c"
+    "analysis_status": "partial_review",
+    "guid": "73b015e2-b2b6-11f1-846c-afa7a74bbd4c",
+    "public_transcript_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/frontier-labs-want-to-slow-down-openai-delays-its-2026-ipo-anthropic-flags-5-bioweapon-cases-ep-291",
+    "reviewed_timestamp_ranges": [
+      "00:06:19–00:08:16",
+      "00:18:43–00:25:04",
+      "00:37:00–00:49:13"
+    ],
+    "review_method": "Source-linked selective reading of timestamped public transcript; audio and full transcript not audited"
   },
   {
     "id": "ep-290",
@@ -175,8 +208,14 @@
     "date_source": "publisher_rss",
     "source_url": "https://spoken.md/podcast/moonshots-with-peter-diamandis-1648228034",
     "transcript_status": "not_acquired",
-    "analysis_status": "pending",
-    "guid": "f81c3278-b065-11f1-9f79-d371b57a1086"
+    "analysis_status": "partial_review",
+    "guid": "f81c3278-b065-11f1-9f79-d371b57a1086",
+    "public_transcript_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/martine-rothblatt-growing-unlimited-organs-ai-consciousness-digital-personhood-by-2030",
+    "reviewed_timestamp_ranges": [
+      "00:17:43–00:24:38",
+      "00:31:35–00:34:30"
+    ],
+    "review_method": "Source-linked selective reading of timestamped public transcript; audio and full transcript not audited"
   },
   {
     "id": "ep-289",
