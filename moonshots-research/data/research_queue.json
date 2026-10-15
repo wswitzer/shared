@@ -38,27 +38,31 @@
   {
     "id": "research-004",
     "episode_ids": [
-      "ep-292"
+      "ep-292",
+      "ep-295",
+      "ep-296"
     ],
     "priority": 2,
-    "status": "awaiting_full_transcript",
+    "status": "partial_public_transcript_reviewed",
     "topic": "Robotics and practical automation",
     "question": "Which household and enterprise robot capabilities are real deployments versus demonstrations, and at what price and reliability?",
-    "potential_output": "Robotics 6/12-month deployment forecast"
+    "potential_output": "Robotics 6/12-month deployment forecast",
+    "remaining_work": "Independently compare autonomous demonstrations to real deployment rates, interventions, and field testing."
   },
   {
     "id": "research-005",
     "episode_ids": [
       "ep-301",
       "ep-298",
-      "ep-291"
+      "ep-291",
+      "ep-294"
     ],
     "priority": 2,
     "status": "partial_public_transcript_reviewed",
     "topic": "AI safety claims and policy",
     "question": "Which proposed rules have legal force, and what credible evidence exists about actual model misuse and risk?",
     "potential_output": "Balanced risk and product planning report",
-    "remaining_work": "Finish all available episode timestamp sections, check originals/contrary findings, independently verify forecast resolution criteria."
+    "remaining_work": "Compare direct Amodei essay, verified incidents, external evaluator reports and actual law. Distinguish cartel allegation from documented coordination, and compare 2026 voluntary accords."
   },
   {
     "id": "research-006",
@@ -76,7 +80,8 @@
   {
     "id": "research-007",
     "episode_ids": [
-      "ep-292"
+      "ep-292",
+      "ep-296"
     ],
     "priority": 3,
     "status": "partial_public_transcript_reviewed",
@@ -84,5 +89,45 @@
     "question": "Which token products are synthetic securities or debt, which confer direct ownership, and how do disclosures vary by jurisdiction?",
     "potential_output": "Simple investor/fintech product due diligence checklist",
     "remaining_work": "Review the official prospectus and competing issuer structure, avoid investment recommendations"
+  },
+  {
+    "id": "research-008",
+    "episode_ids": [
+      "ep-296",
+      "ep-301"
+    ],
+    "priority": 1,
+    "status": "partial_public_transcript_reviewed",
+    "topic": "Agent identity, purchasing and operational audit trail",
+    "question": "Which production services actually provide budget enforcement, accountable agent delegation and human-readable transactions, compared with announced infrastructure and demos?",
+    "potential_output": "Low-capital agent reliability package, 1-site instrumented pilot, and a price-tested offer",
+    "remaining_work": "Prototype controlled agent execution with reversible spending caps using an existing project; compare database ledger vs blockchain on cost/reliability."
+  },
+  {
+    "id": "research-009",
+    "episode_ids": [
+      "ep-290",
+      "ep-297"
+    ],
+    "priority": 3,
+    "status": "partial_public_transcript_reviewed",
+    "topic": "Xenotransplantation clinical approval versus supply forecasts",
+    "question": "Which investigational organ programs have started in humans, completed endpoints or received market licenses, and what true manufacturing throughput is independently reported?",
+    "potential_output": "Regulatory-stage organ manufacturing tracker; not clinical advice",
+    "remaining_work": "Track FDA BLA approvals, ClinicalTrials.gov enrollment/endpoints, organ viability and peer-reviewed outcomes."
+  },
+  {
+    "id": "research-010",
+    "episode_ids": [
+      "ep-294",
+      "ep-291",
+      "ep-301"
+    ],
+    "priority": 2,
+    "status": "partial_public_transcript_reviewed",
+    "topic": "Competitive coordination versus verifiable AI oversight",
+    "question": "How many frontier AI third-party embedded evaluator reports actually publish reproducible methods and disclosures, and what legal force do coordinated policies have?",
+    "potential_output": "Risk-engineering policy tracker and model vendor due diligence",
+    "remaining_work": "Verify announced partner access and released reports rather than inferring progress from press announcements."
   }
 ]
