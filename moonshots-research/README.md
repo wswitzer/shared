@@ -1,15 +1,16 @@
 # Moonshots Research Radar
 
-Research window: **2026-08-14 through 2026-10-14, inclusive**. Show: **Moonshots with Peter Diamandis** (Apple podcast ID `1648228034`). This is a **public, reproducible research foundation plus a first evidence-backed pass**: seven episodes selectively reviewed, NOT 24 complete episode analyses.
+Research window: **2026-08-14 through 2026-10-14, inclusive**. Show: **Moonshots with Peter Diamandis** (Apple podcast ID `1648228034`). This is a **public, reproducible research foundation plus a first evidence-backed pass**: 13 episodes selectively reviewed, NOT 24 complete episode analyses.
 
 ## Status and scope
 
 - `data/episodes.json`: 24 entries initially inventoried from the public spoken.md catalog, then updated using official RSS (22 numbered episodes #280–#301 and 2 unnumbered specials). Dates have been reconciled with the publisher's RSS feed.
-- `data/claims.json`: 20 source-attributed claim and analytical-caveat records across seven partially reviewed episodes; distinguish independent checks, primary-source corroboration, podcast-only forecasts, and contested headlines.
-- `data/research_queue.json`: seven prioritized deeper research questions; these are NOT verified facts.
+- `data/claims.json`: 35 source-attributed claim and analytical-caveat records across 13 partially reviewed episodes; distinguish independent checks, primary-source corroboration, podcast-only forecasts, and contested headlines.
+- `data/research_queue.json`: ten prioritized deeper research questions; these are NOT verified facts.
 - `reports/initial-brief.md`: first pilot, maintained as a historical snapshot.
-- `reports/opportunity-radar-2026-10-14.md`: substantive cross-episode synthesis, evidence check, and prioritized action hypotheses.
-- `data/forecasts.json`: five preregistered dated analyst forecasts with resolution criteria and source links.
+- `reports/opportunity-radar-2026-10-14.md`: first seven-episode research snapshot; maintained as a historical report.
+- `reports/batch-02-agents-safety-robotics-biotech.md`: second six-episode pass, claims checked, and an agent-reliability pilot proposal.
+- `data/forecasts.json`: seven preregistered dated analyst forecasts with resolution criteria and source links.
 - `collector.py`: update episode metadata from the publisher's RSS; import locally supplied transcripts; report coverage; validate provenance; create a status report. Python standard library only.
 
 ## Quick start
@@ -48,11 +49,11 @@ The main RSS feed provides **metadata**, not full transcript text. Spoken.md adv
 
 ## Next milestone
 
-Complete the 17 remaining episode reviews, expand and deduplicate the 20-record initial claim ledger, secure full transcripts privately where needed, improve independent evaluations, and track the five forecasts against their dated resolution criteria. The first opportunity report is already available. Track coverage by episode and claim, not merely by count of summaries.
+Complete the 11 remaining episode reviews, expand and deduplicate the 35-record claim ledger, secure full transcripts privately where needed, improve independent evaluations, and track seven forecasts against their dated resolution criteria. The first two research passes are available. Track coverage by episode and claim, not merely by count of summaries.
 ### Current coverage (October 14 cutoff)
 
 - 24 episodes/specials inventoried from the provider catalog and reconciled with publisher RSS (4 date corrections documented in `reports/rss-reconciliation.md`).
-- 7 time-coded partial reviews (#280, #286, #292, #297, #298, #299, #300); 17 episodes not yet source-reviewed.
-- 20 attributed claim/interpretation records; 5 preregistered analyst forecasts; 7 research queue items.
+- 13 time-coded partial reviews (#280, #286, #290, #291, #292, #294, #295, #296, #297, #298, #299, #300, #301); 11 episodes not yet source-reviewed.
+- 35 attributed claim/interpretation records; 7 preregistered analyst forecasts; 10 research queue items.
 - 0 complete transcripts acquired in local private storage; 0 episodes declared fully analyzed. Public timestamped transcripts exist at Podscripts but are **not republished** here.
 - Offline validation and GitHub Actions tests; no scheduled crawl or AI inference budget.
