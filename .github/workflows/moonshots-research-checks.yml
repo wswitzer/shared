@@ -25,6 +25,7 @@ jobs:
         run: |
           python3 moonshots-research/quality.py validate
           python3 moonshots-research/quality.py summary
+          python3 moonshots-research/quality.py backlog --limit 15
       - name: Unit tests (offline, no API keys)
         run: python3 -m unittest discover -s moonshots-research/tests -v
       - name: Generate report without modifying repo
