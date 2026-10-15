@@ -21,6 +21,10 @@ jobs:
           python-version: "3.12"
       - name: Validate the research dataset
         run: python3 moonshots-research/collector.py validate
+      - name: Check evidence audit integrity and sponsor flags
+        run: |
+          python3 moonshots-research/quality.py validate
+          python3 moonshots-research/quality.py summary
       - name: Unit tests (offline, no API keys)
         run: python3 -m unittest discover -s moonshots-research/tests -v
       - name: Generate report without modifying repo
