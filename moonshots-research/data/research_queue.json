@@ -1,0 +1,59 @@
+[
+  {
+    "id": "research-001",
+    "episode_ids": [
+      "ep-299"
+    ],
+    "priority": 1,
+    "status": "awaiting_full_transcript",
+    "topic": "Recursive self-improvement in AI",
+    "question": "What measurable autonomous research/software improvements exist, and which independent evaluations replicate them?",
+    "potential_output": "2027 coding-agent forecast and developer opportunity assessment"
+  },
+  {
+    "id": "research-002",
+    "episode_ids": [
+      "ep-300"
+    ],
+    "priority": 1,
+    "status": "source_corroborated",
+    "topic": "Rapid falsification of new ventures",
+    "question": "How should solo developers apply cheap kill tests, market willingness-to-pay, and irreversible-cost checks before building?",
+    "potential_output": "Small-service-business project screening checklist"
+  },
+  {
+    "id": "research-003",
+    "episode_ids": [
+      "ep-280"
+    ],
+    "priority": 2,
+    "status": "awaiting_full_transcript",
+    "topic": "Energy constraints and AI compute",
+    "question": "Do new grid capacity, batteries and distributed energy materially ease AI datacenter constraints, at what costs and horizons?",
+    "potential_output": "Infrastructure forecast with falsifiable milestones"
+  },
+  {
+    "id": "research-004",
+    "episode_ids": [
+      "ep-292"
+    ],
+    "priority": 2,
+    "status": "awaiting_full_transcript",
+    "topic": "Robotics and practical automation",
+    "question": "Which household and enterprise robot capabilities are real deployments versus demonstrations, and at what price and reliability?",
+    "potential_output": "Robotics 6/12-month deployment forecast"
+  },
+  {
+    "id": "research-005",
+    "episode_ids": [
+      "ep-301",
+      "ep-298",
+      "ep-291"
+    ],
+    "priority": 2,
+    "status": "awaiting_full_transcript",
+    "topic": "AI safety claims and policy",
+    "question": "Which proposed rules have legal force, and what credible evidence exists about actual model misuse and risk?",
+    "potential_output": "Balanced risk and product planning report"
+  }
+]
