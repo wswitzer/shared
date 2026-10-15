@@ -5,10 +5,11 @@
       "ep-299"
     ],
     "priority": 1,
-    "status": "awaiting_full_transcript",
+    "status": "partial_public_transcript_reviewed",
     "topic": "Recursive self-improvement in AI",
     "question": "What measurable autonomous research/software improvements exist, and which independent evaluations replicate them?",
-    "potential_output": "2027 coding-agent forecast and developer opportunity assessment"
+    "potential_output": "2027 coding-agent forecast and developer opportunity assessment",
+    "remaining_work": "Finish all available episode timestamp sections, check originals/contrary findings, independently verify forecast resolution criteria."
   },
   {
     "id": "research-002",
@@ -16,10 +17,11 @@
       "ep-300"
     ],
     "priority": 1,
-    "status": "source_corroborated",
+    "status": "partial_public_transcript_reviewed",
     "topic": "Rapid falsification of new ventures",
     "question": "How should solo developers apply cheap kill tests, market willingness-to-pay, and irreversible-cost checks before building?",
-    "potential_output": "Small-service-business project screening checklist"
+    "potential_output": "Small-service-business project screening checklist",
+    "remaining_work": "Finish all available episode timestamp sections, check originals/contrary findings, independently verify forecast resolution criteria."
   },
   {
     "id": "research-003",
@@ -27,10 +29,11 @@
       "ep-280"
     ],
     "priority": 2,
-    "status": "awaiting_full_transcript",
+    "status": "partial_public_transcript_reviewed",
     "topic": "Energy constraints and AI compute",
     "question": "Do new grid capacity, batteries and distributed energy materially ease AI datacenter constraints, at what costs and horizons?",
-    "potential_output": "Infrastructure forecast with falsifiable milestones"
+    "potential_output": "Infrastructure forecast with falsifiable milestones",
+    "remaining_work": "Finish all available episode timestamp sections, check originals/contrary findings, independently verify forecast resolution criteria."
   },
   {
     "id": "research-004",
@@ -51,9 +54,35 @@
       "ep-291"
     ],
     "priority": 2,
-    "status": "awaiting_full_transcript",
+    "status": "partial_public_transcript_reviewed",
     "topic": "AI safety claims and policy",
     "question": "Which proposed rules have legal force, and what credible evidence exists about actual model misuse and risk?",
-    "potential_output": "Balanced risk and product planning report"
+    "potential_output": "Balanced risk and product planning report",
+    "remaining_work": "Finish all available episode timestamp sections, check originals/contrary findings, independently verify forecast resolution criteria."
+  },
+  {
+    "id": "research-006",
+    "episode_ids": [
+      "ep-286",
+      "ep-299"
+    ],
+    "priority": 1,
+    "status": "partial_public_transcript_reviewed",
+    "topic": "Benchmark claims versus independent runs",
+    "question": "Which evaluation harness, inference budget, sample split and leaderboard owner explain differences between provider headline scores and evaluator results?",
+    "potential_output": "Coding-agent model selection memo with task-level cost and reliable acceptance tests",
+    "remaining_work": "Build normalized benchmark table with reproducible protocol and as-of snapshot"
+  },
+  {
+    "id": "research-007",
+    "episode_ids": [
+      "ep-292"
+    ],
+    "priority": 3,
+    "status": "partial_public_transcript_reviewed",
+    "topic": "Legal rights in tokenized securities",
+    "question": "Which token products are synthetic securities or debt, which confer direct ownership, and how do disclosures vary by jurisdiction?",
+    "potential_output": "Simple investor/fintech product due diligence checklist",
+    "remaining_work": "Review the official prospectus and competing issuer structure, avoid investment recommendations"
   }
 ]
