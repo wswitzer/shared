@@ -1,0 +1,101 @@
+[
+  {
+    "forecast_id": "fc-001",
+    "theme": "AI self-improvement",
+    "statement": "By 2027-10-14, an independent research group will publish a replication of a multi-generation self-improving AI research-agent loop showing improvements transferred to at least two held-out task families.",
+    "horizon": "2027-10-14",
+    "judgment": "plausible, uncertain",
+    "origin": "analyst inference; NOT a podcast quote",
+    "base_rate_or_baseline": "As of 2026-10-14, AIDE² researchers report seven improvements in eight days with held-out gains; independent reproduction has not been established here.",
+    "drivers": [
+      "AIDE² demonstrates bounded progress",
+      "AI4AI-Bench exposes remaining limitations",
+      "Expensive evaluation and possible reward hacking limit extrapolation"
+    ],
+    "resolution": "Identify dated independent research with code/evaluation protocol, >=2 successive retained self-changes, and held-out improvements on >=2 task families. Otherwise mark unresolved or not met.",
+    "sources": [
+      "https://arxiv.org/abs/2609.26457",
+      "https://arxiv.org/abs/2608.20318"
+    ],
+    "status": "open"
+  },
+  {
+    "forecast_id": "fc-002",
+    "theme": "Flexible datacenter power",
+    "statement": "By 2027-04-14, a US data-center/utility partnership will publish measured multi-week results demonstrating at least 10% grid-peak load shifting or curtailment at a named, operating site.",
+    "horizon": "2027-04-14",
+    "judgment": "plausible, uncertain",
+    "origin": "analyst inference following ep-280",
+    "base_rate_or_baseline": "Duke estimates substantial potential flexible-load integration; Reuters reported trials and proposed agreements, not a nationwide rollout.",
+    "drivers": [
+      "Near-term energy interconnection pressure",
+      "Grid flexibility technology and software orchestration",
+      "Regulatory incentives and service reliability requirements"
+    ],
+    "resolution": "Require public site-specific measured load series across >=4 weeks and measured >=10% of relevant contracted peak, not merely design intent or simulated grid modeling.",
+    "sources": [
+      "https://scholars.duke.edu/publication/1665550",
+      "https://www.reuters.com/business/energy/data-centers-flexible-power-usage-could-save-grid-billions-can-they-scale-2026-10-08/"
+    ],
+    "status": "open"
+  },
+  {
+    "forecast_id": "fc-003",
+    "theme": "Sodium-ion battery adoption",
+    "statement": "At the next comparable full-year IEA industry review published by 2027-10-14, global sodium-ion manufacturing capacity will remain below one tenth of lithium-ion cell capacity.",
+    "horizon": "2027-10-14",
+    "judgment": "relatively likely, but capacity measures may differ",
+    "origin": "analyst inference following ep-280",
+    "base_rate_or_baseline": "IEA Global EV Outlook 2026 estimates sodium-ion cell capacity just over 1% of lithium-ion capacity and 2030 announced projects about 7% of committed lithium-ion capacity.",
+    "drivers": [
+      "Immature manufacturing and hard-carbon supply chain",
+      "LFP competitive on price and energy density",
+      "Potential faster growth in stationary storage"
+    ],
+    "resolution": "Compare total operational global manufacturing capacity from the same source/definition; if IEA does not publish comparable data, unresolved rather than assumed true.",
+    "sources": [
+      "https://www.iea.org/reports/global-ev-outlook-2026/electric-vehicle-batteries"
+    ],
+    "status": "open"
+  },
+  {
+    "forecast_id": "fc-004",
+    "theme": "AI biology",
+    "statement": "By 2027-10-14, at least one additional peer-reviewed paper beyond the May 2026 Robin study will document a multi-agent AI biological hypothesis/experiment loop with real wet-lab validation and publicly described methods.",
+    "horizon": "2027-10-14",
+    "judgment": "plausible, uncertain",
+    "origin": "analyst inference following ep-297",
+    "base_rate_or_baseline": "May 2026 Nature paper demonstrates semi-autonomous scientific discovery; industry labs are investing in physical experiments.",
+    "drivers": [
+      "Scientific data and automated instruments",
+      "Model reliability and lab throughput",
+      "Reproducibility and biosafety constraints"
+    ],
+    "resolution": "A peer-reviewed study appearing after Oct 14, 2026 with real biological wet-lab experiment conducted and analyzed using an AI-generated hypothesis, accessible methods, and independently inspectable empirical results.",
+    "sources": [
+      "https://www.nature.com/articles/s41586-026-10652-y",
+      "https://www.reuters.com/world/anthropic-quietly-sets-up-biology-lab-it-ramps-ai-drug-program-2026-09-18/"
+    ],
+    "status": "open"
+  },
+  {
+    "forecast_id": "fc-005",
+    "theme": "Asset tokenization",
+    "statement": "By 2027-10-14, material variation will remain among retail tokenized-equity products in whether they confer shareholder rights versus synthetic economic exposure.",
+    "horizon": "2027-10-14",
+    "judgment": "relatively likely, product classifications require periodic review",
+    "origin": "analyst inference following ep-292",
+    "base_rate_or_baseline": "Robinhood's RHJ stock tokens are tokenized debt securities giving economic exposure; SEC guidance distinguishes synthetic from issuer/intermediary structures.",
+    "drivers": [
+      "Different provider/legal structures",
+      "Cross-border securities regulation",
+      "Issuer approvals and custody systems"
+    ],
+    "resolution": "Review current disclosure documents of at least three active retail tokenized-stock offerings in different venues; confirm presence or absence of at least two legally distinct rights structures. Otherwise unresolved.",
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000114/hood-20260630.htm",
+      "https://www.investor.gov/introduction-investing/investing-basics/investment-products/tokenized-securities"
+    ],
+    "status": "open"
+  }
+]
