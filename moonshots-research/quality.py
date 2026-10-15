@@ -10,6 +10,8 @@ BASE = Path(__file__).resolve().parent
 CLAIMS = BASE / "data" / "claims.json"
 AUDITS = BASE / "data" / "evidence_audits.json"
 SPEAKERS = BASE / "data" / "episodes.json"
+FORECASTS = BASE / "data" / "forecasts.json"
+THEMES = BASE / "data" / "themes.json"
 
 CLASSIFICATIONS = {
     "independent_benchmark", "sponsored_advertisement", "political_proposal_and_bill",
@@ -81,9 +83,44 @@ def summary(audits, claims):
     }
 
 
+def prioritize_unaudited(claims, audits, forecasts, themes):
+    """Offline triage points are review priority, not confidence or risk probability."""
+    reviewed = {a["claim_id"] for a in audits}
+    forecast_refs = {cid for f in forecasts for cid in f.get("supporting_claim_ids", [])}
+    theme_refs = {cid for t in themes for cid in t.get("claims", [])}
+    risk_words = ("clinical", "cancer", "safety", "revenue", "investment",
+                  "finance", "fda", "security", "legislat", "law", "benchmark")
+    remaining = []
+    for c in claims:
+        cid = c["claim_id"]
+        if cid in reviewed:
+            continue
+        state = c.get("verification_status")
+        score = {"contested": 6, "podcast_only": 4,
+                 "independently_verified": 3, "corroborated_primary": 3}.get(state, 2)
+        reasons = ["Second-pass audit missing"]
+        if cid in forecast_refs:
+            score += 5
+            reasons.append("Supports a forecast")
+        if cid in theme_refs:
+            score += 2
+            reasons.append("Feeds a cross-episode theme")
+        if any(word in (c.get("claim", "") + c.get("kind", "")).lower() for word in risk_words):
+            score += 2
+            reasons.append("Regulated, safety-sensitive or quantitative")
+        if c.get("kind") == "paid_promotion":
+            score += 6
+            reasons.append("Sponsor claim must be segregated")
+        remaining.append({"claim_id": cid, "episode_id": c["episode_id"],
+                          "priority_score": score,
+                          "verification_status": state, "reasons": reasons})
+    return sorted(remaining, key=lambda item: (-item["priority_score"], item["claim_id"]))
+
+
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("command", choices=["validate", "summary"])
+    parser.add_argument("command", choices=["validate", "summary", "backlog"])
+    parser.add_argument("--limit", type=int, default=20)
     args = parser.parse_args(argv)
     claims, audits, episodes = read(CLAIMS), read(AUDITS), read(SPEAKERS)
     failures = validate_evidence_audits(audits, claims, episodes)
@@ -92,8 +129,13 @@ def main(argv=None):
         return 2
     if args.command == "validate":
         print(f"OK: {len(audits)} deep evidence audits tied to {len(claims)} claims")
-    else:
+    elif args.command == "summary":
         print(json.dumps(summary(audits, claims), indent=2, ensure_ascii=False))
+    else:
+        ranked = prioritize_unaudited(claims, audits, read(FORECASTS), read(THEMES))
+        print(json.dumps({"unaudited_count": len(ranked),
+                          "items": ranked[:max(0, args.limit)]},
+                         indent=2, ensure_ascii=False))
     return 0
 
 
