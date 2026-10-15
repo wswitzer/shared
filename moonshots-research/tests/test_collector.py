@@ -69,10 +69,10 @@ class InventoryTests(unittest.TestCase):
 
     def test_partial_review_is_not_full_transcript(self):
         episodes = collector.load(collector.EPISODES)
-        self.assertEqual(13, sum(e.get("analysis_status") == "partial_review" for e in episodes))
+        self.assertEqual(24, sum(e.get("analysis_status") == "partial_review" for e in episodes))
         self.assertEqual(0, sum(e.get("transcript_status") == "ready" for e in episodes))
         summary = collector.report(episodes, collector.load(collector.CLAIMS), collector.load(collector.FORECASTS))
-        self.assertIn("Episodes partially reviewed via public transcript: **13**", summary)
+        self.assertIn("Episodes partially reviewed via public transcript: **24**", summary)
         self.assertIn("Full transcripts acquired locally: **0**", summary)
 
     def test_partial_review_requires_source_and_range(self):
@@ -98,9 +98,23 @@ class InventoryTests(unittest.TestCase):
 
     def test_claim_ledger_batch_counts(self):
         claims = collector.load(collector.CLAIMS)
-        self.assertEqual(35, len(claims))
+        self.assertEqual(65, len(claims))
         batch = {"ep-290", "ep-291", "ep-294", "ep-295", "ep-296", "ep-301"}
         self.assertEqual(15, sum(c["episode_id"] in batch for c in claims))
+
+    def test_all_cohort_records_have_timestamped_source(self):
+        episodes = collector.load(collector.EPISODES)
+        self.assertEqual(24, len(episodes))
+        self.assertEqual(24, sum(bool(x.get("public_transcript_url") and x.get("reviewed_timestamp_ranges")) for x in episodes))
+        self.assertEqual(0, sum(x.get("analysis_status") == "completed" for x in episodes))
+        self.assertEqual(0, sum(x.get("transcript_status") == "ready" for x in episodes))
+
+    def test_final_batch_adds_30_claims_and_11_episodes(self):
+        claim_records = collector.load(collector.CLAIMS)
+        last_batch = {"ep-281","ep-282","ep-283","ep-284","ep-285","ep-287","ep-288","ep-289","ep-293","special-20260928-builders","special-20260928-star-trek"}
+        from_final = [x for x in claim_records if x["episode_id"] in last_batch]
+        self.assertEqual(30, len(from_final))
+        self.assertEqual(last_batch, {x["episode_id"] for x in from_final})
 
 if __name__ == "__main__":
     unittest.main()
