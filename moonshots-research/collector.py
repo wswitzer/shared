@@ -5,12 +5,10 @@ import copy
 import hashlib
 import json
 import re
-import shutil
 import sys
 import urllib.request
 import xml.etree.ElementTree as ET
 from collections import Counter
-from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 
@@ -37,7 +35,7 @@ def norm(title):
 
 
 def episode_id(title):
-    match = re.search(r"(?:#|\bep\s*#?\s*)(\d{3})\b", title, re.I)
+    match = re.search(r"(?:#|\bep\s*#?\s*|\bmoonshots\s*#?\s*)(\d{3})\b", title, re.I)
     if match:
         return "ep-" + match.group(1)
     return "special-" + hashlib.sha256(norm(title).encode()).hexdigest()[:12]
