@@ -58,5 +58,260 @@
       }
     ],
     "as_of": "2026-10-14"
+  },
+  {
+    "claim_id": "ms-299-001",
+    "episode_id": "ep-299",
+    "speaker": "Richard Socher",
+    "timecode": "01:01:17–01:02:57",
+    "kind": "assessment",
+    "claim": "Existing AI coding assistants in AI research qualify as a weak, human-mediated form of recursive self-improvement; fully closed optimization across objectives, data, architecture, parameters and code has not yet been demonstrated.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/recursives-670m-bet-on-self-improving-ai-sonnet-55-hits-70-elon-co-leads-pentagon-push-ep-299",
+    "source_scope": "public timestamped transcript; selectively reviewed",
+    "verification_status": "independently_verified",
+    "evidence": [
+      {
+        "url": "https://arxiv.org/abs/2608.20318",
+        "publisher": "AI4AI-Bench authors (preprint, Aug 2026)",
+        "independent": true,
+        "assessment": "Benchmark finds measurable but bounded algorithm-design improvements in a limited suite; supports need to distinguish bounded improvement from open-ended RSI."
+      },
+      {
+        "url": "https://arxiv.org/abs/2609.26457",
+        "publisher": "AIDE2 researchers (preprint, Sep 2026)",
+        "independent": true,
+        "assessment": "Seven successive research-agent improvements on held-out evaluation in an 8-day run, without proving open-ended superintelligence."
+      }
+    ],
+    "as_of": "2026-10-14"
+  },
+  {
+    "claim_id": "ms-299-002",
+    "episode_id": "ep-299",
+    "speaker": "Richard Socher",
+    "timecode": "01:02:00–01:02:36",
+    "kind": "forecast",
+    "claim": "Richard Socher expects substantially more autonomous recursive research systems to take off during 2027, while acknowledging high compute needs and incomplete end-to-end self-improvement.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/recursives-670m-bet-on-self-improving-ai-sonnet-55-hits-70-elon-co-leads-pentagon-push-ep-299",
+    "source_scope": "public timestamped transcript; selectively reviewed",
+    "verification_status": "podcast_only",
+    "evidence": [],
+    "as_of": "2026-10-14"
+  },
+  {
+    "claim_id": "ms-299-003",
+    "episode_id": "ep-299",
+    "speaker": "Richard Socher",
+    "timecode": "01:07:03–01:07:27",
+    "kind": "forecast",
+    "claim": "Broad superintelligence across essentially all human skills could require several decades, even if narrower coding and mathematics abilities exceed human capability sooner.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/recursives-670m-bet-on-self-improving-ai-sonnet-55-hits-70-elon-co-leads-pentagon-push-ep-299",
+    "source_scope": "public timestamped transcript; selectively reviewed",
+    "verification_status": "podcast_only",
+    "evidence": [],
+    "as_of": "2026-10-14"
+  },
+  {
+    "claim_id": "ms-299-004",
+    "episode_id": "ep-299",
+    "speaker": "Peter Diamandis",
+    "timecode": "00:03:34–00:04:16",
+    "kind": "disclosure",
+    "claim": "Host Peter Diamandis discloses being a seed investor in Recursive while interviewing Recursive CEO Richard Socher.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/recursives-670m-bet-on-self-improving-ai-sonnet-55-hits-70-elon-co-leads-pentagon-push-ep-299",
+    "source_scope": "public timestamped transcript; selectively reviewed",
+    "verification_status": "podcast_only",
+    "evidence": [],
+    "as_of": "2026-10-14"
+  },
+  {
+    "claim_id": "ms-280-001",
+    "episode_id": "ep-280",
+    "speaker": "Ramez Naam",
+    "timecode": "00:31:38–00:33:10",
+    "kind": "research_claim",
+    "claim": "Flexible demand and limited peak-hour curtailment could substantially increase grid capacity for large new loads; the roughly 100-GW figure is a modeled US opportunity, not installed new capacity.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/200gw-hiding-in-grid-sodium-batteries-10x-cheaper-wave-powered-datacenters-w-ramez-naam-ep-280",
+    "source_scope": "public timestamped transcript; selectively reviewed",
+    "verification_status": "independently_verified",
+    "evidence": [
+      {
+        "url": "https://scholars.duke.edu/publication/1665550",
+        "publisher": "Duke University research by Norris et al. (Feb 2025)",
+        "independent": true,
+        "assessment": "Published grid-system analysis estimates close to 100 GW of potential load accommodation under flexibility assumptions, not confirmed deployments."
+      },
+      {
+        "url": "https://www.reuters.com/business/energy/data-centers-flexible-power-usage-could-save-grid-billions-can-they-scale-2026-10-08/",
+        "publisher": "Reuters (Oct 2026)",
+        "independent": true,
+        "assessment": "Reports prospective demand-response savings with adoption and implementation challenges."
+      }
+    ],
+    "as_of": "2026-10-14"
+  },
+  {
+    "claim_id": "ms-280-002",
+    "episode_id": "ep-280",
+    "speaker": "Ramez Naam",
+    "timecode": "00:39:35–00:40:40",
+    "kind": "forecast",
+    "claim": "Sodium-ion battery technologies could eventually become about ten times cheaper than current battery technologies.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/200gw-hiding-in-grid-sodium-batteries-10x-cheaper-wave-powered-datacenters-w-ramez-naam-ep-280",
+    "source_scope": "public timestamped transcript; selectively reviewed",
+    "verification_status": "contested",
+    "evidence": [
+      {
+        "url": "https://www.iea.org/reports/global-ev-outlook-2026/electric-vehicle-batteries",
+        "publisher": "IEA Global EV Outlook 2026",
+        "independent": true,
+        "assessment": "IEA says sodium-ion scale is early, with weaker energy density and immature supply chain; does not substantiate a near-term industry-wide 10x cost advantage over mature LFP."
+      }
+    ],
+    "as_of": "2026-10-14"
+  },
+  {
+    "claim_id": "ms-280-003",
+    "episode_id": "ep-280",
+    "speaker": "Ramez Naam",
+    "timecode": "01:15:17–01:16:22",
+    "kind": "forecast",
+    "claim": "Commercial small modular nuclear reactors will likely miss optimistic 2030 schedules, with early units costly rather than immediately cheap.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/200gw-hiding-in-grid-sodium-batteries-10x-cheaper-wave-powered-datacenters-w-ramez-naam-ep-280",
+    "source_scope": "public timestamped transcript; selectively reviewed",
+    "verification_status": "podcast_only",
+    "evidence": [],
+    "as_of": "2026-10-14"
+  },
+  {
+    "claim_id": "ms-292-001",
+    "episode_id": "ep-292",
+    "speaker": "Vlad Tenev",
+    "timecode": "01:14:53–01:17:46",
+    "kind": "forecast",
+    "claim": "Tokenizing a growing class of securities and other assets can create a more uniform platform with broader trading access; a fully tokenized financial system is a forward-looking vision.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/robinhoods-vlad-tenev-on-tokenizing-everything-openais-6-misalignment-reports-figures-robot-makes-beds-ep-292",
+    "source_scope": "public timestamped transcript; selectively reviewed",
+    "verification_status": "podcast_only",
+    "evidence": [],
+    "as_of": "2026-10-14"
+  },
+  {
+    "claim_id": "ms-292-002",
+    "episode_id": "ep-292",
+    "speaker": "Vlad Tenev",
+    "timecode": "01:15:48–01:17:46",
+    "kind": "product_claim",
+    "claim": "Robinhood reports a live stock-token offering to non-US users in eligible markets.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/robinhoods-vlad-tenev-on-tokenizing-everything-openais-6-misalignment-reports-figures-robot-makes-beds-ep-292",
+    "source_scope": "public timestamped transcript; selectively reviewed",
+    "verification_status": "corroborated_primary",
+    "evidence": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000114/hood-20260630.htm",
+        "publisher": "Robinhood 2026 Q2 SEC filing",
+        "independent": false,
+        "assessment": "Issuer regulatory filing documents launched stock tokens and their specific contractual structure."
+      }
+    ],
+    "as_of": "2026-10-14"
+  },
+  {
+    "claim_id": "ms-292-003",
+    "episode_id": "ep-292",
+    "speaker": "Researcher interpretation (not an attributed speaker quote)",
+    "timecode": "01:15:48–01:17:46",
+    "kind": "analytical_caveat",
+    "claim": "Robinhood's described stock tokens should not automatically be represented as direct ownership of stock; the exact product terms govern the economic and legal rights.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/robinhoods-vlad-tenev-on-tokenizing-everything-openais-6-misalignment-reports-figures-robot-makes-beds-ep-292",
+    "source_scope": "public timestamped transcript; selectively reviewed",
+    "verification_status": "independently_verified",
+    "evidence": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000114/hood-20260630.htm",
+        "publisher": "Robinhood SEC filing, Q2 2026",
+        "independent": false,
+        "assessment": "Robinhood says Stock Tokens issued by RHJ are debt securities providing economic exposure, not legal or beneficial rights in the issuer of the referenced stock."
+      },
+      {
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/tokenized-securities",
+        "publisher": "US SEC Investor.gov investor education",
+        "independent": true,
+        "assessment": "Regulator independently distinguishes issuer-backed shareholder rights from synthetic token exposure, establishing why investors must check product structure."
+      }
+    ],
+    "as_of": "2026-10-14"
+  },
+  {
+    "claim_id": "ms-297-001",
+    "episode_id": "ep-297",
+    "speaker": "Ben Lamm",
+    "timecode": "00:06:55–00:07:37",
+    "kind": "forecast",
+    "claim": "AI is likely to help bridge fragmented biological literature and design experiments over the next 3–5 years, but wet-lab validation remains necessary.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/why-were-living-in-a-biological-singularity-with-ben-lamm-moonshots-live-297",
+    "source_scope": "public timestamped transcript; selectively reviewed",
+    "verification_status": "independently_verified",
+    "evidence": [
+      {
+        "url": "https://www.nature.com/articles/s41586-026-10652-y",
+        "publisher": "Nature research, May 2026",
+        "independent": true,
+        "assessment": "Scientific paper documents a semi-autonomous system generating hypotheses and analyzing real biology experiments; physical experimental validation remains part of process."
+      },
+      {
+        "url": "https://www.reuters.com/world/anthropic-quietly-sets-up-biology-lab-it-ramps-ai-drug-program-2026-09-18/",
+        "publisher": "Reuters reporting, Sep 2026",
+        "independent": true,
+        "assessment": "Independent reporting finds frontier lab investment in actual experimental biology rather than simulation alone."
+      }
+    ],
+    "as_of": "2026-10-14"
+  },
+  {
+    "claim_id": "ms-297-002",
+    "episode_id": "ep-297",
+    "speaker": "Ben Lamm",
+    "timecode": "00:19:41–00:20:05",
+    "kind": "forecast",
+    "claim": "Substantial promptable design of engineered animal phenotypes may become possible within a decade; this is speculative and not a validated deployment.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/why-were-living-in-a-biological-singularity-with-ben-lamm-moonshots-live-297",
+    "source_scope": "public timestamped transcript; selectively reviewed",
+    "verification_status": "podcast_only",
+    "evidence": [],
+    "as_of": "2026-10-14"
+  },
+  {
+    "claim_id": "ms-300-004",
+    "episode_id": "ep-300",
+    "speaker": "Astro Teller",
+    "timecode": "00:20:36–00:21:03",
+    "kind": "organizational_claim",
+    "claim": "X reports that its inflation-adjusted internal cost to reach a graduated moonshot has declined roughly threefold over 16 years.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/google-xs-astro-teller-the-1b-bet-no-ceo-will-back-moonshots-3x-cheaper-in-16-yrs-and-clean-water-at-1cl-ep-300",
+    "source_scope": "public timestamped transcript; selectively reviewed",
+    "verification_status": "podcast_only",
+    "evidence": [],
+    "as_of": "2026-10-14"
+  },
+  {
+    "claim_id": "ms-300-005",
+    "episode_id": "ep-300",
+    "speaker": "Astro Teller",
+    "timecode": "00:31:18–00:32:26",
+    "kind": "framework",
+    "claim": "Tackle the hardest uncertain dependency before polishing easy supporting artifacts (the monkey/pedestal distinction), and reward rapid learning rather than progress theater.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/google-xs-astro-teller-the-1b-bet-no-ceo-will-back-moonshots-3x-cheaper-in-16-yrs-and-clean-water-at-1cl-ep-300",
+    "source_scope": "public timestamped transcript; selectively reviewed",
+    "verification_status": "corroborated_primary",
+    "evidence": [
+      {
+        "url": "https://x.company/blog/posts/tackle-the-monkey-first/",
+        "publisher": "X (Astro Teller's own organization)",
+        "independent": false,
+        "assessment": "Teller's earlier written explanation of monkey/pedestal prioritization; not third-party evidence of outcomes."
+      }
+    ],
+    "as_of": "2026-10-14"
   }
 ]
