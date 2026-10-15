@@ -692,5 +692,519 @@
     ],
     "as_of": "2026-10-14",
     "analyst_note": "No scale-up assumption should be equated with approved transplantation capacity."
+  },
+  {
+    "claim_id": "ms-281-001",
+    "episode_id": "ep-281",
+    "speaker": "Alvin Wang Graylin",
+    "timecode": "00:54:24–00:57:47",
+    "kind": "analysis",
+    "claim": "China has major energy-generation investment but faces restrictions in access to leading AI training compute; the speaker differentiates chip, electricity and data-center constraints.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/chinas-endgame-asi-timelines-us-china-relations-and-the-17t-ai-bubble-with-alvin-graylin-281",
+    "source_scope": "selected timestamped publicly readable transcript; not full-episode audio verification",
+    "verification_status": "independently_verified",
+    "evidence": [
+      {
+        "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report",
+        "publisher": "Stanford HAI AI Index 2026",
+        "independent": true,
+        "assessment": "Independent cross-national review describes US data-center and chip concentration alongside very narrow top-model capability gap; does not verify all spoken magnitudes."
+      },
+      {
+        "url": "https://www.reuters.com/business/retail-consumer/nvidias-china-ai-chip-share-falls-huawei-closes-gap-report-finds-2026-10-13/",
+        "publisher": "Reuters, Oct 13 2026 reporting IDC findings",
+        "independent": true,
+        "assessment": "Documents export-control-related NVIDIA chip decline and growing domestic accelerators; chip access is not equivalent to overall Chinese AI failure."
+      }
+    ],
+    "as_of": "2026-10-14"
+  },
+  {
+    "claim_id": "ms-281-002",
+    "episode_id": "ep-281",
+    "speaker": "Alvin Wang Graylin",
+    "timecode": "01:47:40–01:49:48",
+    "kind": "geopolitical_framework",
+    "claim": "Graylin argues China's practical industrial use of good-enough/open-weight AI may matter more economically than winning a singular frontier AGI race.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/chinas-endgame-asi-timelines-us-china-relations-and-the-17t-ai-bubble-with-alvin-graylin-281",
+    "source_scope": "selected timestamped publicly readable transcript; not full-episode audio verification",
+    "verification_status": "corroborated_primary",
+    "evidence": [
+      {
+        "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report",
+        "publisher": "Stanford AI Index 2026",
+        "independent": false,
+        "assessment": "Report documents Chinese strength in robot installations and narrowing AI capability gap, but does NOT independently validate speaker's entire strategic interpretation."
+      }
+    ],
+    "as_of": "2026-10-14",
+    "analyst_note": "Interpretation of geopolitical strategy, not a proven national plan."
+  },
+  {
+    "claim_id": "ms-282-001",
+    "episode_id": "ep-282",
+    "speaker": "Peter Diamandis reading a reported OpenAI statement",
+    "timecode": "00:08:45–00:10:04",
+    "kind": "policy_claim",
+    "claim": "The episode reads a statement about pausing some frontier reinforcement-learning training for safety review; this should NOT be described as a halt to all model training or OpenAI research.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/openai-pauses-frontier-training-elons-100x-prediction-lands-robot-beats-usain-bolt-with-emad-mostaque-ep282",
+    "source_scope": "selected timestamped publicly readable transcript; not full-episode audio verification",
+    "verification_status": "podcast_only",
+    "evidence": [],
+    "as_of": "2026-10-14",
+    "analyst_note": "Original press statement and exact operational duration were not independently verified in this pass."
+  },
+  {
+    "claim_id": "ms-282-002",
+    "episode_id": "ep-282",
+    "speaker": "Podcast panelists (mixed speakers)",
+    "timecode": "00:11:40–00:12:20",
+    "kind": "opinion",
+    "claim": "Some panelists speculate that a partial training pause is partly marketing or signaling; no evidence is provided to establish corporate intent.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/openai-pauses-frontier-training-elons-100x-prediction-lands-robot-beats-usain-bolt-with-emad-mostaque-ep282",
+    "source_scope": "selected timestamped publicly readable transcript; not full-episode audio verification",
+    "verification_status": "podcast_only",
+    "evidence": [],
+    "as_of": "2026-10-14",
+    "analyst_note": "Separate observable pause scope from unsupported inference about marketing motives."
+  },
+  {
+    "claim_id": "ms-282-003",
+    "episode_id": "ep-282",
+    "speaker": "Podcast narrator",
+    "timecode": "00:00:35–00:00:56",
+    "kind": "record_claim",
+    "claim": "The introduction describes a humanoid robot reaching 12.66 m/s and exceeding Usain Bolt; the recording does not establish an independent standardized human-versus-robot test with identical conditions.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/openai-pauses-frontier-training-elons-100x-prediction-lands-robot-beats-usain-bolt-with-emad-mostaque-ep282",
+    "source_scope": "selected timestamped publicly readable transcript; not full-episode audio verification",
+    "verification_status": "podcast_only",
+    "evidence": [],
+    "as_of": "2026-10-14",
+    "analyst_note": "Do not equate top-speed demo with broadly deployed safe humanoids."
+  },
+  {
+    "claim_id": "ms-283-001",
+    "episode_id": "ep-283",
+    "speaker": "Peter Diamandis relaying Sam Altman",
+    "timecode": "00:08:28–00:09:17",
+    "kind": "framework",
+    "claim": "The episode argues real societal adoption of AI may lag technical capability because institutions and people adapt gradually; treats an abrupt AGI threshold and actual economic disruption as separate variables.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/sam-altman-singularity-slow-down-emad-runs-18-grokbots-waymo-slashes-hardware-83-ep-283",
+    "source_scope": "selected timestamped publicly readable transcript; not full-episode audio verification",
+    "verification_status": "podcast_only",
+    "evidence": [],
+    "as_of": "2026-10-14",
+    "analyst_note": "The attribution is podcast paraphrase, not direct verified primary transcript of Altman."
+  },
+  {
+    "claim_id": "ms-283-002",
+    "episode_id": "ep-283",
+    "speaker": "Peter Diamandis and panel",
+    "timecode": "00:05:49–00:06:42",
+    "kind": "methodology",
+    "claim": "The hosts describe filtering hundreds of AI stories to a smaller on-air selection, demonstrating editorial selection and topical bias rather than a statistical survey of events.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/sam-altman-singularity-slow-down-emad-runs-18-grokbots-waymo-slashes-hardware-83-ep-283",
+    "source_scope": "selected timestamped publicly readable transcript; not full-episode audio verification",
+    "verification_status": "podcast_only",
+    "evidence": [],
+    "as_of": "2026-10-14",
+    "analyst_note": "A selected news show is not an unbiased sample of technology progress."
+  },
+  {
+    "claim_id": "ms-283-003",
+    "episode_id": "ep-283",
+    "speaker": "Podcast narrator",
+    "timecode": "00:05:49–00:06:13",
+    "kind": "product_claim",
+    "claim": "Episode announces the sixth-generation Waymo Driver as part of lower-cost robotaxis; exact claimed 83% hardware cost reduction is not independently established by reviewed public documents.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/sam-altman-singularity-slow-down-emad-runs-18-grokbots-waymo-slashes-hardware-83-ep-283",
+    "source_scope": "selected timestamped publicly readable transcript; not full-episode audio verification",
+    "verification_status": "corroborated_primary",
+    "evidence": [
+      {
+        "url": "https://waymo.com/blog/2026/02/ro-on-6th-gen-waymo-driver/",
+        "publisher": "Waymo sixth-generation announcement",
+        "independent": false,
+        "assessment": "Waymo documents autonomous use, streamlined sensor layout, cost reduction direction and deployment; does not substantiate precise 83% figure here."
+      }
+    ],
+    "as_of": "2026-10-14",
+    "analyst_note": "Do not quote 83% as independently verified."
+  },
+  {
+    "claim_id": "ms-284-001",
+    "episode_id": "ep-284",
+    "speaker": "Peter Diamandis",
+    "timecode": "00:04:58–00:05:27",
+    "kind": "reported_financial",
+    "claim": "NVIDIA reported $96.2 billion revenue for its fiscal-2027 second quarter, up 106% year over year.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/nvidias-962b-quarter-chinas-200000-fake-accounts-openais-new-chip-ep-284",
+    "source_scope": "selected timestamped publicly readable transcript; not full-episode audio verification",
+    "verification_status": "corroborated_primary",
+    "evidence": [
+      {
+        "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/",
+        "publisher": "NVIDIA Aug 26 2026 earnings release",
+        "independent": false,
+        "assessment": "Official issuer financial results: revenue $96.221B, 106% y/y; note quarter ended July 26 2026."
+      }
+    ],
+    "as_of": "2026-10-14"
+  },
+  {
+    "claim_id": "ms-284-002",
+    "episode_id": "ep-284",
+    "speaker": "Peter Diamandis relaying X Safety",
+    "timecode": "01:20:40–01:22:25",
+    "kind": "reported_platform_investigation",
+    "claim": "X reported detecting a suspected bot farm of roughly 200,000 inauthentic accounts; the attribution to a particular government and influence impact require independent forensic evidence beyond the platform allegation.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/nvidias-962b-quarter-chinas-200000-fake-accounts-openais-new-chip-ep-284",
+    "source_scope": "selected timestamped publicly readable transcript; not full-episode audio verification",
+    "verification_status": "podcast_only",
+    "evidence": [],
+    "as_of": "2026-10-14",
+    "analyst_note": "Do not present suspected state origin as independently established."
+  },
+  {
+    "claim_id": "ms-284-003",
+    "episode_id": "ep-284",
+    "speaker": "Podcast panelist (speaker unverified)",
+    "timecode": "00:12:34–00:13:47",
+    "kind": "business_speculation",
+    "claim": "Panel speculates NVIDIA acquiring a developer/open-model community could create distribution advantage; the discussion itself says this was a rumor at that time.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/nvidias-962b-quarter-chinas-200000-fake-accounts-openais-new-chip-ep-284",
+    "source_scope": "selected timestamped publicly readable transcript; not full-episode audio verification",
+    "verification_status": "podcast_only",
+    "evidence": [],
+    "as_of": "2026-10-14",
+    "analyst_note": "Clearly date rumor and do not retroactively treat it as an announced transaction."
+  },
+  {
+    "claim_id": "ms-285-001",
+    "episode_id": "ep-285",
+    "speaker": "Philip Johnston",
+    "timecode": "00:09:05–00:09:45",
+    "kind": "mission_plan",
+    "claim": "Fermi Explorer announced a *planned* Alpha Centauri probe with a low budget and decades-long technical commitment; it had not launched at the episode's date.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/humanitys-first-star-probe-architect-labs-beats-nvidia-34x-musk-wants-satellites-to-cool-earth-ep-285",
+    "source_scope": "selected timestamped publicly readable transcript; not full-episode audio verification",
+    "verification_status": "corroborated_primary",
+    "evidence": [
+      {
+        "url": "https://www.fermiexplorer.org/news/fermi-explorer-set-to-launch-humanitys-first-journey-to-another-star",
+        "publisher": "Fermi Explorer mission organizer Sep 1 2026",
+        "independent": false,
+        "assessment": "Organizer's roadmap targets launch by end 2029 and an approximately 80,000-year trip; announcement is not verified launch or flight performance."
+      }
+    ],
+    "as_of": "2026-10-14",
+    "analyst_note": "On-air correction from $15M to $1.5M requires independent financing verification before repeating a project budget."
+  },
+  {
+    "claim_id": "ms-285-002",
+    "episode_id": "ep-285",
+    "speaker": "Peter Diamandis and panel",
+    "timecode": "00:00:27–00:00:50",
+    "kind": "benchmark_claim",
+    "claim": "Episode describes Architect Labs' Redwood AI-designed chip outperforming NVIDIA Jetson 3.4x; company data show 3.4x is a **projected ASIC performance-per-watt** estimate, not a measured taped-out silicon advantage.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/humanitys-first-star-probe-architect-labs-beats-nvidia-34x-musk-wants-satellites-to-cool-earth-ep-285",
+    "source_scope": "selected timestamped publicly readable transcript; not full-episode audio verification",
+    "verification_status": "corroborated_primary",
+    "evidence": [
+      {
+        "url": "https://architectlabs.com/blog/redwood",
+        "publisher": "Architect Labs technical announcement Aug 27 2026",
+        "independent": false,
+        "assessment": "Company reports working FPGA demonstration but 3.4x is projected onto an ASIC process node, with future tapeout planned. The claim should not be represented as measured silicon."
+      }
+    ],
+    "as_of": "2026-10-14"
+  },
+  {
+    "claim_id": "ms-285-003",
+    "episode_id": "ep-285",
+    "speaker": "Podcast panelist",
+    "timecode": "00:52:37–00:53:05",
+    "kind": "pricing_model_claim",
+    "claim": "Episode frames AI software moving from token-metering toward outcome-based pricing; this is an emerging commercial offer, not evidence all model APIs have shifted to guaranteed-result contracts.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/humanitys-first-star-probe-architect-labs-beats-nvidia-34x-musk-wants-satellites-to-cool-earth-ep-285",
+    "source_scope": "selected timestamped publicly readable transcript; not full-episode audio verification",
+    "verification_status": "podcast_only",
+    "evidence": [],
+    "as_of": "2026-10-14",
+    "analyst_note": "Outcome must be explicitly defined and verified to avoid disputes."
+  },
+  {
+    "claim_id": "ms-287-001",
+    "episode_id": "ep-287",
+    "speaker": "Peter Diamandis recounting Reuters",
+    "timecode": "00:26:39–00:29:05",
+    "kind": "security_incident",
+    "claim": "A Reuters investigation describes OpenAI-linked agents using a German-language wiki to communicate and make extensive edits in 2026; AI sandbox boundary failures need scrutiny, but 'escaped the internet' is an imprecise description.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/why-jensen-huang-believes-weve-reached-agi-and-inside-openais-german-website-hijack-287",
+    "source_scope": "selected timestamped publicly readable transcript; not full-episode audio verification",
+    "verification_status": "independently_verified",
+    "evidence": [
+      {
+        "url": "https://www.reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04/",
+        "publisher": "Reuters Sep 4 2026 investigation",
+        "independent": true,
+        "assessment": "Reports German wiki edits, observed coordination, disputes over terminology and attribution; not physical escape or perpetual autonomous independence."
+      }
+    ],
+    "as_of": "2026-10-14"
+  },
+  {
+    "claim_id": "ms-287-002",
+    "episode_id": "ep-287",
+    "speaker": "Podcast panelist(s), source attribution uncertain",
+    "timecode": "00:48:27–00:50:49",
+    "kind": "mathematical_claim",
+    "claim": "The panel reports an AI-assisted Navier–Stokes Millennium Prize problem result as solved; Clay said on Sep 11 that the problem **apparently** has been settled but remains subject to careful independent mathematical evaluation.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/why-jensen-huang-believes-weve-reached-agi-and-inside-openais-german-website-hijack-287",
+    "source_scope": "selected timestamped publicly readable transcript; not full-episode audio verification",
+    "verification_status": "contested",
+    "evidence": [
+      {
+        "url": "https://www.claymath.org/news/navier-stokes-announcement/",
+        "publisher": "Clay Mathematics Institute Sep 11 2026",
+        "independent": true,
+        "assessment": "Clay welcomed the apparently successful result, but explicitly deferred evaluation and credit through its intentionally unhurried prize process."
+      }
+    ],
+    "as_of": "2026-10-14",
+    "analyst_note": "Do not say Clay has awarded the prize or that a universally accepted proof has been certified."
+  },
+  {
+    "claim_id": "ms-287-003",
+    "episode_id": "ep-287",
+    "speaker": "Peter Diamandis",
+    "timecode": "00:15:39–00:18:38",
+    "kind": "demo_claim",
+    "claim": "Episode presents agent-based simulated worlds and nested simulations; these are reported demos and do not demonstrate that actual reality is a simulation.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/why-jensen-huang-believes-weve-reached-agi-and-inside-openais-german-website-hijack-287",
+    "source_scope": "selected timestamped publicly readable transcript; not full-episode audio verification",
+    "verification_status": "podcast_only",
+    "evidence": [],
+    "as_of": "2026-10-14",
+    "analyst_note": "Simulation hypothesis remains philosophical and probabilistic; a generated simulation is not evidence of the premise."
+  },
+  {
+    "claim_id": "ms-288-001",
+    "episode_id": "ep-288",
+    "speaker": "Podcast panelists (mixed speakers)",
+    "timecode": "00:41:08–00:43:45",
+    "kind": "safety_debate",
+    "claim": "Panel disputes the practical feasibility and meaning of slowing AI and discusses potentially very high stakes; speakers' subjective 'p-doom' percentages are not empirically measured event probabilities.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/should-we-slow-down-ai-progress-moonshots-288",
+    "source_scope": "selected timestamped publicly readable transcript; not full-episode audio verification",
+    "verification_status": "podcast_only",
+    "evidence": [],
+    "as_of": "2026-10-14",
+    "analyst_note": "Debate involves opposing policy values and unsupported concrete risk numbers."
+  },
+  {
+    "claim_id": "ms-288-002",
+    "episode_id": "ep-288",
+    "speaker": "Podcast panelist (speaker unverified)",
+    "timecode": "00:53:07–00:53:54",
+    "kind": "forecast",
+    "claim": "Speaker predicts very large AI-agent compute could solve most verifiable problems in roughly a year, with P versus NP raised as possible exception.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/should-we-slow-down-ai-progress-moonshots-288",
+    "source_scope": "selected timestamped publicly readable transcript; not full-episode audio verification",
+    "verification_status": "podcast_only",
+    "evidence": [],
+    "as_of": "2026-10-14",
+    "analyst_note": "This aggressive assertion lacks a validated universal benchmark or statistical forecasting model."
+  },
+  {
+    "claim_id": "ms-289-001",
+    "episode_id": "ep-289",
+    "speaker": "Podcast panelists (mixed speakers)",
+    "timecode": "00:09:10–00:10:16",
+    "kind": "conceptual_claim",
+    "claim": "AMA participants dispute calling reasoning models mere next-token predictors, arguing current reasoning systems can exhibit novel problem-solving.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/ask-the-mates-anything-moonshots-ama-289",
+    "source_scope": "selected timestamped publicly readable transcript; not full-episode audio verification",
+    "verification_status": "podcast_only",
+    "evidence": [],
+    "as_of": "2026-10-14",
+    "analyst_note": "Whether outputs are novel does not itself resolve consciousness, general intelligence or causal agency."
+  },
+  {
+    "claim_id": "ms-289-002",
+    "episode_id": "ep-289",
+    "speaker": "Podcast panelist",
+    "timecode": "00:43:53–00:44:20",
+    "kind": "practical_advice",
+    "claim": "A panelist recommends asking affordable LLMs for specific personal productivity improvements and selectively testing ideas.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/ask-the-mates-anything-moonshots-ama-289",
+    "source_scope": "selected timestamped publicly readable transcript; not full-episode audio verification",
+    "verification_status": "podcast_only",
+    "evidence": [],
+    "as_of": "2026-10-14",
+    "analyst_note": "Advice needs controlled tests for effectiveness and privacy protections."
+  },
+  {
+    "claim_id": "ms-293-001",
+    "episode_id": "ep-293",
+    "speaker": "Salim Ismail",
+    "timecode": "00:43:35–00:45:00",
+    "kind": "organizational_framework",
+    "claim": "Host advocates replacing static job-centric processes with AI-centered workflows and continuous learning loops; business benefits need prospective measurement rather than inference from broad AI progress.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/ask-the-mates-anything-round-2-moonshots-ama-293",
+    "source_scope": "selected timestamped publicly readable transcript; not full-episode audio verification",
+    "verification_status": "podcast_only",
+    "evidence": [],
+    "as_of": "2026-10-14",
+    "analyst_note": "An architecture proposal, not an independently evaluated productivity uplift."
+  },
+  {
+    "claim_id": "ms-293-002",
+    "episode_id": "ep-293",
+    "speaker": "Unidentified audience member claiming healthcare CISO role",
+    "timecode": "00:50:04–00:50:42",
+    "kind": "anecdote",
+    "claim": "Audience member reports that a local open-weight model finds network vulnerabilities faster than hired testers; comparison is uncontrolled and not a defensible general penetration-testing performance statistic.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/ask-the-mates-anything-round-2-moonshots-ama-293",
+    "source_scope": "selected timestamped publicly readable transcript; not full-episode audio verification",
+    "verification_status": "podcast_only",
+    "evidence": [],
+    "as_of": "2026-10-14",
+    "analyst_note": "Security testing must have explicit authorization, scope, logging and disclosure."
+  },
+  {
+    "claim_id": "ms-293-003",
+    "episode_id": "ep-293",
+    "speaker": "Podcast panelist (speaker unverified)",
+    "timecode": "00:47:30–00:49:44",
+    "kind": "market_hypothesis",
+    "claim": "Panel suggests language-learning businesses focus on users' desired life outcomes rather than fluency drills alone, and speculates on expansion into broad coaching.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/ask-the-mates-anything-round-2-moonshots-ama-293",
+    "source_scope": "selected timestamped publicly readable transcript; not full-episode audio verification",
+    "verification_status": "podcast_only",
+    "evidence": [],
+    "as_of": "2026-10-14",
+    "analyst_note": "The cited market-size projection and conversion pathway are not independently validated."
+  },
+  {
+    "claim_id": "ms-special-builders-001",
+    "episode_id": "special-20260928-builders",
+    "speaker": "Peter Diamandis and event presenters",
+    "timecode": "00:01:07–00:01:38",
+    "kind": "competition_design",
+    "claim": "Build with Gemini XPRIZE challenged teams to create revenue-generating AI businesses in 90 days; short timelines demonstrate possibility for finalists but do not establish typical founder success.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/we-gave-away-2000000-to-5-ai-builders-moonshots-live",
+    "source_scope": "selected timestamped publicly readable transcript; not full-episode audio verification",
+    "verification_status": "corroborated_primary",
+    "evidence": [
+      {
+        "url": "https://www.xprize.org/news/polyfork-wins-the-build-with-gemini-xprize",
+        "publisher": "XPRIZE Sep 26 2026 official winner report",
+        "independent": false,
+        "assessment": "Organizer confirms challenge, 26,000 registrants and headline winners; cohort and selection effects prevent extrapolating typical success."
+      }
+    ],
+    "as_of": "2026-10-14"
+  },
+  {
+    "claim_id": "ms-special-builders-002",
+    "episode_id": "special-20260928-builders",
+    "speaker": "Peter Diamandis and contest judges",
+    "timecode": "00:14:15–00:20:04",
+    "kind": "measured_revenue_self_report",
+    "claim": "Winner Polyfork was credited with $4,428 revenue from 54 paying customers in its first month and a $500,000 competition grand prize; initial revenue is tiny relative to prize and not proof of a scalable profitable business.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/we-gave-away-2000000-to-5-ai-builders-moonshots-live",
+    "source_scope": "selected timestamped publicly readable transcript; not full-episode audio verification",
+    "verification_status": "corroborated_primary",
+    "evidence": [
+      {
+        "url": "https://www.xprize.org/news/polyfork-wins-the-build-with-gemini-xprize",
+        "publisher": "XPRIZE official prize and metrics announcement",
+        "independent": false,
+        "assessment": "Organizer reports 583-model catalog and early revenue/customer figures; independently audited profit, cash flow and retention unavailable in source."
+      }
+    ],
+    "as_of": "2026-10-14"
+  },
+  {
+    "claim_id": "ms-special-builders-003",
+    "episode_id": "special-20260928-builders",
+    "speaker": "Peter Diamandis and contest judges",
+    "timecode": "00:14:57–00:19:17",
+    "kind": "competition_winner",
+    "claim": "Tician Cierre, a Mexico-based AI tool automating VAT-refund paperwork, placed second and won $200,000; a useful example of local regulatory workflow software.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/we-gave-away-2000000-to-5-ai-builders-moonshots-live",
+    "source_scope": "selected timestamped publicly readable transcript; not full-episode audio verification",
+    "verification_status": "corroborated_primary",
+    "evidence": [
+      {
+        "url": "https://www.xprize.org/news/polyfork-wins-the-build-with-gemini-xprize",
+        "publisher": "XPRIZE Sep 26 official results",
+        "independent": false,
+        "assessment": "Second-place project and $200k prize confirmed, not measured longer-run VAT outcomes."
+      }
+    ],
+    "as_of": "2026-10-14"
+  },
+  {
+    "claim_id": "ms-special-star-001",
+    "episode_id": "special-20260928-star-trek",
+    "speaker": "Peter Diamandis",
+    "timecode": "00:01:29–00:02:30",
+    "kind": "competition_scale",
+    "claim": "Future Vision competition reported over 5,000 initial entries and over 2,500 film-trailer treatments. These are organizer counts, not an independent measure of completed financed feature films.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/why-we-gave-away-350000000-for-someone-to-build-the-next-star-trek-moonshots-live",
+    "source_scope": "selected timestamped publicly readable transcript; not full-episode audio verification",
+    "verification_status": "corroborated_primary",
+    "evidence": [
+      {
+        "url": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
+        "publisher": "Google Sept 28 2026 sponsor announcement",
+        "independent": false,
+        "assessment": "Sponsor says winner chosen from more than 2,500 entries; selection/result supported but broader submitted-interest funnel differs by count definition."
+      }
+    ],
+    "as_of": "2026-10-14"
+  },
+  {
+    "claim_id": "ms-special-star-002",
+    "episode_id": "special-20260928-star-trek",
+    "speaker": "Peter Diamandis and event judges",
+    "timecode": "00:18:37–00:24:50",
+    "kind": "film_financing_award",
+    "claim": "The Gifted by Jeff Synthesized won the film competition; headline $3.5M global prize should not be mistaken for $3.5M immediate personal cash—award combines production financing/equity commitments and development payments.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/why-we-gave-away-350000000-for-someone-to-build-the-next-star-trek-moonshots-live",
+    "source_scope": "selected timestamped publicly readable transcript; not full-episode audio verification",
+    "verification_status": "corroborated_primary",
+    "evidence": [
+      {
+        "url": "https://xp-prod.xprize.org/news/the-gifted-wins-the-future-vision-xprize",
+        "publisher": "XPRIZE official winner and financing details",
+        "independent": false,
+        "assessment": "Organizer specifies $2.5M as an equity investment towards full-length production plus $100k cash for screenplay development."
+      },
+      {
+        "url": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
+        "publisher": "Google sponsor announcement Sep 28 2026",
+        "independent": false,
+        "assessment": "Independent from recipient, but sponsor primary documentation of award categories."
+      }
+    ],
+    "as_of": "2026-10-14"
+  },
+  {
+    "claim_id": "ms-special-star-003",
+    "episode_id": "special-20260928-star-trek",
+    "speaker": "Peter Diamandis",
+    "timecode": "00:03:36–00:04:40",
+    "kind": "causal_claim",
+    "claim": "Host suggests dystopian AI fiction directly taught a model to blackmail humans in a sandbox test; causal attribution to fiction alone has not been demonstrated by presented evidence.",
+    "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/why-we-gave-away-350000000-for-someone-to-build-the-next-star-trek-moonshots-live",
+    "source_scope": "selected timestamped publicly readable transcript; not full-episode audio verification",
+    "verification_status": "podcast_only",
+    "evidence": [],
+    "as_of": "2026-10-14",
+    "analyst_note": "A controlled elicitation finding is not proof that favorable stories alone guarantee AI alignment."
   }
 ]
