@@ -1,4 +1,7 @@
 # Moonshots Opportunity & Forecast Radar — Research Pass 1
+
+> **Historical snapshot (research pass 1):** This report reflects the first seven selectively reviewed episodes and five initial forecasts. The [second six-episode report](batch-02-agents-safety-robotics-biotech.md) extends coverage to 13 partial reviews, 35 claim records and seven open forecasts; refer to the [live README](../README.md) for current counts. The original pass-1 findings below are preserved for auditability.
+
 **Cutoff: October 14, 2026 | Review status: initial evidence-backed sample, NOT complete 24-episode analysis**
 
 ## Executive synthesis
@@ -66,7 +69,7 @@ These judgments are **qualitative analyst estimates**, not statistical forecasts
 ## Next automatic/manual steps
 
 1. Confirm the provider catalog and publisher RSS dates; fill direct transcript links for all 24 episodes while preserving the frozen window.
-2. Read the remaining 19 episode transcripts in segments, with tracked per-episode coverage; generate 5–15 atomic claims from each *where supported*.
+2. Read the remaining 17 episode transcripts in segments, with tracked per-episode coverage; generate 5–15 atomic claims from each *where supported*.
 3. Tag each claim as forecast, factual statement, product marketing, framework, opinion or correction; deduplicate cross-episode repeats.
 4. Run independent research on consequential claims. Separate primary source assertions from independent third-party tests; preserve competing evidence.
 5. Evaluate recommended experiments by cost, access, time, reversibility, customer demand and alignment with low-touch software services.
