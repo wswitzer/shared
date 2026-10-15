@@ -1,0 +1,135 @@
+[
+  {
+    "claim_id": "ms-299-006",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "source_class": "independent_benchmark",
+    "outcome": "bounded_supported",
+    "conclusion": "Jev release and narrow task performance verified by third-party preprint, not general accuracy supremacy.",
+    "checked_urls": [
+      "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+      "https://arxiv.org/abs/2609.37647"
+    ],
+    "remaining_uncertainty": "Independent benchmark is a preprint and tests specific datasets, not the user's production data.",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-299-007",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "source_class": "sponsored_advertisement",
+    "outcome": "do_not_generalize",
+    "conclusion": "Paid screening segment reports a sponsor member statistic; clinical benefit in average-risk adults is not established.",
+    "checked_urls": [
+      "https://www.cancer.org/cancer/latest-news/full-body-mri-what-are-the-risks.html",
+      "https://pubmed.ncbi.nlm.nih.gov/40884613/"
+    ],
+    "remaining_uncertainty": "3.3% sponsor membership rate not independently audited; comparison studies have different selection criteria. Not medical advice.",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-299-008",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "source_class": "political_proposal_and_bill",
+    "outcome": "stage_distinction",
+    "conclusion": "Proposed Human Control Over AI Act and separate Casar-sponsored H.R.10538 must not be called enacted law.",
+    "checked_urls": [
+      "https://www.politicalemails.org/messages/2434777",
+      "https://www.govinfo.gov/app/details/BILLS-119hr10538ih"
+    ],
+    "remaining_uncertainty": "No matching official enacted text for the separately named Khanna proposal established in this review.",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-299-009",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "source_class": "government_primary_record",
+    "outcome": "primary_document_confirmed",
+    "conclusion": "White House EO 14433 sets 90/50% Washington DC targets by 2028, not achieved results.",
+    "checked_urls": [
+      "https://www.whitehouse.gov/presidential-actions/2026/09/eliminating-disease-carrying-pests-and-restoring-enjoyment-of-the-great-outdoors/"
+    ],
+    "remaining_uncertainty": "Measure outcomes separately; original government announcement is primary, not independent field data.",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-285-002",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "source_class": "vendor_development_claim",
+    "outcome": "projection_not_measurement",
+    "conclusion": "Architect Labs' stated 3.4x advantage is projected ASIC efficiency; FPGA prototype does not settle measured ASIC performance.",
+    "checked_urls": [
+      "https://architectlabs.com/blog/redwood"
+    ],
+    "remaining_uncertainty": "Independent manufactured silicon benchmark not established.",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-287-002",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "source_class": "scientific_institute_statement",
+    "outcome": "under_review",
+    "conclusion": "Clay's statement says Navier-Stokes apparently settled, with formal evaluation and assignment of credit deliberately unhurried.",
+    "checked_urls": [
+      "https://www.claymath.org/news/navier-stokes-announcement/"
+    ],
+    "remaining_uncertainty": "Neither a final prize award nor fully settled mathematical credit established.",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-special-builders-002",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "source_class": "competition_organizer",
+    "outcome": "primary_document_confirmed",
+    "conclusion": "XPRIZE organizer reports Polyfork's $4,428 gross first-month revenue, 54 paying customers, and a separate $500,000 award.",
+    "checked_urls": [
+      "https://www.xprize.org/news/polyfork-wins-the-build-with-gemini-xprize"
+    ],
+    "remaining_uncertainty": "No independent profit, retention, or representative founder success rate established.",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-300-006",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "source_class": "speaker_internal_metric",
+    "outcome": "not_independently_verified",
+    "conclusion": "X graduation rate and pipeline are internally reported by the executive, with changing definitions and horizons.",
+    "checked_urls": [
+      "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/google-xs-astro-teller-the-1b-bet-no-ceo-will-back-moonshots-3x-cheaper-in-16-yrs-and-clean-water-at-1cl-ep-300"
+    ],
+    "remaining_uncertainty": "Cannot turn this into startup survival base rate; no independent denominator.",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-299-010",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "source_class": "sponsored_advertisement",
+    "outcome": "not_independently_verified",
+    "conclusion": "Blitzy advertises autonomous work and engineering velocity gains, with no matched controlled independent comparison here.",
+    "checked_urls": [
+      "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/recursives-670m-bet-on-self-improving-ai-sonnet-55-hits-70-elon-co-leads-pentagon-push-ep-299"
+    ],
+    "remaining_uncertainty": "Exclude from measured productivity evidence aggregation.",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-299-005",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "source_class": "financial_disclosure",
+    "outcome": "source_statement_confirmed",
+    "conclusion": "Diamandis discloses a seed investment in guest Socher's Recursive.",
+    "checked_urls": [
+      "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/recursives-670m-bet-on-self-improving-ai-sonnet-55-hits-70-elon-co-leads-pentagon-push-ep-299"
+    ],
+    "remaining_uncertainty": "Financial interest is a disclosed relationship; ownership documents and compensation were not independently audited.",
+    "transcript_audio_verified": false
+  }
+]
