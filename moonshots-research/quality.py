@@ -66,6 +66,15 @@ def validate_evidence_audits(audits, claims, episodes):
         if audit.get("source_class") == "sponsored_advertisement":
             if c.get("kind") != "paid_promotion" or c.get("verification_status") == "independently_verified":
                 issues.append("Sponsor claim incorrectly categorized as verified evidence: " + cid)
+        if c.get("kind") in {"forecast", "speculative_forecast"} and c.get("verification_status") == "independently_verified":
+            issues.append("Prospective forecast incorrectly marked as independently verified: " + cid)
+        try:
+            checked = date.fromisoformat(audit["checked_date"])
+            cutoff = date.fromisoformat(audit["evidence_cutoff"])
+            if checked < cutoff or cutoff.isoformat() > "2026-10-14":
+                issues.append("Audit dates violate frozen study cutoff: " + cid)
+        except (ValueError, KeyError, TypeError):
+            pass  # date validity is independently reported above
         if audit.get("outcome") in {"do_not_generalize", "projection_not_measurement", "not_independently_verified"}:
             if c.get("verification_status") == "independently_verified":
                 issues.append("Evidence caveat conflicts with claim grade: " + cid)
