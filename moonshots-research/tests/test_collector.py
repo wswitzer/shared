@@ -138,7 +138,7 @@ class EvidenceAuditTests(unittest.TestCase):
         audits = quality.read(quality.AUDITS)
         claims = quality.read(quality.CLAIMS)
         episodes = quality.read(quality.SPEAKERS)
-        self.assertEqual(15, len(audits))
+        self.assertEqual(33, len(audits))
         self.assertEqual([], quality.validate_evidence_audits(audits, claims, episodes))
 
     def test_sponsor_cannot_be_called_independently_verified(self):
@@ -164,13 +164,30 @@ class EvidenceAuditTests(unittest.TestCase):
         themes = quality.read(quality.THEMES)
         remaining = quality.prioritize_unaudited(claims, audits, forecasts, themes)
         self.assertEqual(len(claims) - len(audits), len(remaining))
-        self.assertEqual(59, len(remaining))
+        self.assertEqual(41, len(remaining))
         self.assertEqual(len(remaining), len({x["claim_id"] for x in remaining}))
         self.assertEqual(remaining, quality.prioritize_unaudited(claims, audits, forecasts, themes))
         self.assertTrue(all(
             remaining[i]["priority_score"] >= remaining[i + 1]["priority_score"]
             for i in range(len(remaining) - 1)
         ))
+
+    def test_future_prediction_is_not_independently_verified(self):
+        audits = quality.read(quality.AUDITS)
+        claims = quality.read(quality.CLAIMS)
+        episodes = quality.read(quality.SPEAKERS)
+        predictive = next(c for c in claims if c.get("claim_id") == "ms-297-001")
+        predictive["verification_status"] = "independently_verified"
+        self.assertTrue(any("Prospective forecast" in x for x in
+                            quality.validate_evidence_audits(audits, claims, episodes)))
+
+    def test_no_audit_uses_post_cutoff_evidence(self):
+        audits = quality.read(quality.AUDITS)
+        claims = quality.read(quality.CLAIMS)
+        episodes = quality.read(quality.SPEAKERS)
+        audits[0]["evidence_cutoff"] = "2026-10-16"
+        self.assertTrue(any("frozen study cutoff" in x for x in
+                            quality.validate_evidence_audits(audits, claims, episodes)))
 
 if __name__ == "__main__":
     unittest.main()
