@@ -1,0 +1,58 @@
+[
+  {
+    "id": "demo-01",
+    "prediction": "billing",
+    "confidence": 0.94,
+    "cost_usd": 0.001,
+    "latency_ms": 10
+  },
+  {
+    "id": "demo-02",
+    "prediction": "billing",
+    "confidence": 0.92,
+    "cost_usd": 0.001,
+    "latency_ms": 10
+  },
+  {
+    "id": "demo-03",
+    "prediction": "technical",
+    "confidence": 0.9,
+    "cost_usd": 0.001,
+    "latency_ms": 10
+  },
+  {
+    "id": "demo-04",
+    "prediction": "technical",
+    "confidence": 0.78,
+    "cost_usd": 0.001,
+    "latency_ms": 10
+  },
+  {
+    "id": "demo-05",
+    "prediction": "general",
+    "confidence": 0.83,
+    "cost_usd": 0.001,
+    "latency_ms": 10
+  },
+  {
+    "id": "demo-06",
+    "prediction": "general",
+    "confidence": 0.91,
+    "cost_usd": 0.001,
+    "latency_ms": 10
+  },
+  {
+    "id": "demo-07",
+    "prediction": "billing",
+    "confidence": 0.82,
+    "cost_usd": 0.001,
+    "latency_ms": 10
+  },
+  {
+    "id": "demo-08",
+    "prediction": "general",
+    "confidence": 0.68,
+    "cost_usd": 0.001,
+    "latency_ms": 10
+  }
+]
