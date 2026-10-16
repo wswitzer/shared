@@ -433,5 +433,111 @@
     "checked_date": "2026-10-15",
     "evidence_cutoff": "2026-10-14",
     "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-298-001",
+    "source_class": "government_primary_record",
+    "outcome": "stage_distinction",
+    "conclusion": "The 2026 White House accord lists industry controls and external evaluation commitments and explicitly anticipates possible future codification. On the document's own terms, it is a voluntary commitment rather than a statute.",
+    "checked_urls": [
+      "https://www.presidency.ucsb.edu/documents/white-house-accord-super-intelligence"
+    ],
+    "remaining_uncertainty": "No conclusion about actual implementation or statutory enforcement without separate evidence.",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-291-002",
+    "source_class": "vendor_development_claim",
+    "outcome": "stage_distinction",
+    "conclusion": "Anthropic's Sep 18 Accenture partnership announcement says embedded evaluation arrangements are under development, with no agreed access standards or settled independent funding model.",
+    "checked_urls": [
+      "https://www.anthropic.com/news/accenture-embedded-evaluation"
+    ],
+    "remaining_uncertainty": "Partnership announcement and promised employee-like access are not a published independent evaluation report.",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-284-001",
+    "source_class": "vendor_development_claim",
+    "outcome": "primary_document_confirmed",
+    "conclusion": "NVIDIA fiscal-2027 Q2 issuer earnings release reports $96.221 billion in revenue and 106% year-over-year growth.",
+    "checked_urls": [
+      "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/"
+    ],
+    "remaining_uncertainty": "Primary company reported figures, not an independent external forensic audit or forecast of sustainable growth.",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-299-001",
+    "source_class": "independent_benchmark",
+    "outcome": "bounded_supported",
+    "conclusion": "AI4AI-Bench evaluates limited algorithm-design tasks and AIDE2 authors report seven retained self-improvements across an eight-day run; both describe bounded research-agent capability, not demonstrated open-ended recursive takeoff.",
+    "checked_urls": [
+      "https://arxiv.org/abs/2608.20318",
+      "https://arxiv.org/abs/2609.26457"
+    ],
+    "remaining_uncertainty": "Both are research preprints; author-reported gains need independent replication and do not establish absence of all unrestricted systems.",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-280-001",
+    "source_class": "independent_benchmark",
+    "outcome": "bounded_supported",
+    "conclusion": "Duke's original flexible-load study estimates feasible grid integrations under load-curtailment assumptions; modeled ~100 GW of accommodation is not actual installed capacity.",
+    "checked_urls": [
+      "https://scholars.duke.edu/publication/1665550"
+    ],
+    "remaining_uncertainty": "The university index confirms the study and original authors. Real utility deployment, scope, and numeric scenario assumptions require full-paper review.",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-294-001",
+    "source_class": "political_proposal_and_bill",
+    "outcome": "not_independently_verified",
+    "conclusion": "A panelist's allegation that frontier labs coordinate safety to form a cartel is an attributed opinion, not a demonstrated antitrust finding. Public safety proposals and company commitments have other stated motivations.",
+    "checked_urls": [
+      "https://www.presidency.ucsb.edu/documents/white-house-accord-super-intelligence",
+      "https://www.anthropic.com/news/accenture-embedded-evaluation"
+    ],
+    "remaining_uncertainty": "Actual market behavior and legal antitrust determination would need regulator evidence; documents do not prove or disprove private motivations.",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-299-002",
+    "source_class": "independent_benchmark",
+    "outcome": "not_independently_verified",
+    "conclusion": "Published AIDE2 research already reports bounded autonomous improvement; it cannot establish Socher's future prediction about broader deployment and growth during 2027.",
+    "checked_urls": [
+      "https://arxiv.org/abs/2609.26457"
+    ],
+    "remaining_uncertainty": "Future outcomes require dated post-baseline evidence; no contemporaneous baseline can verify a 2027 prediction.",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-292-001",
+    "source_class": "government_primary_record",
+    "outcome": "stage_distinction",
+    "conclusion": "SEC investor education describes multiple legally distinct forms of tokenized securities, including synthetic claims and tokens preserving ownership rights, but does not establish a universal future tokenized market.",
+    "checked_urls": [
+      "https://www.investor.gov/introduction-investing/investing-basics/investment-products/tokenized-securities"
+    ],
+    "remaining_uncertainty": "Future adoption and market integration forecasts remain speculative.",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "transcript_audio_verified": false
   }
 ]
