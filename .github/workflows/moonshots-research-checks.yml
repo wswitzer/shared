@@ -30,6 +30,12 @@ jobs:
         run: python3 -m unittest discover -s moonshots-research/tests -v
       - name: Generate report without modifying repo
         run: python3 moonshots-research/collector.py report > /tmp/moonshots-coverage.md
+      - name: Check citation coverage and forecast due dates
+        run: |
+          python3 moonshots-research/coverage.py > /tmp/moonshots-episode-window-coverage.md
+          python3 moonshots-research/forecast_review.py --as-of 2026-10-15 > /tmp/moonshots-forecast-review.md
+          grep -q "not" /tmp/moonshots-episode-window-coverage.md
+          grep -q "Forecasts are" /tmp/moonshots-forecast-review.md
       - name: Smoke-test publisher RSS synchronization (best effort; no commit)
         continue-on-error: true
         run: |
