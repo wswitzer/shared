@@ -15,8 +15,11 @@ Research window: **2026-08-14 through 2026-10-14, inclusive**. Show: **Moonshots
 - `reports/batch-03-final-11-episodes.md`: third pass, covering previously unreviewed entries.
 - `reports/integrated-decision-brief-2026-10-14.md`: **start here** for cross-episode recommendations, evidence hierarchy and forecast summary.
 - `reports/deep-review-299-300.md`: expanded two-interview transcript audit, including explicit investment and sponsor claims, proposal-vs-law distinctions, and the decision-model opportunity.
-- `data/evidence_audits.json`: fifteen separately documented second-pass source assessments; one entry can be critical or cautionary without declaring the claim false.
-- `quality.py`: validate audit integrity, distinguish sponsor evidence, summarize support labels, and rank the **59 remaining claims without second-pass audit**.
+- `reports/source-verification-2026-10-15.md`: latest source corrections, 41 manual audits, and an explicit account of unresolved questions.
+- `forecast_review.py`: read-only due-date planner for nine forecasts (never auto-resolves them).
+- `coverage.py`: per-episode timestamp citation-window audit; not listening-time proof or a percentage of total audio.
+- `data/evidence_audits.json`: 41 separately documented second-pass source assessments; one entry can be critical or cautionary without declaring the claim false.
+- `quality.py`: validate audit integrity, distinguish sponsor evidence, summarize support labels, and rank the **33 remaining claims without second-pass audit**.
 - `experiments/decision_eval.py`: offline classifier comparison, with **synthetic** tickets and prediction scores, zero AI inference calls, and no customer data. See `experiments/README.md`.
 
 - `collector.py`: update episode metadata from the publisher's RSS; import locally supplied transcripts; report coverage; validate claim, forecast and theme provenance; create a status report. Python standard library only.
@@ -30,6 +33,8 @@ python3 collector.py validate
 python3 quality.py validate
 python3 quality.py summary
 python3 quality.py backlog --limit 15
+python3 coverage.py
+python3 forecast_review.py --as-of 2026-10-15
 python3 experiments/decision_eval.py --gold experiments/fixtures/synthetic_gold.json --predictions experiments/fixtures/synthetic_predictions.json
 python3 -m unittest discover -s tests -v
 python3 collector.py sync                          # refresh from official feed; needs internet
@@ -61,13 +66,15 @@ The main RSS feed provides **metadata**, not full transcript text. Spoken.md adv
 
 ## Next milestone
 
-Carry out end-to-end transcript/audio reviews on all 24 episodes, deduplicate the 74-record claim ledger, secure full transcripts privately only with appropriate permission, improve independent verification, resolve the nine forecasts under their preregistered criteria, and process the ranked second-pass backlog. Three exploratory passes, a focused two-interview audit, and an integrated decision brief are available. Track coverage by episode and claim, not merely by count of summaries.
-### Current coverage (October 14 cutoff)
+Carry out end-to-end transcript/audio reviews on all 24 episodes, deduplicate the 74-record claim ledger, secure full transcripts privately only with appropriate permission, improve independent verification, resolve the nine forecasts under their preregistered criteria, and process the remaining 33 prioritized second-pass claims. Three exploratory passes, a focused two-interview audit, and an integrated decision brief are available. Track coverage by episode and claim, not merely by count of summaries.
+### Current coverage (original episode cutoff October 14; audits through October 15)
 
 - 24 episodes/specials inventoried from the provider catalog and reconciled with publisher RSS (4 date corrections documented in `reports/rss-reconciliation.md`).
 - 24 time-coded selective/partial episode reviews, including #280–#301 and two specials; 0 episodes fully analyzed end-to-end.
 - 74 attributed claim/interpretation records; 9 preregistered analyst forecasts; 13 research queue items; 7 cross-episode themes.
 - 0 complete transcripts acquired in local private storage; 0 episodes declared fully analyzed. Public timestamped transcripts exist at Podscripts but are **not republished** here.
 - A first 65-claim classification snapshot is in the integrated report. The **live ledger now contains 74 claims** after adding 10 focused records and removing one duplicate. Run `quality.py summary` for up-to-date counts. These are classification counts **not truth scores**.
-- Fifteen high-impact entries now have separate second-pass evidence audits; 59 await comparable checking. The second-pass triage prioritizes claims, not episode headline impressions.
+- 41 entries now have separate second-pass evidence audits; 33 await comparable checking. The second-pass triage prioritizes claims, not episode headline impressions.
 - Offline validation and GitHub Actions tests; no scheduled crawl or AI inference budget.
+
+**Quality gate:** the claim ledger tracks distinct sources and uncertainties; future forecasts cannot be marked independently verified based only on old evidence. All episodes remain `partial_review`. Timestamp spans are navigation references, not completed reading/listening durations; the `coverage.py` report avoids overstating how much original audio has been heard.
