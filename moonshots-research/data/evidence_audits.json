@@ -198,5 +198,240 @@
     ],
     "remaining_uncertainty": "IEA data do not refute every future cost-curve possibility; no exact comparable $/kWh tenfold advantage was established in the reviewed source.",
     "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-300-001",
+    "source_class": "speaker_internal_metric",
+    "outcome": "primary_document_confirmed",
+    "conclusion": "X's published moonshot blueprint states the major problem, radical solution, and enabling technology framework. This verifies an organizational framework, not its return on investment.",
+    "checked_urls": [
+      "https://x.company/blog/posts/moonshot-blueprint/"
+    ],
+    "remaining_uncertainty": "Internal X approach; no controlled performance comparison.",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-300-002",
+    "source_class": "speaker_internal_metric",
+    "outcome": "primary_document_confirmed",
+    "conclusion": "X's original operating manual explicitly recommends cheap experiments and early disconfirmation, consistent with the episode interpretation.",
+    "checked_urls": [
+      "https://x.company/blog/posts/a-peek-inside-the-moonshot-factory-operating-manual/"
+    ],
+    "remaining_uncertainty": "No independent causal measurement of effects on portfolio earnings.",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-300-003",
+    "source_class": "speaker_internal_metric",
+    "outcome": "primary_document_confirmed",
+    "conclusion": "The X operating manual describes techno-economic feasibility as a gate; a demonstrable technical process is not automatically a saleable product.",
+    "checked_urls": [
+      "https://x.company/blog/posts/a-peek-inside-the-moonshot-factory-operating-manual/"
+    ],
+    "remaining_uncertainty": "Reported project economics and buyer prices are from organization, not independently audited.",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-300-005",
+    "source_class": "speaker_internal_metric",
+    "outcome": "source_statement_confirmed",
+    "conclusion": "X's original monkey/pedestal essay illustrates prioritizing the hardest uncertainty before polishing nonbinding supporting work.",
+    "checked_urls": [
+      "https://x.company/blog/posts/tackle-the-monkey-first/"
+    ],
+    "remaining_uncertainty": "A general heuristic rather than a formally established optimal allocation strategy.",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-295-001",
+    "source_class": "competition_organizer",
+    "outcome": "primary_document_confirmed",
+    "conclusion": "The original XPRIZE Wildfire award results substantiate competition placements and Anduril's prize allocation.",
+    "checked_urls": [
+      "https://www.xprize.org/news/xprize-wildfire-awardees"
+    ],
+    "remaining_uncertainty": "Competition results do not prove reliable operational wildfire response at scale.",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-292-002",
+    "source_class": "vendor_development_claim",
+    "outcome": "primary_document_confirmed",
+    "conclusion": "Robinhood's issuer SEC filing describes the launched stock-token product in eligible markets; product rights depend on precise issuer terms.",
+    "checked_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000114/hood-20260630.htm"
+    ],
+    "remaining_uncertainty": "The SEC archive hosts an issuer's filing and does not approve the investment.",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-292-003",
+    "source_class": "government_primary_record",
+    "outcome": "stage_distinction",
+    "conclusion": "Robinhood's regulatory filing describes stock token debt/exposure rather than underlying issuer shareholder rights, and SEC Investor.gov distinguishes tokenized security structures.",
+    "checked_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1783879/000178387926000114/hood-20260630.htm",
+      "https://www.investor.gov/introduction-investing/investing-basics/investment-products/tokenized-securities"
+    ],
+    "remaining_uncertainty": "Legal classification and rights vary across issuers and markets; not general legal advice.",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-296-003",
+    "source_class": "vendor_development_claim",
+    "outcome": "primary_document_confirmed",
+    "conclusion": "Waymo's Safety Impact dashboard reports 271.3M rider-only miles through June 2026 and 82% fewer injury-causing crashes against a matched human benchmark.",
+    "checked_urls": [
+      "https://www.waymo.com/safety/impact/"
+    ],
+    "remaining_uncertainty": "Operator data with transparent methods, not independent verification of Tesla or all cities/conditions; comparative methodology matters.",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-283-003",
+    "source_class": "vendor_development_claim",
+    "outcome": "do_not_generalize",
+    "conclusion": "Waymo's 6th-gen announcement establishes platform design and announced autonomous operations; the exact claimed 83% hardware cost reduction is not demonstrated on that page.",
+    "checked_urls": [
+      "https://waymo.com/blog/2026/02/ro-on-6th-gen-waymo-driver/"
+    ],
+    "remaining_uncertainty": "No matched auditable before/after bill of materials; omission from this page is not proof no supporting data exists.",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-290-001",
+    "source_class": "vendor_development_claim",
+    "outcome": "stage_distinction",
+    "conclusion": "United Therapeutics' SEC filing documents investigational transplant programs. Trial clearance should never be conflated with FDA commercial biologics licensing.",
+    "checked_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1082554/000108255426000006/uthr-20251231.htm"
+    ],
+    "remaining_uncertainty": "Issuer filing; efficacy and eventual market approval require trials/regulator determination, and no clinical recommendation follows.",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-290-003",
+    "source_class": "vendor_development_claim",
+    "outcome": "stage_distinction",
+    "conclusion": "United Therapeutics reports planned manufacturing capacity and clinical program milestones in its SEC filing; these do not establish unlimited approved output.",
+    "checked_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1082554/000108255426000006/uthr-20251231.htm"
+    ],
+    "remaining_uncertainty": "Capacity targets, actual throughput, safe operations and approval are distinct.",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-297-001",
+    "source_class": "scientific_institute_statement",
+    "outcome": "bounded_supported",
+    "conclusion": "Nature's May 2026 study describes the Robin system generating hypotheses and interpreting data while human scientists conduct lab experiments, demonstrating present semi-autonomy.",
+    "checked_urls": [
+      "https://www.nature.com/articles/s41586-026-10652-y"
+    ],
+    "remaining_uncertainty": "A contemporary peer-reviewed article cannot verify a prediction about the coming 3–5 years; prospect remains podcast-only.",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-special-builders-001",
+    "source_class": "competition_organizer",
+    "outcome": "primary_document_confirmed",
+    "conclusion": "XPRIZE's organizer statement confirms a 90-day Build with Gemini challenge with more than 26k registrations.",
+    "checked_urls": [
+      "https://www.xprize.org/news/polyfork-wins-the-build-with-gemini-xprize"
+    ],
+    "remaining_uncertainty": "Registration count and winner results are not a denominator for success among all participants, let alone ordinary startups.",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-special-builders-003",
+    "source_class": "competition_organizer",
+    "outcome": "primary_document_confirmed",
+    "conclusion": "XPRIZE's official winner list identifies Mexico-based Tician Cierre as the $200,000 second-place recipient.",
+    "checked_urls": [
+      "https://www.xprize.org/news/polyfork-wins-the-build-with-gemini-xprize"
+    ],
+    "remaining_uncertainty": "Competition place confirmed; no sustained startup income, accuracy or tax compliance verified.",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-special-star-001",
+    "source_class": "competition_organizer",
+    "outcome": "primary_document_confirmed",
+    "conclusion": "XPRIZE's Future Vision winner report documents the shortlist and stated submission-scale criteria.",
+    "checked_urls": [
+      "https://www.xprize.org/news/the-gifted-wins-the-future-vision-xprize"
+    ],
+    "remaining_uncertainty": "Submission and eligible trailer counts may have different definitions; does not indicate funded completed films.",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-special-star-002",
+    "source_class": "competition_organizer",
+    "outcome": "stage_distinction",
+    "conclusion": "XPRIZE's original award disclosure separates production equity financing and screenplay development awards from the overall $3.5M prize pool.",
+    "checked_urls": [
+      "https://www.xprize.org/news/the-gifted-wins-the-future-vision-xprize"
+    ],
+    "remaining_uncertainty": "Committed financing is not money paid to the filmmaker personally and may depend on production conditions.",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-285-001",
+    "source_class": "vendor_development_claim",
+    "outcome": "stage_distinction",
+    "conclusion": "The Fermi Explorer project page announces a proposed Alpha Centauri mission and a planned 2029 launch, not a spacecraft already in transit.",
+    "checked_urls": [
+      "https://www.fermiexplorer.org/news/fermi-explorer-set-to-launch-humanitys-first-journey-to-another-star"
+    ],
+    "remaining_uncertainty": "Project organizer's forecast; financing and technical readiness not independently demonstrated.",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-296-002",
+    "source_class": "vendor_development_claim",
+    "outcome": "not_independently_verified",
+    "conclusion": "ARK's own essay describes its robotic/humanoid assumptions and contrasts human manipulation requirements with robotaxi operation; supports attribution to the investment firm, not realized adoption.",
+    "checked_urls": [
+      "https://www.ark-invest.com/articles/analyst-research/robotaxis-to-humanoids-embodied-ai-represents-an-order-of-magnitude-leap"
+    ],
+    "remaining_uncertainty": "Investment-management firm has incentives and deployment dates are not yet observable.",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "transcript_audio_verified": false
   }
 ]
