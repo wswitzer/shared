@@ -38,7 +38,7 @@ class CoverageReportTests(unittest.TestCase):
                             json.loads(cov.AUDITS.read_text()))
         content = cov.markdown(rows)
         self.assertIn("NOT listening-time proof", content)
-        self.assertIn("not a coverage percentage", content)
+        self.assertIn("**not** a coverage percentage", content)
 
 
 if __name__ == "__main__":
