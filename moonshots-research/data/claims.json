@@ -252,22 +252,23 @@
     "claim": "AI is likely to help bridge fragmented biological literature and design experiments over the next 3–5 years, but wet-lab validation remains necessary.",
     "source_url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/why-were-living-in-a-biological-singularity-with-ben-lamm-moonshots-live-297",
     "source_scope": "public timestamped transcript; selectively reviewed",
-    "verification_status": "independently_verified",
+    "verification_status": "podcast_only",
     "evidence": [
       {
         "url": "https://www.nature.com/articles/s41586-026-10652-y",
         "publisher": "Nature research, May 2026",
         "independent": true,
-        "assessment": "Scientific paper documents a semi-autonomous system generating hypotheses and analyzing real biology experiments; physical experimental validation remains part of process."
+        "assessment": "Scientific paper documents a semi-autonomous system generating hypotheses and analyzing real biology experiments; physical experimental validation remains part of process. Background context only: cannot verify future prediction."
       },
       {
         "url": "https://www.reuters.com/world/anthropic-quietly-sets-up-biology-lab-it-ramps-ai-drug-program-2026-09-18/",
         "publisher": "Reuters reporting, Sep 2026",
         "independent": true,
-        "assessment": "Independent reporting finds frontier lab investment in actual experimental biology rather than simulation alone."
+        "assessment": "Independent reporting finds frontier lab investment in actual experimental biology rather than simulation alone. Background context only: cannot verify future prediction."
       }
     ],
-    "as_of": "2026-10-14"
+    "as_of": "2026-10-14",
+    "analyst_note": "Prospective 3–5-year expectation is not independently verifiable as of the 2026-10-14 cutoff. The cited May 2026 Nature paper documents *current* human-assisted wet-lab work and supports context only, not the future prediction."
   },
   {
     "claim_id": "ms-297-002",
@@ -1180,7 +1181,7 @@
     "verification_status": "corroborated_primary",
     "evidence": [
       {
-        "url": "https://xp-prod.xprize.org/news/the-gifted-wins-the-future-vision-xprize",
+        "url": "https://www.xprize.org/news/the-gifted-wins-the-future-vision-xprize",
         "publisher": "XPRIZE official winner and financing details",
         "independent": false,
         "assessment": "Organizer specifies $2.5M as an equity investment towards full-length production plus $100k cash for screenplay development."
