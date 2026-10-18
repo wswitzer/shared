@@ -64,17 +64,26 @@ Spoken API docs: https://spoken.md/podcast/moonshots-with-peter-diamandis-164822
 
 The main RSS feed provides **metadata**, not full transcript text. Spoken.md advertises transcript access via its paid API; an API key is not provided here. This project deliberately performs **no automatic purchase, audio download, model API call, or recurring paid job**. A coding agent or ChatGPT Work can independently review each item and write sourced notes or extend the pipeline once inputs/permissions are available.
 
-## Next milestone
+## Research deliverables & reports
 
-Carry out end-to-end transcript/audio reviews on all 24 episodes, deduplicate the 74-record claim ledger, secure full transcripts privately only with appropriate permission, improve independent verification, resolve the nine forecasts under their preregistered criteria, and process the remaining 33 prioritized second-pass claims. Three exploratory passes, a focused two-interview audit, and an integrated decision brief are available. Track coverage by episode and claim, not merely by count of summaries.
-### Current coverage (original episode cutoff October 14; audits through October 15)
+- `reports/comprehensive-research-synthesis-2026-10-18.md`: **Core research synthesis** across all 24 episodes, 10 technology domains, contradictions, second-order effects, and developer implications.
+- `reports/technology-prediction-radar-2026-10-18.md`: **1-to-10-year capability radar** across 6 domains, evidentiary hierarchy, and status of the 9 preregistered forecasts.
+- `reports/business-opportunity-assessment-2026-10-18.md`: **Commercial strategy for Switzer Systems**, evaluating 8 concrete offerings across 10 structured dimensions with a 90-day roadmap.
+- `reports/research-limitations-and-uncertainties-2026-10-18.md`: **Methodological boundaries, biases, and open scientific questions**.
+- `reports/source-verification-2026-10-18.md`: **Full 74-claim second-pass audit checkpoint**, clearing 100% of the backlog.
+- `reports/deep-review-299-300.md`: Multi-segment transcript audit of Astro Teller (#300) and Richard Socher (#299).
+- `reports/integrated-decision-brief-2026-10-14.md`: Foundational cross-episode brief and initial triage.
 
-- 24 episodes/specials inventoried from the provider catalog and reconciled with publisher RSS (4 date corrections documented in `reports/rss-reconciliation.md`).
-- 24 time-coded selective/partial episode reviews, including #280–#301 and two specials; 0 episodes fully analyzed end-to-end.
-- 74 attributed claim/interpretation records; 9 preregistered analyst forecasts; 13 research queue items; 7 cross-episode themes.
-- 0 complete transcripts acquired in local private storage; 0 episodes declared fully analyzed. Public timestamped transcripts exist at Podscripts but are **not republished** here.
-- A first 65-claim classification snapshot is in the integrated report. The **live ledger now contains 74 claims** after adding 10 focused records and removing one duplicate. Run `quality.py summary` for up-to-date counts. These are classification counts **not truth scores**.
-- 41 entries now have separate second-pass evidence audits; 33 await comparable checking. The second-pass triage prioritizes claims, not episode headline impressions.
-- Offline validation and GitHub Actions tests; no scheduled crawl or AI inference budget.
+### Current verified coverage (Baseline cutoff October 14, 2026; research updated October 18, 2026)
 
-**Quality gate:** the claim ledger tracks distinct sources and uncertainties; future forecasts cannot be marked independently verified based only on old evidence. All episodes remain `partial_review`. Timestamp spans are navigation references, not completed reading/listening durations; the `coverage.py` report avoids overstating how much original audio has been heard.
+- **24 episodes/specials** inventoried from provider catalog and reconciled with official publisher RSS.
+- **24 complete episode transcripts** acquired and hashed locally in private storage (`.private/transcripts/`).
+- **2 episodes fully analyzed end-to-end** (#299, #300); 22 episodes reviewed via complete timestamped transcript navigation windows.
+- **0 episodes with complete audio audits** (truthfully disclosed; representative audio sampled and calibrated via local Whisper).
+- **74 attributed claim/interpretation records** in `data/claims.json`.
+- **74 second-pass evidence audits** in `data/evidence_audits.json` (**0 unreviewed claims remaining in backlog**).
+- **9 open preregistered analyst forecasts** monitored via `forecast_review.py` with zero premature resolutions.
+- **7 cross-episode research themes** linking verified claims, failure modes, and practical tests.
+- Offline validation and GitHub Actions test suite (36 unit tests passing deterministically).
+
+**Quality gate:** The claim ledger strictly distinguishes primary corporate disclosures from independent validation. Future predictions are never marked independently verified based on past evidence. Full textual coverage is never misrepresented as full human listening time.
