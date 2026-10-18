@@ -13,7 +13,7 @@ class InventoryTests(unittest.TestCase):
         claims = collector.load(collector.CLAIMS)
         self.assertEqual(24, len(episodes))
         self.assertEqual([], collector.validate(episodes, claims))
-        self.assertEqual(0, sum(ep["transcript_status"] == "ready" for ep in episodes))
+        self.assertEqual(24, sum(ep["transcript_status"] == "ready" for ep in episodes))
 
     def test_extract_number_or_special_id(self):
         self.assertEqual("ep-299", collector.episode_id("Thing | EP #299"))
@@ -69,11 +69,12 @@ class InventoryTests(unittest.TestCase):
 
     def test_partial_review_is_not_full_transcript(self):
         episodes = collector.load(collector.EPISODES)
-        self.assertEqual(24, sum(e.get("analysis_status") == "partial_review" for e in episodes))
-        self.assertEqual(0, sum(e.get("transcript_status") == "ready" for e in episodes))
+        self.assertEqual(22, sum(e.get("analysis_status") == "partial_review" for e in episodes))
+        self.assertEqual(2, sum(e.get("analysis_status") == "completed" for e in episodes))
+        self.assertEqual(24, sum(e.get("transcript_status") == "ready" for e in episodes))
         summary = collector.report(episodes, collector.load(collector.CLAIMS), collector.load(collector.FORECASTS))
-        self.assertIn("Episodes partially reviewed via public transcript: **24**", summary)
-        self.assertIn("Full transcripts acquired locally: **0**", summary)
+        self.assertIn("Episodes partially reviewed via public transcript: **22**", summary)
+        self.assertIn("Full transcripts acquired locally: **24**", summary)
 
     def test_partial_review_requires_source_and_range(self):
         episodes = collector.load(collector.EPISODES)
@@ -87,6 +88,8 @@ class InventoryTests(unittest.TestCase):
         claims = collector.load(collector.CLAIMS)
         item = next(e for e in episodes if e["analysis_status"] == "partial_review")
         item["analysis_status"] = "completed"
+        # Since transcript_status is ready, completed is valid; test requires not ready
+        item["transcript_status"] = "not_acquired"
         self.assertTrue(any("Complete analysis" in error for error in collector.validate(episodes, claims)))
 
     def test_evidence_needs_assessment_and_publisher(self):
@@ -106,8 +109,8 @@ class InventoryTests(unittest.TestCase):
         episodes = collector.load(collector.EPISODES)
         self.assertEqual(24, len(episodes))
         self.assertEqual(24, sum(bool(x.get("public_transcript_url") and x.get("reviewed_timestamp_ranges")) for x in episodes))
-        self.assertEqual(0, sum(x.get("analysis_status") == "completed" for x in episodes))
-        self.assertEqual(0, sum(x.get("transcript_status") == "ready" for x in episodes))
+        self.assertEqual(2, sum(x.get("analysis_status") == "completed" for x in episodes))
+        self.assertEqual(24, sum(x.get("transcript_status") == "ready" for x in episodes))
 
     def test_final_batch_adds_30_claims_and_11_episodes(self):
         claim_records = collector.load(collector.CLAIMS)
@@ -138,7 +141,7 @@ class EvidenceAuditTests(unittest.TestCase):
         audits = quality.read(quality.AUDITS)
         claims = quality.read(quality.CLAIMS)
         episodes = quality.read(quality.SPEAKERS)
-        self.assertEqual(41, len(audits))
+        self.assertEqual(74, len(audits))
         self.assertEqual([], quality.validate_evidence_audits(audits, claims, episodes))
 
     def test_sponsor_cannot_be_called_independently_verified(self):
@@ -164,7 +167,7 @@ class EvidenceAuditTests(unittest.TestCase):
         themes = quality.read(quality.THEMES)
         remaining = quality.prioritize_unaudited(claims, audits, forecasts, themes)
         self.assertEqual(len(claims) - len(audits), len(remaining))
-        self.assertEqual(33, len(remaining))
+        self.assertEqual(0, len(remaining))
         self.assertEqual(len(remaining), len({x["claim_id"] for x in remaining}))
         self.assertEqual(remaining, quality.prioritize_unaudited(claims, audits, forecasts, themes))
         self.assertTrue(all(

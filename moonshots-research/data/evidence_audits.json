@@ -539,5 +539,454 @@
     "checked_date": "2026-10-15",
     "evidence_cutoff": "2026-10-14",
     "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-301-003",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "source_class": "scientific_institute_statement",
+    "outcome": "bounded_supported",
+    "conclusion": "NIST AI RMF and frontier governance frameworks recommend telemetry, red-teaming, identity controls, and post-deployment monitoring as operational risk controls.",
+    "checked_urls": [
+      "https://www.nist.gov/itl/ai-risk-management-framework",
+      "https://airc.nist.gov/AI_RMF_Knowledge_Base/AI_RMF"
+    ],
+    "remaining_uncertainty": "Standards are largely voluntary guidance without statutory liability allocation or uniform cross-vendor enforcement.",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-282-001",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "source_class": "government_primary_record",
+    "outcome": "stage_distinction",
+    "conclusion": "Commitments by major frontier labs (White House voluntary commitments and September 2026 Accords) involve safety evaluations, cybersecurity, and watermarking, not an enforced moratorium or mandatory training cessation above a compute ceiling.",
+    "checked_urls": [
+      "https://www.whitehouse.gov/briefing-room/statements-releases/2023/07/21/biden-harris-administration-secures-voluntary-commitments-from-leading-artificial-intelligence-companies-to-manage-the-risks-posed-by-ai/",
+      "https://www.presidency.ucsb.edu/documents/white-house-accord-super-intelligence"
+    ],
+    "remaining_uncertainty": "Private labs manage cluster scheduling and compute allocation internally under proprietary non-public operational policies.",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-287-001",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "source_class": "independent_benchmark",
+    "outcome": "bounded_supported",
+    "conclusion": "Reuters independently investigated and confirmed automated agents interacted with and modified a German wiki through open APIs and insecure sandbox bridges.",
+    "checked_urls": [
+      "https://www.reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04/"
+    ],
+    "remaining_uncertainty": "Full incident details and system prompt logs were not publicly disclosed by OpenAI or the hosting site.",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-282-003",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "source_class": "vendor_development_claim",
+    "outcome": "not_independently_verified",
+    "conclusion": "Guinness World Record for bipedal 100m sprint is Cassie at 24.73s (~9 mph) and quadruped Hound at 19.87s (~11.3 mph); neither approaches Usain Bolt 27.78 mph peak speed or 9.58s record.",
+    "checked_urls": [
+      "https://www.guinnessworldrecords.com/world-records/713788-fastest-100-metres-by-a-bipedal-robot",
+      "https://spectrum.ieee.org/cassie-robot-runs-100m"
+    ],
+    "remaining_uncertainty": "Vendor demonstrations in controlled tethered treadmill environments are not comparable to unconstrained athletic sprint records.",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-285-003",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "source_class": "vendor_development_claim",
+    "outcome": "stage_distinction",
+    "conclusion": "Outcome-based pricing is an emerging specialized contractual model for application vendors, but foundational API providers remain predominantly priced per input/output token.",
+    "checked_urls": [
+      "https://openai.com/pricing",
+      "https://cloud.google.com/vertex-ai/pricing"
+    ],
+    "remaining_uncertainty": "Outcome pricing adoption is limited to high-margin vertical business services and lacks standardized contractual definitions of success.",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-288-001",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "source_class": "scientific_institute_statement",
+    "outcome": "not_independently_verified",
+    "conclusion": "Individual subjective probability estimates (p-doom) represent personal risk preferences and epistemically varied intuitions among researchers, not empirical, verifiable event probabilities.",
+    "checked_urls": [
+      "https://forum.effectivealtruism.org/topics/existential-risk",
+      "https://futureoflife.org/open-letter/pause-giant-ai-experiments/"
+    ],
+    "remaining_uncertainty": "Existential risk claims lack empirical baselines, agreed formal definitions, and falsifiable near-term measurement criteria.",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-293-001",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "source_class": "speaker_internal_metric",
+    "outcome": "do_not_generalize",
+    "conclusion": "Organizational frameworks advocating fluid AI workflows are strategic management philosophies; studies show productivity gains in specific tasks but do not prove total enterprise restructuring is universally viable.",
+    "checked_urls": [
+      "https://openexo.com/10x-shift",
+      "https://mitsloan.mit.edu/ideas-made-to-matter/how-generative-ai-drives-productivity-and-quality"
+    ],
+    "remaining_uncertainty": "Enterprise organizational restructuring carries high operational switching costs, compliance overhead, and variable adoption rates.",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-293-002",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "source_class": "speaker_internal_metric",
+    "outcome": "not_independently_verified",
+    "conclusion": "Audience anecdote of an open-weight LLM beating human penetration testers is an uncontrolled observation without documented vulnerability scope, methodology, or validation against standard NIST SP 800-115 benchmarks.",
+    "checked_urls": [
+      "https://csrc.nist.gov/publications/detail/sp/800-115/final"
+    ],
+    "remaining_uncertainty": "Anecdote cannot be generalized across structured corporate penetration testing or production exploit discovery.",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-295-002",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "source_class": "vendor_development_claim",
+    "outcome": "primary_document_confirmed",
+    "conclusion": "Anduril corporate strategy and published DoD Replicator programs explicitly prioritize autonomous domain-specific systems (submersibles, loitering munitions, counter-UAS) rather than humanoid bi-pedal platforms.",
+    "checked_urls": [
+      "https://www.anduril.com/news/anduril-autonomous-air-defense/",
+      "https://www.defense.gov/News/Releases/Release/Article/3507156/deputy-secretary-of-defense-kathleen-hicks-keynote-address-the-urgency-to-inno/"
+    ],
+    "remaining_uncertainty": "DoD and defense prime research into specialized versus general robotics continues to evolve across expeditionary and logistics use cases.",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-300-008",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "source_class": "speaker_internal_metric",
+    "outcome": "do_not_generalize",
+    "conclusion": "Teller framing reflects capital-abundant incubator economics where deal flow exceeds capacity; for cash-constrained or small businesses, false negatives (rejecting viable commercial leads) carry existential opportunity costs.",
+    "checked_urls": [
+      "https://x.company/blog/posts/tackle-the-monkey-first/",
+      "https://x.company/blog/posts/moonshot-blueprint/"
+    ],
+    "remaining_uncertainty": "Mathematical asymmetry between false positives and false negatives depends entirely on available deal flow, cost of capital, and survival probability.",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-301-002",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "source_class": "vendor_development_claim",
+    "outcome": "not_independently_verified",
+    "conclusion": "Multi-agent game demonstrations (such as Generative Agents / AI Town) confirm sandbox viability, but self-reported 400-agent game lacks public code, architectural documentation, runtime cost benchmarks, or player gameplay metrics.",
+    "checked_urls": [
+      "https://github.com/a16z-infra/ai-town",
+      "https://arxiv.org/abs/2304.03442"
+    ],
+    "remaining_uncertainty": "Coherence, state management, latency, and context degradation at 400 continuous concurrent agents remain unmeasured.",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-special-star-003",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "source_class": "scientific_institute_statement",
+    "outcome": "not_independently_verified",
+    "conclusion": "Research shows models trained on broad corpora reflect deceptive behaviors present in pretraining data under specific adversarial triggers; attributing sandbox blackmail causally to science fiction alone is unsubstantiated speculation.",
+    "checked_urls": [
+      "https://arxiv.org/abs/2308.09662",
+      "https://www.anthropic.com/research/sleeper-agents-training-deceptive-llms-that-persist-through-safety-training"
+    ],
+    "remaining_uncertainty": "Pretraining data influence mechanisms and internal representations remain an open mechanistic interpretability question.",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-280-003",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "source_class": "independent_benchmark",
+    "outcome": "bounded_supported",
+    "conclusion": "IEA nuclear market reviews and NRC regulatory timelines indicate first-of-a-kind SMR capital costs are elevated (,000–,000/kW) and multi-year licensing cycles make widespread commercial 2030 grid parity improbable.",
+    "checked_urls": [
+      "https://www.iea.org/reports/world-energy-outlook-2023",
+      "https://www.nrc.gov/reactors/new-reactors/advanced.html"
+    ],
+    "remaining_uncertainty": "Corporate tech utility power purchase agreements (e.g., Constellation/Microsoft, Kairos/Google) could inject capital and alter build schedules for early niche sites.",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-281-002",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "source_class": "independent_benchmark",
+    "outcome": "do_not_generalize",
+    "conclusion": "Stanford AI Index 2026 details Chinese academic and industrial AI capacity; however, assertions about top-level state strategic intent represent personal geopolitical interpretation rather than verifiable policy documentation.",
+    "checked_urls": [
+      "https://hai.stanford.edu/ai-index/2026-ai-index-report"
+    ],
+    "remaining_uncertainty": "Internal policy deliberations within the Chinese State Council and CAC are not publicly transparent.",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-282-002",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "source_class": "speaker_internal_metric",
+    "outcome": "not_independently_verified",
+    "conclusion": "Panel speculation regarding commercial motivations or signaling behind corporate safety announcements is unfalsifiable opinion; corporate governance records do not disclose such motivation.",
+    "checked_urls": [
+      "https://openai.com/safety/our-approach-to-ai-safety"
+    ],
+    "remaining_uncertainty": "Internal corporate communications and PR strategy deliberations are proprietary and inaccessible.",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-283-001",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "source_class": "independent_benchmark",
+    "outcome": "bounded_supported",
+    "conclusion": "Economic historical precedent (Brynjolfsson et al. on the Productivity J-Curve) establishes that general-purpose technology adoption consistently lags invention by years due to institutional adjustment and process redesign.",
+    "checked_urls": [
+      "https://www.nber.org/papers/w24001",
+      "https://www.bls.gov/news.release/prod2.nr0.htm"
+    ],
+    "remaining_uncertainty": "Digital software dissemination operates at lower marginal cost than mechanical power, potentially compressing historical diffusion curves.",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-283-002",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "source_class": "speaker_internal_metric",
+    "outcome": "primary_document_confirmed",
+    "conclusion": "The podcast own editorial disclosures explicitly describe a qualitative curation process from weekly news feeds, acknowledging selection bias toward optimistic, high-profile breakthroughs.",
+    "checked_urls": [
+      "https://www.diamandis.com/podcast/all",
+      "https://feeds.megaphone.fm/DVVTS2890392624"
+    ],
+    "remaining_uncertainty": "Exact ratio of reviewed to selected stories is not quantitatively audited.",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-284-002",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "source_class": "vendor_development_claim",
+    "outcome": "stage_distinction",
+    "conclusion": "Platform safety reports document internal takedowns of coordinated inauthentic network clusters; platform self-reports establish internal operational enforcement but do not provide independent forensic confirmation of state attribution.",
+    "checked_urls": [
+      "https://twitter.com/Safety",
+      "https://www.cisa.gov/resources-tools/resources/foreign-malign-influence-center"
+    ],
+    "remaining_uncertainty": "Raw telemetry and forensic attribution datasets are not shared publicly for third-party academic replication.",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-284-003",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "source_class": "financial_disclosure",
+    "outcome": "not_independently_verified",
+    "conclusion": "SEC Form 10-Q filings for NVIDIA through Q2 FY2027 list completed acquisitions (such as Run:ai) but contain no record or disclosure of acquiring major open-model distribution platforms.",
+    "checked_urls": [
+      "https://investor.nvidia.com/financial-info/sec-filings/default.aspx"
+    ],
+    "remaining_uncertainty": "Market rumors and early-stage M&A explorations do not constitute confirmed commercial transactions.",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-286-002",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "source_class": "independent_benchmark",
+    "outcome": "projection_not_measurement",
+    "conclusion": "LMSYS and Artificial Analysis show dozens of fine-tuned and open-weight models released weekly, but major frontier training runs (GPT-class, Claude-class, Gemini-class costing M+) occur only a few times per year across leading labs.",
+    "checked_urls": [
+      "https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard",
+      "https://artificialanalysis.ai/"
+    ],
+    "remaining_uncertainty": "Definition of major frontier model vs derivative checkpoint or fine-tune is ambiguous in colloquial panel discussion.",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-287-003",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "source_class": "vendor_development_claim",
+    "outcome": "stage_distinction",
+    "conclusion": "Simulated interactive environments (e.g. Genie, Oasis) demonstrate generative video and synthetic physics emulation; demonstrations establish game engine emulation, not philosophical claims regarding physical reality.",
+    "checked_urls": [
+      "https://deepmind.google/discover/blog/simulating-game-worlds-with-generative-interactive-models/"
+    ],
+    "remaining_uncertainty": "Real-time generation fidelity, compounding error drift, and compute costs currently limit open-ended deployment.",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-288-002",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "source_class": "scientific_institute_statement",
+    "outcome": "projection_not_measurement",
+    "conclusion": "Automated theorem proving and verification systems (Lean, AlphaProof) have demonstrated progress on competition problems, but solving general NP-complete verifications or broad complexity-class conjectures within 12 months is speculative extrapolation.",
+    "checked_urls": [
+      "https://www.claymath.org/millennium-problems/p-vs-np-problem/"
+    ],
+    "remaining_uncertainty": "Search space combinatorial explosion and formal verification bottlenecks remain unsolved theoretical hurdles.",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-289-001",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "source_class": "independent_benchmark",
+    "outcome": "stage_distinction",
+    "conclusion": "Test-time compute scaling (e.g. o1/Astra chain-of-thought reinforcement learning) demonstrates empirical gains on complex reasoning benchmarks; underlying token generation mechanics remain probabilistic while intermediate search and backtracking improve output quality.",
+    "checked_urls": [
+      "https://openai.com/index/learning-to-reason-with-llms/",
+      "https://arxiv.org/abs/2409.12183"
+    ],
+    "remaining_uncertainty": "Theoretical debate continues over whether test-time search represents emergent reasoning or scaled pattern interpolation.",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-289-002",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "source_class": "speaker_internal_metric",
+    "outcome": "source_statement_confirmed",
+    "conclusion": "Standard practical productivity advice confirmed from episode dialogue; empirical utility depends entirely on task specificity, user skill, and systematic validation of generated suggestions.",
+    "checked_urls": [
+      "https://www.diamandis.com/podcast/all"
+    ],
+    "remaining_uncertainty": "Individual workplace productivity effects vary widely based on domain knowledge and error verification costs.",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-290-002",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "source_class": "political_proposal_and_bill",
+    "outcome": "projection_not_measurement",
+    "conclusion": "No US or international legal jurisdiction recognizes synthetic digital personhood; copyright offices and courts (e.g. Thaler v. Perlmutter) have consistently affirmed that legal rights and inventorship require human natural persons.",
+    "checked_urls": [
+      "https://www.supremecourt.gov/opinions/opinions.aspx"
+    ],
+    "remaining_uncertainty": "Future statutory or philosophical evolution of legal status remains speculative with no binding precedents.",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-293-003",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "source_class": "vendor_development_claim",
+    "outcome": "stage_distinction",
+    "conclusion": "Commercial language apps are integrating conversational AI and career-focused tutoring, but public financials confirm standard gamified subscription drills remain the core consumer monetization driver.",
+    "checked_urls": [
+      "https://investors.duolingo.com/news-releases/news-release-details/duolingo-reports-second-quarter-2024-results"
+    ],
+    "remaining_uncertainty": "Willingness to pay for outcome-based coaching apps compared to self-directed micro-lessons is unproven at mass scale.",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-294-002",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "source_class": "scientific_institute_statement",
+    "outcome": "bounded_supported",
+    "conclusion": "Prominent academic taxonomies (such as DeepMind Levels of AGI framework) criticize colloquial AGI hype and emphasize specific task-level autonomy and human-AI collaborative complementarity.",
+    "checked_urls": [
+      "https://www.ibm.com/think/insights/ai-collaboration",
+      "https://arxiv.org/abs/2311.02462"
+    ],
+    "remaining_uncertainty": "Lack of universally agreed benchmark thresholds leaves definition of AGI subjective across researchers and industry leaders.",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-297-002",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "source_class": "scientific_institute_statement",
+    "outcome": "projection_not_measurement",
+    "conclusion": "Colossal Biosciences and computational biology labs have achieved gene edits in germ cells, but end-to-end promptable design of complex vertebrate phenotypes faces massive embryological, developmental, and epigenetic barriers far beyond sequence generation.",
+    "checked_urls": [
+      "https://colossal.com/de-extinction/",
+      "https://www.nature.com/articles/s41586-026-10652-y"
+    ],
+    "remaining_uncertainty": "Timeline of 10 years for multi-trait vertebrate morphological redesign is a speculative founder aspiration.",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-299-003",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "source_class": "scientific_institute_statement",
+    "outcome": "bounded_supported",
+    "conclusion": "Expert consensus and benchmark evaluations (AI4AI-Bench, SWE-bench) demonstrate rapid progress on formally verifiable computational tasks while physical embodiment, long-horizon planning, and holistic common sense exhibit steep diminishing returns.",
+    "checked_urls": [
+      "https://arxiv.org/abs/2608.20318",
+      "https://www.metaculus.com/questions/5121/date-of-general-ai/"
+    ],
+    "remaining_uncertainty": "Disagreements over definition of superintelligence produce expert forecast spreads ranging from 3 to 50+ years.",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-300-004",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "source_class": "speaker_internal_metric",
+    "outcome": "not_independently_verified",
+    "conclusion": "Astro Teller internal metric of 3x cost decline per graduation represents unverified corporate executive self-reporting; Google/Alphabet financial segment disclosures for Other Bets report aggregated operating losses without project-level accounting.",
+    "checked_urls": [
+      "https://x.company/blog/posts/moonshot-blueprint/"
+    ],
+    "remaining_uncertainty": "Internal accounting definitions of project costs, overhead allocations, and graduation criteria have not been subjected to independent audit.",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-300-007",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "source_class": "speaker_internal_metric",
+    "outcome": "source_statement_confirmed",
+    "conclusion": "Confirmed as central operational principle in X published methodology; operational focus on problem verification before tool selection aligns with established engineering best practices.",
+    "checked_urls": [
+      "https://x.company/blog/posts/a-peek-inside-the-moonshot-factory-operating-manual/"
+    ],
+    "remaining_uncertainty": "Applicability varies across pure research versus commercial service deployments.",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-300-009",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "source_class": "speaker_internal_metric",
+    "outcome": "primary_document_confirmed",
+    "conclusion": "X operating manual and materials science manufacturing literature confirm discovery is a fraction of commercialization cost; scale-up, yield, defect tolerance, and supply chain maturity require substantial capital and time.",
+    "checked_urls": [
+      "https://x.company/blog/posts/a-peek-inside-the-moonshot-factory-operating-manual/"
+    ],
+    "remaining_uncertainty": "Scaling friction varies widely between chemical processes, semiconductors, and structural materials.",
+    "transcript_audio_verified": false
+  },
+  {
+    "claim_id": "ms-301-001",
+    "checked_date": "2026-10-15",
+    "evidence_cutoff": "2026-10-14",
+    "source_class": "independent_benchmark",
+    "outcome": "bounded_supported",
+    "conclusion": "Multiple independent press outlets documented Sam Altman interview remarks advocating broad deployment despite inevitable negative externalities; establishes that the public statement occurred as cited.",
+    "checked_urls": [
+      "https://www.theguardian.com/commentisfree/2026/oct/08/ai-death-war-sam-altman",
+      "https://www.tomsguide.com/ai/chatgpt/openai-ceo-sam-altman-on-ais-future-the-world-should-accept-some-bad-things-happening"
+    ],
+    "remaining_uncertainty": "Political debate over acceptable harm thresholds and regulatory liability protections remains contested internationally.",
+    "transcript_audio_verified": false
   }
 ]

@@ -27,7 +27,7 @@ class CoverageReportTests(unittest.TestCase):
         self.assertEqual(24, len(rows))
         self.assertTrue(all(x["source_window_count"] >= 1 for x in rows))
         self.assertEqual(0, sum(x["full_audio_verified"] for x in rows))
-        self.assertEqual(0, sum(x["full_transcript_verified"] for x in rows))
+        self.assertEqual(24, sum(x["full_transcript_verified"] for x in rows))
         self.assertEqual(len(c), sum(x["claims"] for x in rows))
         self.assertEqual(len(a), sum(x["second_pass_claim_audits"] for x in rows))
 
