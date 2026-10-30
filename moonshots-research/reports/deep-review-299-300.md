@@ -1,0 +1,55 @@
+# Deep transcript audit — Astro Teller (#300) and Richard Socher (#299)
+**Baseline cutoff:** 2026-10-14. **Method:** read the publicly available timestamped transcript pages in multiple segments, verify consequential external factual statements against original documents and independent analysis, document sponsor and financial interests, preserve uncertainty. **No audio verification and no copyrighted full-text redistribution.** This is deeper coverage, **not** an end-to-end audio audit.
+
+## #300: Astro Teller at X — approximately 00:00–00:39
+[Timestamped source](https://podscripts.co/podcasts/moonshots-with-peter-diamandis/google-xs-astro-teller-the-1b-bet-no-ceo-will-back-moonshots-3x-cheaper-in-16-yrs-and-clean-water-at-1cl-ep-300) · recorded September 25, released October 5. Primary evidence: [X's written moonshot blueprint](https://x.company/blog/posts/moonshot-blueprint/), [X operating manual](https://x.company/blog/posts/a-peek-inside-the-moonshot-factory-operating-manual/), [X's monkey/pedestal essay](https://x.company/blog/posts/tackle-the-monkey-first/). These writings explain company practice; they do **not** independently establish that it improves profits or that Teller's internal figures have been audited.
+
+| Segment | Source-derived observation | Uncertainty / value |
+|---|---|---|
+| 00:01:16–00:04:40 | Define the hard problem, an unusually effective possible solution, and a plausible enabling technology. Combine audacity with cheap tests and techno-economics (bill of materials and willingness to pay). | An internal philosophy of radical-innovation screening; adapt to services without pretending every client project must be 10×. |
+| 00:05:15–00:06:13 and 00:30:17–00:30:52 | Teller claims roughly 100–200 ideas reaching codenames annually and 35–50 graduates over ~16 years (about 2%). | Internal self-reported figures; projects are selected and measured over varying cohorts. **Not** a general startup failure rate. |
+| 00:09:27–00:11:02 | Proposes a water cost near US$0.01/liter as a world-scale target; X has previously stopped water projects whose economics were closer to US$0.10/liter. Energy shifting and education remain important problems. | Cost target is strategic and conditional, not evidence X already built a 1-cent/liter commercial process. |
+| 00:15:41–00:18:40 | Presents high-variance project choice (million guaranteed vs one percent chance of a billion) and small, protected teams. | Expected value alone ignores cash runway, survival risk, risk preference and probability calibration. Small services businesses **cannot** automatically take the large-corporation option. |
+| 00:20:36–00:21:31 | Says inflation-adjusted internal cost per graduated project fell by roughly a factor of three over 16 years. | Metric and comparison denominator are not independently audited in this pass. |
+| 00:23:08–00:24:45 | Organization's ability to reward truth-finding and quickly terminate projects is culturally hard to scale from hundreds to thousands of people. | Business judgment; no reproducible causal experiment cited. |
+| 00:26:06–00:28:47 | Explicitly says using AI should be an implementation detail; agents and humans are tools of a larger customer/problem objective. Warns about counting agents instead of useful results. | Highly relevant for coding-agent workflows. Practical metric is acceptance-test pass rate and customer outcome, **not agent count**. |
+| 00:29:54–00:33:20 | Moonshot should move from an idea to evidence and eventually an enduring business; train the impossible “monkey” before building the easy pedestal, and treat rejected hypotheses as learning. | A staged gate is transferable. For a website-care service the “monkey” could be a buyer paying for a specific repair, not the presentation/UI. |
+| 00:34:44–00:36:43 | Calls a false positive project expensive and a rejected potential hit negligible when the pipeline has endless alternatives. Says new materials still need enormous scale-up work after laboratory discovery. | Small firms **do have opportunity cost for false negatives** if they lose a rare paying relationship. His zero-cost statement relies on assumptions unlike a solo consultancy. |
+| 00:37:19–00:38:23 | Leadership must create durable incentives for rapid disconfirmation and supporting teams. | Practical leadership philosophy; audio not verified. |
+| 00:39:11 | Cadillac advertisement follows the interview. | The ad must not be treated as part of the research conversation. |
+
+**Adaptation for Switzer Systems:** Keep expensive uncertainty at the front: can a real prospect demonstrate a painful problem and agree to a fixed-scope price? Then build the smallest verified version, with customer consent and a documented rollback.
+
+## #299: Richard Socher, Recursive and panel — approximately 00:00–02:25
+[Timestamped source](https://podscripts.co/podcasts/moonshots-with-peter-diamandis/recursives-670m-bet-on-self-improving-ai-sonnet-55-hits-70-elon-co-leads-pentagon-push-ep-299) · recorded October 2, released October 3. This was a broad **multi-section** transcript scan, not proof every spoken statement was captured correctly.
+
+| Segment | Source-derived observation | Verification or limitation |
+|---|---|---|
+| 00:03:34–00:04:16 | Peter Diamandis explicitly says he is a **seed investor in guest Socher's Recursive**. | Host's financial interest should be disclosed when interpreting Socher's claims or enthusiastic commentary. |
+| 00:05:04–00:23:22 | Socher proposes interconnected simulation/data/robotic experimentation in science, with biology as an especially complex opportunity. He notes human clinical validation can lag computation by years. | Wet-lab proof, clinical trial results, model simulation and commercialization are distinct validation stages. |
+| 00:39:04–00:41:49 | Host describes a Washington DC mosquito/tick reduction initiative. | [Original Executive Order 14433 dated September 29](https://www.whitehouse.gov/presidential-actions/2026/09/eliminating-disease-carrying-pests-and-restoring-enjoyment-of-the-great-outdoors/) really sets **90%/50% targets by 2028**. Targets are goals, not measured achieved reduction. |
+| 01:01:00–01:07:30 | Socher distinguishes present human-assisted/self-improvement loops from fully autonomous self-modifying research. The panel disagrees on definitions and timelines. | Published benchmarks may show bounded performance improvements, **not** unconstrained existential takeoff. |
+| 01:17:00–01:33:52 | The podcast presents a Human Control Over AI legislative proposal and strongly critical reactions from multiple speakers. | [Khanna's Sep 29 campaign announcement](https://www.politicalemails.org/messages/2434777) describes the proposed Act. The separately introduced [H.R.10538](https://www.govinfo.gov/app/details/BILLS-119hr10538ih) is sponsored by Greg Casar and cosponsored by Khanna. **Neither a campaign proposal nor an introduced bill is an enacted legal prohibition**. Always verify the exact text and formal status before stating effects. |
+| 01:34:26–01:35:14 | Paid Blitzy ad claims 80% software work autonomy and fivefold engineering speed. | **Promotion**, not an independently replicated benchmark. Exclude from forecasts of developer productivity. |
+| 01:36:02–01:49:37 | Panel compares large-model benchmark/cost performance and worries that leading-GPU prices can rise even if per-task model prices drop. | Evaluation protocol, task definitions, latency and real paid costs differ; unsupported GPU anecdotes remain anecdotes. |
+| 01:50:30–01:51:57 | Paid Fountain Life health-screening ad reports a 3.3% occult cancer rate among its selected members and encourages screening. | **Sponsored and clinically consequential.** [American Cancer Society](https://www.cancer.org/cancer/latest-news/full-body-mri-what-are-the-risks.html), [RSNA 2026](https://www.rsna.org/news/2026/july/whole-body-mri), and a [2026 systematic review](https://pubmed.ncbi.nlm.nih.gov/40884613/) emphasize uncertain benefits, incidental findings and lack of standardized outcome evidence for average-risk asymptomatic adults. The sponsor's cohort rate has **not** been audited and cannot be directly compared to pooled population estimates. |
+| 01:52:04–01:59:00 | The panel discusses Jev, a new fast model returning typed answers rather than paragraphs. | [TypeSafe launch](https://typesafe.ai/blog/introducing-system-one-models-and-jev); [Deußer et al. 2026](https://arxiv.org/abs/2609.37647) evaluate 37 tasks and report speed and accuracy trade-offs. [Tang/Zheng evidence review](https://arxiv.org/abs/2609.32160) emphasizes that typed outputs do **not** automatically beat other classifiers on accuracy. |
+| 02:10:35–02:23:22 | Panel discusses entrepreneurship, shifting tasks to outcome ownership, internet-agent advertising, product liability and what work remains physical. | Forecasts/opinions; do not infer these industry changes have already happened. |
+
+### Most useful falsifiable technical hypothesis to test next
+
+**Typed decision routing:** Many expensive LLM calls in a small business application are actually triage or binary evaluation questions (priority, support category, “needs human review?”). Run 100–200 **anonymized** representative records through (a) deterministic rules, (b) a locally hosted classifier/decision head when suitable, and (c) a general-purpose LLM with a cost ceiling. Record accuracy against human labels, false-negative rates, calibration, latency, total operating cost and human-deferral frequency. Compare at a fixed budget and predefined threshold. A decision model is not a substitute for high-stakes professional review.
+
+**Outcome focus:** Combine this with the first recommendation from #300. Deliver a reliable measurable workflow improvement, with manual override, rather than an impressive agent-count slide.
+
+## Research-bias protocol added for future passes
+
+1. **Financial disclosure:** host/guest investment interests, company ownership and payment relationship are recorded separately.
+2. **Sponsorship exclusion:** mark advertisements and sponsored segments; keep advertised metrics outside default evidence aggregations.
+3. **Primary-versus-independent:** original company/issuer/organizer reporting proves what it **says**, not its external impact.
+4. **Regulatory status:** proposed, introduced, passed, enacted, implemented, validated outcome are distinct.
+5. **Scientific validation:** speculation, simulation, prototype, independent measured result, deployment and approved clinical use are distinct.
+6. **False-positive and false-negative costs:** distinguish big-company moonshot portfolio heuristics from cash-constrained service work.
+7. **Transcript-versus-audio:** machine transcript timestamps enable navigation, not perfect identification of a speaker or literal quote.
+
+**Scope warning:** Even this expanded text review does not establish that the full audio for #299/#300 has been independently audited. Avoid marking them `completed` in the episode registry.

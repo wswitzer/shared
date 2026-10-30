@@ -1,0 +1,184 @@
+[
+  {
+    "id": "T01",
+    "name": "Agent reliability, boundaries and operational accountability",
+    "episodes": [
+      "ep-287",
+      "ep-293",
+      "ep-296",
+      "ep-299",
+      "ep-301"
+    ],
+    "claims": [
+      "ms-287-001",
+      "ms-293-002",
+      "ms-296-001",
+      "ms-299-001",
+      "ms-301-002",
+      "ms-301-003"
+    ],
+    "observation": "Real-world agent boundary errors and new payment/identity tooling both increase the importance of scoped access, traceability and fail-safe controls.",
+    "strongest_support": "Reuters Sep 4 reported German wiki agent incident; Circle's official agent wallet announcements document market direction.",
+    "counterevidence": "Some episodes cite uncontrolled 400-agent or penetration-testing anecdotes. Platform products have unknown user adoption and may be unnecessary for small workflows.",
+    "first_test": "Add an agent run ledger, spend cap, tool allowlist, approvals and test fixtures to one existing workflow; compare incident diagnosis and recovery time.",
+    "source_urls": [
+      "https://www.reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04/",
+      "https://www.circle.com/blog/build-agentic-systems-for-high-frequency-sub-cent-transactions"
+    ]
+  },
+  {
+    "id": "T02",
+    "name": "Model claims versus real-world performance",
+    "episodes": [
+      "ep-281",
+      "ep-282",
+      "ep-284",
+      "ep-285",
+      "ep-286",
+      "ep-287"
+    ],
+    "claims": [
+      "ms-281-001",
+      "ms-282-001",
+      "ms-284-001",
+      "ms-285-002",
+      "ms-286-001",
+      "ms-287-002"
+    ],
+    "observation": "Measured company revenue, simulated silicon performance, benchmark adapter scores and apparently proved math problems represent fundamentally different kinds of evidence.",
+    "strongest_support": "NVIDIA financial release verifies actual revenue; Architect Labs labels efficiency number a projection; ARC Prize harness differences and Clay proof-review stages document evaluation dependencies.",
+    "counterevidence": "Peer-reviewed or accredited independent replications are still missing for important project claims, and model benchmarks may be optimized against test methodology.",
+    "first_test": "Publish an evidence-stage table for each technology: claim, test hardware/software, original metric, comparator, methodology, independent reviewer and date.",
+    "source_urls": [
+      "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/",
+      "https://architectlabs.com/blog/redwood",
+      "https://www.claymath.org/news/navier-stokes-announcement/"
+    ]
+  },
+  {
+    "id": "T03",
+    "name": "Practical small-business AI offerings",
+    "episodes": [
+      "special-20260928-builders",
+      "ep-285",
+      "ep-293",
+      "ep-300"
+    ],
+    "claims": [
+      "ms-special-builders-002",
+      "ms-special-builders-003",
+      "ms-285-003",
+      "ms-293-001",
+      "ms-300-005"
+    ],
+    "observation": "Product-market evidence and proof of completed work matter more than generic AI capabilities. Prize finalists selected from 26,000 registrants are not a base rate.",
+    "strongest_support": "XPRIZE lists Polyfork revenue and paying customer count, plus Mexico VAT workflow finalist; X's own operating manual describes rapid economic kill tests.",
+    "counterevidence": "Organizers' figures are not independently audited profit/retention; no assurance comparable developer businesses will win customers; health and financial workflows have legal scope constraints.",
+    "first_test": "Choose one tedious, authorized business workflow, prove measurable savings or error reduction on real examples and request a paid pilot, without building a platform.",
+    "source_urls": [
+      "https://www.xprize.org/news/polyfork-wins-the-build-with-gemini-xprize",
+      "https://x.company/blog/posts/a-peek-inside-the-moonshot-factory-operating-manual/"
+    ]
+  },
+  {
+    "id": "T04",
+    "name": "AI science, medicine and validation stages",
+    "episodes": [
+      "ep-282",
+      "ep-287",
+      "ep-290",
+      "ep-297"
+    ],
+    "claims": [
+      "ms-287-002",
+      "ms-290-001",
+      "ms-290-003",
+      "ms-297-001"
+    ],
+    "observation": "Novel research and approved clinical products are not equivalent. Mathematical apparent proofs await scrutiny; biologic discoveries need experimental validation; clinical trial authorization precedes marketing approval.",
+    "strongest_support": "Clay Sept 11 proof evaluation; United Therapeutics SEC filings on investigational xenotransplant programs; Nature semi-autonomous lab work and Merck's oncology trial announcements.",
+    "counterevidence": "Some striking clinical statistics are early trial endpoints or sponsor reports; scientific reproducibility and regulatory endpoint requirements may change timelines.",
+    "first_test": "Track official clinical trial identifiers, trial phase, endpoint, peer-review, agency decision and comparable baseline separately; make no medical recommendation from a podcast.",
+    "source_urls": [
+      "https://www.claymath.org/news/navier-stokes-announcement/",
+      "https://www.sec.gov/Archives/edgar/data/1082554/000108255426000006/uthr-20251231.htm",
+      "https://www.nature.com/articles/s41586-026-10652-y"
+    ]
+  },
+  {
+    "id": "T05",
+    "name": "AI compute, energy and national competition",
+    "episodes": [
+      "ep-280",
+      "ep-281",
+      "ep-283",
+      "ep-284"
+    ],
+    "claims": [
+      "ms-280-001",
+      "ms-280-002",
+      "ms-281-001",
+      "ms-283-003",
+      "ms-284-001"
+    ],
+    "observation": "Energy availability, chip access, product pricing, and physical infrastructure all limit scaling; a single US–China AGI race metric obscures these bottlenecks.",
+    "strongest_support": "Duke's modeled grid-load flexibility, IEA's current sodium-ion scale, Stanford AI Index capability comparisons, official NVIDIA quarterly revenue.",
+    "counterevidence": "Infrastructure build-out assumptions often conflate capacity with actual deployment; rapid changes in government export rules alter comparisons.",
+    "first_test": "When choosing model vendors for a client, benchmark total effective cost, availability, privacy regime and reliability of a non-sensitive representative workflow.",
+    "source_urls": [
+      "https://scholars.duke.edu/publication/1665550",
+      "https://www.iea.org/reports/global-ev-outlook-2026/electric-vehicle-batteries",
+      "https://hai.stanford.edu/ai-index/2026-ai-index-report"
+    ]
+  },
+  {
+    "id": "T06",
+    "name": "Robotics and physical autonomy",
+    "episodes": [
+      "ep-282",
+      "ep-283",
+      "ep-292",
+      "ep-295",
+      "ep-296"
+    ],
+    "claims": [
+      "ms-282-003",
+      "ms-283-003",
+      "ms-295-001",
+      "ms-295-002",
+      "ms-296-002",
+      "ms-296-003"
+    ],
+    "observation": "Prize demonstrations, single-task speed demonstrations, robotaxi fleet safety statistics and humanoid forecasts have different deployment readiness.",
+    "strongest_support": "Official XPRIZE Wildfire contest awards, Waymo public service and safety metrics, ARK's own robotics expectations.",
+    "counterevidence": "Operators and investors have commercial incentives, and standardized independent real-world humanoid reliability evaluations remain limited.",
+    "first_test": "Define operational safety, task-completion and human intervention rates for a named robotics application instead of extrapolating from video highlights.",
+    "source_urls": [
+      "https://www.xprize.org/news/xprize-wildfire-awardees",
+      "https://waymo.com/safety/impact/"
+    ]
+  },
+  {
+    "id": "T07",
+    "name": "Creative futures and media contests",
+    "episodes": [
+      "special-20260928-star-trek",
+      "special-20260928-builders",
+      "ep-287"
+    ],
+    "claims": [
+      "ms-special-star-001",
+      "ms-special-star-002",
+      "ms-special-star-003",
+      "ms-special-builders-001"
+    ],
+    "observation": "AI-assisted creation lowers some entry barriers; optimistic creative works can attract prize and financing attention, but production investment is not identical to cash prizes or market traction.",
+    "strongest_support": "Google and XPRIZE independently describe announced winners and funding types.",
+    "counterevidence": "Claims that upbeat fiction alone makes frontier models safer are not established causally; selection bias in prizes is very strong.",
+    "first_test": "Produce a single commissioned, rights-cleared story/trailer with user feedback and a human editorial review; do not infer general commercial demand from contest winnings.",
+    "source_urls": [
+      "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
+      "https://xp-prod.xprize.org/news/the-gifted-wins-the-future-vision-xprize"
+    ]
+  }
+]

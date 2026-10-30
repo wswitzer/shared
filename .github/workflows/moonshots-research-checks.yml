@@ -1,0 +1,44 @@
+name: Moonshots research checks
+
+on:
+  pull_request:
+    paths:
+      - "moonshots-research/**"
+      - ".github/workflows/moonshots-research-checks.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify-inventory:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate the research dataset
+        run: python3 moonshots-research/collector.py validate
+      - name: Check evidence audit integrity and sponsor flags
+        run: |
+          python3 moonshots-research/quality.py validate
+          python3 moonshots-research/quality.py summary
+          python3 moonshots-research/quality.py backlog --limit 15
+      - name: Unit tests (offline, no API keys)
+        run: python3 -m unittest discover -s moonshots-research/tests -v
+      - name: Generate report without modifying repo
+        run: python3 moonshots-research/collector.py report > /tmp/moonshots-coverage.md
+      - name: Check citation coverage and forecast due dates
+        run: |
+          python3 moonshots-research/coverage.py > /tmp/moonshots-episode-window-coverage.md
+          python3 moonshots-research/forecast_review.py --as-of 2026-10-15 > /tmp/moonshots-forecast-review.md
+          grep -q "not" /tmp/moonshots-episode-window-coverage.md
+          grep -q "Forecasts are" /tmp/moonshots-forecast-review.md
+      - name: Smoke-test publisher RSS synchronization (best effort; no commit)
+        continue-on-error: true
+        run: |
+          python3 moonshots-research/collector.py sync
+          python3 moonshots-research/collector.py validate
+          python3 moonshots-research/collector.py status
