@@ -10,9 +10,9 @@ My work spans software product design, business workflows, web development, AI-a
 
 | Project | Public-safe summary | Link |
 | --- | --- | --- |
-| **PL-OS** | Ongoing, privately developed administration platform for language-training operations. Work includes requirements, workflow design, roster/scheduling concepts, validation, and delivery coordination. No client records or private source are published here. | [Fictional-data calendar prototype](PL/mockups/) |
-| **Website Check** | Live Switzer Systems tool combining Google PageSpeed Insights mobile performance metrics with an AI-assisted review of public website pages. Reports are snapshots, not comprehensive audits. | [Try Website Check](https://switzersystems.com/website-check/) |
-| **Another Way** | Private creative-production project exploring a staged AI workflow: narrative arc, chapter plans, scripts, visual prompts, rendered pages, PDF compilation, and source-fidelity checks. This is a process overview, not a public source-code release. | [Portfolio overview](https://wswitzer.github.io/shared/#another-way) |
+| **PL-OS** | Ongoing, privately developed administration platform for language-training operations. Work includes requirements, workflow design, roster/scheduling concepts, validation, and delivery coordination. No client records or private source are published here. | [Public-safe case study](work/#pl-os) · [Fictional-data calendar](PL/mockups/) |
+| **Website Check** | Live Switzer Systems tool combining Google PageSpeed Insights mobile performance metrics with an AI-assisted review of public website pages. Reports are snapshots, not comprehensive audits. | [Try Website Check](https://switzersystems.com/website-check/) · [Project overview](work/#website-check) |
+| **Another Way** | Private creative-production project exploring a staged AI workflow: narrative arc, chapter plans, scripts, visual prompts, rendered pages, PDF compilation, and source-fidelity checks. This is a process overview, not a public source-code release. | [Pipeline overview](work/#another-way) |
 
 ## Public prototypes
 
