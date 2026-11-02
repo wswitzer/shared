@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Public-safe case studies: PL-OS administrative software, Switzer Systems Website Check, and the Another Way graphic novel pipeline.">
+<title>Projects & Process | Wesley Switzer</title>
+<style>
+:root{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#203038;background:#f8f9f7}
+*{box-sizing:border-box}
+body{margin:0;line-height:1.6}
+a{color:#12666e;text-underline-offset:3px}a:focus-visible{outline:3px solid #1c8d90;outline-offset:3px}
+.wrap{max-width:920px;margin:0 auto;padding:0 24px}
+header{background:#102d38;color:#f3fbfa;padding:25px 0 65px}
+header nav{display:flex;gap:22px;flex-wrap:wrap;font-size:.9rem}
+header nav a{color:#d3e6e4}
+.eyebrow{text-transform:uppercase;letter-spacing:.14em;font-size:.78rem;font-weight:700;color:#b9dcd7;margin:50px 0 10px}
+h1{font-size:clamp(2.5rem,5vw,4rem);letter-spacing:-.055em;line-height:1.1;margin:0 0 20px}
+header p:last-child{color:#d8e8e8;max-width:730px;font-size:1.06rem}
+main{padding:15px 0 90px}
+article{padding:60px 0;border-bottom:1px solid #d9e4e0}
+article h2{font-size:clamp(1.7rem,3vw,2.2rem);letter-spacing:-.04em;margin:0 0 12px}
+.lead{font-size:1.1rem;color:#435960;max-width:760px}
+.flag{font-size:.76rem;text-transform:uppercase;letter-spacing:.1em;font-weight:700;color:#407269;margin:0 0 9px}
+h3{font-size:1.06rem;margin:26px 0 8px}
+ul{margin:7px 0 0;padding-left:22px;color:#43565c}
+li{padding:4px 0}
+.note{margin-top:22px;border-left:4px solid #8cbeb5;padding:15px 18px;background:#edf4f0;border-radius:0 8px 8px 0;color:#355359}
+.actions{display:flex;gap:13px;flex-wrap:wrap;margin-top:25px}
+.button{display:inline-block;background:#164a54;color:#fff;text-decoration:none;padding:11px 16px;border-radius:8px;font-weight:650}
+.button:hover{background:#0e3440}
+.button.secondary{background:#e5eee9;color:#1c5155}
+.steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:20px}
+.step{background:#fff;padding:17px;border:1px solid #dce5e0;border-radius:10px}
+.step small{color:#397269;font-weight:750}
+.step strong{display:block;margin-top:4px;font-size:.94rem}
+footer{color:#52656b;padding:25px 0;background:#ecf2ee;font-size:.9rem}
+@media(max-width:620px){.steps{grid-template-columns:1fr 1fr}header{padding-bottom:40px}}
+@media(max-width:420px){.steps{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+<div class="wrap">
+<nav aria-label="Site navigation"><a href="../">← Selected work</a><a href="https://github.com/wswitzer">GitHub</a><a href="https://switzersystems.com/">Switzer Systems</a></nav>
+<p class="eyebrow">Project and process highlights</p>
+<h1>From a messy problem to something people can use.</h1>
+<p>Three different kinds of work: an ongoing private client platform, a live public tool, and an experimental AI creative pipeline. These descriptions share methods and outcomes without sharing confidential code or records.</p>
+</div>
+</header>
+<main class="wrap">
+<article id="pl-os">
+<p class="flag">PL-OS · Business application · Private project</p>
+<h2>Designing administration around real operational workflows</h2>
+<p class="lead">PL-OS is an administration platform for language-training operations. The objective is to make complex coordination work easier to understand and manage—not just to create a collection of screens.</p>
+<h3>What the work involves</h3>
+<ul>
+<li>Clarifying operational terminology, roles, permissions, and workflows before deciding what to build.</li>
+<li>Working through administration concepts such as cohorts, sessions, scheduling, roster management, and reporting.</li>
+<li>Coordinating AI-assisted implementation with review, iterative feedback, and technical verification.</li>
+<li>Using automated checks and hands-on review to challenge assumptions about whether a feature is actually usable.</li>
+<li>Considering integrations, infrastructure, deployment readiness, and ongoing maintenance as part of delivery planning.</li>
+</ul>
+<h3>What this demonstrates</h3>
+<p>Product discovery, requirements analysis, workflow modeling, systems thinking, AI-agent direction, QA, and delivery coordination. It also demonstrates a practical distinction: generating code and delivering a dependable business system are not the same task.</p>
+<div class="note"><strong>Public/private boundary:</strong> The application repository, operational details, real student/teacher information, client communications, and infrastructure configuration remain private. The public calendar is a separate visual concept with fictional data; it is not evidence that the entire private platform is complete or deployed.</div>
+<div class="actions"><a class="button" href="../PL/mockups/">Explore synthetic scheduling demo</a></div>
+</article>
+<article id="website-check">
+<p class="flag">Website Check · Live public product</p>
+<h2>Making website feedback accessible</h2>
+<p class="lead">Website Check is a public Switzer Systems service that combines Google PageSpeed Insights mobile measurements with an AI-assisted look at a site's public pages.</p>
+<h3>Product decisions visible to users</h3>
+<ul>
+<li>Provide useful initial feedback without requiring an email address.</li>
+<li>Show mobile performance measurements separately from AI-generated observations.</li>
+<li>Limit the scope of AI review and focus on a short list of potentially useful improvements.</li>
+<li>State limitations clearly: a point-in-time check is not a full security, accessibility, or performance audit.</li>
+</ul>
+<h3>What this demonstrates</h3>
+<p>Translating technical measurement tools into an approachable workflow, service design, user-facing explanations of uncertainty, and the practical operation of a public web tool.</p>
+<div class="actions"><a class="button" href="https://switzersystems.com/website-check/">Try Website Check</a></div>
+</article>
+<article id="another-way">
+<p class="flag">Another Way · AI creative pipeline · Private project</p>
+<h2>Coordinating a multi-stage graphic-novel workflow</h2>
+<p class="lead">Another Way explores how AI agents and deterministic tools can work together to turn a narrative concept into illustrated graphic-novel pages while maintaining continuity and source-fidelity checks.</p>
+<div class="steps" aria-label="Conceptual production pipeline">
+<div class="step"><small>01</small><strong>Master arc and chapter plans</strong></div>
+<div class="step"><small>02</small><strong>Scene and comic scripts</strong></div>
+<div class="step"><small>03</small><strong>Visual prompt preparation</strong></div>
+<div class="step"><small>04</small><strong>Illustration and page rendering</strong></div>
+<div class="step"><small>05</small><strong>Page and book assembly</strong></div>
+<div class="step"><small>06</small><strong>Audit and human review</strong></div>
+</div>
+<h3>What this demonstrates</h3>
+<p>Decomposing a complex creative goal into separately checkable stages, coordinating models and tools, preserving narrative consistency across outputs, and treating validation as an explicit step rather than assuming generated work is correct.</p>
+<div class="note"><strong>Scope:</strong> This is an experimental creative pipeline, not a claim of autonomous end-to-end production quality. The working repository, source text, and project assets remain private. The public Graphic Novel Lessons project linked below is separate.</div>
+<div class="actions"><a class="button secondary" href="https://github.com/wswitzer/acim-graphic-novel-lessons">Explore the separate public pipeline</a></div>
+</article>
+</main>
+<footer><div class="wrap">© 2026 Wesley Switzer · <a href="../">Selected work</a> · <a href="https://switzersystems.com/contact/">Contact</a></div></footer>
+</body>
+</html>
