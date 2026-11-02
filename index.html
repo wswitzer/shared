@@ -1,12 +1,94 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Shared Mockups</title>
-  <meta http-equiv="refresh" content="0; url=PL/mockups/">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Selected projects from Wesley Switzer: business software, practical website tools, and AI-assisted creative development pipelines.">
+<meta name="color-scheme" content="light">
+<title>Selected Work | Wesley Switzer</title>
+<style>
+:root{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#1b2b35;background:#f7f8f6;font-synthesis:none}
+*{box-sizing:border-box}
+body{margin:0;line-height:1.55}
+a{color:#135d67;text-underline-offset:3px}
+a:hover{color:#0a4149}
+a:focus-visible{outline:3px solid #258b94;outline-offset:4px;border-radius:3px}
+header{background:#102d38;color:#f8fafa}
+.nav,.wrap{width:min(1100px,calc(100% - 40px));margin:0 auto}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:18px;min-height:74px;flex-wrap:wrap;padding:14px 0}
+.nav strong{letter-spacing:-.025em;font-size:1.05rem}
+.nav nav{display:flex;gap:20px;flex-wrap:wrap}
+.nav a{color:#dae7e8;text-decoration:none;font-size:.91rem}
+.nav a:hover{color:#fff;text-decoration:underline}
+.hero{padding:78px 0 89px}
+.eyebrow{margin:0 0 14px;color:#b4d8d4;font-size:.79rem;font-weight:700;letter-spacing:.13em;text-transform:uppercase}
+h1{max-width:900px;font-size:clamp(2.4rem,6vw,4.6rem);line-height:1.1;letter-spacing:-.055em;margin:0 0 24px}
+.intro{font-size:clamp(1rem,2vw,1.2rem);color:#d6e4e6;max-width:710px;margin:0 0 28px}
+.hero-actions,.links{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:11px 17px;border-radius:9px;font-size:.94rem;font-weight:650;text-decoration:none;border:1px solid #b5cdcf;color:#133642;background:#f3fcfb}
+.btn:hover{background:#d8eeeb;color:#133642}
+.btn.secondary{background:transparent;color:#effbfb}
+.btn.secondary:hover{background:#244450}
+main{padding:62px 0 72px}
+.section-head{margin-bottom:25px}
+.section-head h2{font-size:clamp(1.65rem,3vw,2.2rem);letter-spacing:-.04em;line-height:1.2;margin:0 0 8px}
+.section-head p{max-width:740px;margin:0;color:#52636b}
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px}
+.card{background:white;border:1px solid #dce4e2;border-radius:16px;box-shadow:0 10px 30px #142e3010;padding:25px;display:flex;flex-direction:column;gap:11px;min-height:300px}
+.tag{font-size:.72rem;color:#386c63;font-weight:750;text-transform:uppercase;letter-spacing:.09em;margin:0}
+.card h3{font-size:1.3rem;letter-spacing:-.03em;margin:0}
+.card p{margin:0;color:#475b63;font-size:.95rem}
+.card .detail{font-size:.83rem;color:#58686f}
+.card .link{margin-top:auto;padding-top:15px;font-weight:650}
+.card .link a{display:inline-block}
+.section{margin-top:57px}
+.list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}
+.mini{padding:22px;border:1px solid #dae3e0;border-radius:13px;background:#fff}
+.mini h3{font-size:1rem;margin:0 0 7px}
+.mini p{color:#51646b;font-size:.89rem;margin:0 0 12px}
+.note{margin-top:40px;border-top:1px solid #d9e3e0;padding:23px 0 0;color:#54666c;font-size:.87rem;max-width:900px}
+footer{background:#eaf0ed;padding:28px 0;color:#415760}
+.footer-inner{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:14px;font-size:.88rem}
+@media(max-width:850px){.cards,.list{grid-template-columns:1fr 1fr}.hero{padding:55px 0 65px}}
+@media(max-width:620px){.cards,.list{grid-template-columns:1fr}.card{min-height:0}.nav{align-items:flex-start}.hero{padding:45px 0 55px}.wrap,.nav{width:min(1100px,calc(100% - 30px))}main{padding-top:45px}}
+@media(prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+</style>
 </head>
 <body>
-  <p><a href="PL/mockups/">Open PL schedule calendar mockup</a></p>
+<header>
+<div class="nav">
+<strong>Wesley Switzer <span aria-hidden="true">/</span> Selected Work</strong>
+<nav aria-label="Main navigation"><a href="#work">Selected work</a><a href="#demos">Public demos</a><a href="https://github.com/wswitzer">GitHub</a><a href="https://switzersystems.com/contact/">Contact</a></nav>
+</div>
+<div class="wrap hero">
+<p class="eyebrow">Business systems · Web tools · AI-assisted development</p>
+<h1>Useful software starts with understanding the problem.</h1>
+<p class="intro">I design and develop software, automate complex workflows, and guide AI-assisted implementation. Here are a few examples of the work and the processes behind it.</p>
+<div class="hero-actions"><a class="btn" href="#work">Explore selected work</a><a class="btn secondary" href="https://switzersystems.com/">Switzer Systems</a></div>
+</div>
+</header>
+<main class="wrap">
+<section id="work" aria-labelledby="work-heading">
+<div class="section-head"><h2 id="work-heading">Selected work</h2><p>A live website tool, an ongoing private client platform, and a creative AI pipeline. The summaries below are deliberately limited to public-safe information.</p></div>
+<div class="cards">
+<article class="card" id="pl-os"><p class="tag">Business software · Private client project</p><h3>PL-OS</h3><p>Administration software for language-training operations. The work spans requirements, operational workflows, roster and scheduling concepts, validation, and coordinating implementation.</p><p class="detail">The application and its working data remain private. The linked scheduling mockup is a separate interface demonstration using fictional data, not a production view.</p><p class="link"><a href="./PL/mockups/">Explore scheduling demo →</a></p></article>
+<article class="card" id="website-check"><p class="tag">Live public tool · Switzer Systems</p><h3>Website Check</h3><p>A free website check combining Google PageSpeed Insights mobile measurements with an AI-assisted review of public pages to suggest areas worth investigating.</p><p class="detail">A starting point for improvement—not a comprehensive accessibility, security, or performance audit.</p><p class="link"><a href="https://switzersystems.com/website-check/">Try the live Website Check →</a></p></article>
+<article class="card" id="another-way"><p class="tag">Creative automation · Private pipeline</p><h3>Another Way</h3><p>A staged AI-assisted process for developing a graphic-novel narrative: story arcs, chapter plans, scripts, visual prompts, rendered pages, and assembled book outputs.</p><p class="detail">Includes source-fidelity auditing and human judgment. The working repository, source materials, and assets are private; this is a high-level process overview.</p><p class="link"><a href="https://github.com/wswitzer/acim-graphic-novel-lessons">See a separate public graphic-novel pipeline →</a></p></article>
+</div>
+</section>
+<section id="demos" class="section" aria-labelledby="demos-heading">
+<div class="section-head"><h2 id="demos-heading">Public demos and engineering examples</h2><p>Interface explorations and public code. These projects are at different stages of development.</p></div>
+<div class="list">
+<div class="mini"><h3>Chris Gaca — Website Concepts</h3><p>Public-facing design and navigation prototypes; internal source inventories stay in private storage.</p><a href="./chris-gaca/mockups/">Open prototype →</a></div>
+<div class="mini"><h3>Visita Segura</h3><p>An interactive prototype exploring safer and clearer real-estate visit workflows.</p><a href="./visita-segura/">Open prototype →</a></div>
+<div class="mini"><h3>Suno Music Pipeline</h3><p>Python optimization, structured content checks, and reproducibility for an AI-assisted music workflow.</p><a href="https://github.com/wswitzer/suno-music">View repository →</a></div>
+<div class="mini"><h3>Graphic Novel Lessons</h3><p>A separate content-generation and continuity-validation workflow, distinct from Another Way.</p><a href="https://github.com/wswitzer/acim-graphic-novel-lessons">View repository →</a></div>
+<div class="mini"><h3>ACIM Ignite</h3><p>A browser-based prototype exploring quiet reading, annotations, and study artifacts.</p><a href="https://github.com/wswitzer/ACIM-Ignite">View repository →</a></div>
+<div class="mini"><h3>CI Trust-Boundary Sandbox</h3><p>A documented experiment for understanding self-hosted GitHub CI security boundaries, not production infrastructure.</p><a href="https://github.com/Switzer-Systems/local-ci-simple">View repository →</a></div>
+</div>
+<p class="note">Private client code and records are not published as part of this portfolio. Demonstrations use fictional sample data, and a listed prototype should not be mistaken for a fully deployed or commercially released product.</p>
+</section>
+</main>
+<footer><div class="wrap footer-inner"><span>© 2026 Wesley Switzer · Switzer Systems</span><span><a href="https://switzersystems.com/">Switzer Systems</a> · <a href="https://github.com/wswitzer">GitHub</a></span></div></footer>
 </body>
 </html>
